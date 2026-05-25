@@ -1,8 +1,27 @@
-# Awesome Bio Agent Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
+  <a href="https://github.com/BioTender-max/awesome-bio-agent-skills">
+    <img src="assets/banner.svg" alt="Awesome Bio Agent Skills" width="800"/>
+  </a>
+</div>
+
+<div align="center">
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Skills](https://img.shields.io/badge/skills-1%2C306-22d3ee?style=flat-square)](https://github.com/BioTender-max/awesome-bio-agent-skills/blob/main/bioskill_index_v2.csv)
+[![Categories](https://img.shields.io/badge/categories-15-818cf8?style=flat-square)](#contents)
+[![Sources](https://img.shields.io/badge/sources-11_repos-34d399?style=flat-square)](#sources)
+[![License](https://img.shields.io/badge/license-CC0-f59e0b?style=flat-square)](LICENSE)
+[![Lint](https://github.com/BioTender-max/awesome-bio-agent-skills/actions/workflows/awesome-lint.yml/badge.svg)](https://github.com/BioTender-max/awesome-bio-agent-skills/actions/workflows/awesome-lint.yml)
+
+</div>
+
+<br/>
+
+# Awesome Bio Agent Skills
 
 > A curated collection of AI agent skills for biomedical research, covering genomics, proteomics, single-cell analysis, clinical AI, and protein design.
 
-1,306 skills · sourced from 11 open-source repositories · deduplicated and organized into 15 categories · each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks (OpenClaw, NanoClaw, Biomni).
+1,306 deduplicated skills from 11 open-source repositories, organized into 15 categories. Each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks ([OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [Biomni](https://github.com/Phylo-AI/biomni)).
 
 ---
 
@@ -29,7 +48,7 @@
 
 ## Genomics
 
-*472 skills — WGS/WES analysis, variant annotation, GWAS, CNV, structural variants, haplotype phasing, genome assembly.*
+> 472 skills — WGS/WES analysis, variant annotation, GWAS, CNV, structural variants, haplotype phasing, genome assembly.
 
 <details>
 <summary>View all 472 skills</summary>
@@ -88,7 +107,7 @@
 
 ## Proteomics
 
-*146 skills — mass spectrometry analysis, structure prediction, protein design, binding affinity optimization.*
+> 146 skills — mass spectrometry analysis, structure prediction, protein design, binding affinity optimization.
 
 <details>
 <summary>View all 146 skills</summary>
@@ -123,7 +142,7 @@
 
 ## Single-Cell Analysis
 
-*117 skills — preprocessing, clustering, cell type annotation, trajectory inference, cell communication, multimodal integration.*
+> 117 skills — preprocessing, clustering, cell type annotation, trajectory inference, cell communication, multimodal integration.
 
 <details>
 <summary>View all 117 skills</summary>
@@ -157,7 +176,7 @@
 
 ## Biology and AI
 
-*117 skills — medical AI, clinical decision support, drug discovery, general biological tools.*
+> 117 skills — medical AI, clinical decision support, drug discovery, general biological tools.
 
 <details>
 <summary>View all 117 skills</summary>
@@ -189,7 +208,7 @@
 
 ## Clinical and Medical
 
-*97 skills — EHR analysis, clinical trial design, drug interactions, precision medicine, adverse event detection.*
+> 97 skills — EHR analysis, clinical trial design, drug interactions, precision medicine, adverse event detection.
 
 <details>
 <summary>View all 97 skills</summary>
@@ -216,7 +235,7 @@
 
 ## Transcriptomics
 
-*87 skills — RNA-seq full pipeline, differential expression, alternative splicing, lncRNA, small RNA.*
+> 87 skills — RNA-seq full pipeline, differential expression, alternative splicing, lncRNA, small RNA.
 
 <details>
 <summary>View all 87 skills</summary>
@@ -247,7 +266,7 @@
 
 ## Database Query
 
-*54 skills — UniProt, PDB, KEGG, Reactome, GEO, ClinVar, Ensembl, STRING.*
+> 54 skills — UniProt, PDB, KEGG, Reactome, GEO, ClinVar, Ensembl, STRING.
 
 <details>
 <summary>View all 54 skills</summary>
@@ -273,7 +292,7 @@
 
 ## Multi-Omics Integration
 
-*51 skills — MOFA, DIABLO, single-cell multimodal, spatial transcriptomics.*
+> 51 skills — MOFA, DIABLO, single-cell multimodal, spatial transcriptomics.
 
 <details>
 <summary>View all 51 skills</summary>
@@ -296,7 +315,7 @@
 
 ## Bioinformatics Utilities
 
-*50 skills — sequence analysis, BLAST, tool chains, pipeline management.*
+> 50 skills — sequence analysis, BLAST, tool chains, pipeline management.
 
 <details>
 <summary>View all 50 skills</summary>
@@ -323,7 +342,7 @@
 
 ## Visualization
 
-*38 skills — volcano plots, heatmaps, PCA/UMAP, interactive charts.*
+> 38 skills — volcano plots, heatmaps, PCA/UMAP, interactive charts.
 
 <details>
 <summary>View all 38 skills</summary>
@@ -346,7 +365,7 @@
 
 ## Workflow Orchestration
 
-*31 skills — Snakemake, Nextflow, CWL, WDL.*
+> 31 skills — Snakemake, Nextflow, CWL, WDL.
 
 <details>
 <summary>View all 31 skills</summary>
@@ -369,7 +388,7 @@
 
 ## Epigenomics
 
-*19 skills — ChIP-seq, ATAC-seq, DNA methylation, Hi-C, chromatin state.*
+> 19 skills — ChIP-seq, ATAC-seq, DNA methylation, Hi-C, chromatin state.
 
 <details>
 <summary>View all 19 skills</summary>
@@ -392,7 +411,7 @@
 
 ## Pathway Analysis
 
-*13 skills — KEGG, Reactome, GO, GSEA.*
+> 13 skills — KEGG, Reactome, GO, GSEA.
 
 | Skill | Source | Description |
 |-------|--------|-------------|
@@ -410,7 +429,7 @@
 
 ## Metagenomics
 
-*8 skills — 16S/ITS amplicon, Kraken2, MetaPhlAn, QIIME2.*
+> 8 skills — 16S/ITS amplicon, Kraken2, MetaPhlAn, QIIME2.
 
 | Skill | Source | Description |
 |-------|--------|-------------|
@@ -427,7 +446,7 @@
 
 ## Protein Design
 
-*6 skills — RFDiffusion, ProteinMPNN, Boltz, Chai, LigandMPNN.*
+> 6 skills — RFDiffusion, ProteinMPNN, Boltz, Chai, LigandMPNN.
 
 | Skill | Source | Description |
 |-------|--------|-------------|
@@ -444,41 +463,39 @@
 
 This collection aggregates and deduplicates skills from the following open-source repositories:
 
-- [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) - Systematic bioinformatics skill suite covering the full analysis pipeline from QC to multi-omics.
-- [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) - Medical AI skill library aggregating 12 specialized sub-repositories.
-- [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) - Scientific agent skills for statistics, database queries, and clinical decision support.
-- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) - General scientific computing skills for data analysis and HPC workflows.
-- [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) - Bioinformatics workflow orchestration skills for GWAS, single-cell, and structural biology.
-- [zongtingwei/Bioclaw_Skills_Hub](https://github.com/zongtingwei/Bioclaw_Skills_Hub) - Ten-category biological skills hub covering transcriptomics and epigenomics.
-- [Runchuan-BU/BioClaw](https://github.com/Runchuan-BU/BioClaw) - Core bioinformatics tools and database query skills.
-- [fmschulz/omics-skills](https://github.com/fmschulz/omics-skills) - Single-cell and spatial omics specialized skills.
-- [adaptyvbio/protein-design-skills](https://github.com/adaptyvbio/protein-design-skills) - Full protein design toolkit including RFDiffusion, ProteinMPNN, Boltz, and Chai.
-- [zamushwani2/biomedical-ai-skills](https://github.com/zamushwani2/biomedical-ai-skills) - Cancer multi-omics analysis skills in R.
-- [ArcInstitute/SRAgent](https://github.com/ArcInstitute/SRAgent) - Intelligent SRA and GEO dataset retrieval.
+| Repository | Skills | Focus |
+|------------|-------:|-------|
+| [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) | 524 | Systematic bioinformatics suite from QC to multi-omics. |
+| [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | 326 | Medical AI library aggregating 12 specialized sub-repositories. |
+| [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | 151 | Scientific agent skills for statistics, databases, and clinical decisions. |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 91 | General scientific computing and HPC workflow skills. |
+| [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) | 60 | Bioinformatics workflow orchestration for GWAS and single-cell. |
+| [zongtingwei/Bioclaw_Skills_Hub](https://github.com/zongtingwei/Bioclaw_Skills_Hub) | 46 | Ten-category biological skills hub. |
+| [Runchuan-BU/BioClaw](https://github.com/Runchuan-BU/BioClaw) | 37 | Core bioinformatics tools and database query skills. |
+| [fmschulz/omics-skills](https://github.com/fmschulz/omics-skills) | 29 | Single-cell and spatial omics specialized skills. |
+| [adaptyvbio/protein-design-skills](https://github.com/adaptyvbio/protein-design-skills) | 21 | Full protein design toolkit: RFDiffusion, ProteinMPNN, Boltz, Chai. |
+| [zamushwani2/biomedical-ai-skills](https://github.com/zamushwani2/biomedical-ai-skills) | 4 | Cancer multi-omics analysis skills in R. |
+| [ArcInstitute/SRAgent](https://github.com/ArcInstitute/SRAgent) | 1 | Intelligent SRA and GEO dataset retrieval. |
 
 ---
 
 ## Skill Format
 
-Each skill is a self-contained folder containing a `SKILL.md` file that defines the agent's domain knowledge, tool usage, and expected outputs. Skills are compatible with any Claude-based agent framework that supports the `SKILL.md` convention, including [OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), and [Biomni](https://github.com/Phylo-AI/biomni).
+Each skill is a self-contained folder with a `SKILL.md` file defining domain knowledge, tool usage, and expected outputs. Compatible with any Claude-based agent framework supporting the `SKILL.md` convention.
 
 ```
 skills/
-└── <category>/
+└── <source>/
     └── <skill-name>/
         ├── SKILL.md          # Skill definition (required)
-        └── ...               # Supporting files (examples, references)
+        └── ...               # Supporting files
 ```
 
-**Installation:**
+**Quick install:**
 
 ```bash
 git clone https://github.com/BioTender-max/awesome-bio-agent-skills.git
 cp -r awesome-bio-agent-skills/skills/* /path/to/your/agent/skills/
 ```
 
----
-
-## Index
-
-A machine-readable index of all 1,306 skills is available in [`bioskill_index_v2.csv`](bioskill_index_v2.csv) with fields: `skill_name`, `folder_name`, `source_repo`, `category`, `description`, `file_count`, `archive_path`.
+A machine-readable index of all 1,306 skills is available in [`bioskill_index_v2.csv`](bioskill_index_v2.csv).
