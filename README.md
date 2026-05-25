@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/BioTender-max/awesome-bio-agent-skills">
-    <img src="assets/banner.svg" alt="Awesome Bio Agent Skills" width="800"/>
+    <img src="assets/banner.png" alt="Awesome Bio Agent Skills" width="800"/>
   </a>
 </div>
 
