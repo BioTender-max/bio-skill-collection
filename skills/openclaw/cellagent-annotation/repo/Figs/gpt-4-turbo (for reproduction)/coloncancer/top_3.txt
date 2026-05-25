@@ -1,0 +1,7 @@
+Epithelial cells, Cancer cells, Goblet cells
+Enterocytes, Goblet cells, Enteroendocrine cells
+Fibroblasts, Myofibroblasts, Smooth muscle cells
+Macrophages, Neutrophils, Dendritic cells
+T cells, Cytotoxic T cells, Helper T cells
+Plasma cells, B cells, Memory B cells
+Mast cells, Basophils, Eosinophils

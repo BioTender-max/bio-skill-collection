@@ -1,0 +1,99 @@
+Adipocytes
+Pericytes
+Fibroblasts
+Myoepithelial cells
+Endothelial cells
+Epithelial cells
+Macrophages
+Smooth muscle cells
+Smooth muscle cells
+Epithelial cells
+Fibroblasts
+Basal epithelial cells
+Endothelial cells
+Neurons
+Neurons
+Smooth muscle cells
+Monocytes/Macrophages
+T lymphocytes
+T lymphocytes
+Dendritic cells
+B lymphocytes
+Epithelial cells (esophageal squamous cells)
+Keratinocytes
+Endothelial cells
+Mast cells
+Vascular smooth muscle cells
+Fibroblasts
+Endothelial cells
+Neurons
+Cardiomyocytes
+Cardiomyocytes
+T lymphocytes
+Natural Killer cells
+Monocytes
+B lymphocytes
+Pericytes
+Adipocytes
+Mast cells
+T lymphocytes
+Macrophages
+Smooth muscle cells
+Endothelial cells
+Mast cells
+Macrophages
+Natural Killer cells
+Smooth muscle cells
+Alveolar type II pneumocytes
+Ciliated epithelial cells
+Basal epithelial cells
+B lymphocytes
+Alveolar type II pneumocytes
+Epithelial cells
+Pericytes
+Monocytes/Macrophages
+Fibroblasts
+Endothelial cells
+Neurons
+Fibroblasts
+Neurons
+Smooth muscle cells
+Mast cells
+T lymphocytes
+T lymphocytes
+B lymphocytes
+Fibroblasts
+Epithelial cells
+Epithelial cells
+Basal epithelial cells
+Endothelial cells
+Skeletal muscle cells (myocytes)
+Endothelial cells
+Neurons
+Vascular smooth muscle cells
+Neurons
+Fibroblasts
+Skeletal muscle cells (myocytes)
+Monocytes
+T lymphocytes
+Natural Killer cells
+Fibroblasts
+Pericytes
+Adipocytes
+Mast cells
+Endothelial cells
+Keratinocytes
+Melanocytes
+Mast cells
+T lymphocytes
+Monocytes/Macrophages
+Monocytes/Macrophages
+Keratinocytes
+Keratinocytes
+Keratinocytes
+Basal keratinocytes
+Pericytes
+Adipocytes
+Smooth muscle cells
+Fibroblasts
+Keratinocytes

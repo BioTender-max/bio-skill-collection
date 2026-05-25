@@ -1,0 +1,61 @@
+Neurons, Epithelial cells, Stem cells
+Macrophages, Monocytes, Dendritic cells
+Plasma cells, B cells, Lymphocytes
+Fibroblasts, Smooth muscle cells, Mesenchymal stem cells
+Adrenal cortical cells, Leydig cells, Sertoli cells
+T cells, Lymphocytes, Thymocytes
+Fibroblasts, Mesenchymal stem cells, Smooth muscle cells
+Epithelial cells, Fibroblasts, Endothelial cells
+Goblet cells, Epithelial cells, Enterocytes
+Fibroblasts, Mesenchymal stem cells, Osteoblasts
+Neurons, Oligodendrocytes, Schwann cells
+Erythrocytes, Reticulocytes, Megakaryocytes
+Monocytes, Macrophages, Neutrophils
+Goblet cells, Enterocytes, Epithelial cells
+Hepatocytes, Intestinal epithelial cells, Pancreatic cells
+Erythrocytes, Reticulocytes, Megakaryocytes
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Dendritic cells, B cells, Macrophages
+Epithelial cells, Goblet cells, Secretory cells
+Erythrocytes, Reticulocytes, Megakaryocytes
+Fibroblasts, Mesenchymal stem cells, Osteoblasts
+Oligodendrocytes, Schwann cells, Neurons
+Alveolar cells, Type II pneumocytes, Lung epithelial cells
+Thyroid follicular cells, Pancreatic acinar cells, Parathyroid cells
+Epithelial cells, Fibroblasts, Endothelial cells
+B cells, Dendritic cells, Macrophages
+Epithelial cells, Fibroblasts, Endothelial cells
+Enterocytes, Intestinal epithelial cells, Goblet cells
+Erythrocytes, Reticulocytes, Megakaryocytes
+Erythrocytes, Reticulocytes, Megakaryocytes
+Chondrocytes, Mesenchymal stem cells, Osteoblasts
+Pancreatic acinar cells, Pancreatic ductal cells, Intestinal epithelial cells
+Neutrophils, Eosinophils, Basophils
+Macrophages, Monocytes, Dendritic cells
+Gastric chief cells, Gastric parietal cells, Enteroendocrine cells
+Dendritic cells, Langerhans cells, Monocytes
+Gastric epithelial cells, Goblet cells, Enterocytes
+Kidney epithelial cells, Intercalated cells, Collecting duct cells
+Secretory cells, Goblet cells, Epithelial cells
+Epithelial cells, Fibroblasts, Endothelial cells
+Lymphocytes, T cells, Natural killer cells
+Erythrocytes, Reticulocytes, Megakaryocytes
+Erythrocytes, Reticulocytes, Megakaryocytes
+Fibroblasts, Mesenchymal stem cells, Endothelial cells
+Keratinocytes, Epithelial cells, Skin cells
+Neurons, Schwann cells, Oligodendrocytes
+Pancreatic acinar cells, Intestinal epithelial cells, Secretory cells
+Cardiomyocytes, Smooth muscle cells, Skeletal muscle cells
+Secretory cells, Goblet cells, Hepatocytes
+Kidney epithelial cells, Collecting duct cells, Loop of Henle cells
+Hepatocytes, Intestinal epithelial cells, Secretory cells
+Prostate epithelial cells, Secretory cells, Goblet cells
+Mast cells, Basophils, Eosinophils
+Epithelial cells, Hepatocytes, Secretory cells
+Neuroendocrine cells, Enteroendocrine cells, Pancreatic islet cells
+Hepatocytes, Intestinal epithelial cells, Secretory cells
+T cells, Natural killer cells, Lymphocytes
+Neurons, Schwann cells, Oligodendrocytes
+Fibroblasts, Mesenchymal stem cells, Osteoblasts
+Osteoclasts, Macrophages, Monocytes
+Adipocytes, Hepatocytes, Secretory cells

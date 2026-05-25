@@ -1,0 +1,86 @@
+{
+  "mode": "stable",
+  "skill": {
+    "name": "nfcore-rnaseq-wrapper",
+    "version": "0.1.0"
+  },
+  "pipeline": {
+    "name": "nf-core/rnaseq",
+    "default_version": "3.26.0",
+    "source_preference": "local_checkout_then_remote"
+  },
+  "minimum_versions": {
+    "java": "17",
+    "nextflow": "25.04.3",
+    "python": "3.11"
+  },
+  "supported_profiles": {
+    "container_runtimes": [
+      "docker",
+      "podman",
+      "singularity",
+      "apptainer",
+      "shifter",
+      "charliecloud",
+      "wave",
+      "conda",
+      "mamba"
+    ],
+    "architecture_modifiers": [
+      "arm64",
+      "emulate_amd64"
+    ],
+    "scientific_modifiers": [
+      "prokaryotic",
+      "rapid_quant"
+    ],
+    "nf_core_test_profiles": [
+      "test",
+      "test_prokaryotic",
+      "test_full",
+      "test_full_aws",
+      "test_full_gcp",
+      "test_full_azure",
+      "test_gpu"
+    ],
+    "development": [
+      "debug"
+    ]
+  },
+  "composition_profiles": [
+    "test",
+    "test_prokaryotic",
+    "prokaryotic",
+    "rapid_quant",
+    "arm64",
+    "emulate_amd64"
+  ],
+  "supported_aligners": [
+    "star_salmon",
+    "star_rsem",
+    "hisat2",
+    "bowtie2_salmon"
+  ],
+  "supported_pseudo_aligners": [
+    "salmon",
+    "kallisto"
+  ],
+  "supported_trimmers": [
+    "trimgalore",
+    "fastp"
+  ],
+  "supported_ribo_tools": [
+    "sortmerna",
+    "ribodetector",
+    "bowtie2"
+  ],
+  "supported_umi_tools": [
+    "umitools",
+    "umicollapse"
+  ],
+  "supported_contaminant_screening": [
+    "kraken2",
+    "kraken2_bracken",
+    "sylph"
+  ]
+}

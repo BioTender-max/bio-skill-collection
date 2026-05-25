@@ -1,0 +1,10 @@
+Macrophages, Microglia, Monocytes
+T cells, CD8+ T cells, CD4+ T cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+B cells, Plasma cells, Memory B cells
+Fibroblasts, Stromal cells, Myofibroblasts
+Endothelial cells, Vascular endothelial cells, Blood vessel endothelial cells
+Mast cells, Basophils, Granulocytes
+Type II pneumocytes, Alveolar epithelial cells, Club cells
+Epithelial cells, Cancer cells, Adenocarcinoma cells
+Oligodendrocytes, Astrocytes, Schwann cells

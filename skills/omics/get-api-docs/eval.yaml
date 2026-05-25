@@ -1,0 +1,96 @@
+version: "1"
+
+defaults:
+  provider: local
+  trials: 5
+  timeout: 300
+  threshold: 0.8
+  docker:
+    base: node:20-slim
+
+tasks:
+  - name: plan-openai-responses-doc-retrieval
+    instruction: |
+      A teammate needs implementation notes for the latest OpenAI Responses API in Python.
+      Use the get-api-docs skill.
+
+      Requirements:
+      1. Check whether `chub` is installed in this environment.
+      2. Write your final answer to `docs_plan.md`.
+      3. `docs_plan.md` must contain these exact headings:
+         - `## Availability`
+         - `## Search Query`
+         - `## Fetch Command`
+         - `## Notes`
+      4. If `chub` is missing, say that clearly and include the exact install command `npm install -g @context-hub/cli`.
+      5. In `## Search Query`, include one concrete `chub search "..."` command for the OpenAI Responses API.
+      6. In `## Fetch Command`, include either a concrete `chub get ... --lang python` command or the sentence `Unavailable until chub is installed.`
+      7. In `## Notes`, state that any eventual implementation must be grounded in retrieved docs rather than memory.
+
+    graders:
+      - type: deterministic
+        run: |
+          passed=0
+          total=5
+          c1_pass=false c1_msg="docs_plan.md missing"
+          c2_pass=false c2_msg="Required headings missing"
+          c3_pass=false c3_msg="Search command missing"
+          c4_pass=false c4_msg="Fetch/install guidance missing"
+          c5_pass=false c5_msg="Evidence-grounding note missing"
+
+          if test -f docs_plan.md; then
+            passed=$((passed + 1))
+            c1_pass=true; c1_msg="docs_plan.md exists"
+          fi
+
+          if grep -Fq "## Availability" docs_plan.md 2>/dev/null \
+            && grep -Fq "## Search Query" docs_plan.md 2>/dev/null \
+            && grep -Fq "## Fetch Command" docs_plan.md 2>/dev/null \
+            && grep -Fq "## Notes" docs_plan.md 2>/dev/null; then
+            passed=$((passed + 1))
+            c2_pass=true; c2_msg="All required headings present"
+          fi
+
+          if grep -Eiq 'chub search .*(responses|openai)' docs_plan.md 2>/dev/null; then
+            passed=$((passed + 1))
+            c3_pass=true; c3_msg="Search command present"
+          fi
+
+          if command -v chub >/dev/null 2>&1; then
+            if grep -Eiq 'chub get .+ --lang python' docs_plan.md 2>/dev/null; then
+              passed=$((passed + 1))
+              c4_pass=true; c4_msg="Fetch command present for installed chub"
+            fi
+          else
+            if grep -Fq 'npm install -g @context-hub/cli' docs_plan.md 2>/dev/null \
+              && grep -Fq 'Unavailable until chub is installed.' docs_plan.md 2>/dev/null; then
+              passed=$((passed + 1))
+              c4_pass=true; c4_msg="Correct fallback guidance present when chub is missing"
+            fi
+          fi
+
+          if grep -Eiq 'retrieved docs rather than memory|grounded in retrieved docs' docs_plan.md 2>/dev/null; then
+            passed=$((passed + 1))
+            c5_pass=true; c5_msg="Grounding note present"
+          fi
+
+          score=$(awk "BEGIN {printf \"%.2f\", $passed/$total}")
+          echo "{\"score\":$score,\"details\":\"$passed/$total checks passed\",\"checks\":[{\"name\":\"file\",\"passed\":$c1_pass,\"message\":\"$c1_msg\"},{\"name\":\"headings\",\"passed\":$c2_pass,\"message\":\"$c2_msg\"},{\"name\":\"search-command\",\"passed\":$c3_pass,\"message\":\"$c3_msg\"},{\"name\":\"fetch-or-install-guidance\",\"passed\":$c4_pass,\"message\":\"$c4_msg\"},{\"name\":\"grounding-note\",\"passed\":$c5_pass,\"message\":\"$c5_msg\"}]}"
+        weight: 0.7
+
+      - type: llm_rubric
+        rubric: |
+          Evaluate whether the agent used the get-api-docs skill correctly.
+
+          Environment Awareness (0.0-0.4):
+          - Did the agent check whether `chub` was available before planning retrieval?
+          - If `chub` was missing, did it avoid pretending that docs were already fetched?
+
+          Skill Compliance (0.0-0.3):
+          - Did the plan use `chub search` before `chub get` when the doc ID was uncertain?
+          - Is the fetch command Python-specific?
+
+          Reliability (0.0-0.3):
+          - Does the write-up explicitly say that downstream implementation should be grounded in retrieved docs rather than memory?
+          - Does it avoid fabricated doc IDs or made-up retrieval results?
+        weight: 0.3

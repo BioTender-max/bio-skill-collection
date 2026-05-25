@@ -1,0 +1,90 @@
+Adipocytes, White adipocytes, Preadipocytes, Lipid-storing cells, Brown adipocytes
+Endothelial cells, Venous endothelial cells, Capillary endothelial cells, Vascular endothelial cells, Microvascular endothelial cells
+T cells, CD4+ T cells, CD8+ T cells, Activated T cells, NKT cells
+Smooth muscle cells, Vascular smooth muscle cells, Visceral smooth muscle cells, Myofibroblasts, Pericytes
+Myoepithelial cells, Basal epithelial cells, Ductal epithelial cells, Mammary gland epithelial cells, Keratinocytes
+Mast cells, Activated mast cells, Basophils, Eosinophils, Histamine-producing cells
+Pericytes, Vascular pericytes, Smooth muscle cells, Mesenchymal stem cells, Microvascular mural cells
+Lymphatic endothelial cells, Lymphatic vessel cells, Lymphatic capillary endothelial cells, PROX1-positive endothelial cells, Lymphatic endothelial progenitor cells
+Luminal epithelial cells, Secretory epithelial cells, Ductal epithelial cells, Mammary gland epithelial cells, Alveolar epithelial cells
+Fibroblasts, Stromal cells, Mesenchymal cells, Extracellular matrix-producing cells, Myofibroblasts
+B cells, Mature B lymphocytes, Memory B cells, Naive B cells, Plasmablasts
+Macrophages, Tissue macrophages, M2 macrophages, Monocytes, Dendritic cells
+Mast cells, Activated mast cells, Basophils, Eosinophils, Histamine-producing cells
+Endothelial cells, Venous endothelial cells, Capillary endothelial cells, Vascular endothelial cells, Microvascular endothelial cells
+T cells, CD4+ T cells, CD8+ T cells, Activated T cells, NKT cells
+Esophageal epithelial cells, Squamous epithelial cells, Mucus-secreting epithelial cells, Basal epithelial cells, Stratified epithelial cells
+Macrophages, Tissue macrophages, M2 macrophages, Monocytes, Dendritic cells
+Smooth muscle cells, Vascular smooth muscle cells, Visceral smooth muscle cells, Myofibroblasts, Pericytes
+Interstitial cells of Cajal, Gastrointestinal pacemaker cells, ICC cells, KIT-positive cells, Gastrointestinal stromal cells
+Fibroblasts, Stromal cells, Mesenchymal cells, Extracellular matrix-producing cells, Myofibroblasts
+Basal epithelial cells, Esophageal basal cells, Squamous epithelial cells, Keratinocytes, Progenitor epithelial cells
+B cells, Mature B lymphocytes, Memory B cells, Naive B cells, Plasmablasts
+Adipocytes, White adipocytes, Preadipocytes, Lipid-storing cells, Brown adipocytes
+Lymphatic endothelial cells, Lymphatic vessel cells, Lymphatic capillary endothelial cells, PROX1-positive endothelial cells, Lymphatic endothelial progenitor cells
+Cardiomyocytes, Heart muscle cells, Ventricular cardiomyocytes, Atrial cardiomyocytes, Cardiac myocytes
+Endothelial cells, Venous endothelial cells, Capillary endothelial cells, Vascular endothelial cells, Microvascular endothelial cells
+T cells, CD4+ T cells, CD8+ T cells, Activated T cells, NKT cells
+Smooth muscle cells, Vascular smooth muscle cells, Visceral smooth muscle cells, Myofibroblasts, Pericytes
+Pericytes, Vascular pericytes, Smooth muscle cells, Mesenchymal stem cells, Microvascular mural cells
+Mast cells, Activated mast cells, Basophils, Eosinophils, Histamine-producing cells
+Lymphatic endothelial cells, Lymphatic vessel cells, Lymphatic capillary endothelial cells, PROX1-positive endothelial cells, Lymphatic endothelial progenitor cells
+Fibroblasts, Cardiac fibroblasts, Stromal cells, Mesenchymal cells, Extracellular matrix-producing cells
+B cells, Mature B lymphocytes, Memory B cells, Naive B lymphocytes, Plasmablasts
+Adipocytes, White adipocytes, Preadipocytes, Lipid-storing cells, Brown adipocytes
+Macrophages, Tissue macrophages, M2 macrophages, Monocytes, Dendritic cells
+Macrophages, Alveolar macrophages, Tissue macrophages, M2 macrophages, Monocytes
+Endothelial cells, Pulmonary endothelial cells, Capillary endothelial cells, Vascular endothelial cells, Microvascular endothelial cells
+T cells, CD4+ T cells, CD8+ T cells, Activated T cells, NKT cells
+Smooth muscle cells, Airway smooth muscle cells, Vascular smooth muscle cells, Visceral smooth muscle cells, Myofibroblasts
+Pericytes, Vascular pericytes, Smooth muscle cells, Mesenchymal stem cells, Microvascular mural cells
+Lymphatic endothelial cells, Lymphatic vessel cells, Lymphatic capillary endothelial cells, PROX1-positive endothelial cells, Lymphatic endothelial progenitor cells
+Mast cells, Activated mast cells, Basophils, Eosinophils, Histamine-producing cells
+Club cells, Airway epithelial cells, Clara cells, Secretory epithelial cells, Bronchiolar epithelial cells
+Adipocytes, White adipocytes, Preadipocytes, Lipid-storing cells, Brown adipocytes
+Alveolar type I cells, Type I pneumocytes, Squamous alveolar epithelial cells, Gas-exchange epithelial cells, AGER-positive cells
+Alveolar type II cells, Type II pneumocytes, Surfactant-producing cells, Secretory alveolar epithelial cells, SFTPC-positive cells
+Fibroblasts, Pulmonary fibroblasts, Stromal cells, Mesenchymal cells, Extracellular matrix-producing cells
+Ciliated airway epithelial cells, Ciliated cells, Respiratory epithelial cells, Motile ciliated cells, FOXJ1-positive cells
+B cells, Mature B lymphocytes, Memory B cells, Naive B lymphocytes, Plasmablasts
+Pericytes, Vascular pericytes, Smooth muscle cells, Mesenchymal stem cells, Microvascular mural cells
+Endothelial cells, Venous endothelial cells, Capillary endothelial cells, Vascular endothelial cells, Microvascular endothelial cells
+T cells, CD4+ T cells, CD8+ T cells, Activated T cells, NKT cells
+Smooth muscle cells, Vascular smooth muscle cells, Visceral smooth muscle cells, Myofibroblasts, Pericytes
+Mast cells, Activated mast cells, Basophils, Eosinophils, Histamine-producing cells
+Lymphatic endothelial cells, Lymphatic vessel cells, Lymphatic capillary endothelial cells, PROX1-positive endothelial cells, Lymphatic endothelial progenitor cells
+Prostate epithelial cells, Secretory epithelial cells, Luminal prostate cells, Glandular epithelial cells, KLK3-expressing cells
+Fibroblasts, Prostatic fibroblasts, Stromal cells, Mesenchymal cells, Extracellular matrix-producing cells
+B cells, Mature B lymphocytes, Memory B cells, Naive B lymphocytes, Plasmablasts
+Adipocytes, White adipocytes, Preadipocytes, Lipid-storing cells, Brown adipocytes
+Macrophages, Tissue macrophages, M2 macrophages, Monocytes, Dendritic cells
+Skeletal muscle fibers, Myocytes, Muscle cells, Striated muscle cells, Type II muscle fibers
+T cells, CD4+ T cells, CD8+ T cells, Activated T cells, NKT cells
+Smooth muscle cells, Vascular smooth muscle cells, Visceral smooth muscle cells, Myofibroblasts, Pericytes
+Satellite cells, Muscle stem cells, Myogenic progenitor cells, Muscle precursor cells, PAX7-positive cells
+Pericytes, Vascular pericytes, Smooth muscle cells, Mesenchymal stem cells, Microvascular mural cells
+Endothelial cells, Capillary endothelial cells, Vascular endothelial cells, Microvascular endothelial cells, Venous endothelial cells
+Mast cells, Activated mast cells, Basophils, Eosinophils, Histamine-producing cells
+Macrophages, Tissue macrophages, M2 macrophages, Monocytes, Dendritic cells
+Lymphatic endothelial cells, Lymphatic vessel cells, Lymphatic capillary endothelial cells, PROX1-positive endothelial cells, Lymphatic endothelial progenitor cells
+Fibroblasts, Stromal cells, Mesenchymal cells, Extracellular matrix-producing cells, Myofibroblasts
+B cells, Mature B lymphocytes, Memory B cells, Naive B lymphocytes, Plasmablasts
+Adipocytes, White adipocytes, Preadipocytes, Lipid-storing cells, Brown adipocytes
+Myoblasts, Developing skeletal muscle cells, Muscle progenitor cells, Myogenic cells, Muscle satellite cells
+Keratinocytes, Epidermal cells, Skin epithelial cells, Squamous epithelial cells, Basal keratinocytes
+Smooth muscle cells, Vascular smooth muscle cells, Visceral smooth muscle cells, Myofibroblasts, Pericytes
+Sweat gland epithelial cells, Eccrine gland cells, Secretory epithelial cells, Apocrine gland cells, SCGB2A2-expressing cells
+Sebaceous gland cells, Sebocytes, Lipid-producing skin cells, Skin epithelial cells, PPARG-expressing cells
+Pericytes, Vascular pericytes, Smooth muscle cells, Mesenchymal stem cells, Microvascular mural cells
+Melanocytes, Pigment-producing cells, Skin melanocytes, Melanin-producing cells, MITF-positive cells
+Differentiated keratinocytes, Cornified cells, Stratum corneum cells, Terminally differentiated epidermal cells, Barrier-forming skin cells
+Lymphatic endothelial cells, Lymphatic vessel cells, Lymphatic capillary endothelial cells, PROX1-positive endothelial cells, Lymphatic endothelial progenitor cells
+Macrophages, Tissue macrophages, M2 macrophages, Monocytes, Dendritic cells
+Dermal fibroblasts, Skin fibroblasts, Stromal cells, Mesenchymal cells, Extracellular matrix-producing cells
+Fibroblasts, Skin fibroblasts, Stromal cells, Mesenchymal cells, Extracellular matrix-producing cells
+Basal keratinocytes, Progenitor epidermal cells, Basal epithelial cells, Skin stem cells, TP63-positive cells
+B cells, Mature B lymphocytes, Memory B cells, Naive B lymphocytes, Plasmablasts
+Adipocytes, White adipocytes, Preadipocytes, Lipid-storing cells, Brown adipocytes
+T cells, CD4+ T cells, CD8+ T cells, Activated T cells, NKT cells
+Mast cells, Activated mast cells, Basophils, Eosinophils, Histamine-producing cells
+Endothelial cells, Venous endothelial cells, Capillary endothelial cells, Vascular endothelial cells, Microvascular endothelial cells

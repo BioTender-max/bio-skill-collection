@@ -1,0 +1,571 @@
+{
+  "query": "BRCA1 breast cancer",
+  "timestamp": "2026-03-19T16:48:46.033487+00:00",
+  "source": "clinicaltrials.gov/api/v2",
+  "total": 20,
+  "recruiting": 5,
+  "trials": [
+    {
+      "nct_id": "NCT00555503",
+      "title": "Registry of Mastectomy for Breast Cancer Risk Reduction",
+      "status": "COMPLETED",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2007-11",
+      "completion_date": "2014-01",
+      "conditions": [
+        "Quality of Life",
+        "Mastectomy",
+        "Breast Neoplasms",
+        "Genetic Predisposition to Disease",
+        "Adjustment Disorder"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D020022",
+          "term": "Genetic Predisposition to Disease"
+        },
+        {
+          "id": "D000275",
+          "term": "Adjustment Disorders"
+        }
+      ],
+      "interventions": [],
+      "summary": "This is a registry for patients who have a risk-reduction mastectomy (\"prophylactic mastectomy\") due to being at high risk for developing breast cancer, followed by breast reconstruction. Eligible patients include those who have a breast cancer-related gene, a strong family history of breast cancer,..."
+    },
+    {
+      "nct_id": "NCT01102569",
+      "title": "Pancreatic Cancer Genetics",
+      "status": "RECRUITING",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2008-01",
+      "completion_date": "2027-12",
+      "conditions": [
+        "Pancreatic Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D010190",
+          "term": "Pancreatic Neoplasms"
+        },
+        {
+          "id": "C535837",
+          "term": "Pancreatic carcinoma, familial"
+        }
+      ],
+      "interventions": [],
+      "summary": "The aim of this study is to determine the frequency of the three most common BReast CAncer gene 1 (BRCA1) and BReast CAncer gene 2 (BRCA2) genetic mutations that are commonly found in Ashkenazi Jewish patients with pancreatic cancer. Testing for BRCA1 and BRCA2 mutations in relatives of hereditary p..."
+    },
+    {
+      "nct_id": "NCT04584255",
+      "title": "Niraparib + Dostarlimab In BRCA Mutated Breast Cancer",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2020-12-18",
+      "completion_date": "2029-07-17",
+      "conditions": [
+        "Stage I Breast Cancer",
+        "Stage II Breast Cancer",
+        "Stage III Breast Cancer",
+        "Breast Cancer",
+        "HER2-negative Breast Cancer",
+        "Germline BRCA1 Gene Mutation",
+        "Germline BRCA2 Gene Mutation",
+        "Deleterious PALB2 Gene Mutation"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Niraparib",
+        "Dostarlimab"
+      ],
+      "summary": "This research study involves pre-operative therapy that is specifically targeted for breast cancer in individuals with BRCA and PALB2 mutations.\n\nThe names of the study drugs involved in this study are:\n\n* Niraparib (Zejula)\n* Dostarlimab"
+    },
+    {
+      "nct_id": "NCT03475979",
+      "title": "Abbreviated Breast MRI for Second Breast Cancer Detection in Women With BRCA Mutation Testing",
+      "status": "UNKNOWN",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2018-05-01",
+      "completion_date": "2022-06",
+      "conditions": [
+        "Breast Cancer",
+        "BRCA1 Mutation",
+        "BRCA2 Mutation",
+        "Recurrent Breast Cancer",
+        "Metachronous Neoplasm"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D016609",
+          "term": "Neoplasms, Second Primary"
+        }
+      ],
+      "interventions": [],
+      "summary": "Study Purpose:\n\nA multicenter prospective study to evaluate the outcome of second breast cancer surveillance with abbreviated breast MR (AB-MR) or ultrasound (US) in addition to annual mammography in women with BRCA1/2 mutation testing\n\nStudy Scheme:\n\n* AB-MR, US, and digital mammography will be per..."
+    },
+    {
+      "nct_id": "NCT02365805",
+      "title": "Randomized CT to Evaluate Efficacy of Neoadjuvant Chemotherapy Customized by Levels of BRCA1-HER2 Negative Breast Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2014-04",
+      "completion_date": "2016-10-10",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Epirubicin + Ciclofosfamide + Fluorouracil + Paclitaxel",
+        "Epirubicin + Cisplatin + Fluorouracil",
+        "Docetaxel + Ciclofosfamide"
+      ],
+      "summary": "Neoadjuvant chemotherapy (NAC) is increasingly used for early-stage operable breast cancer. Response of breast cancer to NAC is correlated with survival: patients who obtain greatest survival advantage are those who attain complete response of their primary tumor. BReast Cancer 1 (BRCA1) plays a cru..."
+    },
+    {
+      "nct_id": "NCT04296370",
+      "title": "A Study of Fluzoparib\u00b1Apatinib Versus Chemotherapy Treatment of Physician's Choice in HER2-negative Metastatic Breast Cancer Patients With Germline BRCA Mutation",
+      "status": "UNKNOWN",
+      "phase": "PHASE3",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2020-07-13",
+      "completion_date": "2025-06-30",
+      "conditions": [
+        "Treatment in HER2-negative Metastatic Breast Cancer Patients With Germline BRCA Mutation"
+      ],
+      "condition_meshes": [],
+      "interventions": [
+        "Fluzoparib; Apatinib",
+        "Fluzoparib",
+        "Physician's choice chemotherapy"
+      ],
+      "summary": "This is a multicenter, randomized, open-label, 3-arm Phase 3 study to evaluate the efficacy and safety of Fluzoparib alone or with Apatinib versus Physicians Choice Chemotherapy, as treatment, in patients with a Germline BRCA Mutation and HER2-negative Metastatic Breast Cancer. The study contains a ..."
+    },
+    {
+      "nct_id": "NCT03495609",
+      "title": "Use of Recombinant hCG to Prevent Breast Cancer in BRCA1 and BRCA2 Carriers",
+      "status": "COMPLETED",
+      "phase": "PHASE4",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2016-02-17",
+      "completion_date": "2018-12-18",
+      "conditions": [
+        "hCG",
+        "BRCA1 Mutation",
+        "BRCA2 Mutation"
+      ],
+      "condition_meshes": [],
+      "interventions": [
+        "Ovitrelle"
+      ],
+      "summary": "Specific aim: To establish the proof of principle that treatment of \"high breast cancer risk\" women with recombinant human chorionic gonadotropin (r-hCG) will change their breast epithelium's high risk genomic profile to one similar to that identified in women with a history of early full first term..."
+    },
+    {
+      "nct_id": "NCT04150042",
+      "title": "SHARON: A Clinical Trial for Metastatic Cancer Using Chemotherapy and Patients' Own Stem Cells",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2021-01-13",
+      "completion_date": "2028-12",
+      "conditions": [
+        "Pancreatic Adenocarcinoma Metastatic",
+        "BRCA1 Mutation",
+        "BRCA2 Mutation",
+        "Pancreatic Acinar Cell Carcinoma",
+        "Pancreatic Ductal Adenocarcinoma",
+        "Pancreatic Cancer",
+        "Metastatic Pancreatic Cancer",
+        "Metastatic Pancreatic Ductal Adenocarcinoma",
+        "Breast Cancer Metastatic",
+        "Breast Cancer Stage IV",
+        "Pancreatic Cancer Stage IV",
+        "HER2-negative Breast Cancer",
+        "HER2 Negative Breast Carcinoma",
+        "Adenocarcinoma of the Breast",
+        "PALB2 Gene Mutation",
+        "Pancreas Cancer, Metastatic",
+        "Pancreas Cancer, Recurrent",
+        "Pancreas Cancer",
+        "Stage IV Pancreatic Cancer",
+        "Stage 4 Pancreatic Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D010190",
+          "term": "Pancreatic Neoplasms"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009362",
+          "term": "Neoplasm Metastasis"
+        },
+        {
+          "id": "D012008",
+          "term": "Recurrence"
+        }
+      ],
+      "interventions": [
+        "Melphalan",
+        "BCNU",
+        "Vitamin B12B",
+        "Vitamin C",
+        "Autologous Hematopoietic Stem Cells"
+      ],
+      "summary": "The clinical trial is a phase 1, single-arm trial that will evaluate the safety of the investigational treatment on metastatic pancreatic cancer and metastatic breast cancer. The investigational treatment will involve 2 cycles of a combination of intravenous melphalan, BCNU, vitamin B12b, and vitami..."
+    },
+    {
+      "nct_id": "NCT00823654",
+      "title": "Serum Biomarkers to Characterize the Effects of Therapy on Ovarian Reserve in Premenopausal Women With Early-stage Breast Cancer or BRCA Mutations",
+      "status": "RECRUITING",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2009-01",
+      "completion_date": "2027-01",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Blood draw and questionnaires",
+        "Blood draw and questionnaires"
+      ],
+      "summary": "The purpose of this study is to learn more about the effects of your BRCA mutation on the ovaries. The BRCA gene can make it hard to conceive a child in the future. It may also bring on early menopause. The researchers will check blood levels of hormones that the ovaries produce. The hormones that r..."
+    },
+    {
+      "nct_id": "NCT05763472",
+      "title": "Breast Cancer After Ovarian Cancer During and/or After Therapy: Genomic Evaluation",
+      "status": "UNKNOWN",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2022-03-01",
+      "completion_date": "2023-06-01",
+      "conditions": [
+        "BRCA-Associated Breast Carcinoma"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D010051",
+          "term": "Ovarian Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Next-generation sequencing (NGS) assay TruSight Oncology 500 (TSO 500)."
+      ],
+      "summary": "This study will investigate, in patients with germline BRCA-1/2 mutations and breast cancer, arising during and / or after treatment with platinum-based chemotherapy and / or with PARP-inhibitors for ovarian cancer, the presence of molecular alterations potentially involved in the mechanisms of resi..."
+    },
+    {
+      "nct_id": "NCT02418624",
+      "title": "Phase I of Carboplatin-Olaparib Followed by Olaparib Monotherapy in Advanced Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2015-05",
+      "completion_date": "2019-01",
+      "conditions": [
+        "Breast Cancer",
+        "Ovarian Cancer",
+        "Advanced Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D010051",
+          "term": "Ovarian Neoplasms"
+        },
+        {
+          "id": "C563980",
+          "term": "Fanconi Anemia, Complementation Group D1"
+        }
+      ],
+      "interventions": [
+        "carboplatin, olaparib"
+      ],
+      "summary": "A phase I trial to determine the recommended phase two dose of the combination of carboplatin and olaparib."
+    },
+    {
+      "nct_id": "NCT05409222",
+      "title": "Study of Quality of Life Post Salpingo-oophorectomy in BRCA1/2 & PALB2 Mutation Carriers (BRCA-HRT)",
+      "status": "UNKNOWN",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2020-03-12",
+      "completion_date": "2023-10",
+      "conditions": [
+        "Hereditary Breast and Ovarian Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D061325",
+          "term": "Hereditary Breast and Ovarian Cancer Syndrome"
+        }
+      ],
+      "interventions": [],
+      "summary": "1. Premenopausal BRCA1 / 2 or PALB2 gene mutation carriers who receive hormone replacement therapy (HRT) after preventive salpingo-oophorectomy (PBSO) have a better quality of sexual, psychological, cardiovascular and bone health than carriers who decline HRT.\n2. Premenopausal mutation carriers trea..."
+    },
+    {
+      "nct_id": "NCT01506609",
+      "title": "Study Evaluating Efficacy And Tolerability Of Veliparib in Combination With Temozolomide (TMZ) or In Combination With Carboplatin and Paclitaxel Versus Placebo in Participants With Breast Cancer Gene (BRCA)1 and BRCA2 Mutation and Metastatic Breast Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2012-01-23",
+      "completion_date": "2020-09-02",
+      "conditions": [
+        "Metastatic Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Placebo",
+        "Veliparib",
+        "Carboplatin",
+        "Temozolomide",
+        "Paclitaxel"
+      ],
+      "summary": "The primary objective of the study is to assess the progression-free survival (PFS) of oral veliparib in combination with TMZ or in combination with carboplatin and paclitaxel compared to placebo plus carboplatin and paclitaxel in subjects with BRCA1 or BRCA2 mutation and locally recurrent or metast..."
+    },
+    {
+      "nct_id": "NCT00897455",
+      "title": "Studying Breast Cancer Risk in Women Who Are BRCA1/BRCA2 Mutation Carriers",
+      "status": "UNKNOWN",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2008-04",
+      "completion_date": "",
+      "conditions": [
+        "brca1 Mutation Carrier",
+        "brca2 Mutation Carrier",
+        "Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "DNA analysis",
+        "mutation analysis",
+        "polymorphism analysis",
+        "laboratory biomarker analysis",
+        "evaluation of cancer risk factors"
+      ],
+      "summary": "RATIONALE: Studying samples of DNA in the laboratory from women who are BRCA1/BRCA2 mutation carriers may help doctors learn more about cancer and identify biomarkers related to cancer.\n\nPURPOSE: This research study is looking at breast cancer risk in women who are BRCA1/BRCA2 mutation carriers."
+    },
+    {
+      "nct_id": "NCT04474834",
+      "title": "Genetic Risk Estimations for Influencing Decision Making in Women at High Risk of Breast Cancer, GENRE 2 Study",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2019-10-17",
+      "completion_date": "2029-12-15",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Polygenic Risk Score"
+      ],
+      "summary": "The primary aim of this study is to determine if the addition of an individual polygenic risk score (PRS) in addition to the Breast Cancer Risk Assessment Tool (BCRAT) or Tyrer-Cuzick (IBIS) score will aid women at risk of breast cancer in making a decision to take (or not take) medications to preve..."
+    },
+    {
+      "nct_id": "NCT06792721",
+      "title": "MEASUREMENT OF CIRCULATING MUTATION BURDEN",
+      "status": "RECRUITING",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2025-07-04",
+      "completion_date": "2027-12-30",
+      "conditions": [
+        "Breast Carcinoma",
+        "Genetic Predisposition to Cancer",
+        "BRCA Mutation",
+        "cfMB",
+        "Mutation Burden"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Mutation Burden cfMB analysis"
+      ],
+      "summary": "Cancer-free women with a hereditary predisposition to breast and/or ovarian cancer"
+    },
+    {
+      "nct_id": "NCT05485766",
+      "title": "Novel Neoadjuvant and Adjuvant Strategy for Germline BRCA 1/2 Mutated Triple Negative Breast Cancer",
+      "status": "RECRUITING",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2024-07-16",
+      "completion_date": "2028-09-30",
+      "conditions": [
+        "Triple Negative Breast Neoplasms",
+        "Triple Negative Breast Cancer",
+        "Breast Neoplasms",
+        "Breast Cancer",
+        "BRCA1 Mutation",
+        "BRCA2 Mutation",
+        "BRCA Mutation",
+        "BRCA-Associated Breast Carcinoma"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "C563980",
+          "term": "Fanconi Anemia, Complementation Group D1"
+        }
+      ],
+      "interventions": [
+        "Pembrolizumab",
+        "Paclitaxel",
+        "Carboplatin",
+        "Olaparib",
+        "Definitive Surgery"
+      ],
+      "summary": "This is a Phase II, single-arm, open label study to evaluate Olaparib plus Pembrolizumab following platinum-based chemotherapy plus Pembrolizumab as neoadjuvant therapy for germline BRCA (gBRCA) 1/2 mutated triple negative breast cancer (TNBC).\n\nPembrolizumab in combination with weekly paclitaxel an..."
+    },
+    {
+      "nct_id": "NCT02985658",
+      "title": "Expanded Access With ABT-888 (Veliparib) to Treat Metastatic Breast Cancer",
+      "status": "NO_LONGER_AVAILABLE",
+      "phase": "",
+      "study_type": "EXPANDED_ACCESS",
+      "start_date": "",
+      "completion_date": "",
+      "conditions": [
+        "Metastatic Breast Cancer With BRCA 1 or BRCA 2 Genetic Mutation",
+        "Triple-Negative Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Veliparib",
+        "Cisplatin",
+        "Vinorelbine"
+      ],
+      "summary": "This is an expanded access protocol to allow continued maintenance therapy with ABT-888 (veliparib) for three patients with metastatic triple negative breast cancer who are currently receiving the investigational product in association with clinical trial participation. Additionally, the protocol wi..."
+    },
+    {
+      "nct_id": "NCT07381985",
+      "title": "Strategy for Management of Patients With Hereditary Cancer Syndromes (HCS) in a Rural Environment",
+      "status": "ENROLLING_BY_INVITATION",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2023-12-29",
+      "completion_date": "2027-12-01",
+      "conditions": [
+        "Hereditary Cancer Syndromes",
+        "BRCA1 Hereditary Breast and Ovarian Cancer Syndrome",
+        "Lynch Syndrome"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D009386",
+          "term": "Neoplastic Syndromes, Hereditary"
+        },
+        {
+          "id": "D003123",
+          "term": "Colorectal Neoplasms, Hereditary Nonpolyposis"
+        }
+      ],
+      "interventions": [
+        "Longitudinal Cancer Genetics Follow-Up Program"
+      ],
+      "summary": "This study aims to improve cancer prevention and surveillance adherence in patients with Hereditary Cancer Syndromes (HCS), particularly those living in rural areas. The study will evaluate whether enrolling HCS patients in a longitudinal clinical program with individualized care plans and regular f..."
+    },
+    {
+      "nct_id": "NCT01905592",
+      "title": "A Phase III Trial of Niraparib Versus Physician's Choice in HER2 Negative, Germline BRCA Mutation-positive Breast Cancer Patients",
+      "status": "TERMINATED",
+      "phase": "PHASE3",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2014-02-25",
+      "completion_date": "2021-10-26",
+      "conditions": [
+        "Neoplasms, Breast",
+        "Carcinoma of Breast",
+        "Human Epidermal Growth Factor 2 Negative Carcinoma of Breast",
+        "BRCA1 Gene Mutation",
+        "BRCA2 Gene Mutation",
+        "Ovarian Neoplasms"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D010051",
+          "term": "Ovarian Neoplasms"
+        }
+      ],
+      "interventions": [
+        "niraparib",
+        "Physician's choice"
+      ],
+      "summary": "The purpose of this study is to compare progression-free survival (PFS) in patients with advanced/metastatic breast cancer who have a BRCA mutation when treated with niraparib as compared to those treated with physician's choice"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Macrophages, Dendritic cells, Monocytes
+T cells, CD4+ T cells, CD8+ T cells
+NK cells, CD8+ T cells, NKT cells
+B cells, Plasma cells, Memory B cells
+Fibroblasts, Myofibroblasts, Pericytes
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+Mast cells, Basophils, Eosinophils
+Alveolar type II cells, Club cells, Airway epithelial cells
+Epithelial cells, Carcinoma cells, Luminal epithelial cells
+Oligodendrocytes, Astrocytes, Microglia

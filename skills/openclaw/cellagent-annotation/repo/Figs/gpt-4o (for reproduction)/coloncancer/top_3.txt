@@ -1,0 +1,7 @@
+Epithelial Cells, Colon Cancer Cells, Enterocytes
+Enterocytes, Goblet Cells, Colonocytes
+Fibroblasts, Myofibroblasts, Stromal Cells
+Macrophages, Monocytes, Neutrophils
+T Cells, CD4+ T Cells, CD8+ T Cells
+B Cells, Plasma Cells, Immunoglobulin-secreting Cells
+Mast Cells, Basophils, Eosinophils

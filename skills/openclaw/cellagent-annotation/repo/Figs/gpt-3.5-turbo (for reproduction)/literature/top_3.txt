@@ -1,0 +1,90 @@
+Adipocyte, Adipocyte, Adipocyte
+Endothelial cell, Endothelial cell, Endothelial cell
+T cell, T cell, T cell
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Smooth muscle cell, Epithelial cell, Smooth muscle cell
+Mast cell, Mast cell, Mast cell
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Lymphatic endothelial cell, Lymphatic endothelial cell, Lymphatic endothelial cell
+Epithelial cell, Epithelial cell, Epithelial cell
+Fibroblast, Fibroblast, Fibroblast
+B cell, B cell, B cell
+Macrophage, Macrophage, Macrophage
+Mast cell, Mast cell, Mast cell
+Endothelial cell, Endothelial cell, Endothelial cell
+T cell, T cell, T cell
+Epithelial cell, Epithelial cell, Epithelial cell
+Macrophage, Macrophage, Macrophage
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Fibroblast, Fibroblast, Fibroblast
+Epithelial cell, Epithelial cell, Epithelial cell
+B cell, B cell, B cell
+Adipocyte, Adipocyte, Adipocyte
+Lymphatic endothelial cell, Lymphatic endothelial cell, Lymphatic endothelial cell
+Cardiomyocyte, Cardiomyocyte, Cardiomyocyte
+Endothelial cell, Endothelial cell, Endothelial cell
+T cell, T cell, T cell
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Mast cell, Mast cell, Mast cell
+Lymphatic endothelial cell, Lymphatic endothelial cell, Lymphatic endothelial cell
+Fibroblast, Fibroblast, Fibroblast
+B cell, B cell, B cell
+Adipocyte, Adipocyte, Adipocyte
+Macrophage, Macrophage, Macrophage
+Macrophage, Macrophage, Macrophage
+Endothelial cell, Endothelial cell, Endothelial cell
+T cell, T cell, T cell
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Lymphatic endothelial cell, Lymphatic endothelial cell, Lymphatic endothelial cell
+Mast cell, Mast cell, Mast cell
+Club cell, Club cell, Club cell
+Adipocyte, Adipocyte, Adipocyte
+Fibroblast, Fibroblast, Fibroblast
+Type II pneumocyte, Type II pneumocyte, Type II pneumocyte
+Fibroblast, Fibroblast, Fibroblast
+Ciliated cell, Ciliated cell, Ciliated cell
+B cell, B cell, B cell
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Endothelial cell, Endothelial cell, Endothelial cell
+T cell, T cell, T cell
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Mast cell, Mast cell, Mast cell
+Lymphatic endothelial cell, Lymphatic endothelial cell, Lymphatic endothelial cell
+Prostate epithelial cell, Prostate epithelial cell, Prostate epithelial cell
+Fibroblast, Fibroblast, Fibroblast
+B cell, B cell, B cell
+Adipocyte, Adipocyte, Adipocyte
+Macrophage, Macrophage, Macrophage
+Skeletal muscle cell, Skeletal muscle cell, Skeletal muscle cell
+T cell, T cell, T cell
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Muscle stem cell, Muscle stem cell, Muscle stem cell
+Fibroblast, Fibroblast, Fibroblast
+Endothelial cell, Endothelial cell, Endothelial cell
+Mast cell, Mast cell, Mast cell
+Macrophage, Macrophage, Macrophage
+Lymphatic endothelial cell, Lymphatic endothelial cell, Lymphatic endothelial cell
+Fibroblast, Fibroblast, Fibroblast
+B cell, B cell, B cell
+Adipocyte, Adipocyte, Adipocyte
+Skeletal muscle cell, Skeletal muscle cell, Skeletal muscle cell
+Keratinocyte, Keratinocyte, Keratinocyte
+Smooth muscle cell, Smooth muscle cell, Smooth muscle cell
+Secretory cell, Secretory cell, Secretory cell
+Keratinocyte, Keratinocyte, Keratinocyte
+Fibroblast, Fibroblast, Fibroblast
+Melanocyte, Melanocyte, Melanocyte
+Epithelial cell, Epithelial cell, Epithelial cell
+Lymphatic endothelial cell, Lymphatic endothelial cell, Lymphatic endothelial cell
+Macrophage, Macrophage, Macrophage
+Other, Other, Other
+Fibroblast, Fibroblast, Fibroblast
+Keratinocyte, Keratinocyte, Keratinocyte
+B cell, B cell, B cell
+Adipocyte, Adipocyte, Adipocyte
+T cell, T cell, T cell
+Mast cell, Mast cell, Mast cell
+Endothelial cell, Endothelial cell, Endothelial cell

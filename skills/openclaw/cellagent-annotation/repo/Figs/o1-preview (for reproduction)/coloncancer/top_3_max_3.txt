@@ -1,0 +1,7 @@
+"Epithelial cells, colon epithelial cells, carcinoma cells"
+"Enterocytes, colon epithelial epithelial cells, absorptive cells"
+"Smooth muscle cells, fibroblasts, mesenchymal cells"
+"Macrophages, monocytes, dendritic cells"
+"T cells, helper T cells, cytotoxic T cells"
+"Plasma cells, B cells, immunoglobulin-producing cells"
+"Mast cells, basophils, granulocytes"

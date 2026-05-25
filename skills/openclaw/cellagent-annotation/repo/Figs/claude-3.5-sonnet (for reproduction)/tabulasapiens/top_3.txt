@@ -1,0 +1,467 @@
+T cells, CD8+ T cells, Memory T cells
+Plasmacytoid dendritic cells, Dendritic cells, Myeloid cells
+B cells, Memory B cells, Plasma cells
+Endothelial cells, Vascular endothelial cells, Blood vessel endothelial cells
+Lymphatic endothelial cells, Endothelial cells, Blood vessel cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Mast cells, Granulocytes, Immune cells
+Plasma cells, B cells, Memory B cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Smooth muscle cells, Myofibroblasts, Muscle cells
+Endothelial cells, Vascular endothelial cells, Blood vessel cells
+Epithelial cells, Urothelial cells, Basal cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Macrophages, Monocytes, Myeloid cells
+Smooth muscle cells, Myofibroblasts, Pericytes
+Immature cells, Progenitor cells, Stem cells
+Hematopoietic stem cells, Progenitor cells, Stem cells
+Immature cells, Early progenitors, Stem cells
+Mast cells, Progenitor cells, Stem cells
+T cells, CD4+ T cells, Memory T cells
+Neutrophils, Granulocytes, Myeloid cells
+Non-coding RNA expressing cells (unclear specific type)
+Mast cells, Granulocytes, Immune cells
+Immune cells, Antigen presenting cells, Myeloid cells
+T cells, CD4+ T cells, Naive T cells
+Plasma cells, B cells, Memory cells
+Platelets, Megakaryocytes, Blood cells
+Monocytes, Macrophages, Myeloid cells
+Plasma cells, B cells, Memory B cells
+Erythrocytes, Red blood cells, Reticulocytes
+T cells, CD4+ T cells, Memory T cells
+Monocytes, Macrophages, Myeloid cells
+Neutrophils, Granulocytes, Myeloid cells
+B cells, Memory B cells, Plasma cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+B cells, Memory B cells, Plasma cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Hematopoietic stem cells, Progenitor cells, Stem cells
+T cells, CD8+ T cells, Cytotoxic T cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+T cells, CD4+ T cells, Helper T cells
+Erythroid cells, Red blood cells, Erythroid progenitors
+B cells, Memory B cells, Plasma cells
+Non-coding RNA expressing cells (unclear specific type)
+Neutrophils, Granulocytes, Myeloid cells
+Neutrophils, Granulocytes, Myeloid cells
+Neutrophils, Granulocytes, Myeloid cells
+T cells, CD4+ T cells, Memory T cells
+T cells, CD8+ T cells, Cytotoxic T cells
+Mast cells, Progenitor cells, Stem cells
+B cells, Memory B cells, Plasma cells
+Myeloid progenitors, Granulocytes, Neutrophil precursors
+NK cells, Cytotoxic T cells, CD8+ T cells
+Erythroid cells, Red blood cells, Erythroid progenitors
+Hematopoietic stem cells, Progenitor cells, Stem cells
+Plasma cells, B cells, Memory B cells
+Monocytes, Macrophages, Myeloid cells
+Macrophages, Monocytes, Myeloid cells
+T cells, NK cells, Cytotoxic cells
+Plasma cells, B cells, Memory B cells
+Macrophages, Monocytes, Myeloid cells
+Erythrocytes, Red blood cells, Reticulocytes
+Proliferating cells, Dividing cells, Cycling cells
+T cells (TCR expressing), Immune cells, Lymphoid cells
+Mast cells, Granulocytes, Immune cells
+Neural cells, Neurons, Neural progenitors
+Muscle cells, Smooth muscle cells, Myocytes
+Adipocytes, Fat cells, Lipid-processing cells
+Muscle cells, Skeletal muscle, Myocytes
+Neural cells, Neurons, Neural progenitors
+Smooth muscle cells, Myofibroblasts, Muscle cells
+Melanocytes, Pigment cells, Neural crest cells
+Photoreceptors, Rod cells, Retinal cells
+Corneal epithelial cells, Epithelial cells, Keratinocytes
+Retinal pigment epithelium, Epithelial cells, RPE cells
+Epithelial cells, Squamous epithelial cells, Mucosal cells
+Monocytes, Myeloid cells, Granulocytes
+Macrophages, Monocytes, Myeloid cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+T cells, CD4+ T cells, Memory T cells
+Retinal pigment epithelium, Glial cells, Support cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Secretory cells, Glandular cells, Epithelial cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+B cells, Memory B cells, Plasma cells
+Retinal pigment epithelium, RPE cells, Epithelial cells
+Epithelial cells, Progenitor cells, Stem cells
+Plasma cells, B cells, Memory B cells
+B cells (unclear due to mostly non-coding RNAs)
+Non-coding RNA expressing cells (unclear specific type)
+Smooth muscle cells, Muscle cells, Myocytes
+Fibroblasts, Stromal cells, Mesenchymal cells
+Non-coding RNA expressing cells (unclear specific type)
+Neutrophils, Granulocytes, Myeloid cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Macrophages, Monocytes, Myeloid cells
+T cells, CD4+ T cells, Memory T cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Smooth muscle cells, Myofibroblasts, Pericytes
+Endothelial cells, Vascular cells, Blood vessel cells
+Cardiomyocytes, Muscle cells, Cardiac muscle cells
+Epithelial cells, Secretory cells, Endothelial cells
+Pericytes, Smooth muscle cells, Vascular cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Macrophages, Monocytes, Myeloid cells
+T cells, CD4+ T cells, Memory T cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Macrophages, Monocytes, Myeloid cells
+T cells, CD8+ T cells, Cytotoxic T cells
+B cells, Memory B cells, Plasma cells
+Proximal tubule cells, Epithelial cells, Kidney tubular cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Non-coding RNA expressing cells (unclear specific type)
+Epithelial cells, Colonocytes, Intestinal cells
+Intestinal stem cells, Progenitor cells, Epithelial cells
+Epithelial cells, Colonocytes, Intestinal cells
+Tuft cells, Secretory cells, Epithelial cells
+Macrophages, Monocytes, Myeloid cells
+Enteroendocrine cells, Neuroendocrine cells, Secretory cells
+Non-coding RNA expressing cells (unclear specific type)
+Mast cells, Granulocytes, Immune cells
+T cells, CD8+ T cells, Cytotoxic T cells
+B cells, Antigen presenting cells, Dendritic cells
+Enterocytes, Epithelial cells, Intestinal cells
+Goblet cells, Secretory cells, Mucus-producing cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Proliferating cells, Dividing cells, Cycling cells
+Plasma cells, B cells, Memory B cells
+Glial cells, Schwann cells, Neural support cells
+Epithelial cells, Colonocytes, Intestinal cells
+T cells, CD4+ T cells, Memory T cells
+Macrophages, Kupffer cells, Myeloid cells
+Erythrocytes, Red blood cells, Reticulocytes
+Neutrophils, Granulocytes, Myeloid cells
+T cells, CD4+ T cells, Memory T cells
+Cholangiocytes, Bile duct cells, Epithelial cells
+Hepatocytes, Liver cells, Metabolic cells
+B cells, Plasma cells, Memory B cells
+T cells, NK cells, Cytotoxic cells
+Dendritic cells, Antigen presenting cells, Myeloid cells
+Liver sinusoidal endothelial cells, Endothelial cells, Vascular cells
+Monocytes, Myeloid cells, Granulocytes
+Antigen presenting cells, Dendritic cells, Macrophages
+Hepatic stellate cells, Myofibroblasts, Stromal cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Epithelial cells, Specialized epithelial cells, Secretory cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Lymphatic endothelial cells, Endothelial cells, Vascular cells
+Smooth muscle cells, Myofibroblasts, Muscle cells
+Plasmacytoid dendritic cells, Dendritic cells, Myeloid cells
+Smooth muscle cells, Pericytes, Vascular cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Neural cells, Neurons, Specialized epithelial cells
+Pericytes, Smooth muscle cells, Vascular cells
+Secretory cells, Specialized epithelial cells, Glandular cells
+Smooth muscle cells, Muscle cells, Stromal cells
+Monocytes, Myeloid cells, Granulocytes
+Macrophages, Alveolar macrophages, Myeloid cells
+Club cells, Secretory cells, Airway epithelial cells
+Secretory cells, Glandular cells, Epithelial cells
+Specialized epithelial cells, Secretory cells, Glandular cells
+Plasma cells, B cells, Memory B cells
+B cells, Memory B cells, Plasma cells
+Type 2 alveolar cells, Pneumocytes, Epithelial cells
+T cells, CD4+ T cells, Memory T cells
+T cells, CD8+ T cells, Cytotoxic T cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Smooth muscle cells, Myofibroblasts, Muscle cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Neutrophils, Granulocytes, Myeloid cells
+Mast cells, Granulocytes, Immune cells
+Monocytes, Myeloid cells, Granulocytes
+Endothelial cells, Vascular cells, Blood vessel cells
+Ciliated cells, Airway epithelial cells, Specialized epithelial cells
+Dendritic cells, Antigen presenting cells, Myeloid cells
+Basal cells, Epithelial cells, Progenitor cells
+Club cells, Secretory cells, Airway epithelial cells
+Macrophages, Alveolar macrophages, Myeloid cells
+Macrophages, Monocytes, Myeloid cells
+Mast cells, Granulocytes, Immune cells
+Dendritic cells, Plasmacytoid dendritic cells, Myeloid cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Erythrocytes, Red blood cells, Reticulocytes
+T cells, CD4+ T cells, Memory T cells
+B cells, Memory B cells, Naive B cells
+B cells, Memory B cells, Antigen presenting cells
+T cells, CD4+ T cells, Memory T cells
+T cells, CD8+ T cells, Cytotoxic T cells
+NK cells, Cytotoxic cells, Natural killer T cells
+Macrophages, Monocytes, Myeloid cells
+Dendritic cells, Antigen presenting cells, Myeloid cells
+Macrophages, Dendritic cells, Myeloid cells
+Hematopoietic stem cells, Progenitor cells, Stem cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Dendritic cells, Antigen presenting cells, Myeloid cells
+B cells, Memory B cells, Antigen presenting cells
+T cells, CD8+ T cells, Cytotoxic T cells
+T cells, CD4+ T cells, Memory T cells
+T cells, CD4+ T cells, Helper T cells
+T cells, B cells, Antigen presenting cells
+T cells, CD4+ T cells, Helper T cells
+Plasma cells, B cells, Memory B cells
+Neutrophils, Granulocytes, Myeloid cells
+Monocytes, Macrophages, Myeloid cells
+NK cells, Cytotoxic cells, Natural killer T cells
+Macrophages, Monocytes, Myeloid cells
+Regulatory T cells, T cells, CD4+ T cells
+Basal epithelial cells, Myoepithelial cells, Epithelial cells
+Mast cells, Granulocytes, Immune cells
+NK cells, Cytotoxic cells, Natural killer T cells
+Lymphatic endothelial cells, Endothelial cells, Vascular cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Plasma cells, B cells, Memory B cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Pericytes, Smooth muscle cells, Vascular cells
+Smooth muscle cells, Muscle cells, Myofibroblasts
+Macrophages, Monocytes, Myeloid cells
+Luminal epithelial cells, Epithelial cells, Secretory cells
+T cells, CD4+ T cells, Memory T cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+B cells, Memory B cells, Plasma cells
+Smooth muscle cells, Myofibroblasts, Muscle cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Epithelial cells, Specialized epithelial cells, Mesothelial cells
+Erythrocytes, Red blood cells, Reticulocytes
+Mast cells, Granulocytes, Immune cells
+Cardiomyocytes, Cardiac muscle cells, Striated muscle cells
+Skeletal muscle cells, Muscle fibers, Striated muscle cells
+Tenocytes, Fibroblasts, Stromal cells
+T cells, CD4+ T cells, Memory T cells
+Myoblasts, Muscle progenitors, Satellite cells
+Macrophages, Monocytes, Myeloid cells
+T cells, CD4+ T cells, Memory T cells
+T cells, CD4+ T cells, Memory T cells
+Pericytes, Smooth muscle cells, Vascular cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Lymphatic endothelial cells, Endothelial cells, Vascular cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Endocrine cells, Neuroendocrine cells, Hormone-producing cells
+Endocrine cells, Neuroendocrine cells, Hormone-producing cells
+PP cells, Pancreatic endocrine cells, Hormone-producing cells
+Mast cells, Granulocytes, Immune cells
+Beta cells, Pancreatic endocrine cells, Islet cells
+Plasma cells, B cells, Memory B cells
+Ductal cells, Epithelial cells, Secretory cells
+B cells, Memory B cells, Plasma cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Fibroblasts, Smooth muscle cells, Stromal cells
+Macrophages, Monocytes, Myeloid cells
+Endothelial cells, Vascular cells, Blood vessel cells
+T cells, CD8+ T cells, Cytotoxic T cells
+Acinar cells, Exocrine cells, Secretory cells
+Non-coding RNA expressing cells (unclear specific type)
+T cells, CD8+ T cells, Cytotoxic T cells
+Epithelial cells, Prostate epithelial cells, Secretory cells
+Neutrophils, Granulocytes, Myeloid cells
+Secretory cells, Specialized epithelial cells, Prostate cells
+Basal epithelial cells, Epithelial cells, Secretory cells
+Non-coding RNA expressing cells (unclear specific type)
+Mast cells, Granulocytes, Immune cells
+Macrophages, Antigen presenting cells, Myeloid cells
+Smooth muscle cells, Myofibroblasts, Stromal cells
+Epithelial cells, Secretory cells, Specialized epithelial cells
+Prostate luminal cells, Secretory cells, Epithelial cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+T cells, CD4+ T cells, Memory T cells
+Erythrocytes, Red blood cells, Reticulocytes
+NK cells, Cytotoxic T cells, CD8+ T cells
+Macrophages, Antigen presenting cells, Myeloid cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Prostate secretory cells, Epithelial cells, Glandular cells
+Basal cells, Epithelial cells, Progenitor cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Ductal cells, Epithelial cells, Secretory cells
+Basal cells, Epithelial cells, Progenitor cells
+T cells, CD8+ T cells, Cytotoxic T cells
+Neutrophils, Granulocytes, Myeloid cells
+Specialized epithelial cells, Secretory cells, Glandular cells
+Non-coding RNA expressing cells (unclear specific type)
+Macrophages, Monocytes, Myeloid cells
+Proliferating cells, Dividing cells, Cycling cells
+Plasma cells, B cells, Memory B cells
+Myoepithelial cells, Smooth muscle cells, Muscle cells
+Macrophages, Monocytes, Myeloid cells
+T cells, CD8+ T cells, Cytotoxic T cells
+Proliferating cells, Dividing cells, Cycling cells
+Acinar cells, Secretory cells, Glandular cells
+B cells, Memory B cells, Plasma cells
+B cells, Memory B cells, Antigen presenting cells
+T cells, CD4+ T cells, Memory T cells
+Smooth muscle cells, Myofibroblasts, Muscle cells
+Endothelial cells, Vascular cells, Blood vessel cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+T cells, CD8+ T cells, Cytotoxic T cells
+B cells, Memory B cells, Plasma cells
+Langerhans cells, Dendritic cells, Antigen presenting cells
+B cells, Memory B cells, Plasma cells
+T cells, CD4+ T cells, Regulatory T cells
+Plasma cells, B cells, Memory B cells
+Secretory cells, Epithelial cells, Glandular cells
+Regulatory T cells, T cells, CD4+ T cells
+Melanocytes, Pigment cells, Neural crest cells
+T cells, Naive T cells, Memory T cells
+Smooth muscle cells, Muscle cells, Myofibroblasts
+NK cells, T cells, Cytotoxic cells
+Smooth muscle cells, Muscle cells, Myofibroblasts
+Endothelial cells, Vascular cells, Blood vessel cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+T cells, CD8+ T cells, Cytotoxic T cells
+Dendritic cells, Antigen presenting cells, Myeloid cells
+T cells, CD4+ T cells, Memory T cells
+Macrophages, Monocytes, Myeloid cells
+Mast cells, Granulocytes, Immune cells
+Pericytes, Smooth muscle cells, Vascular cells
+T cells, CD8+ T cells, Cytotoxic T cells
+Dendritic cells, Antigen presenting cells, Myeloid cells
+T cells, CD4+ T cells, Memory T cells
+T cells, CD4+ T cells, Memory T cells
+Mast cells, Granulocytes, Immune cells
+Secretory cells, Glandular cells, Epithelial cells
+Non-coding RNA expressing cells (unclear specific type)
+Enteroendocrine cells, Neuroendocrine cells, Hormone-producing cells
+Enterocytes, Epithelial cells, Intestinal cells
+Intestinal stem cells, Progenitor cells, Epithelial cells
+Epithelial cells, Specialized epithelial cells, Intestinal cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Enteroendocrine cells, Neuroendocrine cells, Hormone-producing cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Plasma cells, B cells, Memory B cells
+Epithelial cells, Enterocytes, Intestinal cells
+Glial cells, Schwann cells, Neural support cells
+B cells, Antigen presenting cells, Plasma cells
+T cells, CD8+ T cells, Cytotoxic T cells
+Goblet cells, Secretory cells, Mucus-producing cells
+Proliferating cells, Dividing cells, Cycling cells
+Macrophages, Monocytes, Myeloid cells
+Enterocytes, Epithelial cells, Intestinal cells
+T cells, CD4+ T cells, Memory T cells
+Tuft cells, Chemosensory cells, Specialized epithelial cells
+Hematopoietic stem cells, Progenitor cells, Stem cells
+Erythrocytes, Red blood cells, Reticulocytes
+Regulatory T cells, T cells, CD4+ T cells
+Platelets, Megakaryocytes, Blood cells
+Granulocytes, Neutrophils, Myeloid progenitors
+T cells, NK cells, Cytotoxic cells
+Dendritic cells, Antigen presenting cells, Myeloid cells
+B cells, Plasma cells, Memory B cells
+Proliferating cells, Dividing cells, Cycling cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Dendritic cells, Antigen presenting cells, Myeloid cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Macrophages, Monocytes, Myeloid cells
+T cells, CD4+ T cells, Memory T cells
+T cells, NK cells, Cytotoxic cells
+T cells, CD8+ T cells, Cytotoxic T cells
+Neutrophils, Granulocytes, Myeloid cells
+Endothelial cells, Vascular cells, Blood vessel cells
+T cells, CD4+ T cells, Memory T cells
+Macrophages, Monocytes, Myeloid cells
+Neutrophils, Granulocytes, Myeloid cells
+B cells, Memory B cells, Plasma cells
+Plasma cells, B cells, Memory B cells
+B cells, Memory B cells, Plasma cells
+B cells, Memory B cells, Antigen presenting cells
+Dendritic cells, Specialized epithelial cells, Myeloid cells
+T cells, Thymocytes, Developing T cells
+T cells, CD8+ T cells, Cytotoxic T cells
+B cells, Plasma cells, Memory B cells
+T cells, CD8+ T cells, Cytotoxic T cells
+B cells, Memory B cells, Plasma cells
+NK cells, Natural killer T cells, Cytotoxic cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+Muscle cells, Skeletal muscle cells, Striated muscle cells
+Dendritic cells, Antigen presenting cells, Myeloid cells
+Endothelial cells, Vascular cells, Blood vessel cells
+T cells, Thymocytes, Developing T cells
+Mast cells, Granulocytes, Immune cells
+Specialized epithelial cells, Thymic epithelial cells, Epithelial cells
+Macrophages, Monocytes, Myeloid cells
+Endothelial cells, Vascular cells, Blood vessel cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+T cells, CD4+ T cells, Thymocytes
+Regulatory T cells, T cells, CD4+ T cells
+T cells, Thymocytes, Developing T cells
+T cells, CD8+ T cells, Cytotoxic T cells
+Proliferating cells, Dividing cells, Cycling cells
+Erythrocytes, Red blood cells, Reticulocytes
+Epithelial cells, Specialized epithelial cells, Thymic epithelial cells
+B cells, Antigen presenting cells, Memory B cells
+Macrophages, Monocytes, Myeloid cells
+Smooth muscle cells, Myofibroblasts, Muscle cells
+Plasma cells, B cells, Memory B cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Epithelial cells, Keratinocytes, Squamous epithelial cells
+Skeletal muscle cells, Muscle progenitors, Myoblasts
+Schwann cells, Neural crest cells, Glial cells
+Lymphatic endothelial cells, Endothelial cells, Vascular cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+T cells, CD4+ T cells, Memory T cells
+Epithelial cells, Keratinocytes, Basal cells
+Plasma cells, B cells, Memory B cells
+Pericytes, Smooth muscle cells, Vascular cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Secretory cells, Epithelial cells, Glandular cells
+Non-coding RNA expressing cells (unclear specific type)
+Neutrophils, Granulocytes, Myeloid cells
+T cells, CD4+ T cells, Helper T cells
+B cells, Memory B cells, Antigen presenting cells
+Secretory cells, Glandular cells, Epithelial cells
+T cells, CD8+ T cells, Cytotoxic T cells
+Plasma cells, B cells, Memory B cells
+Secretory cells, Epithelial cells, Specialized epithelial cells
+Mast cells, Granulocytes, Immune cells
+Basal cells, Epithelial cells, Progenitor cells
+Macrophages, Monocytes, Myeloid cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Pericytes, Smooth muscle cells, Vascular cells
+Secretory cells, Epithelial cells, Specialized epithelial cells
+Specialized epithelial cells, Secretory cells, Glandular cells
+Secretory cells, Epithelial cells, Specialized epithelial cells
+T cells, CD4+ T cells, Memory T cells
+Ciliated cells, Airway epithelial cells, Specialized epithelial cells
+Ciliated cells, Specialized epithelial cells, Epithelial cells
+Smooth muscle cells, Myometrial cells, Muscle cells
+B cells, Memory B cells, Plasma cells
+NK cells, Natural killer T cells, Cytotoxic cells
+Smooth muscle cells, Myometrial cells, Muscle cells
+Lymphatic endothelial cells, Endothelial cells, Vascular cells
+Proliferating cells, Dividing cells, Cycling cells
+T cells, CD4+ T cells, Memory T cells
+Epithelial cells, Endometrial cells, Secretory cells
+Pericytes, Smooth muscle cells, Vascular cells
+Proliferating cells, Dividing cells, Cycling cells
+Macrophages, Monocytes, Myeloid cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Lymphatic endothelial cells, Endothelial cells, Vascular cells
+Plasma cells, B cells, Memory B cells
+NK cells, Cytotoxic T cells, CD8+ T cells
+B cells, Memory B cells, Plasma cells
+Mast cells, Granulocytes, Immune cells
+T cells, CD4+ T cells, Memory T cells
+Pericytes, Smooth muscle cells, Vascular cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Macrophages, Monocytes, Myeloid cells
+Smooth muscle cells, Pericytes, Vascular cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Erythrocytes, Red blood cells, Reticulocytes
+Mesothelial cells, Specialized epithelial cells, Epithelial cells

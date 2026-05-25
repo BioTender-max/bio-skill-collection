@@ -1,0 +1,467 @@
+T cell, Memory T cell, Cytotoxic T cell
+T cell, Memory T cell, Naive T cell
+B cell, Memory B cell, Plasma cell
+Endothelial cell, Vascular endothelial cell, Blood vessel endothelial cell
+Endothelial cell, Blood vessel endothelial cell, Lymphatic endothelial cell
+Cytotoxic T cell, Natural killer cell, Memory T cell
+Mast cell, Basophil, Eosinophil
+B cell, Plasma cell, Memory B cell
+Secretory cell, Goblet cell, Mucous cell
+Smooth muscle cell, Vascular smooth muscle cell, Myofibroblast
+Endothelial cell, Blood vessel endothelial cell, Lymphatic endothelial cell
+Epithelial cell, Stem cell, Tumor cell
+Fibroblast, Mesenchymal stem cell, Endothelial cell
+Macrophage, M2 macrophage, Dendritic cell
+Smooth muscle cell, Vascular smooth muscle cell, Myofibroblast
+Erythroid progenitor, Hematopoietic stem cell, Erythrocyte
+Endothelial cell, Vascular endothelial cell, Hematopoietic stem cell
+Erythroid progenitor, Hematopoietic stem cell, Endothelial cell
+Erythrocyte, Basophil, Eosinophil
+T cell, Helper T cell, Cytotoxic T cell
+Erythrocyte, Hematopoietic stem cell, Progenitor cell
+B cell, T cell, Hematopoietic stem cell
+Mast cell, Basophil, Eosinophil
+Erythrocyte, Endothelial cell, Fibroblast
+T cell, Helper T cell, Cytotoxic T cell
+Epithelial cell, Endothelial cell, Fibroblast
+Platelet, Megakaryocyte, Erythrocyte
+Macrophage, M2 macrophage, Dendritic cell
+B cell, Plasma cell, Memory B cell
+Erythrocyte, Hematopoietic stem cell, Progenitor cell
+T cell, Helper T cell, Cytotoxic T cell
+Macrophage, M2 macrophage, Dendritic cell
+Neutrophil, Myeloid cell, Immune cell
+B cell, Memory B cell, Plasma cell
+Cytotoxic T cell, Natural killer cell, Memory T cell
+B cell, Memory B cell, Plasma cell
+Cytotoxic T cell, Natural killer cell, Memory T cell
+Neuronal progenitor, Endothelial cell, Hematopoietic stem cell
+Cytotoxic T cell, Natural killer cell, Memory T cell
+Cytotoxic T cell, Natural killer cell, Memory T cell
+T cell, Helper T cell, Cytotoxic T cell
+Erythrocyte, Hematopoietic stem cell, Progenitor cell
+B cell, Plasma cell, Memory B cell
+Immune cell, Stem cell, Progenitor cell
+Fibroblast, Endothelial cell, Immune cell
+Neutrophil, Eosinophil, Basophil
+Neutrophil, Eosinophil, Basophil
+T cell, Helper T cell, Cytotoxic T cell
+Cytotoxic T cell, Natural killer cell, Memory T cell
+Erythroid progenitor, Hematopoietic stem cell, Endothelial cell
+B cell, Plasma cell, Memory B cell
+Neutrophil, Myeloid cell, Immune cell
+Cytotoxic T cell, Natural killer cell, Memory T cell
+Erythrocyte, Hematopoietic stem cell, Progenitor cell
+Neutrophil, Eosinophil, Basophil
+B cell, Plasma cell, Memory B cell
+Macrophage, M2 macrophage, Dendritic cell
+Macrophage, M2 macrophage, Dendritic cell
+T cell, Helper T cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+Macrophage, M2 macrophage, Dendritic cell
+Erythrocyte, Hematopoietic stem cell, Progenitor cell
+Proliferating cell, Neuronal progenitor, Stem cell
+T cell, Helper T cell, Cytotoxic T cell
+Mast cell, Basophil, Eosinophil
+Neuronal progenitor, Stem cell, Immune cell
+Neuronal progenitor, Stem cell, Immune cell
+Adipocyte, Lipid-storing cell, Endothelial cell
+Muscle cell, Myocyte, Stem cell
+Neuronal progenitor, Stem cell, Immune cell
+Muscle cell, Myocyte, Stem cell
+Melanocyte, Pigment cell, Stem cell
+Photoreceptor cell, Retinal cell, Neuronal cell
+Epithelial cell, Stem cell, Tumor cell
+Epithelial cell, Stem cell, Tumor cell
+Epithelial cell, Stem cell, Tumor cell
+Immune cell, Macrophage, Dendritic cell
+Macrophage, M2 macrophage, Dendritic cell
+Fibroblast, Endothelial cell, Immune cell
+T cell, Helper T cell, Cytotoxic T cell
+Retinal cell, Neuronal cell, Immune cell
+Endothelial cell, Vascular endothelial cell, Blood vessel endothelial cell
+Immune cell, Macrophage, Dendritic cell
+Secretory cell, Goblet cell, Mucous cell
+B cell, Plasma cell, Memory B cell
+Retinal cell, Neuronal cell, Immune cell
+Epithelial cell, Stem cell, Tumor cell
+B cell, Plasma cell, Memory B cell
+T cell, Helper T cell, Cytotoxic T cell
+Erythrocyte, Hematopoietic stem cell, Progenitor cell
+Muscle cell, Myocyte, Stem cell
+Endothelial cell, Vascular endothelial cell, Blood vessel endothelial cell
+Erythrocyte, Hematopoietic stem cell, Progenitor cell
+Neutrophil, Eosinophil, Basophil
+Cytotoxic T cell, Natural killer cell, Memory T cell
+Macrophage, M2 macrophage, Dendritic cell
+T cell, Helper T cell, Cytotoxic T cell
+Endothelial cell, Vascular endothelial cell, Blood vessel endothelial cell
+Fibroblast, Endothelial cell, Immune cell
+Smooth muscle cell, Vascular smooth muscle cell, Myofibroblast
+Endothelial cells, Cardiac myocytes, Smooth muscle cells
+Cardiac myocytes, Skeletal muscle cells, Fibroblasts
+Endothelial cells, Epithelial cells, Fibroblasts
+Endothelial cells, Fibroblasts, Cardiac myocytes
+Fibroblasts, Endothelial cells, Smooth muscle cells
+Macrophages, Dendritic cells, Monocytes
+T cells, NK cells, Memory T cells
+NK cells, Cytotoxic T cells, T cells
+Macrophages, Neutrophils, Dendritic cells
+T cells, Memory T cells, NK cells
+B cells, Plasma cells, Memory B cells
+Proximal tubule cells, Collecting duct cells, Interstitial cells
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Endothelial cells, Epithelial cells, Fibroblasts
+Unknown, Unknown, Unknown
+Epithelial cells, Goblet cells, Enterocytes
+Stem cells, Epithelial cells, Enterocytes
+Unknown, Unknown, Unknown
+T cells, Dendritic cells, Macrophages
+Macrophages, Neutrophils, Dendritic cells
+Neuroendocrine cells, Enteroendocrine cells, Chromaffin cells
+Unknown, Unknown, Unknown
+Mast cells, Basophils, Eosinophils
+T cells, NK cells, Memory T cells
+B cells, T cells, Dendritic cells
+Goblet cells, Enterocytes, Paneth cells
+Goblet cells, Enterocytes, Paneth cells
+Fibroblasts, Endothelial cells, Macrophages
+Proliferating cells, Stem cells, Epithelial cells
+B cells, Plasma cells, Memory B cells
+Neurons, Astrocytes, Oligodendrocytes
+Enterocytes, Goblet cells, Paneth cells
+T cells, NK cells, Memory T cells
+Kupffer cells, Hepatocytes, Endothelial cells
+Erythroid cells, Hepatocytes, Endothelial cells
+Neutrophils, Monocytes, Macrophages
+T cells, B cells, NK cells
+Hepatocytes, Endothelial cells, Kupffer cells
+Hepatocytes, Endothelial cells, Kupffer cells
+B cells, Plasma cells, Memory B cells
+T cells, NK cells, Memory T cells
+Dendritic cells, Macrophages, T cells
+Endothelial cells, Kupffer cells, Hepatocytes
+Macrophages, Neutrophils, Dendritic cells
+T cells, B cells, Dendritic cells
+Smooth muscle cells, Endothelial cells, Fibroblasts
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Epithelial cells, Goblet cells, Enterocytes
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Smooth muscle cells, Cardiac myocytes, Endothelial cells
+Immune cells, Dendritic cells, T cells
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Smooth muscle cells, Endothelial cells, Fibroblasts
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Epithelial cells, Goblet cells, Enterocytes
+Unknown, Unknown, Unknown
+Dendritic cells, Macrophages, T cells
+Macrophages, Dendritic cells, Monocytes
+Epithelial cells, Goblet cells, Enterocytes
+Epithelial cells, Goblet cells, Enterocytes
+Epithelial cells, Goblet cells, Enterocytes
+B cells, Plasma cells, Memory B cells
+B cells, Plasma cells, Memory B cells
+Alveolar epithelial cells, Type II pneumocytes, Macrophages
+T cells, NK cells, Memory T cells
+T cells, NK cells, Memory T cells
+T cells, NK cells, Memory T cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Smooth muscle cells, Cardiac myocytes, Endothelial cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Macrophages, Neutrophils, Dendritic cells
+Mast cells, Basophils, Eosinophils
+Macrophages, Neutrophils, Dendritic cells
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Unknown, Unknown, Unknown
+Dendritic cells, Macrophages, T cells
+Keratinocytes, Melanocytes, Fibroblasts
+Secretory cells, Goblet cells, Basal cells
+Macrophages, Dendritic cells, Monocytes
+Macrophages, Dendritic cells, T cells
+Mast cells, Basophils, Eosinophils
+T cells, Dendritic cells, B cells
+Macrophages, Dendritic cells, T cells
+Erythroid cells, Hepatocytes, Endothelial cells
+T cells, NK cells, Memory T cells
+B cells, Plasma cells, Memory B cells
+B cells, Plasma cells, Memory B cells
+T cells, NK cells, Memory T cells
+T cells, NK cells, Memory T cells
+NK cells, Cytotoxic T cells, T cells
+Macrophages, Neutrophils, Dendritic cells
+Dendritic cells, T cells, Macrophages
+Dendritic cells, Macrophages, T cells
+T cells, NK cells, Memory T cells
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Dendritic cells, T cells, Macrophages
+B cells, T cells, Dendritic cells
+Cytotoxic T cells, Helper T cells, NK cells
+T cells, Helper T cells, Memory T cells
+Helper T cells, T cells, Regulatory T cells
+B cells, T cells, Dendritic cells
+T cells, Helper T cells, Memory T cells
+Plasma cells, B cells, Memory B cells
+Neutrophils, Monocytes, Macrophages
+Neutrophils, Monocytes, Macrophages
+NK cells, Cytotoxic T cells, NKT cells
+Macrophages, Microglia, Dendritic cells
+Regulatory T cells, Helper T cells, T cells
+Basal cells, Myoepithelial cells, Luminal cells
+Mast cells, Basophils, Eosinophils
+NK cells, Cytotoxic T cells, Memory T cells
+Lymphatic endothelial cells, Macrophages, Dendritic cells
+Endothelial cells, Pericytes, Fibroblasts
+B cells, Plasma cells, Memory B cells
+Endothelial cells, Pericytes, Fibroblasts
+Smooth muscle cells, Endothelial cells, Fibroblasts
+Smooth muscle cells, Endothelial cells, Cardiac myocytes
+Macrophages, Monocytes, Dendritic cells
+Epithelial cells, Luminal cells, Basal cells
+T cells, Helper T cells, Cytotoxic T cells
+Fibroblasts, Macrophages, Smooth muscle cells
+B cells, T cells, Dendritic cells
+Smooth muscle cells, Cardiac myocytes, Skeletal muscle cells
+Cytotoxic T cells, NK cells, Memory T cells
+Epithelial cells, Basal cells, Luminal cells
+Erythrocytes, Erythroid progenitor cells, Basophils
+Mast cells, Basophils, Eosinophils
+Cardiac myocytes, Skeletal muscle cells, Smooth muscle cells
+Skeletal muscle cells, Cardiac myocytes, Fibroblasts
+Fibroblasts, Chondrocytes, Osteoblasts
+T cells, Helper T cells, Cytotoxic T cells
+Adipocytes, Macrophages, Fibroblasts
+Macrophages, Monocytes, Dendritic cells
+T cells, NK cells, Memory T cells
+T cells, Helper T cells, Cytotoxic T cells
+Vascular smooth muscle cells, Endothelial cells, Fibroblasts
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Fibroblasts, Adipocytes, Smooth muscle cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Adipocytes, Macrophages, Fibroblasts
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Endocrine cells, Exocrine cells, Pancreatic stellate cells
+Endocrine cells, Alpha cells, Beta cells
+Endocrine cells, Alpha cells, Beta cells
+Mast cells, Basophils, Eosinophils
+Endocrine cells, Alpha cells, Beta cells
+B cells, Plasma cells, Memory B cells
+Epithelial cells, Pancreatic acinar cells, Endocrine cells
+B cells, Plasma cells, Memory B cells
+Fibroblasts, Endothelial cells, Pancreatic stellate cells
+NK cells, Cytotoxic T cells, Memory T cells
+Fibroblasts, Smooth muscle cells, Endothelial cells
+Macrophages, Monocytes, Dendritic cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+T cells, Helper T cells, Cytotoxic T cells
+Exocrine cells, Acinar cells, Ductal cells
+Macrophages, Dendritic cells, Monocytes
+T cells, Helper T cells, Cytotoxic T cells
+Secretory cells, Epithelial cells, Goblet cells
+Neutrophils, Monocytes, Macrophages
+Epithelial cells, Secretory cells, Basal cells
+Epithelial cells, Basal cells, Secretory cells
+Epithelial cells, Secretory cells, Basal cells
+Mast cells, Basophils, Eosinophils
+B cells, Plasma cells, Memory B cells
+Smooth muscle cells, Fibroblasts, Endothelial cells
+Epithelial cells, Secretory cells, Basal cells
+Prostate epithelial cells, Secretory cells, Basal cells
+NK cells, T cells, Cytotoxic T cells
+T cells, Helper T cells, Cytotoxic T cells
+Erythrocytes, Erythroid progenitor cells, Basophils
+Cytotoxic T cells, NK cells, Memory T cells
+B cells, Plasma cells, Memory B cells
+Fibroblasts, Smooth muscle cells, Endothelial cells
+Epithelial cells, Secretory cells, Basal cells
+Epithelial cells, Basal cells, Secretory cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Epithelial cells, Secretory cells, Basal cells
+Epithelial cells, Basal cells, Secretory cells
+T cells, Helper T cells, Cytotoxic T cells
+Neutrophils, Monocytes, Macrophages
+Secretory cells, Epithelial cells, Basal cells
+Epithelial cells, Secretory cells, Basal cells
+Macrophages, Monocytes, Dendritic cells
+Proliferating cells, Epithelial cells, Secretory cells
+B cells, Plasma cells, Memory B cells
+Smooth muscle cells, Cardiac myocytes, Skeletal muscle cells
+Macrophages, Monocytes, Dendritic cells
+T cells, Helper T cells, Cytotoxic T cells
+Proliferating cells, Epithelial cells, Secretory cells
+Epithelial cells, Secretory cells, Basal cells
+B cells, Plasma cells, Memory B cells
+B cells, Plasma cells, Memory B cells
+T cells, Helper T cells, Cytotoxic T cells
+Smooth muscle cells, Cardiac myocytes, Skeletal muscle cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Cytotoxic T cell, Natural Killer cell, Memory T cell
+Fibroblast, Mesenchymal stem cell, Endothelial cell
+Endothelial cell, Vascular smooth muscle cell, Platelet
+Salivary gland epithelial cell, Fibroblast, Secretory cell
+Cytotoxic T cell, Memory T cell, Natural Killer cell
+B cell, Plasma cell, Memory B cell
+Dendritic cell, Langerhans cell, Antigen-presenting cell
+B cell, Plasma cell, Memory B cell
+Helper T cell, Regulatory T cell, Memory T cell
+B cell, Plasma cell, Memory B cell
+Secretory cell, Goblet cell, Club cell
+Regulatory T cell, Helper T cell, Memory T cell
+Melanocyte, Dendritic cell, Skin fibroblast
+T cell, Memory T cell, Naive T cell
+Skeletal muscle cell, Cardiac muscle cell, Smooth muscle cell
+Natural Killer cell, Cytotoxic T cell, Memory T cell
+Cardiac muscle cell, Skeletal muscle cell, Smooth muscle cell
+Endothelial cell, Fibroblast, Pericyte
+Fibroblast, Macrophage, Endothelial cell
+Cytotoxic T cell, Memory T cell, Natural Killer cell
+Dendritic cell, Memory T cell, Helper T cell
+T cell, Memory T cell, Naive T cell
+Macrophage, Dendritic cell, Monocyte
+Mast cell, Basophil, Eosinophil
+Smooth muscle cell, Fibroblast, Endothelial cell
+Cytotoxic T cell, Memory T cell, Natural Killer cell
+Dendritic cell, T cell, B cell
+Natural Killer cell, Cytotoxic T cell, Memory T cell
+T cell, Memory T cell, Naive T cell
+Mast cell, Basophil, Eosinophil
+Goblet cell, Secretory cell, Paneth cell
+Mitochondrial cell, Muscle cell, Neuron
+Enteroendocrine cell, Pancreatic cell, Gastric cell
+Hepatocyte, Liver cell, Pancreatic cell
+Intestinal stem cell, Enterocyte, Paneth cell
+Endothelial cell, Smooth muscle cell, Fibroblast
+Endothelial cell, Smooth muscle cell, Pericyte
+Neuroendocrine cell, Chromaffin cell, Enterochromaffin cell
+Fibroblast, Smooth muscle cell, Endothelial cell
+B cell, Plasma cell, Memory B cell
+Goblet cell, Enterocyte, Paneth cell
+Fibroblast, Muscle cell, Stem cell
+B cell, Plasma cell, Memory B cell
+Cytotoxic T cell, Memory T cell, Natural Killer cell
+Goblet cell, Secretory cell, Paneth cell
+Proliferating cell, Cancer cell, Stem cell
+Macrophage, Dendritic cell, Monocyte
+Pancreatic cell, Enterocyte, Goblet cell
+Natural Killer cell, Memory T cell, Cytotoxic T cell
+Epithelial cell, Taste bud cell, Olfactory receptor cell
+Hematopoietic stem cell, Endothelial cell, Monocyte
+Erythrocyte, Reticulocyte, Hematopoietic stem cell
+Regulatory T cell, Helper T cell, Memory T cell
+Platelet, Megakaryocyte, Endothelial cell
+Neutrophil, Eosinophil, Basophil
+T cell, Cytotoxic T cell, Natural Killer cell
+Dendritic cell, Antigen-presenting cell, Macrophage
+B cell, Plasma cell, Memory B cell
+Proliferating cell, Cancer cell, Stem cell
+Cytotoxic T cell, Natural Killer cell, Memory T cell
+Dendritic cell, Antigen-presenting cell, Macrophage
+Cytotoxic T cell, Natural Killer cell, Memory T cell
+Macrophage, Dendritic cell, Monocyte
+T cell, Memory T cell, Naive T cell
+Natural Killer cell, T cell, Memory T cell
+Cytotoxic T cell, Memory T cell, Natural Killer cell
+Neutrophil, Eosinophil, Basophil
+Endothelial cell, Fibroblast, Smooth muscle cell
+T cell, Memory T cell, Naive T cell
+Macrophage, Dendritic cell, Monocyte
+Neutrophil, Eosinophil, Basophil
+B cell, Plasma cell, Memory B cell
+B cell, Plasma cell, Memory B cell
+B cell, Plasma cell, Memory B cell
+B cell, Plasma cell, Memory B cell
+Dendritic cell, Antigen-presenting cell, Macrophage
+T cell, Memory T cell, Naive T cell
+Cytotoxic T cell, Natural Killer cell, Memory T cell
+B cell, Plasma cell, Memory B cell
+Cytotoxic T cell, Natural Killer cell, Memory T cell
+B cell, Plasma cell, Memory B cell
+Hematopoietic stem cell, T cell, Natural Killer cell
+Natural Killer cell, Cytotoxic T cell, Memory T cell
+Cardiac muscle cell, Skeletal muscle cell, Smooth muscle cell
+Dendritic cell, Antigen-presenting cell, Macrophage
+Epithelial cell, Secretory cell, Stem cell
+T cell, Memory T cell, Naive T cell
+Mast cell, Basophil, Eosinophil
+Epithelial cell, Secretory cell, Stem cell
+Macrophage, Dendritic cell, Monocyte
+Endothelial cell, Fibroblast, Smooth muscle cell
+Cytotoxic T cell, Natural Killer cell, Memory T cell
+T cell, Memory T cell, Naive T cell
+Regulatory T cell, Helper T cell, Memory T cell
+T cell, Memory T cell, Naive T cell
+Cytotoxic T cell, Natural Killer cell, Memory T cell
+Proliferating cell, Cancer cell, Stem cell
+Erythrocyte, Reticulocyte, Hematopoietic stem cell
+Epithelial cell, Secretory cell, Stem cell
+B cell, Plasma cell, Memory B cell
+Macrophage, Dendritic Cell, Monocyte
+Smooth Muscle Cell, Vascular Smooth Muscle Cell, Myofibroblast
+Plasma Cell, B Cell, Memory B Cell
+Endothelial Cell, Vascular Endothelial Cell, Capillary Endothelial Cell
+Endothelial Cell, Vascular Endothelial Cell, Pericyte
+Fibroblast, Macrophage, Smooth Muscle Cell
+Neuron, Neural Crest Cell, Endothelial Cell
+Keratinocyte, Epithelial Cell, Skin Stem Cell
+Muscle Cell, Myoblast, Skeletal Muscle Cell
+Oligodendrocyte, Schwann Cell, Neural Crest Cell
+Endothelial Cell, Lymphatic Endothelial Cell, Vascular Endothelial Cell
+Endothelial Cell, Vascular Endothelial Cell, Hematopoietic Stem Cell
+Endothelial Cell, Vascular Endothelial Cell, Pericyte
+Fibroblast, Extracellular Matrix Cell, Myofibroblast
+T Cell, B Cell, Immune Cell
+Keratinocyte, Epithelial Cell, Skin Stem Cell
+B Cell, Plasma Cell, Memory B Cell
+Pericyte, Vascular Smooth Muscle Cell, Fibroblast
+Fibroblast, Mesenchymal Stem Cell, Endothelial Cell
+Goblet Cell, Epithelial Cell, Mucous Cell
+T Cell, B Cell, Immune Cell
+Neutrophil, Myeloid Cell, Immune Cell
+T Cell, Helper T Cell, Cytotoxic T Cell
+B Cell, Plasma Cell, Memory B Cell
+Neutrophil, Myeloid Cell, Immune Cell
+T Cell, Cytotoxic T Cell, Helper T Cell
+B Cell, Plasma Cell, Memory B Cell
+Epithelial Cell, Goblet Cell, Mucous Cell
+Mast Cell, Basophil, Immune Cell
+Keratinocyte, Epithelial Cell, Skin Stem Cell
+Macrophage, Dendritic Cell, Monocyte
+Fibroblast, Extracellular Matrix Cell, Myofibroblast
+Endothelial Cell, Vascular Endothelial Cell, Capillary Endothelial Cell
+Pericyte, Vascular Smooth Muscle Cell, Fibroblast
+Goblet Cell, Mucous Cell, Epithelial Cell
+Epithelial Cell, Goblet Cell, Mucous Cell
+Epithelial Cell, Goblet Cell, Mucous Cell
+T Cell, Helper T Cell, Cytotoxic T Cell
+Ciliated Cell, Epithelial Cell, Goblet Cell
+Epithelial Cell, Endometrial Cell, Stem Cell
+Smooth Muscle Cell, Vascular Smooth Muscle Cell, Myofibroblast
+B Cell, Plasma Cell, Memory B Cell
+Natural Killer Cell, T Cell, Immune Cell
+Smooth Muscle Cell, Myofibroblast, Vascular Smooth Muscle Cell
+Endothelial Cell, Vascular Endothelial Cell, Lymphatic Endothelial Cell
+Proliferating Cell, Cancer Cell, Stem Cell
+T Cell, Helper T Cell, Cytotoxic T Cell
+Epithelial Cell, Mucous Cell, Stem Cell
+Fibroblast, Endothelial Cell, Smooth Muscle Cell
+Proliferating Cell, Cancer Cell, Stem Cell
+Macrophage, Dendritic Cell, Monocyte
+Fibroblast, Extracellular Matrix Cell, Myofibroblast
+Endothelial Cell, Vascular Endothelial Cell, Pericyte
+Endothelial Cell, Vascular Endothelial Cell, Lymphatic Endothelial Cell
+B Cell, Plasma Cell, Memory B Cell
+Natural Killer Cell, T Cell, Immune Cell
+B Cell, Plasma Cell, Memory B Cell
+Mast Cell, Basophil, Immune Cell
+T Cell, Helper T Cell, Cytotoxic T Cell
+Smooth Muscle Cell, Fibroblast, Endothelial Cell
+Macrophage, Dendritic Cell, Monocyte
+Macrophage, Dendritic Cell, Monocyte
+Smooth Muscle Cell, Vascular Smooth Muscle Cell, Myofibroblast
+Fibroblast, Extracellular Matrix Cell, Myofibroblast
+Endothelial Cell, Vascular Endothelial Cell, Capillary Endothelial Cell
+Erythrocyte, Red Blood Cell, Hematopoietic Cell
+Epithelial Cell, Goblet Cell, Mucous Cell

@@ -1,0 +1,18 @@
+tools:
+  - name: "scanpy_clustering"
+    description: "Performs Leiden clustering on spatial data"
+    parameters: ["resolution", "n_neighbors"]
+  - name: "spatial_plot"
+    description: "Generates spatial scatter plots for gene expression"
+    parameters: ["gene_list", "spot_size"]
+  - name: "image_segmentation"
+    description: "Segments nuclei from H&E images"
+    parameters: ["model_weights"]
+
+sub_agents:
+  - role: "Coder"
+    model: "gpt-4-turbo"
+    permissions: ["execute_python"]
+  - role: "Biologist"
+    model: "claude-3-opus"
+    permissions: ["internet_search", "read_literature"]

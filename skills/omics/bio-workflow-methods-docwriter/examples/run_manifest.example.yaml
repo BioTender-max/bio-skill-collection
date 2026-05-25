@@ -1,0 +1,59 @@
+run_id: example-2026-02-02T120000Z
+workflow_summary: "Example: RNA-seq quantification pipeline from FASTQ to gene counts\
+  \ using QC\u2192trim\u2192align/quant\u2192summarize."
+workflow:
+  engine: nextflow
+  engine_version: 25.10.3
+  pipeline:
+    name: nf-core/rnaseq
+    version: 3.14.0
+    repo_url: https://github.com/nf-core/rnaseq
+    commit_sha: abcdef1234567890
+    launch_command: nextflow run nf-core/rnaseq -r 3.14.0 -profile docker --input
+      samplesheet.csv --outdir results
+  execution:
+    start_time: '2026-02-02T04:00:00Z'
+    end_time: '2026-02-02T06:30:00Z'
+    workdir: work
+    profile: docker
+inputs:
+- name: samplesheet.csv
+  uri: file://samplesheet.csv
+  checksum: sha256:...
+  notes: Sample sheet for 12 libraries
+software:
+  tools:
+  - name: nextflow
+    version: 25.10.3
+    source: nextflow.io
+  containers:
+  - image: quay.io/nf-core/rnaseq
+    digest: sha256:...
+    notes: Pinned image digest
+steps:
+- step_id: '1'
+  name: FastQC
+  status: COMPLETED
+  command: fastqc ...
+  tool: FastQC
+  tool_version: 0.12.1
+  outputs:
+  - results/fastqc/*.html
+- step_id: '2'
+  name: Trim Galore
+  status: COMPLETED
+  command: trim_galore ...
+  tool: Trim Galore
+  tool_version: 0.6.10
+qc_steps:
+- MultiQC summary inspected; per-sample adapter content <5% after trimming
+outputs:
+- results/multiqc/multiqc_report.html
+- results/star/*
+- results/salmon/*
+limitations: Example only.
+evidence:
+- trace.txt
+- report.html
+- timeline.html
+- pipeline_info/software_versions.yml

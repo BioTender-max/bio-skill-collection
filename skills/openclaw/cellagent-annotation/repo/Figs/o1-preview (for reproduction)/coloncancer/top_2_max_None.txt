@@ -1,0 +1,7 @@
+"Colon epithelial cells, Goblet cells"
+"Enterocytes, Enteroendocrine cells"
+"Fibroblasts, Smooth muscle cells"
+"Macrophages, Neutrophils"
+"T cells, NKT cells"
+"Plasma cells, B cells"
+"Mast cells, Basophils"

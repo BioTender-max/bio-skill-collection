@@ -1,0 +1,466 @@
+T cell, NK cell, B cell
+Unknown, Unknown, Unknown
+B cell, T cell, APC
+Endothelial cell, Smooth muscle cell, Fibroblast
+Endothelial cell, Epithelial cell, Fibroblast
+T cell, NK cell, Cytotoxic T cell
+Mast cell, Basophil, Eosinophil
+B cell, Plasma cell, Memory B cell
+Epithelial cell, Smooth muscle cell, Fibroblast
+Smooth muscle cell, Cardiac muscle cell, Skeletal muscle cell
+Endothelial cell, Smooth muscle cell, Fibroblast
+Epithelial cell, Stem cell, Cancer cell
+Fibroblast, Endothelial cell, Smooth muscle cell
+Macrophage, Dendritic cell, Monocyte
+Smooth muscle cell, Fibroblast, Endothelial cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Mast cell, Basophil, Eosinophil
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Platelet, Megakaryocyte, Erythrocyte
+Macrophage, Monocyte, Dendritic cell
+B cell, Plasma cell, Memory B cell
+Erythrocyte, Hemoglobin-producing cell, Stem cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Neutrophil, Monocyte, Macrophage
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Erythrocyte, Megakaryocyte, Hematopoietic stem cell
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Neutrophil, Monocyte, Macrophage
+Macrophage, Dendritic cell, Monocyte
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Hematopoietic stem cell, Erythrocyte, Endothelial cell
+B cell, Plasma cell, Memory B cell
+Neutrophil, Eosinophil, Basophil
+T cell, NK cell, Cytotoxic T cell
+Erythrocyte, Hemoglobin-producing cell, Stem cell
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+Macrophage, Dendritic cell, Monocyte
+Macrophage, Dendritic cell, Monocyte
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+Macrophage, Dendritic cell, Monocyte
+Erythrocyte, Hemoglobin-producing cell, Stem cell
+Proliferating cell, Cancer cell, Stem cell
+T cell, B cell, NK cell
+Mast cell, Basophil, Eosinophil
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Muscle cell, Myocyte, Cardiac muscle cell
+Neuron, Neural stem cell, Muscle cell
+Muscle cell, Myocyte, Cardiac muscle cell
+Melanocyte, Stem cell, Epithelial cell
+Photoreceptor cell, Retinal pigment epithelium, Neuron
+Epithelial cell, Stem cell, Cancer cell
+Epithelial cell, Stem cell, Cancer cell
+Epithelial cell, Stem cell, Cancer cell
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Endothelial cell, Epithelial cell, Fibroblast
+Unknown, Unknown, Unknown
+Epithelial cell, Stem cell, Cancer cell
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Muscle cell, Myocyte, Cardiac muscle cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Neutrophil, Monocyte, Macrophage
+T cell, NK cell, Cytotoxic T cell
+Macrophage, Dendritic cell, Monocyte
+T cell, NK cell, Cytotoxic T cell
+Endothelial cell, Smooth muscle cell, Fibroblast
+Unknown, Unknown, Unknown
+Smooth muscle cell, Fibroblast, Endothelial cell
+Endothelial cell, Cardiac muscle cell, Fibroblast
+Cardiac muscle cell, Myocyte, Stem cell
+Endothelial cell, Epithelial cell, Fibroblast
+Endothelial cell, Smooth muscle cell, Fibroblast
+Epithelial cell, Stem cell, Cancer cell
+Macrophage, Dendritic cell, Monocyte
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Macrophage, Dendritic cell, Monocyte
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+Endothelial cell, Smooth muscle cell, Fibroblast
+Endothelial cell, Epithelial cell, Fibroblast
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Stem cell, Epithelial cell, Cancer cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Mast cell, Basophil, Eosinophil
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+Epithelial cell, Stem cell, Cancer cell
+Epithelial cell, Stem cell, Cancer cell
+Epithelial cell, Stem cell, Cancer cell
+Proliferating cell, Cancer cell, Stem cell
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Macrophage, Dendritic cell, Monocyte
+Erythrocyte, Hemoglobin-producing cell, Stem cell
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Epithelial cell, Stem cell, Cancer cell
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+B cell, T cell, NK cell
+Smooth muscle cell, Fibroblast, Endothelial cell
+Endothelial cell, Epithelial cell, Fibroblast
+Endothelial cell, Epithelial cell, Fibroblast
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Muscle cell, Myocyte, Cardiac muscle cell
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Muscle cell, Myocyte, Cardiac muscle cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Mast cell, Basophil, Eosinophil
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Macrophage, Dendritic cell, Monocyte
+Mast cell, Basophil, Eosinophil
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Erythrocyte, Hemoglobin-producing cell, Stem cell
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+B cell, Plasma cell, Memory B cell
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Macrophage, Dendritic cell, Monocyte
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+Macrophage, Dendritic cell, Monocyte
+Macrophage, Dendritic cell, Monocyte
+T cell, NK cell, Cytotoxic T cell
+Macrophage, Dendritic cell, Monocyte
+T cell, NK cell, Cytotoxic T cell
+Epithelial cell, Stem cell, Cancer cell
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Endothelial cell, Epithelial cell, Fibroblast
+B cell, Plasma cell, Memory B cell
+Endothelial cell, Epithelial cell, Fibroblast
+Smooth muscle cell, Fibroblast, Endothelial cell
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Epithelial cell, Stem cell, Cancer cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+Muscle cell, Myocyte, Cardiac muscle cell
+T cell, NK cell, Cytotoxic T cell
+Muscle cell, Myocyte, Cardiac muscle cell
+Erythrocyte, Hemoglobin-producing cell, Stem cell
+Mast cell, Basophil, Eosinophil
+Muscle cell, Myocyte, Cardiac muscle cell
+Muscle cell, Myocyte, Cardiac muscle cell
+Muscle cell, Myocyte, Cardiac muscle cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Smooth muscle cell, Fibroblast, Endothelial cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Endothelial cell, Epithelial cell, Fibroblast
+Endothelial cell, Epithelial cell, Fibroblast
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Mast cell, Basophil, Eosinophil
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Macrophage, Dendritic cell, Monocyte
+Macrophage, Dendritic cell, Monocyte
+Endothelial cell, Epithelial cell, Fibroblast
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Mast cell, Basophil, Eosinophil
+B cell, Plasma cell, Memory B cell
+Smooth muscle cell, Fibroblast, Endothelial cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Erythrocyte, Hemoglobin-producing cell, Stem cell
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Endothelial cell, Epithelial cell, Fibroblast
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+Muscle cell, Myocyte, Cardiac muscle cell
+Macrophage, Dendritic cell, Monocyte
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+Muscle cell, Myocyte, Cardiac muscle cell
+Endothelial cell, Epithelial cell, Fibroblast
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Endothelial cell, Epithelial cell, Fibroblast
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+Epithelial cell, Stem cell, Cancer cell
+T cell, NK cell, Cytotoxic T cell
+Melanocyte, Stem cell, Epithelial cell
+T cell, NK cell, Cytotoxic T cell
+Muscle cell, Myocyte, Cardiac muscle cell
+T cell, NK cell, Cytotoxic T cell
+Muscle cell, Myocyte, Cardiac muscle cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Macrophage, Dendritic cell, Monocyte
+Mast cell, Basophil, Eosinophil
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Mast cell, Basophil, Eosinophil
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Epithelial cell, Stem cell, Cancer cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Endothelial cell, Epithelial cell, Fibroblast
+Endothelial cell, Epithelial cell, Fibroblast
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Epithelial cell, Stem cell, Cancer cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Erythrocyte, Hemoglobin-producing cell, Stem cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Dendritic cell, Macrophage, Monocyte
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Macrophage, Dendritic cell, Monocyte
+T cell, NK cell, Cytotoxic T cell
+Macrophage, Dendritic cell, Monocyte
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Endothelial cell, Epithelial cell, Fibroblast
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+B cell, Plasma cell, Memory B cell
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Muscle cell, Myocyte, Cardiac muscle cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Mast cell, Basophil, Eosinophil
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Endothelial cell, Epithelial cell, Fibroblast
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Erythrocyte, Hemoglobin-producing cell, Stem cell
+Epithelial cell, Stem cell, Cancer cell
+B cell, Plasma cell, Memory B cell
+Macrophage, Dendritic cell, Monocyte
+Smooth muscle cell, Fibroblast, Endothelial cell
+B cell, Plasma cell, Memory B cell
+Endothelial cell, Epithelial cell, Fibroblast
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Muscle cell, Myocyte, Cardiac muscle cell
+Unknown, Unknown, Unknown
+Endothelial cell, Epithelial cell, Fibroblast
+Endothelial cell, Epithelial cell, Fibroblast
+Endothelial cell, Epithelial cell, Fibroblast
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+Unknown, Unknown, Unknown
+Mast cell, Basophil, Eosinophil
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Unknown, Unknown, Unknown
+Endothelial cell, Epithelial cell, Fibroblast
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+Muscle cell, Myocyte, Cardiac muscle cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Endothelial cell, Smooth muscle cell, Fibroblast
+B cell, Plasma cell, Memory B cell
+T cell, NK cell, Cytotoxic T cell
+B cell, Plasma cell, Memory B cell
+Mast cell, Basophil, Eosinophil
+T cell, NK cell, Cytotoxic T cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Macrophage, Dendritic cell, Monocyte
+Smooth muscle cell, Fibroblast, Endothelial cell
+Unknown, Unknown, Unknown
+Endothelial cell, Epithelial cell, Fibroblast
+Erythrocyte, Hemoglobin-producing cell, Stem cell
+Unknown, Unknown, Unknown

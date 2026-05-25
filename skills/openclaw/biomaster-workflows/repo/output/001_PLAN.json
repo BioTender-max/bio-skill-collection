@@ -1,0 +1,62 @@
+{
+    "plan": [
+        {
+            "step_number": 1,
+            "description": "Align the paired-end sequencing reads to the reference genome using BWA-MEM. Although the input files are labeled as RNA-seq, for this WGS/WES somatic variant analysis we will align the reads provided in the fastq files to the small genome reference. This step creates a SAM file with the alignment information that is needed for downstream processing.",
+            "input_filename": [
+                "./data/rnaseq_1.fastq.gz: RNA-Seq read 1 data (left read)",
+                "./data/rnaseq_2.fastq.gz: RNA-Seq read 2 data (right read)",
+                "./data/minigenome.fa: small genome sequence consisting of ~750 genes."
+            ],
+            "output_filename": [
+                "./output/001/aligned_reads.sam: SAM file of paired-end aligned reads"
+            ],
+            "tools": "BWA-MEM"
+        },
+        {
+            "step_number": 2,
+            "description": "Convert the SAM file to a BAM file using samtools. Converting to BAM provides a compressed binary format that is more efficient for storage and faster for downstream analyses.",
+            "input_filename": [
+                "./output/001/aligned_reads.sam: SAM file of paired-end aligned reads"
+            ],
+            "output_filename": [
+                "./output/001/aligned_reads.bam: BAM file of paired-end aligned reads"
+            ],
+            "tools": "samtools"
+        },
+        {
+            "step_number": 3,
+            "description": "Sort the BAM file using the samtools sort command to organize the alignment records by genomic coordinates. Sorting is a prerequisite for many downstream processing steps, including duplicate marking and variant calling.",
+            "input_filename": [
+                "./output/001/aligned_reads.bam: BAM file of paired-end aligned reads"
+            ],
+            "output_filename": [
+                "./output/001/sorted_aligned_reads.bam: Sorted BAM file of paired-end aligned reads"
+            ],
+            "tools": "samtools"
+        },
+        {
+            "step_number": 4,
+            "description": "Mark duplicate reads using GATK. Duplicate marking is important in somatic variant calling to reduce the impact of PCR duplicates on variant detection. This step will generate a deduplicated BAM file suitable for accurate variant calling.",
+            "input_filename": [
+                "./output/001/sorted_aligned_reads.bam: Sorted BAM file of paired-end aligned reads"
+            ],
+            "output_filename": [
+                "./output/001/dedup_sorted_aligned_reads.bam: Deduplicated sorted BAM file"
+            ],
+            "tools": "GATK"
+        },
+        {
+            "step_number": 5,
+            "description": "Call somatic SNVs and indels using GATK's Mutect2. In this step, the deduplicated BAM file and the reference genome are used to identify somatic variants. Mutect2 will produce a VCF file containing candidate somatic SNVs and indels. Further filtration steps can be applied after this to remove artifacts.",
+            "input_filename": [
+                "./output/001/dedup_sorted_aligned_reads.bam: Deduplicated sorted BAM file",
+                "./data/minigenome.fa: small genome sequence consisting of ~750 genes."
+            ],
+            "output_filename": [
+                "./output/001/somatic_variants.vcf: VCF file with called somatic SNVs and indels"
+            ],
+            "tools": "GATK"
+        }
+    ]
+}

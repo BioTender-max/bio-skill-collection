@@ -1,0 +1,37 @@
+# Biomarker Signature Studio configuration template
+#
+# Copy this file, edit values, and pass via:
+#   python scripts/biomarker_signature_studio.py --config your_config.yaml
+
+expression: data/expression.csv
+metadata: data/metadata.csv
+label_column: phenotype
+id_column: sample_id
+feature_list: null   # Optional text file with one gene per line
+output_dir: outputs/biomarker_run
+
+selectors:
+  - boruta
+  - lasso
+  - mrmr
+  - mi_topk
+
+models:
+  - logit
+  - rf
+  - xgb
+
+k_features: 75
+nested_folds: 5
+inner_folds: 3
+test_size: 0.2
+random_state: 42
+survival: true
+shap_sample_size: 500
+max_features: 250
+min_features: 5
+bootstraps: 200
+
+# Optional class column for stratification other than label
+strata_column: null
+

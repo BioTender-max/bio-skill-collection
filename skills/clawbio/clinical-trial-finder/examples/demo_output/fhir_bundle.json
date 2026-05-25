@@ -1,0 +1,1458 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "timestamp": "2026-03-19T16:48:46+00:00",
+  "total": 20,
+  "entry": [
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT00555503",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT00555503",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT00555503"
+          }
+        ],
+        "title": "Registry of Mastectomy for Breast Cancer Risk Reduction",
+        "status": "completed",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "OBSERVATIONAL",
+                "display": "Observational"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D020022",
+                "display": "Genetic Predisposition to Disease"
+              }
+            ],
+            "text": "Genetic Predisposition to Disease"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D000275",
+                "display": "Adjustment Disorders"
+              }
+            ],
+            "text": "Adjustment Disorders"
+          }
+        ],
+        "description": "This is a registry for patients who have a risk-reduction mastectomy (\"prophylactic mastectomy\") due to being at high risk for developing breast cancer, followed by breast reconstruction. Eligible patients include those who have a breast cancer-related gene, a strong family history of breast cancer,...",
+        "period": {
+          "start": "2007-11",
+          "end": "2014-01"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT01102569",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT01102569",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT01102569"
+          }
+        ],
+        "title": "Pancreatic Cancer Genetics",
+        "status": "active",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "OBSERVATIONAL",
+                "display": "Observational"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D010190",
+                "display": "Pancreatic Neoplasms"
+              }
+            ],
+            "text": "Pancreatic Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "C535837",
+                "display": "Pancreatic carcinoma, familial"
+              }
+            ],
+            "text": "Pancreatic carcinoma, familial"
+          }
+        ],
+        "description": "The aim of this study is to determine the frequency of the three most common BReast CAncer gene 1 (BRCA1) and BReast CAncer gene 2 (BRCA2) genetic mutations that are commonly found in Ashkenazi Jewish patients with pancreatic cancer. Testing for BRCA1 and BRCA2 mutations in relatives of hereditary p...",
+        "period": {
+          "start": "2008-01",
+          "end": "2027-12"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT04584255",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT04584255",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT04584255"
+          }
+        ],
+        "title": "Niraparib + Dostarlimab In BRCA Mutated Breast Cancer",
+        "status": "active",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-2",
+              "display": "Phase 2"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "INTERVENTIONAL",
+                "display": "Interventional"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Niraparib"
+          },
+          {
+            "text": "Dostarlimab"
+          }
+        ],
+        "description": "This research study involves pre-operative therapy that is specifically targeted for breast cancer in individuals with BRCA and PALB2 mutations.\n\nThe names of the study drugs involved in this study are:\n\n* Niraparib (Zejula)\n* Dostarlimab",
+        "period": {
+          "start": "2020-12-18",
+          "end": "2029-07-17"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT03475979",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT03475979",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT03475979"
+          }
+        ],
+        "title": "Abbreviated Breast MRI for Second Breast Cancer Detection in Women With BRCA Mutation Testing",
+        "status": "in-review",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "OBSERVATIONAL",
+                "display": "Observational"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D016609",
+                "display": "Neoplasms, Second Primary"
+              }
+            ],
+            "text": "Neoplasms, Second Primary"
+          }
+        ],
+        "description": "Study Purpose:\n\nA multicenter prospective study to evaluate the outcome of second breast cancer surveillance with abbreviated breast MR (AB-MR) or ultrasound (US) in addition to annual mammography in women with BRCA1/2 mutation testing\n\nStudy Scheme:\n\n* AB-MR, US, and digital mammography will be per...",
+        "period": {
+          "start": "2018-05-01",
+          "end": "2022-06"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT02365805",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT02365805",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT02365805"
+          }
+        ],
+        "title": "Randomized CT to Evaluate Efficacy of Neoadjuvant Chemotherapy Customized by Levels of BRCA1-HER2 Negative Breast Cancer",
+        "status": "completed",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-2",
+              "display": "Phase 2"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "INTERVENTIONAL",
+                "display": "Interventional"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Epirubicin + Ciclofosfamide + Fluorouracil + Paclitaxel"
+          },
+          {
+            "text": "Epirubicin + Cisplatin + Fluorouracil"
+          },
+          {
+            "text": "Docetaxel + Ciclofosfamide"
+          }
+        ],
+        "description": "Neoadjuvant chemotherapy (NAC) is increasingly used for early-stage operable breast cancer. Response of breast cancer to NAC is correlated with survival: patients who obtain greatest survival advantage are those who attain complete response of their primary tumor. BReast Cancer 1 (BRCA1) plays a cru...",
+        "period": {
+          "start": "2014-04",
+          "end": "2016-10-10"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT04296370",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT04296370",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT04296370"
+          }
+        ],
+        "title": "A Study of Fluzoparib\u00b1Apatinib Versus Chemotherapy Treatment of Physician's Choice in HER2-negative Metastatic Breast Cancer Patients With Germline BRCA Mutation",
+        "status": "in-review",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-3",
+              "display": "Phase 3"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "INTERVENTIONAL",
+                "display": "Interventional"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "text": "Treatment in HER2-negative Metastatic Breast Cancer Patients With Germline BRCA Mutation"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Fluzoparib; Apatinib"
+          },
+          {
+            "text": "Fluzoparib"
+          },
+          {
+            "text": "Physician's choice chemotherapy"
+          }
+        ],
+        "description": "This is a multicenter, randomized, open-label, 3-arm Phase 3 study to evaluate the efficacy and safety of Fluzoparib alone or with Apatinib versus Physicians Choice Chemotherapy, as treatment, in patients with a Germline BRCA Mutation and HER2-negative Metastatic Breast Cancer. The study contains a ...",
+        "period": {
+          "start": "2020-07-13",
+          "end": "2025-06-30"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT03495609",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT03495609",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT03495609"
+          }
+        ],
+        "title": "Use of Recombinant hCG to Prevent Breast Cancer in BRCA1 and BRCA2 Carriers",
+        "status": "completed",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-4",
+              "display": "Phase 4"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "INTERVENTIONAL",
+                "display": "Interventional"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "text": "hCG"
+          },
+          {
+            "text": "BRCA1 Mutation"
+          },
+          {
+            "text": "BRCA2 Mutation"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Ovitrelle"
+          }
+        ],
+        "description": "Specific aim: To establish the proof of principle that treatment of \"high breast cancer risk\" women with recombinant human chorionic gonadotropin (r-hCG) will change their breast epithelium's high risk genomic profile to one similar to that identified in women with a history of early full first term...",
+        "period": {
+          "start": "2016-02-17",
+          "end": "2018-12-18"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT04150042",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT04150042",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT04150042"
+          }
+        ],
+        "title": "SHARON: A Clinical Trial for Metastatic Cancer Using Chemotherapy and Patients' Own Stem Cells",
+        "status": "active",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-1",
+              "display": "Phase 1"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "INTERVENTIONAL",
+                "display": "Interventional"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D010190",
+                "display": "Pancreatic Neoplasms"
+              }
+            ],
+            "text": "Pancreatic Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D009362",
+                "display": "Neoplasm Metastasis"
+              }
+            ],
+            "text": "Neoplasm Metastasis"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D012008",
+                "display": "Recurrence"
+              }
+            ],
+            "text": "Recurrence"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Melphalan"
+          },
+          {
+            "text": "BCNU"
+          },
+          {
+            "text": "Vitamin B12B"
+          },
+          {
+            "text": "Vitamin C"
+          },
+          {
+            "text": "Autologous Hematopoietic Stem Cells"
+          }
+        ],
+        "description": "The clinical trial is a phase 1, single-arm trial that will evaluate the safety of the investigational treatment on metastatic pancreatic cancer and metastatic breast cancer. The investigational treatment will involve 2 cycles of a combination of intravenous melphalan, BCNU, vitamin B12b, and vitami...",
+        "period": {
+          "start": "2021-01-13",
+          "end": "2028-12"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT00823654",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT00823654",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT00823654"
+          }
+        ],
+        "title": "Serum Biomarkers to Characterize the Effects of Therapy on Ovarian Reserve in Premenopausal Women With Early-stage Breast Cancer or BRCA Mutations",
+        "status": "active",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "OBSERVATIONAL",
+                "display": "Observational"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Blood draw and questionnaires"
+          },
+          {
+            "text": "Blood draw and questionnaires"
+          }
+        ],
+        "description": "The purpose of this study is to learn more about the effects of your BRCA mutation on the ovaries. The BRCA gene can make it hard to conceive a child in the future. It may also bring on early menopause. The researchers will check blood levels of hormones that the ovaries produce. The hormones that r...",
+        "period": {
+          "start": "2009-01",
+          "end": "2027-01"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT05763472",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT05763472",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT05763472"
+          }
+        ],
+        "title": "Breast Cancer After Ovarian Cancer During and/or After Therapy: Genomic Evaluation",
+        "status": "in-review",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "OBSERVATIONAL",
+                "display": "Observational"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D010051",
+                "display": "Ovarian Neoplasms"
+              }
+            ],
+            "text": "Ovarian Neoplasms"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Next-generation sequencing (NGS) assay TruSight Oncology 500 (TSO 500)."
+          }
+        ],
+        "description": "This study will investigate, in patients with germline BRCA-1/2 mutations and breast cancer, arising during and / or after treatment with platinum-based chemotherapy and / or with PARP-inhibitors for ovarian cancer, the presence of molecular alterations potentially involved in the mechanisms of resi...",
+        "period": {
+          "start": "2022-03-01",
+          "end": "2023-06-01"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT02418624",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT02418624",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT02418624"
+          }
+        ],
+        "title": "Phase I of Carboplatin-Olaparib Followed by Olaparib Monotherapy in Advanced Cancer",
+        "status": "completed",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-1",
+              "display": "Phase 1"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "INTERVENTIONAL",
+                "display": "Interventional"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D010051",
+                "display": "Ovarian Neoplasms"
+              }
+            ],
+            "text": "Ovarian Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "C563980",
+                "display": "Fanconi Anemia, Complementation Group D1"
+              }
+            ],
+            "text": "Fanconi Anemia, Complementation Group D1"
+          }
+        ],
+        "focus": [
+          {
+            "text": "carboplatin, olaparib"
+          }
+        ],
+        "description": "A phase I trial to determine the recommended phase two dose of the combination of carboplatin and olaparib.",
+        "period": {
+          "start": "2015-05",
+          "end": "2019-01"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT05409222",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT05409222",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT05409222"
+          }
+        ],
+        "title": "Study of Quality of Life Post Salpingo-oophorectomy in BRCA1/2 & PALB2 Mutation Carriers (BRCA-HRT)",
+        "status": "in-review",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "OBSERVATIONAL",
+                "display": "Observational"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D061325",
+                "display": "Hereditary Breast and Ovarian Cancer Syndrome"
+              }
+            ],
+            "text": "Hereditary Breast and Ovarian Cancer Syndrome"
+          }
+        ],
+        "description": "1. Premenopausal BRCA1 / 2 or PALB2 gene mutation carriers who receive hormone replacement therapy (HRT) after preventive salpingo-oophorectomy (PBSO) have a better quality of sexual, psychological, cardiovascular and bone health than carriers who decline HRT.\n2. Premenopausal mutation carriers trea...",
+        "period": {
+          "start": "2020-03-12",
+          "end": "2023-10"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT01506609",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT01506609",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT01506609"
+          }
+        ],
+        "title": "Study Evaluating Efficacy And Tolerability Of Veliparib in Combination With Temozolomide (TMZ) or In Combination With Carboplatin and Paclitaxel Versus Placebo in Participants With Breast Cancer Gene (BRCA)1 and BRCA2 Mutation and Metastatic Breast Cancer",
+        "status": "completed",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-2",
+              "display": "Phase 2"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "INTERVENTIONAL",
+                "display": "Interventional"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Placebo"
+          },
+          {
+            "text": "Veliparib"
+          },
+          {
+            "text": "Carboplatin"
+          },
+          {
+            "text": "Temozolomide"
+          },
+          {
+            "text": "Paclitaxel"
+          }
+        ],
+        "description": "The primary objective of the study is to assess the progression-free survival (PFS) of oral veliparib in combination with TMZ or in combination with carboplatin and paclitaxel compared to placebo plus carboplatin and paclitaxel in subjects with BRCA1 or BRCA2 mutation and locally recurrent or metast...",
+        "period": {
+          "start": "2012-01-23",
+          "end": "2020-09-02"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT00897455",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT00897455",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT00897455"
+          }
+        ],
+        "title": "Studying Breast Cancer Risk in Women Who Are BRCA1/BRCA2 Mutation Carriers",
+        "status": "in-review",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "OBSERVATIONAL",
+                "display": "Observational"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          }
+        ],
+        "focus": [
+          {
+            "text": "DNA analysis"
+          },
+          {
+            "text": "mutation analysis"
+          },
+          {
+            "text": "polymorphism analysis"
+          },
+          {
+            "text": "laboratory biomarker analysis"
+          },
+          {
+            "text": "evaluation of cancer risk factors"
+          }
+        ],
+        "description": "RATIONALE: Studying samples of DNA in the laboratory from women who are BRCA1/BRCA2 mutation carriers may help doctors learn more about cancer and identify biomarkers related to cancer.\n\nPURPOSE: This research study is looking at breast cancer risk in women who are BRCA1/BRCA2 mutation carriers.",
+        "period": {
+          "start": "2008-04"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT04474834",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT04474834",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT04474834"
+          }
+        ],
+        "title": "Genetic Risk Estimations for Influencing Decision Making in Women at High Risk of Breast Cancer, GENRE 2 Study",
+        "status": "active",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "OBSERVATIONAL",
+                "display": "Observational"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Polygenic Risk Score"
+          }
+        ],
+        "description": "The primary aim of this study is to determine if the addition of an individual polygenic risk score (PRS) in addition to the Breast Cancer Risk Assessment Tool (BCRAT) or Tyrer-Cuzick (IBIS) score will aid women at risk of breast cancer in making a decision to take (or not take) medications to preve...",
+        "period": {
+          "start": "2019-10-17",
+          "end": "2029-12-15"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT06792721",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT06792721",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT06792721"
+          }
+        ],
+        "title": "MEASUREMENT OF CIRCULATING MUTATION BURDEN",
+        "status": "active",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "OBSERVATIONAL",
+                "display": "Observational"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Mutation Burden cfMB analysis"
+          }
+        ],
+        "description": "Cancer-free women with a hereditary predisposition to breast and/or ovarian cancer",
+        "period": {
+          "start": "2025-07-04",
+          "end": "2027-12-30"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT05485766",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT05485766",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT05485766"
+          }
+        ],
+        "title": "Novel Neoadjuvant and Adjuvant Strategy for Germline BRCA 1/2 Mutated Triple Negative Breast Cancer",
+        "status": "active",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-2",
+              "display": "Phase 2"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "INTERVENTIONAL",
+                "display": "Interventional"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D064726",
+                "display": "Triple Negative Breast Neoplasms"
+              }
+            ],
+            "text": "Triple Negative Breast Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "C563980",
+                "display": "Fanconi Anemia, Complementation Group D1"
+              }
+            ],
+            "text": "Fanconi Anemia, Complementation Group D1"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Pembrolizumab"
+          },
+          {
+            "text": "Paclitaxel"
+          },
+          {
+            "text": "Carboplatin"
+          },
+          {
+            "text": "Olaparib"
+          },
+          {
+            "text": "Definitive Surgery"
+          }
+        ],
+        "description": "This is a Phase II, single-arm, open label study to evaluate Olaparib plus Pembrolizumab following platinum-based chemotherapy plus Pembrolizumab as neoadjuvant therapy for germline BRCA (gBRCA) 1/2 mutated triple negative breast cancer (TNBC).\n\nPembrolizumab in combination with weekly paclitaxel an...",
+        "period": {
+          "start": "2024-07-16",
+          "end": "2028-09-30"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT02985658",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT02985658",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT02985658"
+          }
+        ],
+        "title": "Expanded Access With ABT-888 (Veliparib) to Treat Metastatic Breast Cancer",
+        "status": "in-review",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "EXPANDED_ACCESS",
+                "display": "Expanded Access"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D064726",
+                "display": "Triple Negative Breast Neoplasms"
+              }
+            ],
+            "text": "Triple Negative Breast Neoplasms"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Veliparib"
+          },
+          {
+            "text": "Cisplatin"
+          },
+          {
+            "text": "Vinorelbine"
+          }
+        ],
+        "description": "This is an expanded access protocol to allow continued maintenance therapy with ABT-888 (veliparib) for three patients with metastatic triple negative breast cancer who are currently receiving the investigational product in association with clinical trial participation. Additionally, the protocol wi..."
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT07381985",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT07381985",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT07381985"
+          }
+        ],
+        "title": "Strategy for Management of Patients With Hereditary Cancer Syndromes (HCS) in a Rural Environment",
+        "status": "active",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "n-a",
+              "display": "N/A"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "INTERVENTIONAL",
+                "display": "Interventional"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D009386",
+                "display": "Neoplastic Syndromes, Hereditary"
+              }
+            ],
+            "text": "Neoplastic Syndromes, Hereditary"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D003123",
+                "display": "Colorectal Neoplasms, Hereditary Nonpolyposis"
+              }
+            ],
+            "text": "Colorectal Neoplasms, Hereditary Nonpolyposis"
+          }
+        ],
+        "focus": [
+          {
+            "text": "Longitudinal Cancer Genetics Follow-Up Program"
+          }
+        ],
+        "description": "This study aims to improve cancer prevention and surveillance adherence in patients with Hereditary Cancer Syndromes (HCS), particularly those living in rural areas. The study will evaluate whether enrolling HCS patients in a longitudinal clinical program with individualized care plans and regular f...",
+        "period": {
+          "start": "2023-12-29",
+          "end": "2027-12-01"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://clinicaltrials.gov/study/NCT01905592",
+      "resource": {
+        "resourceType": "ResearchStudy",
+        "id": "NCT01905592",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/ResearchStudy"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://clinicaltrials.gov",
+            "value": "NCT01905592"
+          }
+        ],
+        "title": "A Phase III Trial of Niraparib Versus Physician's Choice in HER2 Negative, Germline BRCA Mutation-positive Breast Cancer Patients",
+        "status": "administratively-completed",
+        "phase": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/research-study-phase",
+              "code": "phase-3",
+              "display": "Phase 3"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://clinicaltrials.gov/study-type",
+                "code": "INTERVENTIONAL",
+                "display": "Interventional"
+              }
+            ]
+          }
+        ],
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D001943",
+                "display": "Breast Neoplasms"
+              }
+            ],
+            "text": "Breast Neoplasms"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://id.nlm.nih.gov/mesh/",
+                "code": "D010051",
+                "display": "Ovarian Neoplasms"
+              }
+            ],
+            "text": "Ovarian Neoplasms"
+          }
+        ],
+        "focus": [
+          {
+            "text": "niraparib"
+          },
+          {
+            "text": "Physician's choice"
+          }
+        ],
+        "description": "The purpose of this study is to compare progression-free survival (PFS) in patients with advanced/metastatic breast cancer who have a BRCA mutation when treated with niraparib as compared to those treated with physician's choice",
+        "period": {
+          "start": "2014-02-25",
+          "end": "2021-10-26"
+        }
+      }
+    }
+  ],
+  "meta": {
+    "tag": [
+      {
+        "system": "https://clawbio.ai",
+        "code": "clinical-trial-finder"
+      }
+    ]
+  }
+}

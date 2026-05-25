@@ -1,0 +1,61 @@
+Neural progenitor cells, Neurons, Cancer cells
+Macrophages, Monocytes, Dendritic cells
+Plasma cells, B cells, Memory B cells
+Fibroblasts, Smooth muscle cells, Mesenchymal cells
+Adrenal cortex cells, Leydig cells, Steroidogenic cells
+T cells, CD4+ T cells, CD8+ T cells
+Fibroblasts, Mesenchymal cells, Smooth muscle cells
+Endothelial cells, Epithelial cells, Mesenchymal stem cells
+Intestinal epithelial cells, Colonic epithelial cells, Epithelial cells
+Fibroblasts, Osteoblasts, Mesenchymal stem cells
+Neurons, Neural progenitor cells, Central nervous system cells
+Erythrocytes, Erythroid progenitor cells, Reticulocytes
+Monocytes, Macrophages, Dendritic cells
+Pancreatic acinar cells, Hepatocytes, Secretory epithelial cells
+Hepatocytes, Intestinal enterocytes, Liver cells
+Activated cells, Proliferating cells, Immediate early response cells
+Endothelial cells, Fibroblasts, Mesenchymal cells
+Antigen-presenting cells, Dendritic cells, B cells
+Kidney tubular cells, Epithelial cells, Ovarian epithelial cells
+Erythrocytes, Red blood cells, Erythroid precursor cells
+Fibroblasts, Osteoblasts, Chondrocytes
+Oligodendrocytes, Schwann cells, Myelinating glial cells
+Alveolar type II pneumocytes, Lung epithelial cells, Pulmonary surfactant-secreting cells
+Thyroid follicular cells, Thyroid epithelial cells, Thyroid gland cells
+Muscle cells, Lens epithelial cells, Cells under oxidative stress
+B cells, Antigen-presenting cells, Dendritic cells
+Hepatocytes, Endothelial cells, Fibroblasts
+Intestinal enterocytes, Small intestine epithelial cells, Absorptive epithelial cells
+Proliferating cells, Cancer cells, Stem cells
+Monocytes, Macrophages, Dendritic cells
+Chondrocytes, Cartilage cells, Articular cartilage cells
+Pancreatic acinar cells, Exocrine pancreas cells, Digestive enzyme-secreting cells
+Neutrophils, Granulocytes, Polymorphonuclear leukocytes
+Macrophages, Dendritic cells, Monocytes
+Gastric chief cells, Stomach epithelial cells, Gastric mucosa cells
+Dendritic cells, Gamma-delta T cells, Langerhans cells
+Gastric epithelial cells, Mucous neck cells, Stomach mucosal cells
+Renal tubular epithelial cells, Collecting duct cells, Intercalated cells
+Secretory epithelial cells, Glandular epithelial cells, Ovarian epithelial cells
+Pancreatic acinar cells, Epithelial cells, Cancer cells
+Cytotoxic T cells, NK cells, CD8+ T cells
+Proliferating cells, Cancer cells, Stem cells
+Proliferating cells, Cancer cells, Stem cells
+Endothelial cells, Fibroblasts, Mesenchymal cells
+Keratinocytes, Basal epithelial cells, Skin epithelial cells
+Astrocytes, Glial cells, Neurons
+Pancreatic acinar cells, Hepatocytes, Stem cells
+Cardiomyocytes, Heart muscle cells, Cardiac myocytes
+Adipocytes, Synoviocytes, Hepatocytes
+Kidney tubular epithelial cells, Collecting duct cells, Loop of Henle cells
+Hepatocytes, Fetal hepatocytes, Proximal tubule cells
+Prostate epithelial cells, Prostate gland cells, Prostatic luminal epithelial cells
+Mast cells, Basophils, Allergic response cells
+Neurons, Epithelial cells, Neuroendocrine cells
+Neuroendocrine cells, Pancreatic islet cells, Enterochromaffin-like cells
+Sertoli cells, Granulosa cells, Hepatocytes
+Cytotoxic T cells, NK cells, CD8+ T cells
+Oligodendrocytes, Schwann cells, Glial cells
+Chondrocytes, Fibroblasts, Mesenchymal stem cells
+Osteoclasts, Bone-resorbing cells, Monocyte-derived cells
+Adipocytes, Fat cells, Lipocytes

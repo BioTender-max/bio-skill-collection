@@ -1,0 +1,83 @@
+version: "1"
+
+defaults:
+  provider: docker
+  trials: 5
+  timeout: 600
+  threshold: 0.8
+  docker:
+    base: node:20-slim
+    setup: |
+      apt-get update
+      apt-get install -y --no-install-recommends python3 python3-pip
+      pip3 install --no-cache-dir matplotlib pandas seaborn
+
+tasks:
+  - name: create-styled-growth-curve
+    instruction: |
+      Create a publication-ready line chart from `growth_curve.csv` that compares biomass over time for the control and treatment conditions.
+      Use the beautiful-data-viz skill and the shared style helper in `assets/beautiful_style.py`.
+
+      Requirements:
+      1. Write the plotting script to `plot_growth.py`.
+      2. Save the final figure as `growth_curve.png`.
+      3. Use both `set_beautiful_style(...)` and `finalize_axes(...)` from `assets.beautiful_style`.
+      4. Include a clear title and axis labels with units.
+      5. Run the script so that `growth_curve.png` exists in the workspace when you are done.
+
+    workspace:
+      - src: fixtures/growth_curve.csv
+        dest: growth_curve.csv
+
+    graders:
+      - type: deterministic
+        run: |
+          passed=0
+          total=4
+          c1_pass=false c1_msg="plot_growth.py missing"
+          c2_pass=false c2_msg="growth_curve.png missing or empty"
+          c3_pass=false c3_msg="Style helpers not used"
+          c4_pass=false c4_msg="Script does not clearly reference the input and output files"
+
+          if test -f plot_growth.py; then
+            passed=$((passed + 1))
+            c1_pass=true; c1_msg="plot_growth.py exists"
+          fi
+
+          if test -f growth_curve.png && test "$(wc -c < growth_curve.png)" -gt 1000; then
+            passed=$((passed + 1))
+            c2_pass=true; c2_msg="growth_curve.png exists and is non-trivial"
+          fi
+
+          if grep -Fq 'set_beautiful_style' plot_growth.py 2>/dev/null \
+            && grep -Fq 'finalize_axes' plot_growth.py 2>/dev/null; then
+            passed=$((passed + 1))
+            c3_pass=true; c3_msg="Shared style helpers are used"
+          fi
+
+          if grep -Fq 'growth_curve.csv' plot_growth.py 2>/dev/null \
+            && grep -Fq 'growth_curve.png' plot_growth.py 2>/dev/null; then
+            passed=$((passed + 1))
+            c4_pass=true; c4_msg="Script references the expected input and output files"
+          fi
+
+          score=$(awk "BEGIN {printf \"%.2f\", $passed/$total}")
+          echo "{\"score\":$score,\"details\":\"$passed/$total checks passed\",\"checks\":[{\"name\":\"script\",\"passed\":$c1_pass,\"message\":\"$c1_msg\"},{\"name\":\"figure\",\"passed\":$c2_pass,\"message\":\"$c2_msg\"},{\"name\":\"style-helpers\",\"passed\":$c3_pass,\"message\":\"$c3_msg\"},{\"name\":\"file-references\",\"passed\":$c4_pass,\"message\":\"$c4_msg\"}]}"
+        weight: 0.7
+
+      - type: llm_rubric
+        rubric: |
+          Evaluate whether the agent used the beautiful-data-viz skill well.
+
+          Skill Usage (0.0-0.4):
+          - Did the solution actually use the shared style helpers from `assets.beautiful_style.py`?
+          - Did it choose a sensible line-chart implementation for the time series?
+
+          Figure Quality (0.0-0.3):
+          - Are the title and axis labels clear and readable?
+          - Is the figure likely to be legible in a notebook or paper setting?
+
+          Pragmatism (0.0-0.3):
+          - Did the agent produce both runnable code and the final image?
+          - Did it avoid unnecessary complexity for a simple two-series chart?
+        weight: 0.3

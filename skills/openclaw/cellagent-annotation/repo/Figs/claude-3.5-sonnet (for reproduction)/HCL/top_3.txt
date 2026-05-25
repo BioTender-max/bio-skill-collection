@@ -1,0 +1,61 @@
+Neural progenitor cells, Neuroblasts, Stem cells
+Macrophages, Microglia, Monocytes
+Plasma cells, B cells, Immunoglobulin-producing cells
+Fibroblasts, Stromal cells, Myofibroblasts
+Steroid-producing cells, Adrenocortical cells, Endocrine cells
+T cells, Lymphocytes, Immune cells
+Fibroblasts, Mesenchymal cells, Neural progenitors
+Endothelial cells, Epithelial cells, Immune cells
+Epithelial cells, Intestinal epithelial cells, Mucosal cells
+Fibroblasts, Mesenchymal cells, Stromal cells
+Neural progenitors, Neuroblasts, Neural stem cells
+Erythroid cells, Red blood cell precursors, Hematopoietic cells
+Macrophages, Monocytes, Myeloid cells
+Epithelial cells, Secretory cells, Goblet cells
+Hepatocytes, Liver cells, Intestinal epithelial cells
+Ribosome-rich cells, Proliferating cells, Active secretory cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Antigen-presenting cells, Dendritic cells, Macrophages
+Epithelial cells, Secretory cells, Mucosal cells
+Erythrocytes, Red blood cells, Erythroid precursors
+Fibroblasts, Stromal cells, Connective tissue cells
+Oligodendrocytes, Myelinating cells, Glial cells
+Type II pneumocytes, Alveolar cells, Lung epithelial cells
+Thyroid cells, Thyroid follicular cells, Endocrine cells
+Stress-response cells, Inflammatory cells, Activated epithelial cells
+B cells, Antigen-presenting cells, Lymphocytes
+Epithelial cells, Inflammatory cells, Secretory cells
+Intestinal epithelial cells, Enterocytes, Absorptive cells
+Ribosome-rich cells, Protein-synthesizing cells, Active secretory cells
+Macrophages, Myeloid cells, Immune cells
+Chondrocytes, Cartilage cells, Mesenchymal cells
+Pancreatic acinar cells, Exocrine pancreas cells, Digestive enzyme-producing cells
+Neutrophils, Granulocytes, Myeloid cells
+Macrophages, Antigen-presenting cells, Phagocytes
+Gastric chief cells, Stomach epithelial cells, Secretory cells
+Dendritic cells, Immune cells, Antigen-presenting cells
+Gastric epithelial cells, Mucus-secreting cells, Secretory cells
+Renal tubular cells, Kidney epithelial cells, Ion transport cells
+Epithelial cells, Secretory cells, Mucosal cells
+Epithelial cells, Secretory cells, Active metabolic cells
+Immune cells, Lymphocytes, Inflammatory cells
+Ribosome-rich cells, Protein-synthesizing cells, Active secretory cells
+Proliferating cells, Stem cells, Active metabolic cells
+Stromal cells, Fibroblasts, Endothelial cells
+Basal epithelial cells, Squamous epithelial cells, Keratinocytes
+Astrocytes, Glial cells, Neural support cells
+Pancreatic progenitor cells, Developing pancreatic cells, Stem cells
+Cardiomyocytes, Heart muscle cells, Cardiac cells
+Mucosal cells, Secretory cells, Inflammatory cells
+Renal epithelial cells, Kidney tubular cells, Secretory cells
+Hepatocytes, Liver cells, Fetal liver cells
+Prostate epithelial cells, Prostate secretory cells, Glandular cells
+Mast cells, Immune cells, Inflammatory cells
+Reproductive cells, Germ cells, Epithelial cells
+Neuroendocrine cells, Endocrine cells, Hormone-producing cells
+Reproductive cells, Stromal cells, Secretory cells
+Cytotoxic T cells, Immune cells, Lymphocytes
+Glial cells, Neural cells, Astrocytes
+Chondrocytes, Cartilage cells, Mesenchymal cells
+Osteoclasts, Bone-resorbing cells, Macrophages
+Adipocytes, Fat cells, Lipid-storing cells

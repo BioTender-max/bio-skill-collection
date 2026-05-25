@@ -1,0 +1,32 @@
+{
+  "mode": "stable",
+  "update_policy": {
+    "pipeline_version": "Manual updates only after validation.",
+    "local_checkout": "Preferred when a sibling rnaseq checkout is present; record commit, branch, and dirty state.",
+    "remote_repo": "Allowed only with an explicit pinned version or tag; never use latest."
+  },
+  "validation_required_before_update": [
+    "Run the wrapper unit test suite.",
+    "Run preflight against a representative samplesheet.",
+    "Run the upstream demo profile when Nextflow and the selected backend are available.",
+    "Verify MultiQC, pipeline_info, count-matrix detection, provenance, and reproducibility outputs."
+  ],
+  "breaking_change_review": [
+    "Review nf-core/rnaseq schema changes.",
+    "Review supported aligner and pseudo-aligner names.",
+    "Review required reference combinations.",
+    "Review output path conventions for merged TSVs, RDS, MultiQC, and pipeline_info.",
+    "Verify upstream nextflow.config defaults have not changed."
+  ],
+  "resume_policy": {
+    "requires_same_pipeline_source": true,
+    "requires_same_resolved_version": true,
+    "requires_same_aligner": true,
+    "requires_same_pseudo_aligner": true,
+    "requires_same_profile": true,
+    "requires_same_params_checksum": true
+  },
+  "execution_policy": {
+    "work_dir": "output/upstream/work"
+  }
+}

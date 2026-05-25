@@ -1,0 +1,4 @@
+interface:
+  display_name: "Literature Search"
+  short_description: "Search PMC or local bioRxiv full text"
+  default_prompt: "Search PMC or the local bioRxiv parquet corpus for a biological topic, author a structured query JSON, save the search artifacts, and return the strongest candidate papers."

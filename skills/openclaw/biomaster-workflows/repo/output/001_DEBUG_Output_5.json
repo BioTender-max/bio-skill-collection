@@ -1,0 +1,8 @@
+{
+    "shell": [],
+    "analyze": "The pipeline executed successfully and somatic variant calling was performed using GATK Mutect2. A sequence dictionary was created for the reference genome, and all required index files were generated. The warnings from conda and SLF4J do not indicate any execution errors, and the task meets the requirements.",
+    "output_filename": [
+        "./output/001/somatic_variants.vcf: VCF file with called somatic SNVs and indels"
+    ],
+    "stats": true
+}

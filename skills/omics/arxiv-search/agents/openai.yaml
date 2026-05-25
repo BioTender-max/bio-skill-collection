@@ -1,0 +1,4 @@
+interface:
+  display_name: "arXiv Search"
+  short_description: "Search recent arXiv preprints"
+  default_prompt: "Search arXiv for recent preprints on a topic, author, or arXiv ID and return a clean shortlist with links and metadata."

@@ -1,0 +1,7 @@
+# C-reactive protein GWAS at the IL6R locus (Swerdlow 2012 IL6R-CRP MR;
+# tocilizumab proof of concept). Pairs with IL6R ge-eQTL on the exposure side.
+# Demonstrates that the skill accepts YAML inputs as well as JSON.
+accession: GCST90691573
+chromosome: "1"
+start_bp: 153925508
+end_bp: 154925508

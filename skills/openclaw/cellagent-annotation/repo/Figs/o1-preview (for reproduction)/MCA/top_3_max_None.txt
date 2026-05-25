@@ -1,0 +1,64 @@
+Neural progenitor cells, neurons, glial cells
+Smooth muscle cells, myofibroblasts, vascular smooth muscle cells
+T cells, cytotoxic T lymphocytes, thymocytes
+Neurons, developing neurons, neuroblasts
+Fibroblasts, macrophages, mesenchymal stem cells
+Embryonic stem cells, pluripotent stem cells, early embryonic cells
+Spermatids, sperm cells, male germ cells
+Spermatogonia, male germline stem cells, pluripotent stem cells
+Pancreatic acinar cells, goblet cells, prostate epithelial cells
+Chondrocytes, cartilage cells, osteochondral progenitor cells
+Neutrophils, granulocytes, polymorphonuclear leukocytes
+Neutrophil precursors, myeloid progenitor cells, immature granulocytes
+Erythrocytes, erythroid precursors, proerythroblasts
+Gastric mucous cells, gastric epithelial cells, mucous neck cells
+Endothelial cells, vascular endothelial cells, microvascular endothelial cells
+Mammary gland epithelial cells, milk-secreting cells, lactating mammary epithelial cells
+Oligodendrocytes, myelinating glia, CNS myelinating cells
+Neural progenitor cells, radial glial cells, neural stem cells
+Mesenchymal stem cells, fibroblasts, osteoblasts
+B cells, mature B lymphocytes, plasma cells
+Macrophages, microglia, monocytes
+Spermatocytes, male germ cells undergoing meiosis, early spermatids
+Enterocytes, intestinal epithelial cells, small intestine epithelial cells
+Dendritic cells, B cells, macrophages
+Erythrocytes, erythroid precursors, reticulocytes
+Alveolar type II pneumocytes, lung epithelial cells, pulmonary surfactant-producing cells
+Renal proximal tubular cells, kidney epithelial cells, renal cortical cells
+Promyelocytes, myeloid progenitor cells, immature granulocytes
+Ovarian granulosa cells, ovarian follicle cells, gonadal steroid-producing cells
+Cardiomyocytes, heart muscle cells, ventricular muscle cells
+Adipocytes, white fat cells, mature adipose cells
+Urothelial cells, bladder epithelial cells, transitional epithelium cells
+Embryonic epithelial progenitor cells, epithelial stem cells, embryonic epithelial cells
+Epididymal cells, Sertoli cells, male reproductive tract epithelia
+Liver sinusoidal endothelial cells, hepatic endothelial cells, endothelial cells
+Smooth muscle cells, mesenchymal stem cells, epicardial progenitor cells
+Spermatogonia, male germline stem cells, early germ cells
+Osteoblasts, bone-forming cells, skeletal cells
+Smooth muscle cells, vascular smooth muscle cells, myofibroblasts
+Leydig cells, testicular steroid-producing cells, adrenal cortical cells
+Renal tubular epithelial cells, kidney epithelial cells, thick ascending limb cells
+Embryonic stem cells, pluripotent stem cells, germ cells
+Cytotoxic T lymphocytes, NK cells, killer T cells
+Granulosa cells, Sertoli cells, germ cells
+Natural killer cells, cytotoxic T cells, NK-like T cells
+Cardiomyocytes, heart muscle cells, atrial cardiomyocytes
+Microglia, brain macrophages, CNS resident immune cells
+Gastric chief cells, gastric parietal cells, stomach epithelial cells
+Pancreatic acinar cells, exocrine pancreas cells, digestive enzyme–producing cells
+Adrenal cortical cells, steroid-producing cells, zona fasciculata cells
+Distal tubule cells, collecting duct cells, kidney epithelial cells
+Pancreatic islet beta cells, pancreatic endocrine cells, beta cells
+Mast cells, eosinophils, basophils
+Gastric mucous cells, gastric epithelial cells, chief cells
+Placental trophoblast cells, spongiotrophoblast cells, placental cells
+Club cells, bronchiolar epithelial cells, airway epithelial cells
+Intercalated cells of renal collecting duct, renal tubular cells, acid-secreting cells
+Keratinocytes, skin epidermal cells, epithelial cells
+Eosinophils, macrophages, granulocytes
+Choroid plexus epithelial cells, hepatocytes, CNS epithelial cells
+Astrocytes, glial cells, CNS support cells
+Hepatocytes, liver parenchymal cells, liver cells
+Chondrocytes, cartilage cells, osteochondral progenitors
+T cells, adipocytes, mast cells

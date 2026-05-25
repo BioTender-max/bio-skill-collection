@@ -1,0 +1,61 @@
+Fibroblasts, Epithelial cells, Endothelial cells
+Macrophages, Dendritic cells, Monocytes
+Plasma cells, B cells, Lymphocytes
+Fibroblasts, Mesenchymal cells, Endothelial cells
+Adrenal cells, Stromal cells, Epithelial cells
+T cells, Lymphocytes, NK cells
+Fibroblasts, Osteoblasts, Mesenchymal cells
+Endothelial cells, Monocytes, Epithelial cells
+Epithelial cells, Goblet cells, Enterocytes
+Fibroblasts, Osteoblasts, Mesenchymal cells
+Neurons, Glial cells, Neural progenitor cells
+Ribosomal proteins, Erythrocytes, Myeloid cells
+Myeloid cells, Macrophages, Dendritic cells
+Epithelial cells, Hepatocytes, Endothelial cells
+Hepatocytes, Enterocytes, Adipocytes
+Ribosomal proteins, Erythrocytes, Myeloid cells
+Endothelial cells, Monocytes, Macrophages
+Antigen presenting cells, B cells, Dendritic cells
+Epithelial cells, Ovarian cells, Endothelial cells
+Erythrocytes, Myeloid cells, Hematopoietic cells
+Fibroblasts, Mesenchymal cells, Chondrocytes
+Oligodendrocytes, Schwann cells, Astrocytes
+Alveolar type II cells, Epithelial cells, Macrophages
+Thyroid cells, Epithelial cells, Endothelial cells
+Hepatocytes, Epithelial cells, Endothelial cells
+B cells, Antigen presenting cells, Dendritic cells
+Endothelial cells, Hepatocytes, Mesenchymal cells
+Enterocytes, Hepatocytes, Epithelial cells
+Ribosomal proteins, Erythrocytes, Myeloid cells
+Ribosomal proteins, Erythrocytes, Myeloid cells
+Chondrocytes, Osteoblasts, Mesenchymal cells
+Pancreatic exocrine cells, Epithelial cells, Endocrine cells
+Neutrophils, Myeloid cells, Monocytes
+Antigen presenting cells, Macrophages, Dendritic cells
+Gastric cells, Epithelial cells, Enterocytes
+T cells, Langerhans cells, Dendritic cells
+Gastric cells, Epithelial cells, Endothelial cells
+Endothelial cells, Epithelial cells, Myocytes
+Epithelial cells, Ovarian cells, Endothelial cells
+Epithelial cells, Myeloid cells, Fibroblasts
+T cells, NK cells, Lymphocytes
+Ribosomal proteins, Erythrocytes, Myeloid cells
+Ribosomal proteins, Erythrocytes, Myeloid cells
+Fibroblasts, Endothelial cells, Mesenchymal cells
+Epithelial cells, Keratinocytes, Skin cells
+Neurons, Glial cells, Neural progenitor cells
+Pancreatic cells, Epithelial cells, Hepatocytes
+Cardiac muscle cells, Smooth muscle cells, Myocytes
+Hepatocytes, Macrophages, Endothelial cells
+Epithelial cells, Ovarian cells, Endothelial cells
+Liver cells, Adipocytes, Epithelial cells
+Prostate cells, Epithelial cells, Endothelial cells
+Mast cells, Myeloid cells, Neutrophils
+Epithelial cells, Endothelial cells, Hepatocytes
+Neuroendocrine cells, Adrenal cells, Neurons
+Fibroblasts, Hepatocytes, Muscle cells
+T cells, NK cells, Lymphocytes
+Neurons, Glial cells, Oligodendrocytes
+Fibroblasts, Chondrocytes, Mesenchymal cells
+Osteoclasts, Macrophages, Myeloid cells
+Adipocytes, Hepatocytes, Pancreatic cells

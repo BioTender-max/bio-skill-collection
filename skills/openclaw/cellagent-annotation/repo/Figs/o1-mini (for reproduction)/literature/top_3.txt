@@ -1,0 +1,90 @@
+Adipocytes, Preadipocytes, Brown adipocytes
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+T cells, Cytotoxic T lymphocytes, Helper T cells
+Smooth muscle cells, Myofibroblasts, Pericytes
+Myoepithelial cells, Basal epithelial cells, Smooth muscle cells
+Mast cells, Basophils, Eosinophils
+Pericytes, Myofibroblasts, Smooth muscle cells
+Lymphatic endothelial cells, Endothelial cells, Lymphatic vessels
+Luminal epithelial cells, Mammary gland epithelial cells, Epithelial cells
+Fibroblasts, Myofibroblasts, Activated fibroblasts
+B cells, Memory B cells, Plasma cells
+Macrophages, M2 macrophages, Tissue-resident macrophages
+Mast cells, Basophils, Eosinophils
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+T cells, Cytotoxic T lymphocytes, Helper T cells
+Epithelial cells, Keratinocytes, Goblet cells
+Macrophages, M2 macrophages, Tissue-resident macrophages
+Smooth muscle cells, Myofibroblasts, Pericytes
+Interstitial Cells of Cajal, Mast cells, Stem cells
+Fibroblasts, Myofibroblasts, Activated fibroblasts
+Basal epithelial cells, Myoepithelial cells, Keratinocytes
+B cells, Memory B cells, Plasma cells
+Adipocytes, Preadipocytes, Brown adipocytes
+Lymphatic endothelial cells, Endothelial cells, Lymphatic vessels
+Cardiomyocytes, Heart muscle cells, Cardiac muscle cells
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+T cells, Cytotoxic T lymphocytes, Helper T cells
+Smooth muscle cells, Myofibroblasts, Pericytes
+Pericytes, Myofibroblasts, Smooth muscle cells
+Mast cells, Basophils, Eosinophils
+Lymphatic endothelial cells, Endothelial cells, Lymphatic vessels
+Fibroblasts, Myofibroblasts, Activated fibroblasts
+B cells, Memory B cells, Plasma cells
+Adipocytes, Preadipocytes, Brown adipocytes
+Macrophages, M2 macrophages, Tissue-resident macrophages
+Macrophages, M2 macrophages, Tissue-resident macrophages
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+T cells, Cytotoxic T lymphocytes, Helper T cells
+Smooth muscle cells, Myofibroblasts, Pericytes
+Pericytes, Myofibroblasts, Smooth muscle cells
+Lymphatic endothelial cells, Endothelial cells, Lymphatic vessels
+Mast cells, Basophils, Eosinophils
+Club cells, Secretory cells, Goblet cells
+Adipocytes, Preadipocytes, Brown adipocytes
+Alveolar type I cells, Epithelial cells, Lung fibroblasts
+Alveolar type II cells, Alveolar epithelial cells, Type II pneumocytes
+Fibroblasts, Myofibroblasts, Activated fibroblasts
+Ciliated epithelial cells, Multiciliated cells, Airway epithelial cells
+B cells, Memory B cells, Plasma cells
+Pericytes, Myofibroblasts, Smooth muscle cells
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+T cells, Cytotoxic T lymphocytes, Helper T cells
+Smooth muscle cells, Myofibroblasts, Pericytes
+Mast cells, Basophils, Eosinophils
+Lymphatic endothelial cells, Endothelial cells, Lymphatic vessels
+Prostatic epithelial cells, Luminal cells, Secretory cells
+Fibroblasts, Myofibroblasts, Activated fibroblasts
+B cells, Memory B cells, Plasma cells
+Adipocytes, Preadipocytes, Brown adipocytes
+Macrophages, M2 macrophages, Tissue-resident macrophages
+Skeletal muscle cells, Myofibers, Muscle fiber types
+T cells, Cytotoxic T lymphocytes, Helper T cells
+Smooth muscle cells, Myofibroblasts, Pericytes
+Satellite cells, Muscle stem cells, Myoblasts
+Pericytes, Myofibroblasts, Smooth muscle cells
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+Mast cells, Basophils, Eosinophils
+Macrophages, M2 macrophages, Tissue-resident macrophages
+Lymphatic endothelial cells, Endothelial cells, Lymphatic vessels
+Fibroblasts, Myofibroblasts, Activated fibroblasts
+B cells, Memory B cells, Plasma cells
+Adipocytes, Preadipocytes, Brown adipocytes
+Skeletal muscle cells, Myofibers, Muscle fiber types
+Keratinocytes, Epithelial cells, Basal keratinocytes
+Smooth muscle cells, Myofibroblasts, Pericytes
+Club cells, Secretory cells, Goblet cells
+Club cells, Epithelial cells, Goblet cells
+Pericytes, Myofibroblasts, Smooth muscle cells
+Melanocytes, Melanoma cells, Neural crest cells
+Keratinocytes, Epithelial cells, Basal keratinocytes
+Lymphatic endothelial cells, Endothelial cells, Lymphatic vessels
+Macrophages, M2 macrophages, Tissue-resident macrophages
+Fibroblasts, Pericytes, Smooth muscle cells
+Fibroblasts, Myofibroblasts, Activated fibroblasts
+Basal epithelial cells, Myoepithelial cells, Keratinocytes
+B cells, Memory B cells, Plasma cells
+Adipocytes, Preadipocytes, Brown adipocytes
+T cells, Cytotoxic T lymphocytes, Helper T cells
+Mast cells, Basophils, Eosinophils
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells

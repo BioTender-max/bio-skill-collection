@@ -1,0 +1,263 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Workflow Run Manifest",
+  "type": "object",
+  "required": [
+    "run_id",
+    "workflow",
+    "steps",
+    "outputs"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "workflow_summary": {
+      "type": "string"
+    },
+    "workflow": {
+      "type": "object",
+      "required": [
+        "engine",
+        "pipeline"
+      ],
+      "properties": {
+        "engine": {
+          "type": "string",
+          "enum": [
+            "nextflow",
+            "snakemake",
+            "cwl",
+            "wdl",
+            "other"
+          ]
+        },
+        "engine_version": {
+          "type": "string"
+        },
+        "pipeline": {
+          "type": "object",
+          "required": [
+            "name"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "version": {
+              "type": "string"
+            },
+            "repo_url": {
+              "type": "string"
+            },
+            "commit_sha": {
+              "type": "string"
+            },
+            "launch_command": {
+              "type": "string"
+            }
+          }
+        },
+        "execution": {
+          "type": "object",
+          "properties": {
+            "start_time": {
+              "type": "string"
+            },
+            "end_time": {
+              "type": "string"
+            },
+            "workdir": {
+              "type": "string"
+            },
+            "profile": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "accession": {
+            "type": "string"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "checksum": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "software": {
+      "type": "object",
+      "properties": {
+        "tools": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "version": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "containers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "image"
+            ],
+            "properties": {
+              "image": {
+                "type": "string"
+              },
+              "digest": {
+                "type": "string"
+              },
+              "notes": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "conda": {
+          "type": "object",
+          "properties": {
+            "export_file": {
+              "type": "string"
+            },
+            "lock_file": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "step_id",
+          "name",
+          "status"
+        ],
+        "properties": {
+          "step_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "tool": {
+            "type": "string"
+          },
+          "tool_version": {
+            "type": "string"
+          },
+          "container": {
+            "type": "string"
+          },
+          "command": {
+            "type": "string"
+          },
+          "workdir": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "exit_code": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "inputs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "parameters": {
+            "type": [
+              "object",
+              "string"
+            ]
+          },
+          "resources": {
+            "type": [
+              "object",
+              "string"
+            ]
+          },
+          "qc": {
+            "type": [
+              "object",
+              "string"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "qc_steps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

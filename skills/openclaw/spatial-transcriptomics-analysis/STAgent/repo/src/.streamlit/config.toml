@@ -1,0 +1,22 @@
+[theme]
+# Light mode settings
+base="light"
+primaryColor="#1E88E5"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F8FF"
+textColor="#262730"
+font="sans serif"
+
+[theme.light]
+# Custom light mode colors
+primaryColor="#1E88E5"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F8FF"
+textColor="#262730"
+
+[theme.dark]
+# Custom dark mode colors
+primaryColor="#90CAF9"
+backgroundColor="#0E1117"
+secondaryBackgroundColor="#1E1E1E"
+textColor="#FAFAFA" 

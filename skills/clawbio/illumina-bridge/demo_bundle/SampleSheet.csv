@@ -1,0 +1,14 @@
+[Header]
+IEMFileVersion,4
+Experiment Name,ClawBio DRAGEN Demo
+Date,2026-03-13
+Workflow,GenerateFASTQ
+
+[Reads]
+151
+151
+
+[Data]
+Lane,Sample_ID,Sample_Name,Sample_Project,index,index2,Description
+1,DEMO_SAMPLE_01,Demo Sample 01,ClawBioDemo,ACGTACGT,TGCATGCA,Reference sample
+1,DEMO_SAMPLE_02,Demo Sample 02,ClawBioDemo,GTCAGTCA,CAGTCAGT,Research sample

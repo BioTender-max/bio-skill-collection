@@ -1,0 +1,16 @@
+citeab_id,antibody_name,company,clonality,host,target_protein,gene_name,pubmed_id,published_year,cited_by
+A0001,anti-TP53 clone A,VendorOne Biotech,Monoclonal,Rabbit,TP53,TP53,10000001,2020,45
+A0002,anti-TP53 clone B,VendorTwo Antibodies,Monoclonal,Mouse,TP53,TP53,10000002,2021,38
+A0003,anti-BRCA1 clone A,VendorOne Biotech,Monoclonal,Rabbit,BRCA1,BRCA1,10000003,2019,62
+A0004,anti-BRCA1 clone B,VendorThree Labs,Polyclonal,Goat,BRCA1,BRCA1,10000004,2022,17
+A0005,anti-EGFR clone A,VendorTwo Antibodies,Monoclonal,Rabbit,EGFR,EGFR,10000005,2020,71
+A0006,anti-EGFR clone B,VendorOne Biotech,Monoclonal,Mouse,EGFR,EGFR,10000006,2021,54
+A0007,anti-HER2 clone A,VendorTwo Antibodies,Monoclonal,Rabbit,HER2,ERBB2,10000007,2018,89
+A0008,anti-MYC clone A,VendorThree Labs,Monoclonal,Rabbit,MYC,MYC,10000008,2022,22
+A0009,anti-MYC clone B,VendorOne Biotech,Polyclonal,Goat,MYC,MYC,10000009,2020,33
+A0010,anti-PTEN clone A,VendorTwo Antibodies,Monoclonal,Rabbit,PTEN,PTEN,10000010,2019,48
+A0011,anti-APOE clone A,VendorThree Labs,Monoclonal,Mouse,APOE,APOE,10000011,2021,29
+A0012,anti-BRCA1 clone C,VendorOne Biotech,Monoclonal,Mouse,BRCA1,BRCA1,10000012,2020,41
+A0013,anti-TP53 clone C,VendorThree Labs,Polyclonal,Rabbit,TP53,TP53,10000013,2021,26
+A0014,anti-EGFR clone C,VendorOne Biotech,Polyclonal,Goat,EGFR,EGFR,10000014,2022,19
+A0015,anti-HER2 clone B,VendorThree Labs,Monoclonal,Mouse,HER2,ERBB2,10000015,2020,35

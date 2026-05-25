@@ -1,0 +1,99 @@
+Adipocyte, Breast epithelial cell, Myofibroblast
+Breast epithelial cell, Endothelial cell, Myofibroblast
+Fibroblast, Smooth muscle cell, Adipocyte
+Smooth muscle cell, Myofibroblast, Cardiac muscle cell
+Endothelial cell, Hematopoietic stem cell, Myofibroblast
+Breast epithelial cell, Myofibroblast, Keratinocyte
+Endothelial cell, Fibroblast, Smooth muscle cell
+Smooth muscle cell, Endothelial cell, Myofibroblast
+Endothelial cell, Smooth muscle cell, Esophageal epithelial cell
+Fibroblast, Endothelial cell, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Esophageal epithelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Neuron, Endothelial cell, Fibroblast
+Neuron, Endothelial cell, Fibroblast
+Smooth muscle cell, Endothelial cell, Fibroblast
+Neuron, Endothelial cell, Fibroblast
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+B cell, T cell, Natural killer cell
+Keratinocyte, Squamous epithelial cell, Fibroblast
+Keratinocyte, Squamous epithelial cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+Mast cell, Basophil, Eosinophil
+Endothelial cell, Smooth muscle cell, Fibroblast
+Endothelial cell, Smooth muscle cell, Fibroblast
+Endothelial cell, Smooth muscle cell, Fibroblast
+Neuron, Endothelial cell, Fibroblast
+Cardiac muscle cell, Smooth muscle cell, Endothelial cell
+Cardiac muscle cell, Smooth muscle cell, Endothelial cell
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Adipocyte, Muscle cell, Hepatocyte
+Mast cell, Basophil, Eosinophil
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+Endothelial cell, Smooth muscle cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+Mast cell, Basophil, Eosinophil
+Endothelial cell, Fibroblast, Smooth muscle cell
+T cell, B cell, Natural killer cell
+Smooth muscle cell, Endothelial cell, Fibroblast
+Alveolar epithelial cell, Type II pneumocyte, Clara cell
+Ciliated epithelial cell, Alveolar macrophage, Type I pneumocyte
+Alveolar epithelial cell, Type II pneumocyte, Clara cell
+Type II pneumocyte, Alveolar epithelial cell, Clara cell
+Type II pneumocyte, Alveolar epithelial cell, Clara cell
+Alveolar epithelial cell, Type II pneumocyte, Clara cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Neuron, Endothelial cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+Neuron, Endothelial cell, Fibroblast
+Smooth muscle cell, Endothelial cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+Fibroblast, Smooth muscle cell, Cardiac muscle cell
+Prostate epithelial cell, Fibroblast, Endothelial cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Prostate epithelial cell, Fibroblast, Endothelial cell
+Prostate epithelial cell, Fibroblast, Endothelial cell
+Skeletal muscle cell, Myoblast, Fibroblast
+Skeletal muscle cell, Myoblast, Fibroblast
+Skeletal muscle cell, Myoblast, Fibroblast
+Skeletal muscle cell, Myoblast, Fibroblast
+Skeletal muscle cell, Myoblast, Fibroblast
+Skeletal muscle cell, Myoblast, Fibroblast
+Skeletal muscle cell, Myoblast, Fibroblast
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Adipocyte, Muscle cell, Hepatocyte
+Adipocyte, Muscle cell, Hepatocyte
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Melanocyte, Keratinocyte, Fibroblast
+Mast cell, Basophil, Eosinophil
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+T cell, B cell, Natural killer cell
+Keratinocyte, Squamous epithelial cell, Fibroblast
+Keratinocyte, Squamous epithelial cell, Fibroblast
+Keratinocyte, Squamous epithelial cell, Fibroblast
+Keratinocyte, Squamous epithelial cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+Adipocyte, Muscle cell, Hepatocyte
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+T cell, B cell, Natural killer cell

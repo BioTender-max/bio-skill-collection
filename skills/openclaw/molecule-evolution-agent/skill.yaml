@@ -1,0 +1,25 @@
+skill:
+  id: biomedical.drug_discovery.molecule_design
+  version: 1.0.0
+  name: MoleculeEvolution
+  category: drug_discovery/molecule_design
+  description:
+    short: No description provided.
+    long: No description provided.
+    use_cases:
+    - Auto-generated from source code
+  capabilities:
+  - name: evolve
+    description: Execute evolve
+    inputs:
+    - name: target_protein
+      type: str
+      description: Input parameter target_protein
+      required: true
+    outputs:
+    - name: result
+      type: Dict
+      description: Result of the operation
+  metadata:
+    created: '2026-01-12'
+    author: BioKernel Auto-Generator

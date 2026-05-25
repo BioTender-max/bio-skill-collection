@@ -1,0 +1,12 @@
+{
+    "shell": [
+        "conda install -y samtools",
+        "mkdir -p ./output/001",
+        "samtools sort -o ./output/001/sorted_aligned_reads.bam ./output/001/aligned_reads.bam"
+    ],
+    "analyze": "The task was executed correctly using samtools sort to produce a sorted aligned reads bam file. The provided result shows that samtools and required channels are already installed and no error occurred during sorting. Extra input files noted in the task were not used, but the primary requirement of sorting the BAM file was met.",
+    "output_filename": [
+        "./output/001/sorted_aligned_reads.bam"
+    ],
+    "stats": true
+}

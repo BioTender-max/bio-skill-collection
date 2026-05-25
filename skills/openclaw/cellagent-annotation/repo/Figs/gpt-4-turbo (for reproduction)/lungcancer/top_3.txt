@@ -1,0 +1,10 @@
+Macrophages, Dendritic cells, Monocytes
+T cells, NK cells, B cells
+NK cells, Cytotoxic T cells, T cells
+B cells, Plasma cells, T cells
+Fibroblasts, Endothelial cells, Osteoblasts
+Endothelial cells, Pericytes, Smooth muscle cells
+Mast cells, Basophils, Eosinophils
+Alveolar cells, Epithelial cells, Mucous secreting cells
+Epithelial cells, Cancer cells, Glandular cells
+Oligodendrocytes, Astrocytes, Neurons

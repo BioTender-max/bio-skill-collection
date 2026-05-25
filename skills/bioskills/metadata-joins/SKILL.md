@@ -1,0 +1,400 @@
+---
+name: bio-expression-matrix-metadata-joins
+description: Merge sample metadata with count matrices and add gene annotations. Use when preparing data for differential expression analysis or visualization.
+tool_type: mixed
+primary_tool: pandas
+---
+
+## Version Compatibility
+
+Reference examples tested with: pandas 2.2+
+
+Before using code patterns, verify installed versions match. If versions differ:
+- Python: `pip show <package>` then `help(module.function)` to check signatures
+- R: `packageVersion('<pkg>')` then `?function_name` to verify parameters
+
+If code throws ImportError, AttributeError, or TypeError, introspect the installed
+package and adapt the example to match the actual API rather than retrying.
+
+# Metadata Joins
+
+## Load Sample Metadata
+
+**Goal:** Read sample metadata into a DataFrame aligned with the count matrix columns.
+
+**Approach:** Load metadata CSV with sample IDs as the index, matching count matrix column names.
+
+```python
+import pandas as pd
+
+# Load metadata
+metadata = pd.read_csv('sample_info.csv', index_col=0)
+
+# Metadata should have samples as rows, attributes as columns
+# Index should match count matrix column names
+```
+
+## Basic Join
+
+**Goal:** Align count matrix columns with metadata rows so samples are in matching order.
+
+**Approach:** Find common samples between both data sources, subset and reorder to ensure alignment.
+
+**"Match my sample metadata to my count matrix"** → Intersect sample identifiers between the count matrix and metadata, then reorder both to match.
+
+```python
+import pandas as pd
+
+# Count matrix: genes x samples
+counts = pd.read_csv('counts.tsv', sep='\t', index_col=0)
+
+# Metadata: samples x attributes
+metadata = pd.read_csv('metadata.csv', index_col=0)
+
+# Ensure sample order matches
+common_samples = counts.columns.intersection(metadata.index)
+counts = counts[common_samples]
+metadata = metadata.loc[common_samples]
+
+# Verify alignment
+assert all(counts.columns == metadata.index)
+```
+
+## Handle Sample Name Mismatches
+
+**Goal:** Identify and resolve discrepancies between count matrix column names and metadata row names.
+
+**Approach:** Report samples present in only one data source and subset to the intersection.
+
+```python
+def harmonize_sample_names(counts, metadata):
+    '''Match sample names between counts and metadata.'''
+    count_samples = set(counts.columns)
+    meta_samples = set(metadata.index)
+
+    common = count_samples & meta_samples
+    only_counts = count_samples - meta_samples
+    only_meta = meta_samples - count_samples
+
+    if only_counts:
+        print(f'Samples in counts but not metadata: {only_counts}')
+    if only_meta:
+        print(f'Samples in metadata but not counts: {only_meta}')
+
+    counts = counts[sorted(common)]
+    metadata = metadata.loc[sorted(common)]
+    return counts, metadata
+
+counts, metadata = harmonize_sample_names(counts, metadata)
+```
+
+## Flexible Sample Name Matching
+
+**Goal:** Automatically reconcile sample names that differ by common formatting variations.
+
+**Approach:** Try a series of string transformations (underscore/dash swap, suffix removal, case change) until names match.
+
+```python
+def fuzzy_match_samples(counts, metadata):
+    '''Try to match sample names with common transformations.'''
+    count_cols = counts.columns.tolist()
+    meta_idx = metadata.index.tolist()
+
+    # Try exact match first
+    if set(count_cols) == set(meta_idx):
+        return counts, metadata
+
+    # Common transformations
+    transformations = [
+        lambda x: x.replace('_', '-'),
+        lambda x: x.replace('-', '_'),
+        lambda x: x.split('_')[0],
+        lambda x: x.replace('.bam', ''),
+        lambda x: x.upper(),
+        lambda x: x.lower(),
+    ]
+
+    for transform in transformations:
+        transformed = {transform(c): c for c in count_cols}
+        matches = {m: transformed[transform(m)] for m in meta_idx if transform(m) in transformed}
+        if len(matches) == len(meta_idx):
+            print(f'Matched using transformation')
+            counts = counts[[matches[m] for m in meta_idx]]
+            return counts, metadata
+
+    raise ValueError('Could not match sample names')
+```
+
+## Add Gene Annotations
+
+**Goal:** Enrich the count matrix with gene-level annotations (symbol, name, biotype).
+
+**Approach:** Query mygene for annotation fields and merge with the count matrix on gene IDs.
+
+```python
+import mygene
+
+def add_gene_annotations(counts, fields=['symbol', 'name', 'type_of_gene']):
+    '''Add gene annotation columns to count matrix.'''
+    mg = mygene.MyGeneInfo()
+
+    clean_ids = [g.split('.')[0] for g in counts.index]
+    results = mg.querymany(clean_ids, scopes='ensembl.gene',
+        fields=fields, species='human', as_dataframe=True)
+
+    # Merge annotations
+    results = results.reset_index().rename(columns={'query': 'gene_id'})
+    counts_reset = counts.reset_index().rename(columns={counts.index.name: 'gene_id'})
+    counts_reset['clean_id'] = counts_reset['gene_id'].str.split('.').str[0]
+
+    annotated = counts_reset.merge(
+        results[['gene_id'] + fields].drop_duplicates(),
+        left_on='clean_id', right_on='gene_id', how='left', suffixes=('', '_anno'))
+
+    annotated = annotated.drop(['clean_id', 'gene_id_anno'], axis=1, errors='ignore')
+    annotated = annotated.set_index('gene_id')
+
+    return annotated
+```
+
+## R: Create DESeq2 Data
+
+```r
+library(DESeq2)
+
+# Load data
+counts <- read.delim('counts.tsv', row.names=1)
+metadata <- read.csv('metadata.csv', row.names=1)
+
+# Ensure matching samples
+common <- intersect(colnames(counts), rownames(metadata))
+counts <- counts[, common]
+metadata <- metadata[common, , drop=FALSE]
+
+# Create DESeqDataSet
+dds <- DESeqDataSetFromMatrix(
+    countData=as.matrix(counts),
+    colData=metadata,
+    design=~condition  # Adjust to your design
+)
+```
+
+## R: Create edgeR DGEList
+
+```r
+library(edgeR)
+
+# Load data
+counts <- read.delim('counts.tsv', row.names=1)
+metadata <- read.csv('metadata.csv', row.names=1)
+
+# Match samples
+common <- intersect(colnames(counts), rownames(metadata))
+counts <- counts[, common]
+metadata <- metadata[common, , drop=FALSE]
+
+# Create DGEList
+y <- DGEList(counts=as.matrix(counts), group=metadata$condition)
+y$samples <- cbind(y$samples, metadata)
+```
+
+## Create AnnData with Metadata
+
+```python
+import anndata as ad
+import pandas as pd
+
+def create_annotated_anndata(counts, sample_metadata, gene_metadata=None):
+    '''Create AnnData object with full metadata.'''
+    # AnnData expects samples as rows
+    adata = ad.AnnData(X=counts.T)
+
+    # Add sample metadata (obs)
+    adata.obs = sample_metadata.loc[counts.columns].copy()
+
+    # Add gene metadata (var)
+    if gene_metadata is not None:
+        adata.var = gene_metadata.loc[counts.index].copy()
+    else:
+        adata.var_names = counts.index
+
+    return adata
+
+# Usage
+adata = create_annotated_anndata(counts, metadata)
+adata.write_h5ad('annotated_counts.h5ad')
+```
+
+## Validate Metadata
+
+```python
+def validate_metadata(counts, metadata, required_columns=['condition']):
+    '''Check metadata validity.'''
+    issues = []
+
+    count_samples = set(counts.columns)
+    meta_samples = set(metadata.index)
+
+    if count_samples != meta_samples:
+        missing = count_samples - meta_samples
+        extra = meta_samples - count_samples
+        if missing:
+            issues.append(f'Samples missing metadata: {missing}')
+        if extra:
+            issues.append(f'Extra metadata samples: {extra}')
+
+    for col in required_columns:
+        if col not in metadata.columns:
+            issues.append(f'Missing required column: {col}')
+        elif metadata[col].isna().any():
+            n_na = metadata[col].isna().sum()
+            issues.append(f'Column {col} has {n_na} missing values')
+
+    if issues:
+        for issue in issues:
+            print(f'WARNING: {issue}')
+        return False
+
+    print('Metadata validation passed')
+    return True
+```
+
+## Sample Swap Detection
+
+**Goal:** Identify mislabeled samples before they contaminate downstream analysis.
+
+**Approach:** Use sex-linked gene expression (XIST for females, Y-chromosome genes for males) and within-pair clustering to detect swaps.
+
+### Sex Check
+
+```python
+import pandas as pd
+import numpy as np
+
+def sex_check(counts, metadata, sex_column='sex'):
+    '''Verify reported sex matches gene expression.
+
+    Males: high DDX3Y/RPS4Y1/UTY, low XIST
+    Females: high XIST, low/zero Y-linked genes
+    '''
+    female_markers = ['XIST']
+    male_markers = ['DDX3Y', 'RPS4Y1', 'UTY', 'KDM5D', 'EIF1AY']
+
+    available_female = [g for g in female_markers if g in counts.index]
+    available_male = [g for g in male_markers if g in counts.index]
+
+    if not available_female or not available_male:
+        print('Sex marker genes not found -- are gene symbols in the index?')
+        return None
+
+    female_expr = counts.loc[available_female].sum()
+    male_expr = counts.loc[available_male].sum()
+
+    predicted_sex = pd.Series('unknown', index=counts.columns)
+    predicted_sex[male_expr > female_expr] = 'M'
+    predicted_sex[female_expr > male_expr] = 'F'
+
+    if sex_column in metadata.columns:
+        mismatches = predicted_sex != metadata[sex_column]
+        if mismatches.any():
+            print(f'SEX MISMATCHES DETECTED ({mismatches.sum()} samples):')
+            for sample in metadata.index[mismatches]:
+                print(f'  {sample}: reported={metadata.loc[sample, sex_column]}, predicted={predicted_sex[sample]}')
+        else:
+            print('Sex check passed -- all samples match')
+    return predicted_sex
+```
+
+```r
+# R sex check
+sex_check <- function(counts, coldata, sex_col='sex') {
+    xist <- counts['XIST', ]
+    y_genes <- c('DDX3Y', 'RPS4Y1', 'UTY', 'KDM5D', 'EIF1AY')
+    y_expr <- colSums(counts[intersect(y_genes, rownames(counts)), , drop=FALSE])
+    predicted <- ifelse(y_expr > xist, 'M', 'F')
+    mismatches <- predicted != coldata[[sex_col]]
+    if (any(mismatches)) cat('Sex mismatches:', colnames(counts)[mismatches], '\n')
+    return(predicted)
+}
+```
+
+## Experimental Design Guidance
+
+### Reference Level Selection
+
+The reference level determines the direction of fold changes and the baseline for model coefficients. Set it explicitly **before** creating the DE dataset.
+
+```r
+# Always set reference explicitly -- do not rely on alphabetical order
+metadata$condition <- factor(metadata$condition, levels=c('control', 'treated'))
+# or
+metadata$condition <- relevel(factor(metadata$condition), ref='control')
+```
+
+```python
+metadata['condition'] = pd.Categorical(metadata['condition'], categories=['control', 'treated'], ordered=True)
+```
+
+Common mistake: forgetting to relevel, resulting in fold changes in the wrong direction (e.g., control vs treated instead of treated vs control).
+
+### Paired Designs
+
+For paired samples (e.g., tumor vs normal from the same patient), include the pairing variable in the model **before** the condition of interest. This absorbs inter-subject variability and dramatically increases statistical power.
+
+```r
+# Pairing variable MUST come before condition
+design = ~ patient + condition
+
+# edgeR alternative: blocking factor in design matrix
+design_matrix <- model.matrix(~ patient + condition, data=coldata)
+```
+
+### Interaction Terms
+
+Interaction models test whether the effect of one factor differs across levels of another (e.g., does drug response differ between genotypes?).
+
+```r
+# Full interaction model
+design = ~ genotype + treatment + genotype:treatment
+
+# The interaction coefficient represents the DIFFERENCE in treatment effect
+# between genotypes -- NOT the overall treatment effect
+# Main effect 'treatment' = treatment effect at REFERENCE level of genotype only
+```
+
+When interactions are present, the main effect coefficient applies only at the reference level of the other factor. This is a common misinterpretation.
+
+### Confounding vs Batch Effects
+
+If all treated samples were processed in batch 1 and all controls in batch 2, the batch effect is **perfectly confounded** with treatment and cannot be corrected by any statistical method. Check for confounding early:
+
+```python
+# Check for confounding between condition and batch
+ct = pd.crosstab(metadata['condition'], metadata['batch'])
+print(ct)
+# Rows/columns with all zeros indicate complete confounding
+```
+
+## Merge Multiple Metadata Files
+
+```python
+def merge_metadata_files(files, on='sample_id'):
+    '''Merge multiple metadata files.'''
+    dfs = [pd.read_csv(f) for f in files]
+    merged = dfs[0]
+    for df in dfs[1:]:
+        merged = merged.merge(df, on=on, how='outer')
+    return merged.set_index(on)
+
+# Usage
+metadata = merge_metadata_files(['clinical.csv', 'sequencing.csv', 'qc.csv'])
+```
+
+## Related Skills
+
+- expression-matrix/counts-ingest - Load count data
+- expression-matrix/gene-id-mapping - Convert gene IDs
+- expression-matrix/normalization - Normalize before visualization
+- differential-expression/deseq2-basics - Downstream DE analysis
+- differential-expression/batch-correction - Batch effect correction
+- single-cell/preprocessing - Single-cell metadata handling

@@ -1,0 +1,323 @@
+Smooth Muscle Cell, Vascular Smooth Muscle Cell, Pericyte
+T Cell, Naive T Cell, Memory T Cell
+Endothelial Cell, Pericyte, Fibroblast
+Neuron, Astrocyte, Microglia
+Macrophage, Dendritic Cell, Monocyte
+Unknown, Unknown, Unknown
+Mast Cell, Basophil, Eosinophil
+Macrophage, Dendritic Cell, Monocyte
+Natural Killer Cell, Cytotoxic T Cell, Memory T Cell
+Endothelial Cell, Platelet, Megakaryocyte
+Neuron, Neuroendocrine Cell, Glial Cell
+Dendritic Cell, B Cell, T Cell
+B Cell, Plasma Cell, Memory B Cell
+Adipocyte, Pre-adipocyte, Brown Adipocyte
+Unknown, Unknown, Unknown
+Megakaryocyte, Platelet, Erythrocyte
+T Cell, B Cell, Natural Killer Cell
+Neutrophil, Eosinophil, Basophil
+T Cell, B Cell, Natural Killer Cell
+B Cell, Plasma Cell, Memory B Cell
+Progenitor Cell, Hematopoietic Stem Cell, Lymphocyte
+Fibroblast, Osteoblast, Chondrocyte
+B Cell, T Cell, Natural Killer Cell
+Neutrophil, Eosinophil, Basophil
+B Cell, Plasma Cell, Memory B Cell
+Platelet, Megakaryocyte, Erythrocyte
+Dendritic Cell, Macrophage, Monocyte
+Neuron, Glial Cell, Endothelial Cell
+T Cell, Natural Killer Cell, Cytotoxic T Cell
+Neuron, Endothelial Cell, Glial Cell
+Cytotoxic T Cell, Natural Killer Cell, Memory T Cell
+Platelet, Megakaryocyte, Erythrocyte
+Neutrophil, Eosinophil, Basophil
+Dendritic Cell, T Cell, B Cell
+Dendritic Cell, T Cell, B Cell
+T Cell, Memory T Cell, Cytotoxic T Cell
+Cytotoxic T Cell, Memory T Cell, Naive T Cell
+Cytotoxic T Cell, Memory T Cell, Naive T Cell
+Cytotoxic T Cell, Memory T Cell, Naive T Cell
+Cytotoxic T Cell, Memory T Cell, Naive T Cell
+T Cell, Memory T Cell, Naive T Cell
+T Cell, Memory T Cell, Naive T Cell
+Macrophage, Dendritic Cell, Monocyte
+T Cell, Memory T Cell, Naive T Cell
+T Cell, Memory T Cell, Naive T Cell
+B Cell, Plasma Cell, Memory B Cell
+B Cell, Plasma Cell, Memory B Cell
+Dendritic Cell, Macrophage, Monocyte
+Macrophage, Dendritic Cell, Monocyte
+Neuron, Glial Cell, Endothelial Cell
+Unknown, Unknown, Unknown
+Cytotoxic T Cell, Natural Killer Cell, Memory T Cell
+Mast Cell, Basophil, Eosinophil
+Dendritic Cell, Macrophage, Monocyte
+T Cell, B Cell, Natural Killer Cell
+Endocrine Cell, Pancreatic Cell, Neuroendocrine Cell
+Neuron, Glial Cell, Endothelial Cell
+Neuron, Glial Cell, Endothelial Cell
+Exocrine Cell, Pancreatic Cell, Endocrine Cell
+Unknown, Unknown, Unknown
+Endocrine Cell, Pancreatic Cell, Exocrine Cell
+Neuron, Glial Cell, Endothelial Cell
+Neuron, Glial Cell, Endothelial Cell
+Unknown, Unknown, Unknown
+Pigment Cell, Melanocyte, Retinal Cell
+Unknown, Unknown, Unknown
+Fibroblast, Chondrocyte, Osteoblast
+Unknown, Unknown, Unknown
+Neuron, Glial Cell, Endothelial Cell
+Cardiac Muscle Cell, Myocyte, Fibroblast
+Endothelial Cell, Epithelial Cell, Fibroblast
+Epithelial Cell, Goblet Cell, Mucous Cell
+Dendritic Cell, B Cell, T Cell
+Unknown, Unknown, Unknown
+Endocrine Cell, Pancreatic Cell, Exocrine Cell
+Lens Fiber Cell, Epithelial Cell, Retinal Cell
+Neuron, Glial Cell, Endothelial Cell
+Epithelial Cell, Goblet Cell, Mucous Cell
+Neuron, Endocrine Cell, Gastrointestinal Cell
+Neuron, Retinal Cell, Photoreceptor Cell
+Hepatocyte, Endothelial Cell, Fibroblast
+Epithelial Cell, Goblet Cell, Mucous Cell
+Unknown, Unknown, Unknown
+Unknown, Unknown, Unknown
+Neuron, Endocrine Cell, Gastrointestinal Cell
+Neuron, Glial Cell, Endothelial Cell
+Fibroblast, Epithelial Cell, Endothelial Cell
+Epithelial Cell, Keratinocyte, Goblet Cell
+T Cell, B Cell, Natural Killer Cell
+Neuron, Glial Cell, Schwann Cell
+Neuron, Endothelial Cell, Retinal Cell
+Hepatocyte, Endothelial Cell, Fibroblast
+Endothelial Cell, Fibroblast, Epithelial Cell
+Neuron, Glial Cell, Endothelial Cell
+Fibroblast, Chondrocyte, Osteoblast
+Unknown, Unknown, Unknown
+Macrophage, Dendritic Cell, Monocyte
+Alveolar Cell, Epithelial Cell, Endothelial Cell
+Endothelial Cell, Fibroblast, Epithelial Cell
+Unknown, Unknown, Unknown
+Neuron, Astrocyte, Oligodendrocyte
+Neuroendocrine Cell, Endothelial Cell, Smooth Muscle Cell
+Kidney Cell, Nephron Cell, Endothelial Cell
+Endothelial Cell, Lymphatic Endothelial Cell, Immune Cell
+Neuron, Astrocyte, Oligodendrocyte
+Immune Cell, Endothelial Cell, Fibroblast
+Mesenchymal Stem Cell, Immune Cell, Endothelial Cell
+Cardiac Muscle Cell, Skeletal Muscle Cell, Smooth Muscle Cell
+Schwann Cell, Oligodendrocyte, Neuron
+Neuron, Astrocyte, Oligodendrocyte
+T Cell, B Cell, Natural Killer Cell
+Neuron, Astrocyte, Oligodendrocyte
+Fibroblast, Endothelial Cell, Smooth Muscle Cell
+Neuron, Oligodendrocyte, Astrocyte
+Endothelial Cell, Smooth Muscle Cell, Immune Cell
+Neuron, Astrocyte, Oligodendrocyte
+Erythrocyte, Megakaryocyte, Endothelial Cell
+Endothelial Cell, Smooth Muscle Cell, Fibroblast
+Endothelial Cell, Smooth Muscle Cell, Fibroblast
+Endothelial Cell, Smooth Muscle Cell, Immune Cell
+Endothelial Cell, Immune Cell, Lymphatic Endothelial Cell
+Macrophage, Dendritic Cell, Monocyte
+Chondrocyte, Fibroblast, Endothelial Cell
+T Cell, B Cell, Natural Killer Cell
+Neuron, Astrocyte, Oligodendrocyte
+Natural Killer Cell, T Cell, B Cell
+Smooth Muscle Cell, Endothelial Cell, Fibroblast
+Vascular Smooth Muscle Cell, Cardiac Muscle Cell, Endothelial Cell
+Thyroid Cell, Endothelial Cell, Fibroblast
+Cardiac Muscle Cell, Skeletal Muscle Cell, Smooth Muscle Cell
+Endothelial Cell, Fibroblast, Smooth Muscle Cell
+Macrophage, Dendritic Cell, Monocyte
+Endothelial Cell, Fibroblast, Immune Cell
+Endothelial Cell, Fibroblast, Smooth Muscle Cell
+Endothelial Cell, Fibroblast, Immune Cell
+Hepatocyte, Endothelial Cell, Fibroblast
+B Cell, T Cell, Plasma Cell
+Cardiac Muscle Cell, Skeletal Muscle Cell, Smooth Muscle Cell
+Epithelial Cell, Keratinocyte, Stem Cell
+Neuron, Astrocyte, Oligodendrocyte
+Nephron Cell, Kidney Cell, Endothelial Cell
+Nephron Cell, Kidney Cell, Endothelial Cell
+Endothelial Cell, Smooth Muscle Cell, Fibroblast
+Neuron, Astrocyte, Oligodendrocyte
+Epithelial Cell, Endothelial Cell, Fibroblast
+Neuron, Astrocyte, Oligodendrocyte
+Nephron Cell, Kidney Cell, Endothelial Cell
+Smooth Muscle Cell, Endothelial Cell, Fibroblast
+Fibroblast, Endothelial Cell, Immune Cell
+Macrophage, Dendritic Cell, Monocyte
+Nephron Cell, Kidney Cell, Endothelial Cell
+Podocyte, Nephron Cell, Endothelial Cell
+Nephron Cell, Endothelial Cell, Fibroblast
+Nephron Cell, Kidney Cell, Endothelial Cell
+Dendritic Cell, Macrophage, Endothelial Cell
+Hepatocyte, Endothelial Cell, Fibroblast
+Hepatocyte, Endothelial Cell, Fibroblast
+B Cell, Plasma Cell, Dendritic Cell
+Macrophage, Dendritic Cell, Immune Cell
+Macrophage, Dendritic Cell, Immune Cell
+Macrophage, Dendritic Cell, Immune Cell
+Hepatocyte, Endothelial Cell, Fibroblast
+Smooth Muscle Cell, Endothelial Cell, Fibroblast
+Macrophage, Dendritic Cell, Immune Cell
+Mast Cell, Immune Cell, Endothelial Cell
+Macrophage, Dendritic Cell, Immune Cell
+Endothelial Cell, Fibroblast, Immune Cell
+Dendritic Cell, Macrophage, Immune Cell
+Dendritic Cell, Macrophage, Immune Cell
+Erythrocyte, Megakaryocyte, Stem Cell
+Natural Killer Cell, T Cell, B Cell
+Endothelial Cell, Fibroblast, Immune Cell
+Epithelial Cell, Endothelial Cell, Fibroblast
+Immune Cell, Macrophage, Dendritic Cell
+T Cell, Natural Killer Cell, B Cell
+T Cell, Natural Killer Cell, B Cell
+B Cell, Plasma Cell, T Cell
+Endothelial Cell, Neuron, Astrocyte
+T Cell, Natural Killer Cell, B Cell
+Endothelial Cell, Neuron, Astrocyte
+Alveolar Epithelial Cell, Type II Pneumocyte, Club Cell
+Natural Killer Cell, T Cell, B Cell
+Macrophage, Dendritic Cell, Immune Cell
+Immune Cell, Neuron, Astrocyte
+B Cell, Plasma Cell, T Cell
+Epithelial Cell, Alveolar Cell, Club Cell
+Endothelial Cell, Epithelial Cell, Fibroblast
+Immune Cell, Neutrophil, Macrophage
+Epithelial Cell, Alveolar Cell, Club Cell
+Endothelial Cell, Immune Cell, Fibroblast
+Endothelial Cell, Immune Cell, Fibroblast
+Dendritic Cell, Macrophage, Immune Cell
+Immune Cell, Neutrophil, Macrophage
+Neuron, Astrocyte, Oligodendrocyte
+Immune Cell, Neutrophil, Macrophage
+Fibroblast, Endothelial Cell, Immune Cell
+Immune Cell, Macrophage, Dendritic Cell
+Fibroblast, Endothelial Cell, Immune Cell
+Immune Cell, Neutrophil, Macrophage
+Neuron, Astrocyte, Oligodendrocyte
+Endothelial cells, Lung epithelial cells, Fibroblasts
+Monocytes, Macrophages, Dendritic cells
+Mast cells, Basophils, Hematopoietic stem cells
+Alveolar type II cells, Pulmonary surfactant-producing cells, Lung epithelial cells
+Plasma cells, B cells, Antigen presenting cells
+Natural killer cells, Cytotoxic T cells, Innate lymphoid cells
+Lymphatic endothelial cells, Fibroblasts, Smooth muscle cells
+Fibroblasts, Endothelial cells, Smooth muscle cells
+Dendritic cells, B cells, T cells
+Ciliated epithelial cells, Goblet cells, Club cells
+T cells, Helper T cells, Regulatory T cells
+Neutrophils, Monocytes, Macrophages
+Keratinocytes, Epithelial cells, Skin stem cells
+B cells, Plasma cells, Follicular helper T cells
+Epithelial cells, Fibroblasts, Endothelial cells
+Cytotoxic T cells, Memory T cells, Helper T cells
+Club cells, Goblet cells, Alveolar type II cells
+Macrophages, Dendritic cells, Monocytes
+Cytotoxic T cells, Natural killer cells, Memory T cells
+Fibroblasts, Smooth muscle cells, Endothelial cells
+Epithelial cells, Goblet cells, Pancreatic acinar cells
+Cardiac muscle cells, Fibroblasts, Smooth muscle cells
+Natural killer cells, T cells, B cells
+Platelets, Megakaryocytes, Hematopoietic stem cells
+Epithelial cells, Endothelial cells, Stem cells
+Cytotoxic T cells, Helper T cells, Memory T cells
+Endothelial cells, Vascular smooth muscle cells, Fibroblasts
+Endothelial cells, Smooth muscle cells, Pericytes
+Pancreatic acinar cells, Goblet cells, Epithelial cells
+Smooth muscle cells, Fibroblasts, Endothelial cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Endothelial cells, Platelets, Fibroblasts
+Mucous cells, Goblet cells, Epithelial cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Proliferating cells, Stem cells, Cancer cells
+Proliferating cells, Stem cells, Cancer cells
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Astrocytes, Neurons, Oligodendrocytes
+Endothelial cells, Neurons, Microglia
+Neurons, Oligodendrocytes, Astrocytes
+Neurons, Oligodendrocytes, Astrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Oligodendrocytes, Astrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Oligodendrocytes, Neurons, Astrocytes
+Microglia, Neurons, Astrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Astrocytes, Oligodendrocytes
+Neurons, Astrocytes, Oligodendrocytes
+T cells, B cells, Natural killer cells
+B cells, Plasma cells, Follicular helper T cells
+B cells, Plasma cells, Memory B cells
+Beta cells, Alpha cells, Delta cells
+T cells, Cytotoxic T cells, Helper T cells
+T cells, Helper T cells, Memory T cells
+Proliferating cells, T cells, B cells
+T cells, Cytotoxic T cells, Memory T cells
+Regulatory T cells, T cells, B cells
+Cytotoxic T cells, Memory T cells, Helper T cells
+Cytotoxic T cells, Memory T cells, Helper T cells
+Cytotoxic T cells, Memory T cells, Helper T cells
+Cytotoxic T cells, Memory T cells, Helper T cells
+Monocytes, Macrophages, Dendritic cells
+Dendritic cells, Monocytes, Macrophages
+Dendritic cells, Monocytes, T cells
+Dendritic cells, Monocytes, B cells
+Neutrophils, Monocytes, Macrophages
+Natural killer cells, Cytotoxic T cells, Memory T cells
+T cells, Natural killer cells, Gamma delta T cells
+Natural killer cells, T cells, Monocytes
+Platelets, Megakaryocytes, Hematopoietic stem cells
+T cells, Natural killer cells, Hematopoietic stem cells
+Monocytes, Macrophages, Dendritic cells
+Hematopoietic stem cells, Progenitor cells, Endothelial cells
+Erythrocytes, Stem cells, Progenitor cells
+Natural killer cells, T cells, Monocytes
+Cytotoxic T cells, Natural killer cells, Memory T cells
+T cells, Helper T cells, Memory T cells
+B cells, Plasma cells, Memory B cells
+Endothelial cells, Pancreatic beta cells, Fibroblasts
+Macrophages, Dendritic cells, B cells
+Acinar cells, Beta cells, Ductal cells
+Beta cells, Alpha cells, Delta cells
+Beta cells, Alpha cells, Delta cells
+Acinar cells, Ductal cells, Islet cells
+Acinar cells, Ductal cells, Islet cells
+Acinar cells, Ductal cells, Fibroblasts
+Fibroblasts, Smooth muscle cells, Endothelial cells
+Neurons, Islet cells, Fibroblasts
+Endothelial cells, Islet cells, Fibroblasts
+Endothelial cells, Acinar cells, Ductal cells
+Dendritic cells, T cells, B cells
+B cells, T cells, Dendritic cells
+B cells, T follicular helper cells, T cells
+Cytotoxic T cells, Memory T cells, Natural killer cells
+Proliferating cells, Cancer cells, Stem cells
+Macrophages, Dendritic cells, Fibroblasts
+Macrophages, Monocytes, Dendritic cells
+T follicular helper cells, B cells, T cells
+T cells, Dendritic cells, Macrophages
+Dendritic cells, Macrophages, Neutrophils
+Unknown, Stem cells, B cells
+B cells, T cells, Dendritic cells
+T helper cells, Dendritic cells, Natural killer cells
+Mast cells, T cells, B cells
+B cells, T cells, Dendritic cells
+Macrophages, Dendritic cells, B cells
+Unknown, T cells, B cells
+Unknown, Epithelial cells, Endothelial cells
+Cytotoxic T cells, Memory T cells, Helper T cells
+B cells, Plasma cells, Memory B cells
+Unknown, Neurons, Endothelial cells
+B cells, T cells, Hematopoietic stem cells
+Keratinocytes, Epithelial cells, Immune cells
+Natural killer cells, T cells, Dendritic cells

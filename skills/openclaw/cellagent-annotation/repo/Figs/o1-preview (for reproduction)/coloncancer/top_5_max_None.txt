@@ -1,0 +1,7 @@
+"Goblet cells, Epithelial cells, Colon epithelial cells, Mucus-secreting cells, Tumor epithelial cells"
+"Enterocytes, Absorptive epithelial cells, Colon epithelial cells, Intestinal epithelial cells, Mature enterocytes"
+"Fibroblasts, Myofibroblasts, Stromal cells, Smooth muscle cells, Mesenchymal cells"
+"Macrophages, Monocytes, Neutrophils, Myeloid cells, Dendritic cells"
+"T cells, CD8+ T cells, CD4+ T cells, Natural killer T cells, Regulatory T cells"
+"Plasma cells, B cells, Immunoglobulin-secreting cells, Memory B cells, Marginal zone B cells"
+"Mast cells, Basophils, Allergy-related cells, Myeloid cells, Hematopoietic progenitor cells"

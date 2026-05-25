@@ -1,0 +1,7 @@
+"Colon Epithelial Cells, Enterocytes, Epithelial Cancer Cells"
+"Enterocytes, Intestinal Epithelial Cells, Goblet Cells"
+"Fibroblasts, Cancer-Associated Fibroblasts, Myofibroblasts"
+"Macrophages, Myeloid Cells, Dendritic Cells"
+"T Cells, CD4+ T Cells, Cytotoxic T Cells"
+"B Cells, Plasma Cells, Memory B Cells"
+"Mast Cells, Basophils, Eosinophils"

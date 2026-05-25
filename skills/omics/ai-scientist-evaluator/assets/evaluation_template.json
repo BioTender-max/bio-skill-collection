@@ -1,0 +1,66 @@
+{
+  "task": {
+    "name": "",
+    "summary": "",
+    "primary_question": "",
+    "deliverables": [],
+    "constraints": []
+  },
+  "submission_id": "",
+  "scientist_name": "",
+  "profile": "scientific-analysis",
+  "artifacts": {
+    "notebook": false,
+    "code": false,
+    "manuscript": false,
+    "figures": false,
+    "environment": false,
+    "runtime_logs": false,
+    "other": []
+  },
+  "gate_checks": [
+    {
+      "gate": "deliverables_present",
+      "status": "partial",
+      "notes": ""
+    },
+    {
+      "gate": "claim_evidence_alignment",
+      "status": "partial",
+      "notes": ""
+    },
+    {
+      "gate": "data_provenance_traceable",
+      "status": "partial",
+      "notes": ""
+    },
+    {
+      "gate": "reproducible_enough_to_trust_core_claims",
+      "status": "partial",
+      "notes": ""
+    }
+  ],
+  "scores": [
+    {
+      "category": "task_completion",
+      "weight": 15,
+      "score_0_to_5": 0,
+      "weighted_points": 0,
+      "justification": "",
+      "strengths": [],
+      "weaknesses": [],
+      "evidence": []
+    }
+  ],
+  "red_flags": [],
+  "critical_questions": [],
+  "overall": {
+    "total_score_100": 0,
+    "recommendation": "",
+    "confidence": "medium",
+    "summary": "",
+    "major_strengths": [],
+    "major_weaknesses": [],
+    "required_revisions": []
+  }
+}

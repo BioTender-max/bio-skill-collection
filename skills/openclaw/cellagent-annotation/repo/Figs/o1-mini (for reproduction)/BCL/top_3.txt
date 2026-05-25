@@ -1,0 +1,9 @@
+Macrophage,Monocyte,Dendritic cell
+B cell,Plasma cell,Memory B cell
+CD8+ T cell,Cytotoxic T cell,NK cell
+B cell,Follicular B cell,Memory B cell
+Regulatory T cell,CD4+ T cell,T helper cell
+Gamma delta T cell,NKT cell,NK cell
+CD4+ T cell,T helper cell,Memory T cell
+Oligodendrocyte,Astrocyte,Schwann cell
+NK cell,Cytotoxic T cell,Gamma delta T cell

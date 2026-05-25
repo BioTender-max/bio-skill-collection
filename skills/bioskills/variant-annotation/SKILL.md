@@ -1,0 +1,458 @@
+---
+name: bio-variant-annotation
+description: Comprehensive variant annotation using bcftools annotate/csq, VEP, SnpEff, and ANNOVAR. Add database annotations, predict functional consequences, and assess clinical significance with MANE transcript selection and pathogenicity scoring. Use when annotating variants with functional and clinical information.
+tool_type: mixed
+primary_tool: VEP
+---
+
+## Version Compatibility
+
+Reference examples tested with: bcftools 1.19+, VEP 110+, SnpEff 5.2+
+
+Before using code patterns, verify installed versions match. If versions differ:
+- Python: `pip show <package>` then `help(module.function)` to check signatures
+- CLI: `<tool> --version` then `<tool> --help` to confirm flags
+- Note: SnpEff and SnpSift use single-dash `-version`, not `--version`
+
+If code throws ImportError, AttributeError, or TypeError, introspect the installed
+package and adapt the example to match the actual API rather than retrying.
+
+# Variant Annotation
+
+## Tool Comparison
+
+| Tool | Best For | Speed | Output |
+|------|----------|-------|--------|
+| bcftools csq | Simple consequence prediction | Fast | VCF |
+| VEP | Comprehensive with plugins | Moderate | VCF/TXT |
+| SnpEff | Fast batch annotation | Fast | VCF |
+| ANNOVAR | Flexible databases | Moderate | TXT |
+
+## Normalization Before Annotation
+
+Variant normalization is mandatory before annotation. The same variant represented differently (e.g., left-aligned vs right-aligned indels, multiallelic vs biallelic) produces different annotations. Always normalize first:
+
+```bash
+bcftools norm -f reference.fa -m-any input.vcf.gz -Oz -o normalized.vcf.gz
+```
+
+The `-m-any` flag splits multiallelic records into biallelic, ensuring each allele gets its own annotation. Without this step, downstream tools may annotate only the first alternate allele or produce ambiguous consequence calls.
+
+## Transcript Selection Strategy
+
+Transcript choice determines which consequence is reported. This single decision changes whether a variant is classified as missense, synonymous, or intronic.
+
+| Strategy | When to Use | Recommended? |
+|----------|-------------|--------------|
+| MANE Select | Clinical reporting; one transcript per gene | Yes -- current standard |
+| MANE Plus Clinical | Genes with clinically relevant non-MANE transcripts | Yes -- supplements MANE Select |
+| Canonical (Ensembl) | Legacy pipelines | Being phased out in favor of MANE |
+| Longest transcript | Legacy convention | No -- may miss clinically relevant variants in shorter isoforms |
+| All transcripts | Research; comprehensive annotation | Good for discovery; report worst consequence per ACMG guidelines |
+
+VEP flags: `--mane_select` adds MANE Select transcript info to output. `--pick` selects one consequence per variant using VEP's internal priority ranking (canonical > biotype > length). For clinical applications, using both together reports the MANE Select consequence when available.
+
+## Tool Concordance
+
+Concordance between VEP, SnpEff, and ANNOVAR is lower than commonly assumed: only 58.52% agreement on HGVSc notation, 84.04% on HGVSp, and 85.58% on coding impact classification. Loss-of-function discrepancies affect ACMG PVS1 interpretation in 33-44% of cases.
+
+Practical implication: for clinical applications, annotate with multiple tools and compare results. For research, pick one tool and apply it consistently across all samples. VEP with MANE Select is the current community standard for clinical genomics.
+
+## Clinical vs Research Annotation
+
+| Aspect | Clinical | Research |
+|--------|----------|----------|
+| Transcript | MANE Select mandatory | Any consistent approach |
+| Tools | VEP + SnpEff cross-validation recommended | Single tool acceptable |
+| Pathogenicity | ACMG criteria (PP3/BP4 for computational) | Score-based ranking |
+| Reporting | Only clinically significant variants | All variants of interest |
+| Databases | ClinVar (reviewed), HGMD (licensed) | ClinVar, gnomAD, research DBs |
+| Re-analysis | Required periodically (new evidence) | Optional |
+
+## bcftools annotate
+
+**Goal:** Add or remove INFO/ID annotations from external databases using bcftools.
+
+**Approach:** Match variants by position and allele against annotation VCF/BED/TAB files, copying specified columns.
+
+**"Add rsIDs to my VCF from dbSNP"** → Match variant positions against a database and copy identifiers or annotation fields into the VCF.
+
+### Add Annotations from Database
+
+```bash
+bcftools annotate -a dbsnp.vcf.gz -c ID input.vcf.gz -Oz -o annotated.vcf.gz
+```
+
+### Annotation Columns (`-c`)
+
+| Option | Description |
+|--------|-------------|
+| `ID` | Copy ID column |
+| `INFO` | Copy all INFO fields |
+| `INFO/TAG` | Copy specific INFO field |
+| `+INFO/TAG` | Add to existing values |
+
+### Add Multiple Annotations
+
+```bash
+bcftools annotate -a database.vcf.gz -c ID,INFO/AF,INFO/CAF input.vcf.gz -Oz -o annotated.vcf.gz
+```
+
+### Add from BED/TAB Files
+
+```bash
+# BED with 4th column as annotation
+bcftools annotate -a regions.bed.gz -c CHROM,FROM,TO,INFO/REGION \
+    -h <(echo '##INFO=<ID=REGION,Number=1,Type=String,Description="Region name">') \
+    input.vcf.gz -Oz -o annotated.vcf.gz
+
+# Tab file: CHROM POS VALUE
+bcftools annotate -a annotations.tab.gz -c CHROM,POS,INFO/SCORE \
+    -h <(echo '##INFO=<ID=SCORE,Number=1,Type=Float,Description="Custom score">') \
+    input.vcf.gz -Oz -o annotated.vcf.gz
+```
+
+### Remove Annotations
+
+```bash
+bcftools annotate -x INFO/DP,INFO/MQ input.vcf.gz -Oz -o clean.vcf.gz
+bcftools annotate -x INFO input.vcf.gz -Oz -o minimal.vcf.gz  # Remove all INFO
+```
+
+### Set ID from Fields
+
+```bash
+bcftools annotate --set-id '%CHROM\_%POS\_%REF\_%ALT' input.vcf.gz -Oz -o with_ids.vcf.gz
+```
+
+## bcftools csq
+
+**Goal:** Predict functional consequences of variants using gene annotations.
+
+**Approach:** Map variants to GFF3 gene models and classify as synonymous, missense, frameshift, etc.
+
+Simple consequence prediction using GFF annotation.
+
+```bash
+bcftools csq -f reference.fa -g genes.gff3.gz input.vcf.gz -Oz -o consequences.vcf.gz
+```
+
+### Consequence Types
+
+| Consequence | Description |
+|-------------|-------------|
+| `synonymous` | No amino acid change |
+| `missense` | Amino acid change |
+| `stop_gained` | Introduces stop codon |
+| `frameshift` | Changes reading frame |
+| `splice_donor/acceptor` | Affects splicing |
+
+## Ensembl VEP
+
+**Goal:** Annotate variants comprehensively with consequence, impact, pathogenicity scores, and population frequencies.
+
+**Approach:** Run VEP with offline cache, enabling SIFT, PolyPhen, HGVS, frequency, and plugin-based predictions.
+
+**"Annotate my variants with functional consequences"** → Predict coding effects, impact severity, and pathogenicity using Ensembl's Variant Effect Predictor.
+
+### Installation
+
+```bash
+conda install -c bioconda ensembl-vep
+vep_install -a cf -s homo_sapiens -y GRCh38 --CONVERT
+```
+
+### Basic Annotation
+
+```bash
+vep -i input.vcf -o output.vcf --vcf --cache --offline
+```
+
+### Comprehensive Annotation
+
+```bash
+vep -i input.vcf -o output.vcf \
+    --vcf \
+    --cache --offline \
+    --species homo_sapiens \
+    --assembly GRCh38 \
+    --everything \
+    --fork 4
+```
+
+### --everything Enables
+
+- `--sift b` - SIFT predictions
+- `--polyphen b` - PolyPhen predictions
+- `--hgvs` - HGVS nomenclature
+- `--symbol` - Gene symbols
+- `--canonical` - Canonical transcript
+- `--af` - 1000 Genomes frequencies
+- `--af_gnomade/g` - gnomAD frequencies
+- `--pubmed` - PubMed IDs
+
+### Filter by Impact
+
+```bash
+vep -i input.vcf -o output.vcf --vcf \
+    --cache --offline \
+    --pick \
+    --filter "IMPACT in HIGH,MODERATE"
+```
+
+### Plugins
+
+```bash
+# CADD scores
+vep -i input.vcf -o output.vcf --vcf \
+    --cache --offline \
+    --plugin CADD,whole_genome_SNVs.tsv.gz
+
+# dbNSFP (multiple predictors)
+vep -i input.vcf -o output.vcf --vcf \
+    --cache --offline \
+    --plugin dbNSFP,dbNSFP4.3a.gz,ALL
+
+# Multiple plugins
+vep -i input.vcf -o output.vcf --vcf \
+    --cache --offline \
+    --plugin CADD,cadd.tsv.gz \
+    --plugin dbNSFP,dbnsfp.gz,SIFT_score,Polyphen2_HDIV_score \
+    --plugin SpliceAI,spliceai.vcf.gz
+```
+
+### VEP Output Fields
+
+| Field | Description |
+|-------|-------------|
+| Consequence | SO term (e.g., missense_variant) |
+| IMPACT | HIGH, MODERATE, LOW, MODIFIER |
+| SYMBOL | Gene symbol |
+| HGVSc/HGVSp | HGVS coding/protein change |
+| SIFT/PolyPhen | Pathogenicity predictions |
+
+## SnpEff
+
+**Goal:** Annotate variants with gene effects and impact categories using SnpEff.
+
+**Approach:** Run SnpEff ann against a genome database, then use SnpSift for database cross-referencing and filtering.
+
+### Installation
+
+```bash
+conda install -c bioconda snpeff
+snpEff download GRCh38.105
+```
+
+### Memory
+
+SnpEff loads the genome database into memory as Java objects. Set `-Xmx` larger than the database size on disk -- human genome databases (e.g. GRCh38) expand to 3-4 GB in memory and need at least `-Xmx8g`. Smaller genomes can use less. Without sufficient heap, SnpEff will hit `OutOfMemoryError` or thrash on garbage collection.
+
+### Basic Annotation
+
+```bash
+snpEff ann GRCh38.105 input.vcf > output.vcf
+```
+
+### With Statistics
+
+```bash
+snpEff ann -v -stats stats.html -csvStats stats.csv GRCh38.105 input.vcf > output.vcf
+```
+
+### Filter by Impact
+
+```bash
+snpEff ann GRCh38.105 input.vcf | \
+    SnpSift filter "(ANN[*].IMPACT = 'HIGH')" > high_impact.vcf
+```
+
+### SnpEff Impact Categories
+
+| Impact | Examples |
+|--------|----------|
+| HIGH | Stop gained, frameshift, splice donor/acceptor |
+| MODERATE | Missense, inframe indel |
+| LOW | Synonymous, splice region |
+| MODIFIER | Intron, intergenic, UTR |
+
+### SnpSift Database Annotations
+
+```bash
+# dbSNP
+SnpSift annotate dbsnp.vcf.gz input.vcf > annotated.vcf
+
+# ClinVar
+SnpSift annotate clinvar.vcf.gz input.vcf > annotated.vcf
+
+# dbNSFP
+SnpSift dbnsfp -db dbNSFP4.3a.txt.gz input.vcf > annotated.vcf
+
+# Chain multiple
+snpEff ann GRCh38.105 input.vcf | \
+    SnpSift annotate dbsnp.vcf.gz | \
+    SnpSift annotate clinvar.vcf.gz > fully_annotated.vcf
+```
+
+### SnpSift Filtering
+
+```bash
+SnpSift filter "(QUAL >= 30) & (DP >= 10)" input.vcf > filtered.vcf
+SnpSift filter "(exists CLNSIG) & (CLNSIG has 'Pathogenic')" input.vcf > pathogenic.vcf
+```
+
+## ANNOVAR
+
+**Goal:** Annotate variants with gene, frequency, and pathogenicity databases using ANNOVAR.
+
+**Approach:** Run table_annovar.pl with multiple protocols (gene, filter, region) against downloaded annotation databases.
+
+### Installation
+
+```bash
+# Download from https://annovar.openbioinformatics.org/ (registration required)
+annotate_variation.pl -buildver hg38 -downdb -webfrom annovar refGene humandb/
+annotate_variation.pl -buildver hg38 -downdb -webfrom annovar gnomad30_genome humandb/
+```
+
+### Table Annotation
+
+```bash
+table_annovar.pl input.vcf humandb/ \
+    -buildver hg38 \
+    -out annotated \
+    -remove \
+    -protocol refGene,gnomad30_genome,clinvar_20230416,dbnsfp42a \
+    -operation g,f,f,f \
+    -nastring . \
+    -vcfinput
+```
+
+## Python: Parse Annotated VCF
+
+**Goal:** Extract and interpret annotation fields from VEP CSQ or SnpEff ANN strings in Python.
+
+**Approach:** Parse pipe-delimited annotation strings against the header-defined field order, then filter by impact or consequence.
+
+### Parse VEP CSQ
+
+```python
+from cyvcf2 import VCF
+
+def parse_vep_csq(csq_string, csq_header):
+    fields = csq_header.split('|')
+    values = csq_string.split('|')
+    return dict(zip(fields, values))
+
+vcf = VCF('vep_output.vcf')
+csq_header = None
+for h in vcf.header_iter():
+    if h['HeaderType'] == 'INFO' and h['ID'] == 'CSQ':
+        csq_header = h['Description'].split('Format: ')[1].rstrip('"')
+        break
+
+for variant in vcf:
+    csq = variant.INFO.get('CSQ')
+    if csq:
+        for transcript in csq.split(','):
+            parsed = parse_vep_csq(transcript, csq_header)
+            if parsed.get('IMPACT') in ('HIGH', 'MODERATE'):
+                print(f"{variant.CHROM}:{variant.POS} {parsed['SYMBOL']} {parsed['Consequence']}")
+```
+
+### Parse SnpEff ANN
+
+```python
+from cyvcf2 import VCF
+
+def parse_snpeff_ann(ann_string):
+    fields = ['Allele', 'Annotation', 'Impact', 'Gene_Name', 'Gene_ID',
+              'Feature_Type', 'Feature_ID', 'Transcript_BioType', 'Rank',
+              'HGVS_c', 'HGVS_p', 'cDNA_pos', 'CDS_pos', 'Protein_pos', 'Distance']
+    values = ann_string.split('|')
+    return dict(zip(fields, values[:len(fields)]))
+
+for variant in VCF('snpeff_output.vcf'):
+    ann = variant.INFO.get('ANN')
+    if ann:
+        for transcript in ann.split(','):
+            parsed = parse_snpeff_ann(transcript)
+            if parsed['Impact'] == 'HIGH':
+                print(f"{variant.CHROM}:{variant.POS} {parsed['Gene_Name']} {parsed['Annotation']}")
+```
+
+## Complete Annotation Pipeline
+
+**Goal:** Run a full annotation workflow from normalization through VEP annotation to impact filtering.
+
+**Approach:** Normalize variants (mandatory -- same variant represented differently gets different annotations), annotate with VEP using MANE Select transcript selection and comprehensive flags, then filter for HIGH/MODERATE impact.
+
+```bash
+#!/bin/bash
+set -euo pipefail
+
+INPUT=$1
+REFERENCE=$2
+VEP_CACHE=$3
+OUTPUT_PREFIX=$4
+
+# Normalize variants (mandatory before annotation)
+bcftools norm -f $REFERENCE -m-any $INPUT -Oz -o ${OUTPUT_PREFIX}_norm.vcf.gz
+bcftools index ${OUTPUT_PREFIX}_norm.vcf.gz
+
+# VEP annotation with MANE Select transcript selection
+# --mane_select: adds MANE Select transcript info
+# --pick: selects one consequence per variant (uses MANE Select when available)
+# For research (all transcripts): remove --pick, add --per_gene
+vep -i ${OUTPUT_PREFIX}_norm.vcf.gz \
+    -o ${OUTPUT_PREFIX}_vep.vcf \
+    --vcf --cache --offline --dir_cache $VEP_CACHE \
+    --assembly GRCh38 --everything --mane_select --pick --fork 4
+
+bgzip ${OUTPUT_PREFIX}_vep.vcf
+bcftools index ${OUTPUT_PREFIX}_vep.vcf.gz
+
+# Filter high/moderate impact
+bcftools view -i 'INFO/CSQ~"HIGH" || INFO/CSQ~"MODERATE"' \
+    ${OUTPUT_PREFIX}_vep.vcf.gz -Oz -o ${OUTPUT_PREFIX}_filtered.vcf.gz
+```
+
+## Pathogenicity Predictors
+
+| Predictor | Deleterious Threshold | Scope | Notes |
+|-----------|----------------------|-------|-------|
+| SIFT | < 0.05 | Missense | Sequence conservation-based; fast but limited |
+| PolyPhen-2 (HDIV) | > 0.957 (probably), > 0.453 (possibly) | Missense | Structure + conservation |
+| CADD | >= 20 (top 1%), >= 30 (top 0.1%) | All variant types | Low specificity (~12%) at default thresholds; good for ranking, poor for binary classification |
+| REVEL | > 0.5 (ClinGen recommended) | Missense | Generally best-performing single missense predictor; ensemble of 13 tools |
+| AlphaMissense | > 0.564 (pathogenic), < 0.340 (benign) | Missense | Protein structure-based (AlphaFold2); MCC=0.81; classified 89% of all possible human missense variants; not trained on pathogenicity labels |
+
+No single predictor is sufficient for clinical classification. ACMG/AMP guidelines (PP3/BP4) require that computational evidence be treated as supporting, not standalone. ClinGen recommends REVEL >= 0.644 for PP3 (supporting pathogenic) and REVEL <= 0.290 for BP4 (supporting benign) with strong evidence thresholds at >= 0.773 and <= 0.183 respectively.
+
+## Clinical Significance (ClinVar)
+
+| Code | Meaning |
+|------|---------|
+| Pathogenic | Disease-causing |
+| Likely_pathogenic | Probably disease-causing |
+| Uncertain_significance | VUS |
+| Likely_benign | Probably not disease-causing |
+| Benign | Not disease-causing |
+
+## Quick Reference
+
+| Task | Command |
+|------|---------|
+| Add rsIDs | `bcftools annotate -a dbsnp.vcf.gz -c ID in.vcf.gz` |
+| VEP annotation | `vep -i in.vcf -o out.vcf --vcf --cache --everything` |
+| SnpEff annotation | `snpEff ann GRCh38.105 in.vcf > out.vcf` |
+| Consequences only | `bcftools csq -f ref.fa -g genes.gff in.vcf.gz` |
+
+## Related Skills
+
+- variant-calling/variant-normalization - Normalize before annotating (mandatory preprocessing step)
+- variant-calling/filtering-best-practices - Filter by annotations and quality metrics
+- variant-calling/clinical-interpretation - ACMG classification and clinical reporting
+- variant-calling/vcf-basics - Query annotated fields
+- variant-calling/vcf-manipulation - Merge and manipulate annotated VCFs
+- database-access/entrez-fetch - Download annotation databases (ClinVar, dbSNP)

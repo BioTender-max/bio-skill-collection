@@ -1,0 +1,330 @@
+skill:
+  id: "biomedical.research_tools.data_analysis"
+  version: "1.0.0"
+  name: "Data Analysis"
+  category: "research/data_analysis"
+
+  metadata:
+    author: "MD BABU MIA"
+    organization: "Icahn School of Medicine at Mount Sinai"
+    license: "MIT"
+    tags:
+      - "data-analysis"
+      - "python"
+      - "pandas"
+      - "numpy"
+      - "R"
+      - "SQL"
+      - "tableau"
+      - "power-bi"
+      - "visualization"
+      - "statistics"
+      - "biostatistics"
+    citations:
+      - "doi:10.1038/s41592-019-0686-2"  # Pandas paper
+      - "doi:10.1038/s41586-020-2649-2"  # NumPy paper
+    created: "2025-12-30"
+    updated: "2025-12-30"
+
+  description:
+    short: "Comprehensive data analysis toolkit with Python, R, SQL, and visualization"
+    long: |
+      The Data Analysis Skill provides a comprehensive toolkit for statistical analysis,
+      data manipulation, and visualization across biomedical research workflows. It enables
+      AI agents to perform end-to-end data analysis tasks using industry-standard tools:
+      Python (Pandas, NumPy), R, SQL, and leading visualization platforms (Tableau, Power BI).
+      This skill addresses the critical need for reproducible, scalable data analysis in
+      life sciences research.
+    use_cases:
+      - "Exploratory data analysis (EDA) on clinical trial datasets"
+      - "Statistical hypothesis testing and effect size calculations"
+      - "SQL-based cohort identification from EHR databases"
+      - "Publication-ready visualization generation"
+      - "Multi-omics data integration and summarization"
+      - "Survival analysis and biomarker comparisons"
+
+  capabilities:
+    - name: "analyze_dataset"
+      description: "Perform automated data analysis on tabular datasets"
+      inputs:
+        - name: "file_path"
+          type: "string"
+          description: "Path to CSV, Excel, Parquet, or H5 file"
+          required: true
+        - name: "analysis_type"
+          type: "string"
+          description: "Type of analysis: descriptive, comparative, correlation, survival"
+          required: false
+          default: "descriptive"
+        - name: "group_column"
+          type: "string"
+          description: "Column name for group comparisons"
+          required: false
+      outputs:
+        - name: "results"
+          type: "dict"
+          description: "Analysis results including statistics and summaries"
+
+    - name: "run_sql_query"
+      description: "Execute SQL queries against databases"
+      inputs:
+        - name: "connection_string"
+          type: "string"
+          description: "Database connection string"
+          required: true
+        - name: "query"
+          type: "string"
+          description: "SQL SELECT query to execute"
+          required: true
+      outputs:
+        - name: "dataframe"
+          type: "DataFrame"
+          description: "Query results as pandas DataFrame"
+
+    - name: "create_visualization"
+      description: "Generate publication-ready visualizations"
+      inputs:
+        - name: "data"
+          type: "DataFrame"
+          description: "Input data for visualization"
+          required: true
+        - name: "plot_type"
+          type: "string"
+          description: "Type: boxplot, scatter, bar, line, heatmap, kaplan_meier"
+          required: true
+        - name: "x_column"
+          type: "string"
+          description: "Column for x-axis"
+          required: false
+        - name: "y_column"
+          type: "string"
+          description: "Column for y-axis"
+          required: false
+        - name: "output_format"
+          type: "string"
+          description: "Format: png, svg, pdf, html"
+          required: false
+          default: "png"
+      outputs:
+        - name: "figure_path"
+          type: "string"
+          description: "Path to saved visualization file"
+
+    - name: "statistical_test"
+      description: "Perform statistical hypothesis testing"
+      inputs:
+        - name: "data"
+          type: "DataFrame"
+          description: "Input data containing groups to compare"
+          required: true
+        - name: "test_type"
+          type: "string"
+          description: "Test: t_test, mann_whitney, anova, chi_square, correlation"
+          required: true
+        - name: "group_column"
+          type: "string"
+          description: "Column defining groups"
+          required: false
+        - name: "value_column"
+          type: "string"
+          description: "Column with values to test"
+          required: true
+      outputs:
+        - name: "test_results"
+          type: "dict"
+          description: "Test statistic, p-value, effect size, confidence interval"
+
+    - name: "run_r_analysis"
+      description: "Execute R statistical analysis scripts"
+      inputs:
+        - name: "script_path"
+          type: "string"
+          description: "Path to R script file"
+          required: true
+        - name: "data_path"
+          type: "string"
+          description: "Path to input data file"
+          required: true
+        - name: "parameters"
+          type: "dict"
+          description: "Named parameters to pass to R script"
+          required: false
+      outputs:
+        - name: "results"
+          type: "dict"
+          description: "R analysis results and output files"
+
+  prompts:
+    system: |
+      You are a biomedical data analysis expert with deep proficiency in:
+      - Python (Pandas, NumPy, SciPy, Statsmodels, Scikit-learn)
+      - R (tidyverse, survival, Bioconductor)
+      - SQL (PostgreSQL, MySQL, BigQuery)
+      - Data visualization (Matplotlib, Seaborn, Plotly, Tableau, Power BI)
+
+      When analyzing data:
+      1. Always start with exploratory data analysis (EDA)
+      2. Check for missing values, outliers, and data quality issues
+      3. Apply appropriate statistical tests based on data characteristics
+      4. Report effect sizes and confidence intervals, not just p-values
+      5. Create clear, publication-ready visualizations
+      6. Ensure reproducibility by documenting all analysis steps
+
+    user_template: |
+      Analyze the following dataset: {data_source}
+
+      Analysis request: {request}
+
+      Please provide:
+      - Summary statistics
+      - Key findings
+      - Visualizations
+      - Statistical test results where appropriate
+
+    examples:
+      - user: "Analyze clinical_trial_data.csv and compare treatment vs control groups"
+        assistant: |
+          I'll perform a comprehensive analysis of the clinical trial data:
+
+          **1. Data Overview:**
+          - N=500 patients (250 treatment, 250 control)
+          - Primary endpoint: response_score
+          - Missing data: 2.3% in biomarker column
+
+          **2. Descriptive Statistics:**
+          | Group | Mean | SD | Median | IQR |
+          |-------|------|-----|--------|-----|
+          | Treatment | 72.3 | 15.2 | 71.5 | 18.0 |
+          | Control | 65.8 | 14.8 | 64.2 | 17.5 |
+
+          **3. Statistical Test:**
+          - Two-sample t-test: t=4.72, p<0.001
+          - Cohen's d = 0.43 (medium effect)
+          - 95% CI for difference: [3.8, 9.2]
+
+          **4. Visualization:**
+          [Box plot showing treatment vs control distributions]
+
+          **Conclusion:** Treatment group shows statistically significant
+          improvement (p<0.001) with a medium effect size.
+
+  tools:
+    - name: "analyze_dataset"
+      type: "python_function"
+      source: "python_tools.py"
+      function: "analyze_dataset"
+    - name: "run_sql_query"
+      type: "python_function"
+      source: "python_tools.py"
+      function: "run_sql_query"
+    - name: "create_visualization"
+      type: "python_function"
+      source: "python_tools.py"
+      function: "create_visualization"
+    - name: "statistical_test"
+      type: "python_function"
+      source: "python_tools.py"
+      function: "statistical_test"
+    - name: "run_r_analysis"
+      type: "shell_command"
+      source: "Rscript"
+
+  dependencies:
+    python:
+      - "pandas>=2.0.0"
+      - "numpy>=1.24.0"
+      - "scipy>=1.10.0"
+      - "statsmodels>=0.14.0"
+      - "scikit-learn>=1.3.0"
+      - "matplotlib>=3.7.0"
+      - "seaborn>=0.12.0"
+      - "plotly>=5.15.0"
+      - "sqlalchemy>=2.0.0"
+      - "pyarrow>=12.0.0"
+    r:
+      - "tidyverse"
+      - "data.table"
+      - "survival"
+      - "survminer"
+      - "lme4"
+      - "DBI"
+    system:
+      - "R>=4.0.0"
+      - "PostgreSQL client (optional)"
+    data: []
+    models: []
+
+  platform_configs:
+    claude:
+      mcp_server: false
+      skill_file: "README.md"
+      hooks: []
+    openai:
+      gpt_actions: true
+      assistant_tools: true
+      function_calling: true
+    gemini:
+      extension: true
+      vertex_tool: true
+      function_declaration: true
+
+  validation:
+    test_cases:
+      - name: "Descriptive statistics test"
+        input:
+          file_path: "test_data.csv"
+          analysis_type: "descriptive"
+        expected_output:
+          contains: ["mean", "std", "count"]
+      - name: "SQL query test"
+        input:
+          connection_string: "sqlite:///test.db"
+          query: "SELECT * FROM patients LIMIT 10"
+        expected_output:
+          row_count: 10
+    benchmarks:
+      - "clinical_trial_analysis"
+      - "ehr_cohort_query"
+
+  evals:
+    - name: "Basic EDA"
+      input: "Analyze this CSV file and provide summary statistics"
+      assertions:
+        - contains: "mean"
+        - contains: "standard deviation"
+        - type: "markdown"
+      tags: ["smoke", "descriptive"]
+      timeout: 60
+      platforms: ["claude", "openai", "gemini"]
+
+    - name: "Statistical comparison"
+      input: "Compare treatment vs control groups in this dataset"
+      assertions:
+        - contains: "p-value"
+        - contains: "effect size"
+        - safety_check: true
+      tags: ["regression", "statistical"]
+      timeout: 120
+      platforms: ["claude", "openai", "gemini"]
+
+    - name: "SQL cohort query"
+      input: "Write a SQL query to identify patients over 65 with diabetes"
+      assertions:
+        - contains: "SELECT"
+        - contains: "WHERE"
+        - regex: "age.*>.*65|age.*>=.*65"
+      tags: ["sql", "cohort"]
+      timeout: 60
+      platforms: ["claude", "openai", "gemini"]
+
+  optimization:
+    target_metrics:
+      - "accuracy"
+      - "clarity"
+      - "reproducibility"
+      - "latency"
+    platform_hints:
+      claude: "Leverage extended thinking for complex statistical analyses"
+      openai: "Use code interpreter for iterative data exploration"
+      gemini: "Utilize multimodal capabilities for visualization interpretation"
+    few_shot_count: 3

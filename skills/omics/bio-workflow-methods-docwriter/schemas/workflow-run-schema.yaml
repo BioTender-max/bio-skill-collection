@@ -1,0 +1,165 @@
+id: https://controlcenter.local/schemas/workflow-run-schema
+name: workflow-run-schema
+description: LinkML schema for executed workflow run manifests (bioinformatics + data science).
+prefixes:
+  linkml: https://w3id.org/linkml/
+  bio: https://controlcenter.local/schemas/
+default_prefix: bio
+default_range: string
+imports:
+  - linkml:types
+
+classes:
+  WorkflowRun:
+    description: Provenance-aware summary of an executed workflow run.
+    slots:
+      - run_id
+      - workflow_summary
+      - engine
+      - engine_version
+      - pipeline_name
+      - pipeline_version
+      - repo_url
+      - commit_sha
+      - launch_command
+      - start_time
+      - end_time
+      - inputs
+      - tools
+      - steps
+      - qc_steps
+      - outputs
+      - limitations
+      - evidence
+    required_slots:
+      - run_id
+      - engine
+      - pipeline_name
+      - steps
+      - outputs
+
+  InputDataset:
+    slots:
+      - name
+      - accession
+      - uri
+      - checksum
+      - notes
+
+  Tool:
+    slots:
+      - name
+      - version
+      - source
+      - container_image
+      - container_digest
+
+  Step:
+    slots:
+      - step_id
+      - name
+      - purpose
+      - tool
+      - tool_version
+      - command
+      - inputs
+      - outputs
+      - parameters
+      - resources
+      - qc
+      - status
+      - exit_code
+      - workdir
+      - notes
+    required_slots:
+      - step_id
+      - name
+      - status
+
+slots:
+  run_id:
+    range: string
+  workflow_summary:
+    range: string
+  engine:
+    range: string
+  engine_version:
+    range: string
+  pipeline_name:
+    range: string
+  pipeline_version:
+    range: string
+  repo_url:
+    range: uri
+  commit_sha:
+    range: string
+  launch_command:
+    range: string
+  start_time:
+    range: datetime
+  end_time:
+    range: datetime
+  inputs:
+    range: InputDataset
+    multivalued: true
+  tools:
+    range: Tool
+    multivalued: true
+  steps:
+    range: Step
+    multivalued: true
+  qc_steps:
+    range: string
+    multivalued: true
+  outputs:
+    range: string
+    multivalued: true
+  limitations:
+    range: string
+  evidence:
+    range: string
+    multivalued: true
+
+  # shared slots
+  name:
+    range: string
+  accession:
+    range: string
+  uri:
+    range: uri
+  checksum:
+    range: string
+  notes:
+    range: string
+  version:
+    range: string
+  source:
+    range: string
+  container_image:
+    range: string
+  container_digest:
+    range: string
+
+  # step slots
+  step_id:
+    range: string
+  purpose:
+    range: string
+  tool:
+    range: string
+  tool_version:
+    range: string
+  command:
+    range: string
+  parameters:
+    range: string
+  resources:
+    range: string
+  qc:
+    range: string
+  status:
+    range: string
+  exit_code:
+    range: string
+  workdir:
+    range: string

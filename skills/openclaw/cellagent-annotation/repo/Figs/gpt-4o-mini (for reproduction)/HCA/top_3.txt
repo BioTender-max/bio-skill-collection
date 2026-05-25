@@ -1,0 +1,99 @@
+Adipocyte, Breast epithelial cell, Fibroblast
+Breast epithelial cell, Fibroblast, Endothelial cell
+Fibroblast, Smooth muscle cell, Endothelial cell
+Smooth muscle cell, Fibroblast, Endothelial cell
+Endothelial cell, Fibroblast, Hematopoietic stem cell
+Breast epithelial cell, Keratinocyte, Fibroblast
+Fibroblast, Endothelial cell, Smooth muscle cell
+Smooth muscle cell, Fibroblast, Endothelial cell
+Smooth muscle cell, Endothelial cell, Fibroblast
+Fibroblast, Endothelial cell, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Keratinocyte, Fibroblast, Endothelial cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Neuron, Endothelial cell, Fibroblast
+Endothelial cell, Fibroblast, Neuron
+Smooth muscle cell, Endothelial cell, Fibroblast
+Neuron, Endothelial cell, Fibroblast
+T cell, B cell, Monocyte
+T cell, B cell, Monocyte
+T cell, B cell, Monocyte
+B cell, T cell, Monocyte
+Keratinocyte, Fibroblast, Endothelial cell
+Keratinocyte, Fibroblast, Endothelial cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Mast cell, Endothelial cell, Fibroblast
+Endothelial cell, Smooth muscle cell, Fibroblast
+Fibroblast, Endothelial cell, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Neuron, Endothelial cell, Fibroblast
+Cardiac myocyte, Endothelial cell, Fibroblast
+Cardiac myocyte, Endothelial cell, Fibroblast
+T cell, B cell, Monocyte
+T cell, NK cell, Monocyte
+Endothelial cell, Fibroblast, Smooth muscle cell
+T cell, B cell, Monocyte
+Endothelial cell, Fibroblast, Smooth muscle cell
+Adipocyte, Hepatocyte, Muscle cell
+Mast cell, Endothelial cell, Fibroblast
+T cell, B cell, Monocyte
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Mast cell, Endothelial cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+T cell, NK cell, Monocyte
+Smooth muscle cell, Endothelial cell, Fibroblast
+Alveolar epithelial cell, Club cell, Fibroblast
+Ciliated epithelial cell, Club cell, Fibroblast
+Alveolar epithelial cell, Club cell, Fibroblast
+Alveolar epithelial cell, Club cell, Fibroblast
+Alveolar epithelial cell, Club cell, Fibroblast
+Alveolar epithelial cell, Club cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Neuron, Endothelial cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+Neuron, Endothelial cell, Fibroblast
+Smooth muscle cell, Endothelial cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+T cell, B cell, Monocyte
+T cell, B cell, Monocyte
+T cell, B cell, Monocyte
+Fibroblast, Endothelial cell, Smooth muscle cell
+Prostate epithelial cell, Fibroblast, Endothelial cell
+Prostate epithelial cell, Fibroblast, Endothelial cell
+Prostate epithelial cell, Fibroblast, Endothelial cell
+Prostate epithelial cell, Fibroblast, Endothelial cell
+Cardiac myocyte, Skeletal muscle cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Skeletal muscle cell, Fibroblast, Smooth muscle cell
+Neuron, Endothelial cell, Fibroblast
+Endothelial cell, Fibroblast, Smooth muscle cell
+Skeletal muscle cell, Fibroblast, Smooth muscle cell
+T cell, B cell, Monocyte
+T cell, B cell, Monocyte
+T cell, B cell, Monocyte
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Adipocyte, Hepatocyte, Muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Melanocyte, Fibroblast, Keratinocyte
+Endothelial cell, Fibroblast, Smooth muscle cell
+T cell, B cell, Monocyte
+T cell, B cell, Monocyte
+T cell, B cell, Monocyte
+Keratinocyte, Fibroblast, Endothelial cell
+Keratinocyte, Fibroblast, Endothelial cell
+Keratinocyte, Fibroblast, Endothelial cell
+Keratinocyte, Fibroblast, Endothelial cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Endothelial cell, Fibroblast, Smooth muscle cell
+Fibroblast, Endothelial cell, Smooth muscle cell

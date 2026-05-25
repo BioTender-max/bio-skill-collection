@@ -1,0 +1,329 @@
+
+===================prompt=====================
+
+
+Human: 
+Identify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.
+
+Here go the summaries of Genes from the NCBI Gene database for your reference:
+- Nppa: The protein encoded by this gene belongs to the natriuretic peptide family. Natriuretic peptides are implicated in the control of extracellular fluid volume and electrolyte homeostasis. This protein is synthesized as a large precursor (containing a signal peptide), which is processed to release a peptide from the N-terminus with similarity to vasoactive peptide, cardiodilatin, and another peptide from the C-terminus with natriuretic-diuretic activity. Mutations in this gene have been associated with atrial fibrillation familial type 6. This gene is located adjacent to another member of the natriuretic family of peptides on chromosome 1. [provided by RefSeq, Oct 2015]
+- Actc1: Actins are highly conserved proteins that are involved in various types of cell motility. Polymerization of globular actin (G-actin) leads to a structural filament (F-actin) in the form of a two-stranded helix. Each actin can bind to four others. The protein encoded by this gene belongs to the actin family which is comprised of three main groups of actin isoforms, alpha, beta, and gamma. The alpha actins are found in muscle tissues and are a major constituent of the contractile apparatus. Defects in this gene have been associated with idiopathic dilated cardiomyopathy (IDC) and familial hypertrophic cardiomyopathy (FHC). [provided by RefSeq, Jul 2008]
+- Tnnt2: This gene encodes the cardiac isoform of troponin T. The encoded protein is the tropomyosin-binding subunit of the troponin complex, which is located on the thin filament of striated muscles and regulates muscle contraction in response to alterations in intracellular calcium ion concentration. Mutations in this gene have been associated with familial hypertrophic cardiomyopathy as well as with dilated cardiomyopathy. [provided by RefSeq, May 2022]
+- Myl3: MYL3 encodes myosin light chain 3, an alkali light chain also referred to in the literature as both the ventricular isoform and the slow skeletal muscle isoform. Mutations in MYL3 have been identified as a cause of mid-left ventricular chamber type hypertrophic cardiomyopathy. [provided by RefSeq, Jul 2008]
+- Myl2: This gene encodes a major sarcomeric protein in mammalian striated muscle. The encoded protein plays a role in embryonic heart muscle structure and function, while phosphorylation of the encoded protein is involved in cardiac myosin cycling kinetics, torsion and function in adults. Mutations in this gene are associated with hypertrophic cardiomyopathy 10 and infant-onset myopathy. [provided by RefSeq, May 2022]
+- Cox6a2: Cytochrome c oxidase (COX), the terminal enzyme of the mitochondrial respiratory chain, catalyzes the electron transfer from reduced cytochrome c to oxygen. It is a heteromeric complex consisting of 3 catalytic subunits encoded by mitochondrial genes and multiple structural subunits encoded by nuclear genes. The mitochondrially-encoded subunits function in electron transfer, and the nuclear-encoded subunits may be involved in the regulation and assembly of the complex. This nuclear gene encodes polypeptide 2 (heart/muscle isoform) of subunit VIa, and polypeptide 2 is present only in striated muscles. Polypeptide 1 (liver isoform) of subunit VIa is encoded by a different gene, and is found in all non-muscle tissues. These two polypeptides share 66% amino acid sequence identity. [provided by RefSeq, Jul 2008]
+- Pln: The protein encoded by this gene is found as a pentamer and is a major substrate for the cAMP-dependent protein kinase in cardiac muscle. The encoded protein is an inhibitor of cardiac muscle sarcoplasmic reticulum Ca(2+)-ATPase in the unphosphorylated state, but inhibition is relieved upon phosphorylation of the protein. The subsequent activation of the Ca(2+) pump leads to enhanced muscle relaxation rates, thereby contributing to the inotropic response elicited in heart by beta-agonists. The encoded protein is a key regulator of cardiac diastolic function. Mutations in this gene are a cause of inherited human dilated cardiomyopathy with refractory congestive heart failure, and also familial hypertrophic cardiomyopathy. [provided by RefSeq, Apr 2016]
+- Tnnc1: Troponin I (TnI), along with troponin T (TnT) and troponin C (TnC), is one of 3 subunits that form the troponin complex of the thin filaments of striated muscle. TnI is the inhibitory subunit; blocking actin-myosin interactions and thereby mediating striated muscle relaxation. The TnI subfamily contains three genes: TnI-skeletal-fast-twitch, TnI-skeletal-slow-twitch, and TnI-cardiac. This gene encodes the TnI-cardiac protein and is exclusively expressed in cardiac muscle tissues. Mutations in this gene cause familial hypertrophic cardiomyopathy type 7 (CMH7) and familial restrictive cardiomyopathy (RCM). Troponin I is useful in making a diagnosis of heart failure, and of ischemic heart disease. An elevated level of troponin is also now used as indicator of acute myocardial injury in patients hospitalized with moderate/severe Coronavirus Disease 2019 (COVID-19). Such elevation has also been associated with higher risk of mortality in cardiovascular disease patients hospitalized due to COVID-19. [provided by RefSeq, Aug 2020]
+- Tnni3: Troponin I (TnI), along with troponin T (TnT) and troponin C (TnC), is one of 3 subunits that form the troponin complex of the thin filaments of striated muscle. TnI is the inhibitory subunit; blocking actin-myosin interactions and thereby mediating striated muscle relaxation. The TnI subfamily contains three genes: TnI-skeletal-fast-twitch, TnI-skeletal-slow-twitch, and TnI-cardiac. This gene encodes the TnI-cardiac protein and is exclusively expressed in cardiac muscle tissues. Mutations in this gene cause familial hypertrophic cardiomyopathy type 7 (CMH7) and familial restrictive cardiomyopathy (RCM). Troponin I is useful in making a diagnosis of heart failure, and of ischemic heart disease. An elevated level of troponin is also now used as indicator of acute myocardial injury in patients hospitalized with moderate/severe Coronavirus Disease 2019 (COVID-19). Such elevation has also been associated with higher risk of mortality in cardiovascular disease patients hospitalized due to COVID-19. [provided by RefSeq, Aug 2020]
+- Tnni1: Troponin proteins associate with tropomyosin and regulate the calcium sensitivity of the myofibril contractile apparatus of striated muscles. Troponin I (TnI), along with troponin T (TnT) and troponin C (TnC), is one of 3 subunits that form the troponin complex of the thin filaments of striated muscle. TnI is the inhibitory subunit; blocking actin-myosin interactions and thereby mediating striated muscle relaxation. The TnI subfamily contains three genes: TnI-skeletal-fast-twitch, TnI-skeletal-slow-twitch, and TnI-cardiac. The TnI-fast and TnI-slow genes are expressed in fast-twitch and slow-twitch skeletal muscle fibers, respectively, while the TnI-cardiac gene is expressed exclusively in cardiac muscle tissue. This gene encodes the Troponin-I-skeletal-slow-twitch protein. This gene is expressed in cardiac and skeletal muscle during early development but is restricted to slow-twitch skeletal muscle fibers in adults. The encoded protein prevents muscle contraction by inhibiting calcium-mediated conformational changes in actin-myosin complexes. [provided by RefSeq, Jul 2008]
+
+
+Here are the marker genes, please finish the task: Nppa, Actc1, Tnnt2, Myl3, Myl2, Cox6a2, Pln, Tnnc1, Tnni3, Tnni1
+     
+
+Assistant:
+===================deepseek-r1 response =====================
+<think>
+Okay, let's see. The user provided a list of marker genes and wants to know the top 3 mouse cell types based on these markers. Let me go through each gene and see what cell types they are associated with.
+
+Starting with Nppa. From the summary, Nppa is part of the natriuretic peptide family and is involved in cardiac function. It's linked to atrial fibrillation, so that suggests it's a marker for cardiac cells, maybe cardiomyocytes.
+
+Actc1 is an actin. The summary says it's part of the alpha actins found in muscle tissues, specifically in the contractile apparatus. Defects relate to cardiomyopathy. So this is another muscle-related gene, probably cardiac or skeletal muscle. But since it's alpha actin, which is in cardiac and skeletal, but maybe more cardiac since some mutations cause heart issues.
+
+Tnnt2 is the cardiac isoform of troponin T. The description mentions it's part of the troponin complex in striated muscles, regulating contraction. Mutations here lead to cardiomyopathies. So this is definitely cardiac muscle.
+
+Myl3 encodes a myosin light chain, the ventricular isoform. Associated with hypertrophic cardiomyopathy. So again, cardiac muscle.
+
+Myl2 is a sarcomeric protein in mammalian striated muscle, involved in embryonic heart structure and function. Mutations cause hypertrophic cardiomyopathy. So this is also cardiac.
+
+Cox6a2 is part of cytochrome c oxidase, specifically the heart/muscle isoform. Present only in striated muscles. So either cardiac or skeletal muscle, but given the other markers, maybe cardiac.
+
+Pln is involved in cardiac muscle, regulating calcium uptake. It's a major substrate in cardiac muscle and linked to cardiomyopathies. Definitely cardiac.
+
+Tnnc1 is troponin C, part of the cardiac complex. Expressed exclusively in cardiac muscle. So that's another cardiac marker.
+
+Tnni3 is the cardiac troponin I. Exclusively in cardiac muscle. So another cardiac marker.
+
+Tnni1 is the slow-twitch skeletal muscle troponin I. Expressed in skeletal muscle during development but restricted to slow-twitch fibers in adults. So this one is skeletal muscle, specifically slow-twitch.
+
+Putting this all together: most of the markers are cardiac-specific (Nppa, Actc1, Tnnt2, Myl3, Myl2, Cox6a2, Pln, Tnnc1, Tnni3). Only Tnni1 is skeletal muscle (slow-twitch). However, Cox6a2 is present in striated muscles, which includes both cardiac and skeletal. But given the majority of the markers are cardiac, the primary cell type here is probably cardiomyocytes. The presence of Tnni1 might indicate a mix, but since the question is about the top 3, maybe cardiac-related cells. But wait, some markers could also indicate specific subtypes. For example, Nppa is atrial. Actc1 is cardiac alpha actin. So maybe the cell types are:
+
+1. Cardiomyocytes (most of the markers are cardiac-specific)
+2. Atrial cardiomyocytes (since Nppa is specifically atrial)
+3. Skeletal muscle cells (due to Tnni1 and maybe Cox6a2)
+
+But wait, skeletal muscle would only have Tnni1 and Cox6a2? Cox6a2 is in striated muscles, which includes both cardiac and skeletal. But given that most markers are cardiac, perhaps the top two are cardiac subtypes, and the third is skeletal. Alternatively, maybe there's a subtype like ventricular vs. atrial. Let me check again:
+
+Nppa is atrial. So if they have Nppa, that suggests atrial cardiomyocytes. Actc1 is in cardiac and skeletal, but more cardiac. Tnnt2 is cardiac troponin T. Myl3 and Myl2 are ventricular. So maybe ventricular cardiomyocytes. Then, the third could be slow-twitch skeletal muscle due to Tnni1. So the top three cell types would be:
+
+1. Ventricular cardiomyocytes (due to Myl3, Myl2, Tnnt2, etc.)
+2. Atrial cardiomyocytes (Nppa)
+3. Slow-twitch skeletal muscle fibers (Tnni1)
+
+Alternatively, if the markers are all from the same cell, but that's unlikely. But the markers could be a mix. However, in reality, a single cell wouldn't express both atrial and ventricular markers. But perhaps the list is from a mixture. So the top three cell types might be:
+
+1. Cardiomyocytes (combining all cardiac markers)
+2. Atrial cardiomyocytes (specifically due to Nppa)
+3. Slow-twitch skeletal muscle cells (due to Tnni1)
+
+But maybe the primary is general cardiomyocyte, then subtypes. Alternatively, the presence of both atrial and ventricular markers might indicate cardiac muscle cells in general as the top, then specific subtypes. However, the user wants the top 3 cell types. Considering the majority of markers are cardiac, and some are specific to cardiac, the top three would likely be:
+
+1. Cardiomyocytes (cardiac muscle cells)
+2. Atrial cardiomyocytes (due to Nppa)
+3. Ventricular cardiomyocytes (due to Myl2 and Myl3)
+
+But then there's also the skeletal muscle marker (Tnni1), which might be third. Alternatively, the user might expect the third to be skeletal muscle. So the answer would be:
+
+Cardiomyocytes, Atrial cardiomyocytes, Slow-twitch skeletal muscle cells.
+
+Wait, but Cox6a2 is in striated muscles, which includes both cardiac and skeletal. So maybe the presence of Cox6a2 and Tnni1 suggests skeletal muscle as a third. Alternatively, since most markers are cardiac, the top three are all cardiac subtypes. But I need to think about standard cell types. Typically, when markers like Nppa (atrial), Tnnt2 (cardiac troponin), Myl2 (ventricular), and Actc1 (cardiac alpha actin) are present, the main cell type is cardiomyocytes, with possible subtypes. However, in single-cell data, a cell would be either atrial or ventricular, but if the markers are from a bulk sample, it's a mix. But the user just wants the top 3 cell types using these markers. So the most likely answer is:
+
+1. Cardiomyocytes (cardiac muscle cells) – majority of markers
+2. Skeletal muscle cells (slow-twitch) – due to Tnni1
+3. Atrial cardiomyocytes – specific marker Nppa
+
+Alternatively, if skeletal muscle is not in the top 3, maybe ventricular cardiomyocytes. But Tnni1 is a strong indicator for slow skeletal. So the top three would be:
+
+Cardiomyocytes, Slow-twitch skeletal muscle cells, Atrial cardiomyocytes.
+
+But I need to check standard markers. Let me recall:
+
+- Nppa (ANP) is a classic marker for atrial cardiomyocytes.
+- Tnnt2 (cTnT) is cardiac troponin T, specific to cardiac muscle.
+- Actc1 (alpha cardiac actin) is in cardiac and skeletal, but more cardiac.
+- Myl2 and Myl3 are myosin light chains, ventricular specific.
+- Cox6a2 is in heart and skeletal muscle.
+- Pln is phospholamban, cardiac.
+- Tnnc1 and Tnni3 are cardiac troponin C and I.
+- Tnni1 is slow skeletal troponin I.
+
+So, combining these, the primary cell type is cardiomyocytes (cardiac muscle cells). Then, within cardiac, atrial and ventricular subtypes. But if considering as separate cell types, then atrial and ventricular cardiomyocytes would be separate. But in many contexts, they are subtypes. However, the user might expect the top three to include skeletal muscle as third. So the answer would be:
+
+1. Cardiomyocytes (cardiac muscle cells)
+2. Atrial cardiomyocytes
+3. Slow-twitch skeletal muscle cells
+
+Alternatively, if the user expects the top three to be all cardiac, but that's unlikely given Tnni1. So the answer is likely Cardiomyocytes, Atrial cardiomyocytes, Slow-twitch skeletal muscle cells. But I need to confirm. For example, if a cell expresses Nppa, it's atrial. If it expresses Myl2/Myl3, it's ventricular. But the presence of both might suggest a mix, but in reality, a single cell would be one or the other. However, the markers provided are a list, so maybe the sample has a mixture. So the top three cell types present would be:
+
+1. Cardiac muscle cells (cardiomyocytes)
+2. Atrial cardiomyocytes
+3. Ventricular cardiomyocytes
+
+But then slow skeletal would be fourth. But the presence of Tnni1 is specific to slow skeletal, so maybe that's third. Alternatively, the third could be skeletal muscle. So the answer would be:
+
+Cardiac muscle cells, Atrial cardiomyocytes, Slow-twitch skeletal muscle fibers.
+
+Alternatively, some sources might list "cardiac muscle cells" as a single category, so the top three would be:
+
+1. Cardiac muscle cells (cardiomyocytes)
+2. Skeletal muscle cells (slow-twitch)
+3. Atrial cardiomyocytes
+
+But I'm not sure. Alternatively, maybe the user expects the primary as cardiomyocytes, then subtypes, but the presence of Tnni1 makes skeletal muscle the second. Let me check standard cell type markers:
+
+- Nppa: atrial cardiomyocyte marker.
+- Actc1: cardiac and skeletal, but more cardiac.
+- Tnnt2: cardiac troponin T, specific to cardiac.
+- Myl3: ventricular.
+- Myl2: ventricular.
+- Cox6a2: striated muscle (cardiac and skeletal).
+- Pln: cardiac.
+- Tnnc1: cardiac.
+- Tnni3: cardiac.
+- Tnni1: slow skeletal.
+
+So most markers point to cardiac, with one (Tnni1) pointing to skeletal. Therefore, the top three cell types are likely:
+
+1. Cardiomyocytes (cardiac muscle cells)
+2. Atrial cardiomyocytes (due to Nppa)
+3. Ventricular cardiomyocytes (due to Myl2 and Myl3)
+
+But Tnni1 would suggest skeletal muscle as third. However, considering that the majority of markers are cardiac, perhaps skeletal muscle is third. But how many markers are cardiac vs. skeletal? Let's count:
+
+Cardiac markers: Nppa, Actc1, Tnnt2, Myl3, Myl2, Cox6a2 (if cardiac), Pln, Tnnc1, Tnni3 – 9 markers.
+
+Skeletal: Tnni1 – 1 marker.
+
+Cox6a2 is present in both cardiac and skeletal. So the main cell type is cardiac. The presence of Nppa suggests atrial subtype. Myl2 and Myl3 suggest ventricular. So perhaps the top three are:
+
+1. Cardiac muscle cells (cardiomyocytes)
+2. Atrial cardiomyocytes
+3. Ventricular cardiomyocytes
+
+But the user might expect skeletal muscle as third due to Tnni1. Alternatively, the user might want the top three distinct cell types, so cardiac, skeletal, and perhaps another. But given the markers, maybe:
+
+1. Cardiomyocytes
+2. Skeletal muscle cells (slow-twitch)
+3. Atrial cardiomyocytes
+
+But I'm not entirely sure. Alternatively, the presence of both atrial and ventricular markers might mean that the primary cell type is general cardiomyocytes, and then skeletal is second. But since the user said "mouse cells", and the markers are from a list, perhaps the answer is:
+
+1. Cardiac muscle cells
+2. Skeletal muscle cells
+3. Atrial cardiomyocytes
+
+But I need to see standard cell types. For example, in scRNA-seq, cardiomyocytes are a broad category, and skeletal muscle cells are separate. So with Tnni1 being a skeletal marker, the top three would be:
+
+Cardiac muscle cells, Skeletal muscle cells, Atrial cardiomyocytes.
+
+But maybe the third is ventricular cardiomyocytes. Alternatively, the answer is:
+
+Cardiomyocytes, Skeletal muscle cells (slow-twitch), Atrial cardiomyocytes.
+
+But the user wants the top 3, ranked by probability. The highest probability would be cardiac muscle cells (most markers), then atrial (due to Nppa), then skeletal (due to Tnni1). Alternatively, ventricular might be second. But Nppa is a specific marker for atrial, while Myl2 and Myl3 are ventricular. So if a cell has both, it's a mix, but in reality, a single cell can't be both. So maybe the cell types are:
+
+1. Cardiomyocytes (general)
+2. Atrial cardiomyocytes
+3. Ventricular cardiomyocytes
+
+But since the user wants the top 3 cell types, considering that Tnni1 is skeletal, which is a different cell type altogether, the third might be skeletal. So the answer would be:
+
+Cardiomyocytes, Atrial cardiomyocytes, Slow-twitch skeletal muscle cells.
+
+But I need to verify which is more probable. Since the majority are cardiac, the top two are cardiac subtypes, third is skeletal. Alternatively, the user might expect the answer to be three distinct cell types, hence:
+
+1. Cardiomyocytes
+2. Skeletal muscle cells
+3. Atrial cardiomyocytes
+
+But I'm still a bit confused. Let me look up standard markers:
+
+- Nppa: atrial cardiomyocytes
+- Tnnt2: cardiac troponin T (cardiomyocytes)
+- Myl2 and Myl3: ventricular myosin light chains (ventricular cardiomyocytes)
+- Actc1: cardiac alpha actin (cardiomyocytes)
+- Pln: cardiac phospholamban (cardiomyocytes)
+- Tnni1: slow skeletal muscle
+
+So, the presence of Nppa, Tnnt2, Actc1, Pln, Myl2, Myl3, Tnnc1, Tnni3 all point to cardiomyocytes. Among these, Nppa is atrial-specific, Myl2/Myl3 are ventricular-specific. Tnni1 is slow skeletal. So the cell types present would be:
+
+1. Cardiomyocytes (general)
+2. Atrial cardiomyocytes (Nppa)
+3. Ventricular cardiomyocytes (Myl2, Myl3)
+
+But Tnni1 is skeletal, so maybe the third is skeletal. But since there's only one marker for skeletal and many for cardiac, maybe skeletal is third. So the answer would be:
+
+Cardiomyocytes, Atrial cardiomyocytes, Slow-twitch skeletal muscle cells.
+
+Alternatively, if the user considers that the markers come from a mixture of cells, the top three cell types are:
+
+1. Cardiomyocytes (most markers)
+2. Skeletal muscle cells (Tnni1, Cox6a2)
+3. Atrial cardiomyocytes (Nppa)
+
+But Cox6a2 is also in cardiac. Hmm. I think the correct answer is:
+
+Cardiomyocytes, Atrial cardiomyocytes, Slow-twitch skeletal muscle fibers.
+
+But to confirm, let's check each gene's specificity:
+
+- Nppa: atrial cardiomyocytes
+- Actc1: cardiac and skeletal, but more cardiac
+- Tnnt2: cardiac
+- Myl3: ventricular
+- Myl2: ventricular
+- Cox6a2: striated (both)
+- Pln: cardiac
+- Tnnc1: cardiac
+- Tnni3: cardiac
+- Tnni1: slow skeletal
+
+So the majority are cardiac, with one skeletal. Therefore, the top three cell types would be:
+
+1. Cardiomyocytes (cardiac muscle cells)
+2. Atrial cardiomyocytes (due to Nppa)
+3. Ventricular cardiomyocytes (due to Myl2 and Myl3)
+
+But if the user is expecting broader categories, like cardiac, skeletal, smooth (but no smooth markers here), then skeletal would be third. However, since the markers include both atrial and ventricular, but also skeletal, it's possible that the top three are:
+
+1. Cardiac muscle cells
+2. Skeletal muscle cells (slow-twitch)
+3. Atrial cardiomyocytes
+
+But this depends on how specific the user wants. Since the problem states "mouse cells", and the markers are from a list, the most probable answer is:
+
+Cardiomyocytes, Skeletal muscle cells, Atrial cardiomyocytes.
+
+But I'm still a bit uncertain. Another approach: look up each marker's association with cell types.
+
+Nppa: atrial cardiomyocytes.
+
+Actc1: cardiac and skeletal muscle.
+
+Tnnt2: cardiac.
+
+Myl3: ventricular.
+
+Myl2: ventricular.
+
+Cox6a2: heart and skeletal muscle.
+
+Pln: cardiac.
+
+Tnnc1: cardiac.
+
+Tnni3: cardiac.
+
+Tnni1: slow skeletal.
+
+So, combining these:
+
+Cardiac markers: Nppa (atrial), Actc1 (cardiac), Tnnt2, Myl3 (ventricular), Myl2 (ventricular), Cox6a2 (cardiac), Pln, Tnnc1, Tnni3.
+
+Skeletal markers: Actc1 (skeletal), Cox6a2 (skeletal), Tnni1 (slow).
+
+So the presence of both cardiac and skeletal markers suggests two main cell types: cardiac and skeletal. Within cardiac, subtypes atrial and ventricular.
+
+Therefore, the top three cell types would be:
+
+1. Cardiac muscle cells (cardiomyocytes)
+2. Skeletal muscle cells (slow-twitch)
+3. Atrial cardiomyocytes
+
+Alternatively, if the user wants the most specific cell types present, considering the markers, the answer might be:
+
+1. Ventricular cardiomyocytes (due to Myl2, Myl3)
+2. Atrial cardiomyocytes (due to Nppa)
+3. Slow-twitch skeletal muscle fibers (due to Tnni1)
+
+But why ventricular first? Because there are more ventricular markers (Myl2, Myl3) compared to atrial (Nppa). However, Nppa is a very specific atrial marker. So maybe:
+
+1. Ventricular cardiomyocytes (Myl2, Myl3)
+2. Atrial cardiomyocytes (Nppa)
+3. Slow-twitch skeletal muscle (Tnni1)
+
+But if the majority of the markers are cardiac, then the top three would be ventricular, atrial, then skeletal. However, the user provided a list of markers, so the presence of multiple ventricular and atrial markers might indicate that the sample contains both subtypes, but for the purpose of this question, they just want the top 3 cell types. Therefore, the answer is likely:
+
+Ventricular cardiomyocytes, Atrial cardiomyocytes, Slow-twitch skeletal muscle cells.
+
+But another perspective: in mouse heart, the main cell types are cardiomyocytes, and within those, atrial and ventricular. Skeletal muscle is a different tissue. So if the markers are from a heart sample, the third might be something else, but Tnni1 suggests skeletal. Therefore, the answer is:
+
+Cardiomyocytes, Atrial cardiomyocytes, Slow-twitch skeletal muscle cells.
+
+Alternatively, since both atrial and ventricular are subtypes of cardiomyocytes, maybe the top three are:
+
+1. Cardiomyocytes
+2. Skeletal muscle cells
+3. Atrial cardiomyocytes
+
+But I'm not sure. Given the markers provided, the most probable top 3 cell types are:
+
+1. Cardiac muscle cells (due to majority markers)
+2. Atrial cardiomyocytes (specific marker Nppa)
+3. Ventricular cardiomyocytes (Myl2, Myl3)
+
+But if skeletal muscle is present (Tnni1), it would be third. So the answer is:
+
+Cardiac muscle cells, Atrial cardiomyocytes, Slow-twitch skeletal muscle cells.
+
+Alternatively, since the user might consider ventricular and atrial as part of cardiomyocytes, then skeletal would be second. But I think the best answer is:
+
+Cardiomyocytes, Atrial cardiomyocytes, Slow-twitch skeletal muscle cells.
+</think>
+
+Cardiomyocytes, Atrial cardiomyocytes, Slow-twitch skeletal muscle cells
+===================tokens=====================
+Number of prompt tokens: 1872
+Number of sampled tokens: 4462
+
+

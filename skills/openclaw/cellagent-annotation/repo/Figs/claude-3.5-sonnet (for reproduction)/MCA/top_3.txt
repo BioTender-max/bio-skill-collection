@@ -1,0 +1,64 @@
+Neural stem cells, Neural progenitors, Radial glia
+Smooth muscle cells, Pericytes, Fibroblasts
+T cells, CD8+ T cells, Lymphocytes
+Neurons, Neural progenitors, Neuroblasts
+Fibroblasts, Cancer cells, Inflammatory cells
+Embryonic stem cells, Pluripotent stem cells, Early embryonic cells
+Spermatids, Sperm cells, Male germ cells
+Embryonic stem cells, Pluripotent stem cells, Germ cells
+Prostate epithelial cells, Secretory cells, Epithelial cells
+Chondrocytes, Cartilage cells, Mesenchymal cells
+Neutrophils, Granulocytes, Myeloid cells
+Neutrophils, Myeloid cells, Granulocytes
+Erythroid cells, Red blood cells, Erythrocyte progenitors
+Gastric epithelial cells, Stomach cells, Mucus-secreting cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Mammary epithelial cells, Mammary gland cells, Milk-producing cells
+Oligodendrocytes, Myelinating cells, Glial cells
+Neural stem cells, Radial glia, Neural progenitors
+Mesenchymal cells, Fibroblasts, Stromal cells
+B cells, Plasma cells, Lymphocytes
+Macrophages, Microglia, Myeloid cells
+Spermatocytes, Male germ cells, Spermatogonia
+Intestinal epithelial cells, Enterocytes, Secretory cells
+Antigen presenting cells, Dendritic cells, Macrophages
+Erythroid cells, Red blood cells, Erythrocyte progenitors
+Type II pneumocytes, Alveolar cells, Lung epithelial cells
+Kidney proximal tubule cells, Renal tubular cells, Kidney epithelial cells
+Neutrophils, Myeloid cells, Granulocytes
+Granulosa cells, Ovarian cells, Steroidogenic cells
+Cardiac cells, Cardiomyocytes, Heart muscle cells
+Adipocytes, Fat cells, Brown adipose cells
+Urothelial cells, Bladder epithelial cells, Transitional epithelial cells
+Epithelial cells, Embryonic cells, Progenitor cells
+Epididymal epithelial cells, Male reproductive tract cells, Secretory cells
+Liver sinusoidal endothelial cells, Hepatic endothelial cells, Endothelial cells
+Mesenchymal cells, Smooth muscle cells, Fibroblasts
+Embryonic cells, Germ cells, Stem cells
+Osteoblasts, Bone cells, Mesenchymal cells
+Smooth muscle cells, Vascular cells, Myofibroblasts
+Steroidogenic cells, Leydig cells, Hormone-producing cells
+Kidney collecting duct cells, Renal tubular cells, Kidney epithelial cells
+Primordial germ cells, Germ cells, Embryonic stem cells
+Natural killer cells, Cytotoxic T cells, Lymphocytes
+Granulosa cells, Ovarian cells, Reproductive cells
+Natural killer cells, Cytotoxic lymphocytes, T cells
+Cardiomyocytes, Heart muscle cells, Cardiac cells
+Microglia, Brain macrophages, Myeloid cells
+Gastric chief cells, Stomach epithelial cells, Secretory cells
+Pancreatic acinar cells, Exocrine pancreas cells, Secretory cells
+Steroidogenic cells, Leydig cells, Hormone-producing cells
+Kidney cells, Renal tubular cells, Epithelial cells
+Neuroendocrine cells, Enteroendocrine cells, Endocrine cells
+Mast cells, Immune cells, Granulocytes
+Gastric epithelial cells, Stomach cells, Secretory cells
+Placental cells, Trophoblasts, Extraembryonic cells
+Club cells, Bronchial epithelial cells, Airway epithelial cells
+Collecting duct cells, Kidney epithelial cells, Renal cells
+Epithelial cells, Secretory cells, Keratinized cells
+Myeloid cells, Macrophages, Dendritic cells
+Choroid plexus cells, Ependymal cells, Brain epithelial cells
+Astrocytes, Glial cells, Neural support cells
+Hepatocytes, Liver cells, Metabolic cells
+Chondrocytes, Cartilage cells, Mesenchymal cells
+Placental cells, Trophoblasts, Decidual cells

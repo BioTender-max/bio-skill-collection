@@ -1,0 +1,60 @@
+# BioMaster settings
+    # support main model:
+    # o3-mini, o1, gpt-4o, o3-mini-2025-01-31, o1-2024-12-17
+    # claude-3-7-sonnet-thinking, claude-3-7-sonnet-20250219, claude-3-5-sonnet-20241022
+    # DeepSeek-V3, Deepseek-R1
+    # Qwen/QWQ-32B 
+    # LLAMA3-70B
+    # All other models can be tried, but it is suggested that if the main model chooses a better model, 
+    # the best model tested at present is o3-mini-2025-01-31
+
+    # support tool model:
+    # All LLMS can be tried, and you can choose some small models here.
+
+    # support emmbedding model
+    # text-embedding-004,
+    # text-embedding-3-large, text-embedding-3-small,
+    # text-embedding-ada-002
+    # BAAI/bge-m3
+
+    # suggest base url:
+    # https://api.bltcy.ai/v1
+    # https://gpt-api.hkust-gz.edu.cn/v1
+    # https://dashscope.aliyuncs.com/compatible-mode/v1
+    # https://api.openai.com/v1
+    # https://api.siliconflow.cn/v1
+    # https://sg.uiuiapi.com/v1
+api:
+  main:
+    key: ''
+    base_url: 'https://api.siliconflow.cn/v1/'
+  embedding:
+    key: ''
+    base_url: 'https://api.siliconflow.cn/v1/'
+  # Ollama settings
+  ollama:
+    enabled: true
+    base_url: 'http://localhost:11434'
+
+
+# model settings
+models:
+  main: "deepseek-ai/DeepSeek-V3"
+  tool: "deepseek-ai/DeepSeek-V3"
+  embedding: "BAAI/bge-m3"
+
+
+# Biomaster settings
+biomaster:
+  executor: true
+  id: '005'
+  generate_plan: true
+  use_ollama: true   
+
+# datalist and goal
+data:
+  files:
+    - './data/rnaseq_1.fastq.gz: RNA-Seq read 1 data (left read)'
+    - './data/rnaseq_2.fastq.gz: RNA-Seq read 2 data (right read)'
+    - './data/minigenome.fa: small genome sequence consisting of ~750 genes.'
+  goal: 'please do WGS/WES data analysis Somatic SNV+indel calling.'  

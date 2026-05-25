@@ -1,0 +1,29 @@
+skill:
+  id: biomedical.clinical.prior_authorization
+  version: 1.0.0
+  name: PriorAuth
+  category: clinical/prior_authorization
+  description:
+    short: No description provided.
+    long: No description provided.
+    use_cases:
+    - Auto-generated from source code
+  capabilities:
+  - name: analyze_request
+    description: Analyzes a clinical note against a specific policy.
+    inputs:
+    - name: clinical_note
+      type: str
+      description: Input parameter clinical_note
+      required: true
+    - name: procedure_code
+      type: str
+      description: Input parameter procedure_code
+      required: true
+    outputs:
+    - name: result
+      type: Dict
+      description: Result of the operation
+  metadata:
+    created: '2026-01-12'
+    author: BioKernel Auto-Generator

@@ -1,0 +1,7 @@
+Epithelial cells, Colon cancer cells, Gastrointestinal epithelial cells
+Enterocytes, Goblet cells, Paneth cells
+Fibroblasts, Mesenchymal cells, Stromal cells
+Myeloid cells, Macrophages, Dendritic cells
+T cells, Cytotoxic T lymphocytes, Helper T cells
+B cells, Plasma cells, Memory B cells
+Mast cells, Basophils, Eosinophils

@@ -1,0 +1,64 @@
+fibroblast, myofibroblast, smooth muscle cell
+smooth muscle cell, fibroblast, myofibroblast
+T cell, CD8+ T cell, CD4+ T cell
+neuronal cell, astrocyte, oligodendrocyte
+fibroblast, myofibroblast, smooth muscle cell
+neuronal cell, astrocyte, oligodendrocyte
+sperm cell, round spermatid, Leydig cell
+fibroblast, myofibroblast, smooth muscle cell
+epithelial cell, goblet cell, Paneth cell
+chondrocyte, fibroblast, osteoblast
+neutrophil, macrophage, mast cell
+neutrophil, macrophage, dendritic cell
+erythrocyte, reticulocyte, macrophage
+gastric chief cell, gastric parietal cell, gastric enteroendocrine cell
+endothelial cell, pericyte, fibroblast
+mammary gland epithelial cell, alveolar epithelial cell, fibroblast
+oligodendrocyte, astrocyte, neuronal cell
+fibroblast, myofibroblast, smooth muscle cell
+fibroblast, myofibroblast, smooth muscle cell
+B cell, plasma cell, dendritic cell
+microglia, macrophage, dendritic cell
+spermatogonium, spermatocyte, round spermatid
+enterocyte, goblet cell, Paneth cell
+B cell, dendritic cell, macrophage
+hepatocyte, cholangiocyte, erythrocyte
+type II pneumocyte, type I pneumocyte, macrophage
+hepatocyte, cholangiocyte, enterocyte
+neutrophil, macrophage, dendritic cell
+cardiomyocyte, fibroblast, smooth muscle cell
+fibroblast, myofibroblast, smooth muscle cell
+adipocyte, hepatocyte, enterocyte
+keratinocyte, basal cell, fibroblast
+fibroblast, myofibroblast, smooth muscle cell
+neutrophil, macrophage, dendritic cell
+endothelial cell, pericyte, fibroblast
+fibroblast, myofibroblast, smooth muscle cell
+sperm cell, round spermatid, Leydig cell
+osteoblast, osteocyte, chondrocyte
+smooth muscle cell, fibroblast, myofibroblast
+Leydig cell, Sertoli cell, granulosa cell
+renal tubular cell, podocyte, parietal epithelial cell
+pluripotent stem cell, embryonic stem cell, germ cell
+intestinal epithelial cell, goblet cell, Paneth cell
+neutrophil, macrophage, dendritic cell
+T cell, CD8+ T cell, CD4+ T cell
+cardiomyocyte, fibroblast, smooth muscle cell
+microglia, macrophage, dendritic cell
+gastric chief cell, gastric parietal cell, gastric enteroendocrine cell
+pancreatic acinar cell, pancreatic ductal cell, hepatocyte
+Leydig cell, Sertoli cell, granulosa cell
+hepatocyte, cholangiocyte, erythrocyte
+alpha cell, beta cell, delta cell
+mast cell, basophil, eosinophil
+mesangial cell, podocyte, fibroblast
+trophoblast cell, decidual cell, syncytiotrophoblast
+club cell, ciliated cell, basal cell
+osteoclast, osteoblast, chondrocyte
+keratinocyte, basal cell, fibroblast
+melanocyte, keratinocyte, fibroblast
+hepatocyte, cholangiocyte, enterocyte
+astrocyte, oligodendrocyte, neuronal cell
+hepatocyte, cholangiocyte, enterocyte
+chondrocyte, fibroblast, osteoblast
+cardiomyocyte, fibroblast, smooth muscle cell

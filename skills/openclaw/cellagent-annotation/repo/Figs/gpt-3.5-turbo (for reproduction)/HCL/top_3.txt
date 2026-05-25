@@ -1,0 +1,61 @@
+B cell, T cell, Monocyte
+Macrophage, Dendritic cell, Monocyte
+B cell, Plasma cell, T cell
+Fibroblast, Smooth muscle cell, Chondrocyte
+Adrenal gland cell, Leydig cell, Sertoli cell
+T cell, NK cell, B cell
+Fibroblast, Chondrocyte, Osteoblast
+Macrophage, Dendritic cell, B cell
+Epithelial cell, Glandular cell, Ductal cell
+Fibroblast, Mesenchymal stem cell, Osteoblast
+Neural stem cell, Oligodendrocyte, Astrocyte
+Red blood cell, Hematopoietic stem cell, Megakaryocyte
+Macrophage, Dendritic cell, Monocyte
+Glandular cell, Hepatocyte, Pancreatic cell
+Hepatocyte, Adipocyte, Glandular cell
+T cell, B cell, Macrophage
+Macrophage, Monocyte, Endothelial cell
+B cell, T cell, Macrophage
+Epithelial cell, Glandular cell, Ductal cell
+Red blood cell, Erythroblast, Hematopoietic stem cell
+Fibroblast, Chondrocyte, Smooth muscle cell
+Oligodendrocyte, Astrocyte, Schwann cell
+Lung epithelial cell, Type II pneumocyte, Alveolar macrophage
+Thyroid cell, Parathyroid cell, Adrenal gland cell
+Muscle cell, Myoblast, Myotube
+B cell, T cell, Macrophage
+Macrophage, Dendritic cell, Monocyte
+Epithelial cell, Glandular cell, Ductal cell
+Red blood cell, Hematopoietic stem cell, Megakaryocyte
+Red blood cell, Hematopoietic stem cell, Megakaryocyte
+Chondrocyte, Osteoblast, Endothelial cell
+Pancreatic cell, Acinar cell, Ductal cell
+Neutrophil, Eosinophil, Mast cell
+Macrophage, Dendritic cell, Monocyte
+Glandular cell, Pancreatic cell, Ductal cell
+Dendritic cell, Macrophage, T cell
+Glandular cell, Pancreatic cell, Ductal cell
+Epithelial cell, Glandular cell, Ductal cell
+Epithelial cell, Glandular cell, Ductal cell
+Fibroblast, Chondrocyte, Smooth muscle cell
+Macrophage, Dendritic cell, Monocyte
+Red blood cell, Hematopoietic stem cell, Megakaryocyte
+Red blood cell, Hematopoietic stem cell, Megakaryocyte
+Fibroblast, Chondrocyte, Smooth muscle cell
+Epidermal cell, Keratinocyte, Basal cell
+Neuron, Astrocyte, Oligodendrocyte
+Pancreatic cell, Acinar cell, Ductal cell
+Cardiomyocyte, Myocardial cell, Muscle cell
+Glandular cell, Hepatocyte, Pancreatic cell
+Epithelial cell, Glandular cell, Ductal cell
+Hepatocyte, Adipocyte, Glandular cell
+Glandular cell, Pancreatic cell, Ductal cell
+Mast cell, Basophil, Neutrophil
+Epithelial cell, Glandular cell, Ductal cell
+Neuroendocrine cell, Chromaffin cell, Adrenal gland cell
+Epithelial cell, Glandular cell, Ductal cell
+Cytotoxic T cell, NK cell, Macrophage
+Oligodendrocyte, Astrocyte, Schwann cell
+Chondrocyte, Osteoblast, Fibroblast
+Osteoclast, Osteoblast, Chondrocyte
+Adipocyte, Lipid-laden cell, Hepatocyte

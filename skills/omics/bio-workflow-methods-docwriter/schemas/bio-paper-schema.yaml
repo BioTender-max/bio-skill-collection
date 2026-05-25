@@ -1,0 +1,109 @@
+id: https://controlcenter.local/schemas/bio-paper-schema
+name: bio-paper-schema
+description: LinkML schema for protocol summaries of bioinformatics papers (2023-2025).
+prefixes:
+  linkml: https://w3id.org/linkml/
+  bio: https://controlcenter.local/schemas/
+default_prefix: bio
+default_range: string
+imports:
+  - linkml:types
+
+classes:
+  PaperSummary:
+    description: Structured summary of a paper that uses one or more tools for a bio skill.
+    slots:
+      - skill
+      - title
+      - year
+      - journal
+      - authors
+      - doi
+      - url
+      - study_type
+      - sample_type
+      - sequencing_platform
+      - tools_used
+      - tool_versions
+      - datasets
+      - workflow_summary
+      - key_parameters
+      - qc_steps
+      - outputs
+      - code_availability
+      - data_availability
+      - limitations
+      - notes
+    required_slots:
+      - skill
+      - title
+      - year
+      - journal
+      - url
+      - tools_used
+
+slots:
+  skill:
+    description: Bio skill this paper supports.
+    range: string
+  title:
+    description: Paper title.
+    range: string
+  year:
+    description: Publication year.
+    range: integer
+  journal:
+    description: Journal or venue.
+    range: string
+  authors:
+    description: First author and et al.
+    range: string
+  doi:
+    description: DOI if available.
+    range: string
+  url:
+    description: Canonical URL for the paper.
+    range: uri
+  study_type:
+    description: Study type (e.g., methods, benchmarking, application).
+    range: string
+  sample_type:
+    description: Sample or organism type (if relevant).
+    range: string
+  sequencing_platform:
+    description: Sequencing platform or modality (if relevant).
+    range: string
+  tools_used:
+    description: Tools used from the skill.
+    multivalued: true
+    range: string
+  tool_versions:
+    description: Tool versions if reported.
+    range: string
+  datasets:
+    description: Primary datasets or accession IDs.
+    range: string
+  workflow_summary:
+    description: Short workflow summary focusing on protocol steps.
+    range: string
+  key_parameters:
+    description: Key parameters or settings.
+    range: string
+  qc_steps:
+    description: QC gates or checks used.
+    range: string
+  outputs:
+    description: Outputs or deliverables.
+    range: string
+  code_availability:
+    description: Code availability statement or URL.
+    range: string
+  data_availability:
+    description: Data availability statement or URL.
+    range: string
+  limitations:
+    description: Reported limitations.
+    range: string
+  notes:
+    description: Additional notes and relevance to the skill.
+    range: string

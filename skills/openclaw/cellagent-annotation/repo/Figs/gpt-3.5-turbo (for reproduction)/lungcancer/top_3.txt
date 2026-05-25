@@ -1,0 +1,10 @@
+Macrophages, Monocytes, Dendritic cells
+T cells, NK cells, B cells
+NK cells, Cytotoxic T cells, NK T cells
+B cells, Plasma cells, Memory B cells
+Fibroblasts, Smooth muscle cells, Osteoblasts
+Endothelial cells, Pericytes, Smooth muscle cells
+Mast cells, Basophils, Eosinophils
+Type II alveolar cells, Club cells, Clara cells
+Epithelial cells, Goblet cells, Hepatocytes
+Oligodendrocytes, Astrocytes, Schwann cells

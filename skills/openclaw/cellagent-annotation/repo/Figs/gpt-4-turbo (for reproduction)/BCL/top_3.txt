@@ -1,0 +1,9 @@
+Macrophages, Dendritic cells, Monocytes
+B cells, Plasma cells, T cells
+T cells, NK cells, B cells
+B cells, T helper cells, Dendritic cells
+Treg cells, T cells, NK cells
+Gamma delta T cells, NK cells, T cells
+T helper cells, T cells, Dendritic cells
+Oligodendrocytes, Astrocytes, Neurons
+NK cells, Cytotoxic T cells, Dendritic cells

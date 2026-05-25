@@ -1,0 +1,64 @@
+mESC
+Smooth muscle cell
+T cell
+Neuron
+Stromal cell
+mESC
+Premeiotic germ cell
+Primordial germ cell
+Pancreatic acinar cell
+Chondrocyte
+Neutrophil
+Neutrophil
+Erythroblast
+Gastric mucosa cell
+Endothelial cell
+Secretory alveoli cell
+Oligodendrocyte
+Proliferative neuron
+Stromal cell
+B cell
+Macrophage
+Premeiotic germ cell
+Intestinal epithelial cell
+Dendritic cell
+Erythroblast
+Alveolar type II cell
+Renal tubular cell
+Neutrophil
+Granulosa cell
+Cardiac muscle cell
+Adipocyte
+Urothelium
+Epithelial cell
+Astrocyte
+Endothelial cell
+Myoblast
+Trophoblast stem cell
+Osteoblast
+Smooth muscle cell
+Leydig cell
+Renal tubular cell
+Primordial germ cell
+T cell
+Granulosa cell
+NK cell
+Cardiac muscle cell
+Microglia
+Gastric mucosa cell
+Pancreatic acinar cell
+Leydig cell
+Principal cells of cortical collecting duct
+Endocrine cell
+Mast cell
+Gastric mucosa cell
+Spongiotrophoblast
+Clara Cell
+Intercalated cells of collecting duct
+Epithelial cell
+Eosinophil
+Hepatocyte
+Astrocyte
+Hepatocyte
+Chondrocyte
+Decidual stromal cell

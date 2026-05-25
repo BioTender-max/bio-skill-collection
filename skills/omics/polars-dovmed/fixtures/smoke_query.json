@@ -1,0 +1,12 @@
+{
+  "crispr": [
+    [
+      "\\bcrispr\\b"
+    ]
+  ],
+  "archaea": [
+    [
+      "\\barchaea\\b"
+    ]
+  ]
+}

@@ -1,0 +1,90 @@
+Adipocytes, Pre-adipocytes, Fat cells
+Endothelial cells, Vascular endothelial cells, Blood vessel cells
+T cells, CD3+ T cells, Lymphocytes
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Myoepithelial cells, Basal cells, Smooth muscle cells
+Mast cells, Immune cells, Granulocytes
+Pericytes, Smooth muscle cells, Mesenchymal cells
+Lymphatic endothelial cells, Lymphatic vessels, Endothelial cells
+Luminal epithelial cells, Mammary epithelial cells, Breast ductal cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+B cells, Dendritic cells, Immune cells
+Macrophages, Monocytes, Immune cells
+Mast cells, Immune cells, Granulocytes
+Endothelial cells, Vascular endothelial cells, Blood vessel cells
+T cells, CD3+ T cells, Lymphocytes
+Squamous epithelial cells, Epithelial cells, Mucosal cells
+Macrophages, Monocytes, Immune cells
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Interstitial cells of Cajal, Gut neural crest cells, Pacemaker cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Basal epithelial cells, Squamous epithelial cells, Epithelial stem cells
+B cells, Dendritic cells, Immune cells
+Adipocytes, Pre-adipocytes, Fat cells
+Lymphatic endothelial cells, Lymphatic vessels, Endothelial cells
+Cardiomyocytes, Heart muscle cells, Cardiac muscle cells
+Endothelial cells, Vascular endothelial cells, Blood vessel cells
+T cells, CD3+ T cells, Lymphocytes
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Pericytes, Smooth muscle cells, Mesenchymal cells
+Mast cells, Immune cells, Granulocytes
+Lymphatic endothelial cells, Lymphatic vessels, Endothelial cells
+Cardiac fibroblasts, Fibroblasts, Stromal cells
+B cells, Dendritic cells, Immune cells
+Adipocytes, Pre-adipocytes, Fat cells
+Macrophages, Monocytes, Immune cells
+Macrophages, Monocytes, Immune cells
+Endothelial cells, Vascular endothelial cells, Blood vessel cells
+T cells, CD3+ T cells, Lymphocytes
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Pericytes, Smooth muscle cells, Mesenchymal cells
+Lymphatic endothelial cells, Lymphatic vessels, Endothelial cells
+Mast cells, Immune cells, Granulocytes
+Club cells, Secretory cells, Bronchial epithelial cells
+Adipocytes, Pre-adipocytes, Fat cells
+Type I pneumocytes, Alveolar epithelial cells, Lung epithelial cells
+Type II pneumocytes, Alveolar epithelial cells, Lung epithelial cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Ciliated cells, Bronchial epithelial cells, Airway epithelial cells
+B cells, Dendritic cells, Immune cells
+Pericytes, Smooth muscle cells, Mesenchymal cells
+Endothelial cells, Vascular endothelial cells, Blood vessel cells
+T cells, CD3+ T cells, Lymphocytes
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Mast cells, Immune cells, Granulocytes
+Lymphatic endothelial cells, Lymphatic vessels, Endothelial cells
+Prostate epithelial cells, Luminal cells, Secretory cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+B cells, Dendritic cells, Immune cells
+Adipocytes, Pre-adipocytes, Fat cells
+Macrophages, Monocytes, Immune cells
+Skeletal muscle cells, Fast-twitch muscle fibers, Muscle fibers
+T cells, CD3+ T cells, Lymphocytes
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Satellite cells, Muscle stem cells, Myogenic cells
+Pericytes, Smooth muscle cells, Mesenchymal cells
+Endothelial cells, Vascular endothelial cells, Blood vessel cells
+Mast cells, Immune cells, Granulocytes
+Macrophages, Monocytes, Immune cells
+Lymphatic endothelial cells, Lymphatic vessels, Endothelial cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+B cells, Dendritic cells, Immune cells
+Adipocytes, Pre-adipocytes, Fat cells
+Skeletal muscle cells, Myocytes, Muscle fibers
+Keratinocytes, Epithelial cells, Epidermal cells
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Secretory cells, Glandular cells, Epithelial cells
+Sebaceous gland cells, Glandular cells, Epithelial cells
+Pericytes, Smooth muscle cells, Mesenchymal cells
+Melanocytes, Pigment cells, Neural crest cells
+Keratinocytes, Epithelial cells, Epidermal cells
+Lymphatic endothelial cells, Lymphatic vessels, Endothelial cells
+Macrophages, Monocytes, Immune cells
+Dermal papilla cells, Fibroblasts, Mesenchymal cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Basal keratinocytes, Epidermal stem cells, Epithelial cells
+B cells, Dendritic cells, Immune cells
+Adipocytes, Pre-adipocytes, Fat cells
+T cells, CD3+ T cells, Lymphocytes
+Mast cells, Immune cells, Granulocytes
+Endothelial cells, Vascular endothelial cells, Blood vessel cells

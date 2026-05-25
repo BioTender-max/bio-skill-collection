@@ -1,0 +1,11 @@
+{
+    "shell": [
+        "conda install -y -c bioconda samtools",
+        "samtools view -S -b ./output/001/aligned_reads.sam > ./output/001/aligned_reads.bam"
+    ],
+    "analyze": "The task was completed successfully. All required tools were installed correctly, and the SAM to BAM conversion was done using the samtools view command.",
+    "output_filename": [
+        "./output/001/aligned_reads.bam"
+    ],
+    "stats": true
+}

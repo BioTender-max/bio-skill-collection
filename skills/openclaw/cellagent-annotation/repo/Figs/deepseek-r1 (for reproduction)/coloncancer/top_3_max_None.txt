@@ -1,0 +1,7 @@
+"[['epithelial cell'], ['colon cancer cell'], ['adenocarcinoma cell']]"
+"[['enterocyte'], ['goblet cell'], ['colonocyte']]"
+"[['fibroblast'], ['myofibroblast'], ['stromal cell']]"
+"[['macrophage'], ['monocyte'], ['myeloid cell']]"
+"[['t cell'], ['cd8+ t cell'], ['cd4+ t cell']]"
+"[['plasma cell'], ['b cell'], ['memory b cell']]"
+"[['mast cell'], ['basophil'], ['enterochromaffin-like cell']]"

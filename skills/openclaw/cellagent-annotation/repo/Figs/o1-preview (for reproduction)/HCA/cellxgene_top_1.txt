@@ -1,0 +1,99 @@
+subcutaneous adipocyte
+endothelial cell of lymphatic vessel
+subcutaneous adipocyte
+basal cell
+subcutaneous adipocyte
+luminal epithelial cell of mammary gland
+myeloid cell
+subcutaneous adipocyte
+enteric smooth muscle cell
+macrophage
+fibroblast
+Schwann cell
+endothelial cell of vascular tree
+Schwann cell
+macrophage
+enteric smooth muscle cell
+macrophage
+mast cell
+mature NK T cell
+dendritic cell
+dendritic cell
+aggregated
+epithelial cell
+endothelial cell of lymphatic vessel
+mast cell
+mesothelial cell of epicardium
+fibroblast
+endothelial cell
+Schwann cell
+ventricular cardiac muscle cell
+cardiac muscle myoblast
+CD4-positive, alpha-beta cytotoxic T cell
+natural killer cell
+professional antigen presenting cell
+B cell
+endothelial cell of lymphatic vessel
+subcutaneous adipocyte
+mast cell
+lung resident memory CD8-positive, alpha-beta T cell
+metallothionein-positive alveolar macrophage
+stromal cell
+capillary endothelial cell
+mast cell
+enucleate erythrocyte
+lung resident memory CD8-positive, alpha-beta T cell
+blood vessel smooth muscle cell
+bronchial epithelial cell
+deuterosomal cell
+bronchial epithelial cell
+IgG plasma cell
+type II pneumocyte
+type I pneumocyte
+neuron
+neutrophil
+basal epithelial cell of prostatic duct
+endothelial cell
+Schwann cell
+skin fibroblast
+neuroendocrine cell
+smooth muscle cell of prostate
+mast cell
+neutrophil
+macrophage
+neutrophil
+skin fibroblast
+luminal cell of prostate epithelium
+basal epithelial cell of prostatic duct
+basal epithelial cell of prostatic duct
+endothelial cell of lymphatic vessel
+memory T cell
+endothelial cell of vascular tree
+skeletal muscle fibroblast
+contractile cell
+neuron
+skeletal muscle fibroblast
+skeletal muscle fiber
+skeletal muscle fibroblast
+mast cell
+mature NK T cell
+skeletal muscle fibroblast
+endothelial cell of lymphatic vessel
+subcutaneous adipocyte
+mast cell
+endothelial cell of vascular tree
+epithelial cell of sweat gland
+melanocyte of skin
+mast cell
+basal cell of epidermis
+epidermal Langerhans cell
+epithelial cell of sweat gland
+granular cell of epidermis
+epithelial cell of sweat gland
+epidermal cell
+epidermal Langerhans cell
+endothelial cell of lymphatic vessel
+subcutaneous adipocyte
+epithelial cell of sweat gland
+epithelial cell of sweat gland
+sebaceous gland cell

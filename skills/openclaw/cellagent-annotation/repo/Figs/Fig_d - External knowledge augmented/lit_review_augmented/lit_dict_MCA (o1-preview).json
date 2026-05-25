@@ -1,0 +1,1154 @@
+[
+    {
+        "index": 0,
+        "ground_truth": "Proliferating Myocyte",
+        "markers": [
+            "Mdk",
+            "Rbp1",
+            "Nrep",
+            "Cdk4",
+            "Tead2",
+            "Hmgn1",
+            "Selenoh",
+            "Marcksl1",
+            "Mif",
+            "H2afz"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Mdk, Rbp1, Nrep, Cdk4, Tead2, Hmgn1, Selenoh, Marcksl1, Mif, H2afz\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Fibroblasts, Neural progenitor cells, Epithelial cells"
+    },
+    {
+        "index": 1,
+        "ground_truth": "Myocyte",
+        "markers": [
+            "Mylk",
+            "Acta2",
+            "Myl9",
+            "Mdk",
+            "Cdkn1c",
+            "Ptn",
+            "Dlk1",
+            "Itm2a",
+            "Meg3",
+            "Mfap2"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Mylk, Acta2, Myl9, Mdk, Cdkn1c, Ptn, Dlk1, Itm2a, Meg3, Mfap2\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Smooth muscle cells, myofibroblasts, fibroblasts"
+    },
+    {
+        "index": 2,
+        "ground_truth": "T cell",
+        "markers": [
+            "Ms4a4b",
+            "Trac",
+            "Ltb",
+            "Cd52",
+            "Trbc2",
+            "Cd3d",
+            "Cd8b1",
+            "Shisa5",
+            "Lck",
+            "Thy1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Ms4a4b, Trac, Ltb, Cd52, Trbc2, Cd3d, Cd8b1, Shisa5, Lck, Thy1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "CD8+ T cells, CD4+ T cells, T cells"
+    },
+    {
+        "index": 3,
+        "ground_truth": "Neuron",
+        "markers": [
+            "Rtn1",
+            "Nnat",
+            "Tubb3",
+            "Tubb2b",
+            "Tuba1a",
+            "Stmn2",
+            "Stmn3",
+            "Igfbpl1",
+            "Tagln3",
+            "Gap43"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Rtn1, Nnat, Tubb3, Tubb2b, Tuba1a, Stmn2, Stmn3, Igfbpl1, Tagln3, Gap43\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Neurons, Neural Progenitor Cells, Neuroblasts"
+    },
+    {
+        "index": 4,
+        "ground_truth": "MSC (Cultured)",
+        "markers": [
+            "S100a6",
+            "Timp1",
+            "Cxcl5",
+            "Gm15772",
+            "Spp1",
+            "Lgals1",
+            "Gm28438",
+            "S100a4",
+            "Gm15459",
+            "Tm4sf1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: S100a6, Timp1, Cxcl5, Gm15772, Spp1, Lgals1, Gm28438, S100a4, Gm15459, Tm4sf1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Fibroblasts, Macrophages, Endothelial cells"
+    },
+    {
+        "index": 5,
+        "ground_truth": "mESC",
+        "markers": [
+            "Rps13-ps1",
+            "Rps3a3",
+            "Dppa5a",
+            "Gm10036",
+            "Gm11942",
+            "Tdgf1",
+            "Gm15459",
+            "Stmn2",
+            "Chchd10",
+            "Tdh"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Rps13-ps1, Rps3a3, Dppa5a, Gm10036, Gm11942, Tdgf1, Gm15459, Stmn2, Chchd10, Tdh\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10760145\nsection: METHODS\ncontent: We also used this approach for assigning cell type identities for cells segmented from Resolve spatial data to the Allen whole mouse brain cell type taxonomy or external datasets as reference, using different gene lists based on the contexts.\n----------------------------------------------------------------------\npmcid: PMC8021962\nsection: RESULTS\ncontent: The ontology-based reference atlas organizes the mouse CNS in thirteen ontological levels that expand from the early segmentation of the neural tube (level 1) into forebrain, midbrain, hindbrain, and spinal cord, to the complete set of neuroanatomical structures including cell layers and nuclei observed in the adult CNS (levels 11-13), which are similar to the ones described in the stereotaxic mouse brain atlas and in classical human neuroanatomy [abbreviations of neuroanatomical structures used in the Allen Reference Atlas (see text footnote 3) and followed throughout the present study can be found in Supplementary Table 1].\n----------------------------------------------------------------------\npmcid: PMC11271244\nsection: RESULTS\ncontent: The ability of Pianno to estimate cell-type spatial distribution was then assessed using a Stereo-seq dataset of an adult mouse hemibrain coronal section, and the results were compared with the cell type distribution inferred through distinct strategies: cell segmentation followed by unsupervised clustering, and three widely-used tools for spatial deconvolution based on spatial and single-cell transcriptomics integration (Fig. 3a).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Embryonic stem cells, neural progenitor cells, neurons"
+    },
+    {
+        "index": 6,
+        "ground_truth": "Testicular cell",
+        "markers": [
+            "Prm1",
+            "Prm2",
+            "Meig1",
+            "Ldhc",
+            "Tnp1",
+            "Fabp9",
+            "Tnp2",
+            "Smcp",
+            "Rbakdn",
+            "Ropn1l"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Prm1, Prm2, Meig1, Ldhc, Tnp1, Fabp9, Tnp2, Smcp, Rbakdn, Ropn1l\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC11274546\nsection: None\ncontent: Clusters of unselected mouse spermatids from the mouse steady-state spermatogenic cell datasets were identified based on the expression of known spermatid-specific genes (Prm1, Prm2, Tnp1, Tnp2, and Catsper1).\n----------------------------------------------------------------------\npmcid: PMC6219387\nsection: None\ncontent: Examples of well-studied transcripts whose synthesis and translation are temporally disconnected include mRNAs encoding transition proteins (Tnp1 and Tnp2), protamine proteins (Prm1 and Prm2), and the sperm mitochondrial associated cysteinerich protein (Smcp), all of which are encoded by genes that are essential for proper germ cell development in mice.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Spermatids, Elongating spermatids, Mature spermatozoa"
+    },
+    {
+        "index": 7,
+        "ground_truth": "Trophoblast stem cell",
+        "markers": [
+            "Rhox5",
+            "Bex1",
+            "Tex19.1",
+            "Gm15459",
+            "Bex3",
+            "Trap1a",
+            "Utf1",
+            "Gm11942",
+            "Gm15772",
+            "Cldn6"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Rhox5, Bex1, Tex19.1, Gm15459, Bex3, Trap1a, Utf1, Gm11942, Gm15772, Cldn6\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\npmcid: PMC8021962\nsection: RESULTS\ncontent: The ontology-based reference atlas organizes the mouse CNS in thirteen ontological levels that expand from the early segmentation of the neural tube (level 1) into forebrain, midbrain, hindbrain, and spinal cord, to the complete set of neuroanatomical structures including cell layers and nuclei observed in the adult CNS (levels 11-13), which are similar to the ones described in the stereotaxic mouse brain atlas and in classical human neuroanatomy [abbreviations of neuroanatomical structures used in the Allen Reference Atlas (see text footnote 3) and followed throughout the present study can be found in Supplementary Table 1].\n----------------------------------------------------------------------\npmcid: PMC10760145\nsection: METHODS\ncontent: We also used this approach for assigning cell type identities for cells segmented from Resolve spatial data to the Allen whole mouse brain cell type taxonomy or external datasets as reference, using different gene lists based on the contexts.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Primordial germ cells, Embryonic stem cells, Spermatogonia"
+    },
+    {
+        "index": 8,
+        "ground_truth": "Prostate gland cell",
+        "markers": [
+            "Sbp",
+            "Spink1",
+            "9530002B09Rik",
+            "Defb50",
+            "5430419D17Rik",
+            "Wfdc3",
+            "Nupr1",
+            "Azgp1",
+            "Agr2",
+            "Tspan1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Sbp, Spink1, 9530002B09Rik, Defb50, 5430419D17Rik, Wfdc3, Nupr1, Azgp1, Agr2, Tspan1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC6342523\nsection: None\ncontent: Please consider adding a reference under \"Related Work\" to the use of supervised learning (\"Adaboost\") to segment active neurons, i.e. Automatic identification of fluorescently labeled brain cells for rapid functional imaging.\n----------------------------------------------------------------------\npmcid: PMC6342523\nsection: None\ncontent: Please consider adding a reference under \"Related Work\" to the use of supervised learning (\"Adaboost\") to segment active neurons, i.e. Automatic identification of fluorescently labeled brain cells for rapid functional imaging.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Pancreatic acinar cells, intestinal goblet cells, Paneth cells"
+    },
+    {
+        "index": 9,
+        "ground_truth": "Chondrocyte",
+        "markers": [
+            "Matn1",
+            "Col2a1",
+            "Col9a2",
+            "Col9a3",
+            "Col9a1",
+            "Col11a1",
+            "Cnmd",
+            "3110079O15Rik",
+            "Col11a2",
+            "Hapln1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Matn1, Col2a1, Col9a2, Col9a3, Col9a1, Col11a1, Cnmd, 3110079O15Rik, Col11a2, Hapln1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10831947\nsection: DISCUSS\ncontent: ECM proteins commonly associated with developing cartilage (COL9A1, COL9A2, COL9A3, COL10A1, COL11A1, COL11A2, MATN1, MATN4, and BGN) or tendon (COL12A1) were more abundant compared to other time points.\n----------------------------------------------------------------------\npmcid: PMC8864194\nsection: RESULTS\ncontent: Cluster 4 specifically expressed MATN1, COL11A1, COL11A2, MATN4, and MATN3 , as well as cartilage (CT) development-related genes, such as CNMD, EPYC, HAPLN1, and PCOLCE2 , and thus was classified as CT.\n----------------------------------------------------------------------\npmcid: PMC8465916\nsection: RESULTS\ncontent: Thus, monogenic diseases caused by mutations of COL1A1, COL1A2, COL2A1, COL9A1, COL9A2, COL9A3, COL11A1 and COL11A2 genes (Table 1) and SNVs of these genes may be important in the IVDD development.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Chondrocytes, Chondroprogenitor cells, Nucleus pulposus cells"
+    },
+    {
+        "index": 10,
+        "ground_truth": "Neutrophil",
+        "markers": [
+            "Camp",
+            "Ngp",
+            "S100a9",
+            "S100a8",
+            "Chil3",
+            "Ltf",
+            "Wfdc21",
+            "Lcn2",
+            "Fcnb",
+            "Pglyrp1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Camp, Ngp, S100a9, S100a8, Chil3, Ltf, Wfdc21, Lcn2, Fcnb, Pglyrp1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC11326406\nsection: RESULTS\ncontent: Surprisingly, myeloid cell-specific genes and genes associated with anti-pathogen and innate immune responses normally activated in myeloid cells, such as S100a9, S100a8, S100a6, S100a11, Retnlg, Ngp, Camp, Lcn2, Lyz2, Wfdc21, Chil3, and Pglyrp1 were highly expressed in Ptpn11E76K/+ LT-HSCs.\n----------------------------------------------------------------------\npmcid: PMC8377972\nsection: RESULTS\ncontent: Given the variance in late disease spinal cord expression profiles already noted, we found limited power to resolve statistically significant expression differences in this anatomic site, with increased expression of a gene cluster comprised of S100a8, S100a9, Ngp, Camp, Retnlg, Wfdc21, Lcn2, Chil3 and Ltf, and decreased expression of Rapgef1 the most notable observations.\n----------------------------------------------------------------------\npmcid: PMC11326406\nsection: DISCUSS\ncontent: These mutant stem cells exhibit strikingly heightened expression of evolutionarily conserved genes that are typically activated in mature myeloid cells during pathogen defense, including anti-microbial peptides (Camp, Lcn2, Lyz2, Ltf, Chil3, and Pglyrp1) and essential trace metal-sequestering proteins (S100a9 and S100a8), which also function as pro-inflammatory proteins triggering and amplifying innate immune responses.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Neutrophils, Granulocytes, Myeloid cells"
+    },
+    {
+        "index": 11,
+        "ground_truth": "Monocyte",
+        "markers": [
+            "Elane",
+            "Mpo",
+            "Ctsg",
+            "Prtn3",
+            "Ms4a3",
+            "Ly6c2",
+            "Plac8",
+            "Nkg7",
+            "Srgn",
+            "Cst7"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Elane, Mpo, Ctsg, Prtn3, Ms4a3, Ly6c2, Plac8, Nkg7, Srgn, Cst7\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10623959\nsection: RESULTS\ncontent: The expression of the monocyte-related genes Elane, Ctsg, Prtn3 and Ly6c2 and the neutrophil-related gene Mpo are raised in MPP4, indicating the myeloid differentiation trajectory of this cluster.\n----------------------------------------------------------------------\npmcid: PMC10165729\nsection: RESULTS\ncontent: The CMP-1/GMP-1/Preneu trajectory exhibited progressively increasing expression of genes related to the differentiation of neutrophils and monocytes (Mpo, Elane, Ms4a3, Ctsg or prtn3, S100a8, etc.\n----------------------------------------------------------------------\npmcid: PMC7510109\nsection: RESULTS\ncontent: The results showed that the expression of the GMP's marker genes such as MPO, CALR, CST7, ELANE, HGF, EPX, MS4A3, CPA3, IGLL1, PRTN3, RNASE3, TPSAB1 and CTSG were highly correlated to the cell type fractions of GMP.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Neutrophils, Granulocyte/monocyte progenitors, Monocytes"
+    },
+    {
+        "index": 12,
+        "ground_truth": "Erythroblast",
+        "markers": [
+            "Klf1",
+            "Blvrb",
+            "Hmbs",
+            "Glrx5",
+            "Alad",
+            "Rfesd",
+            "Car2",
+            "Hebp1",
+            "Asns",
+            "Smim1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Klf1, Blvrb, Hmbs, Glrx5, Alad, Rfesd, Car2, Hebp1, Asns, Smim1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Erythrocytes, Erythroblasts, Erythroid Progenitors"
+    },
+    {
+        "index": 13,
+        "ground_truth": "Stomach epithelial cell",
+        "markers": [
+            "Tff1",
+            "Gkn1",
+            "Gkn2",
+            "Gsta1",
+            "Psca",
+            "Lgals2",
+            "Dpcr1",
+            "2210407C18Rik",
+            "Tff2",
+            "Gsto1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Tff1, Gkn1, Gkn2, Gsta1, Psca, Lgals2, Dpcr1, 2210407C18Rik, Tff2, Gsto1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Gastric surface mucous cells, Gastric mucous neck cells, Brunner’s gland epithelial cells"
+    },
+    {
+        "index": 14,
+        "ground_truth": "Endothelial cell",
+        "markers": [
+            "Fabp4",
+            "Cldn5",
+            "Ramp2",
+            "Egfl7",
+            "Cav1",
+            "Cd36",
+            "Esam",
+            "Gpihbp1",
+            "Ly6c1",
+            "Tm4sf1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Fabp4, Cldn5, Ramp2, Egfl7, Cav1, Cd36, Esam, Gpihbp1, Ly6c1, Tm4sf1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Endothelial cells, Adipocytes, Monocytes"
+    },
+    {
+        "index": 15,
+        "ground_truth": "Secretory alveoli cell",
+        "markers": [
+            "Wap",
+            "Csn1s2b",
+            "Csn1s2a",
+            "Csn1s1",
+            "Csn2",
+            "Csn3",
+            "Glycam1",
+            "Lalba",
+            "Wfdc18",
+            "Lao1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Wap, Csn1s2b, Csn1s2a, Csn1s1, Csn2, Csn3, Glycam1, Lalba, Wfdc18, Lao1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC5961211\nsection: RESULTS\ncontent: For example, the top ten most highly expressed genes at day 1 of lactation (RNA-seq data):Csn2, Csn1s2a, Wap, Glycam1, Csn1s1, Csn3, Spp1, Trf, Csn1s2b, and Lao1 :were easily validated with the expression table generated by Octopus-toolkit.\n----------------------------------------------------------------------\npmcid: PMC3929623\nsection: RESULTS\ncontent: Different casein genes (Csn1s1, Csn1s2a, Csn1s2b, Csn2, Csn3) and the whey acidic protein gene (Wap) were up to 2.5fold down-regulated in Miz1DeltaPOZ animals (Fig. S4B).\n----------------------------------------------------------------------\npmcid: PMC3929623\nsection: DISCUSS\ncontent: This disrupts the Stat5 pathway due to impaired signalling via PrlR and ErbB4, reflected by an alleviated expression of Stat5 target genes like Csn1s1, Csn1s2a, Csn1s2b, Csn2, Csn3, Wap or Socs2 as well as PrlR and ErbB4.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Mammary alveolar epithelial cells (lactating), Mammary luminal epithelial cells, Secretory mammary epithelial cells"
+    },
+    {
+        "index": 16,
+        "ground_truth": "Oligodendrocyte",
+        "markers": [
+            "Plp1",
+            "Ptgds",
+            "Mbp",
+            "Cldn11",
+            "Aplp1",
+            "Ermn",
+            "Mobp",
+            "Apod",
+            "Mag",
+            "Stmn4"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Plp1, Ptgds, Mbp, Cldn11, Aplp1, Ermn, Mobp, Apod, Mag, Stmn4\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10897532\nsection: DISCUSS\ncontent: Furthermore, the expression of multiple oligodendrocyte-related proteins appeared to be altered in middle age APPKI mice, in particular, ERMN, CNP, GSN, MOBP, PTGDS, ASPA, and MBP.\n----------------------------------------------------------------------\npmcid: PMC6127286\nsection: RESULTS\ncontent: We validated eight of the decreased myelin-related DEGs (Mobp, Mbp, Tspan2, Cldn11, Myrf, Mog, Mag, and Plp1) by qRT-PCR analyses of the Shank3 TG mPFC (Figure 2C).\n----------------------------------------------------------------------\npmcid: PMC10604604\nsection: RESULTS\ncontent: The first group consisted of genes related to myelination and the functioning of oligodendrocytes (Plp1, Mbp, Mobp, Cldn11, Mal, Apod, Cnp, Trf, Fth1, etc.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Oligodendrocytes, Oligodendrocyte precursor cells, Schwann cells"
+    },
+    {
+        "index": 17,
+        "ground_truth": "Proliferative neuron",
+        "markers": [
+            "Fabp7",
+            "Pantr1",
+            "Nnat",
+            "Ptn",
+            "Pax6",
+            "Rtn1",
+            "Dbi",
+            "Tuba1a",
+            "H2afv",
+            "Tubb2b"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Fabp7, Pantr1, Nnat, Ptn, Pax6, Rtn1, Dbi, Tuba1a, H2afv, Tubb2b\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC8021962\nsection: RESULTS\ncontent: The ontology-based reference atlas organizes the mouse CNS in thirteen ontological levels that expand from the early segmentation of the neural tube (level 1) into forebrain, midbrain, hindbrain, and spinal cord, to the complete set of neuroanatomical structures including cell layers and nuclei observed in the adult CNS (levels 11-13), which are similar to the ones described in the stereotaxic mouse brain atlas and in classical human neuroanatomy [abbreviations of neuroanatomical structures used in the Allen Reference Atlas (see text footnote 3) and followed throughout the present study can be found in Supplementary Table 1].\n----------------------------------------------------------------------\npmcid: PMC11128132\nsection: INTRO\ncontent: Regional and cell-type specific characterization of one or more sections of the mouse brain based on this reliable anatomical segmentation mostly allowed for the comparison of the basal states between groups or even the task-related active states by calcium two-photon imaging and scRNAseq of the visual cortex.\n----------------------------------------------------------------------\npmcid: PMC5069440\nsection: RESULTS\ncontent: The systematic analysis based on the alteration of FUS/TLS in the different anatomic regions, segments and neural cells of spinal cord during the different stages in the SOD1 wild-type and G93A transgenic mice demonstrated that the increase of FUS/TLS positive cells amount was negatively correlated with the decrease of neuron cell amount in the cervical, thoracic and lumbar segments of the adult spinal cord at the onset and progression stages in the SOD1 G93A transgenic mice, the death of neuron cell was closely related to the increase of FUS/TLS expression in the astrocyte cell, which implied the more expression of FUS/TLS and the more death of neuron cell (Figure 7).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Neural stem/progenitor cells, Neurons, Astrocytes"
+    },
+    {
+        "index": 18,
+        "ground_truth": "Stromal cell",
+        "markers": [
+            "Dlk1",
+            "H19",
+            "Postn",
+            "Col1a2",
+            "Itm2a",
+            "Aspn",
+            "Fstl1",
+            "Mfap5",
+            "Col3a1",
+            "Igf2"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Dlk1, H19, Postn, Col1a2, Itm2a, Aspn, Fstl1, Mfap5, Col3a1, Igf2\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC8247239\nsection: None\ncontent: However, in response to injury, the two populations follow a linear trajectory into a single population of activated FAPs (highly expressing chemokine genes like Cxcl5, Cxcl3, Ccl7, and Ccl2) at 0.5 and 2-day post-injury (DPI), then progressing into WISP1+ FAPs at 3.5 and 5 DPI (highly expressing Postn, Csrp2, Sfrp2, Ptn, Cilp, and Cthrc1), followed by DLK1+ FAPs at 10 DPI (expressing Itm2a, B830012L14Rik, Meg3, Airn, Peg3, Zim1, H19, and Igf2), and finally two FAP subpopulations at day 21 DPI, OSR1+ (expressing Gsn, Ccl1, Bmp4, Bmp5, and Wnt5a) and fibroblast FAPs (expressing Col3a1, Col1a1, Col1a2, Col6a3, and Meg3) (Table 4 and Fig. 3b).\n----------------------------------------------------------------------\npmcid: PMC4963112\nsection: RESULTS\ncontent: Clustering analysis suggests the common genes are mainly related to the following metabolic categories: prolactins (up: Plf2, Mrpplf3), genes involved in bone growth, mineralization and bone morphogenic protein (BMP) metabolism (up: Aqp5; Grem1, Inhba, Nbl1, Cryab, Ank, CD44, Scx, Mustn1, Tnfrsf11b (osteoprotegerin), Bdnf, Stmn2; down: Ptn (pleiotrophin), Hp, Scara5, Itm2a, Ptn, Dlk1, Ramp2, Dab, Eno1, CD14, Hemp1, Lgmn, Txnip, Ptx3), apoptosis/survival (down: Clu, Rbm3), extracellular matrix components (up: Timp3, Prelp, Ctgf, Col7a1; down: Lum, Dcn, H19, Nid2, Col3a1, Dpt, Ctsc), Wnt signaling (up: Gpc1, Nkd2; down: Sfrp 2 and 1), IGF signaling (down: Igfbp5 and 3, Igf2), heat-shock proteins (up: Hspb1 and 8), chemokines (down: Cxcl12 and 4, Ccr5), cell cycle control (up: Ccng1, down: Cdkn1c), as well as a variety of histone genes.\n----------------------------------------------------------------------\npmcid: PMC4689630\nsection: RESULTS\ncontent: The majority of the GO categories associated with FG-3149-responsive cardiac injury genes elevated by PKCepsilon related to ECM structural proteins and remodeling enzymes, including collagens (Col1a1, Col1a2, Col3a1, Col4a1, Col5a1, Col5a2, Col6a1, Col6a2, Col6a3, Col8a1), collagen processing enzymes (Lox, Loxl1, Loxl2, Loxl3, Pcolce), non-collagen ECM molecules (Bgn, Cspg4, Emilin, Fbln2, Fbn1, Fstl1, Postn, Thbs4, Vcan), proteinase inhibitors (Pi16, Serpine2, Timp1), TGFbeta and other fibrosis-associated signaling molecules (Igfbp7, Ltbp2, Pdgfc, Ptn, Sfrp1, Tgfb3), and regulators of mesenchymal cell differentiation (Meox1, Runx2, Sox9, Twist1).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Fibroblasts, Fibro-Adipogenic Progenitors (FAPs), Mesenchymal Stem Cells"
+    },
+    {
+        "index": 19,
+        "ground_truth": "B cell",
+        "markers": [
+            "Cd79a",
+            "Ighm",
+            "Cd74",
+            "Cd79b",
+            "Iglc2",
+            "Iglc3",
+            "Ms4a1",
+            "Fcmr",
+            "Ighd",
+            "H2-Ab1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Cd79a, Ighm, Cd74, Cd79b, Iglc2, Iglc3, Ms4a1, Fcmr, Ighd, H2-Ab1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10651689\nsection: RESULTS\ncontent: Cluster 12 identified a subset of cells enriched for B cell genes Cd19, Ms4a1 (Cd20), Ighm, Cd74, Cd79b, and Fcmr, with no expression of Ighd or Ighg, suggesting that this cluster might be Cd19+Cd20+IgM+IgD- immature B cells (Figure S24).\n----------------------------------------------------------------------\npmcid: PMC9293816\nsection: RESULTS\ncontent: Enrichment analysis with gene ontology (GO) annotation showed that among the 65 overexpressed genes in HCL compared to nMNC were included genes characteristically expressed in B cells, such as B cell activation genes (CD79B, CD79A, CD40, MEF2C, BANK1, BLNK, BTK, MS4A1, HDAC9 and AICDA), B cell receptor pathway genes (BLK, CD79B, IGHM, CD79A, MEF2C, SYK, CD19, IGHD and BTK), genes with a negative regulatory role in cell cycle arrest (CCND1, CDK4, and SETMAR) and genes implicated in the regulation of the MAPK cascade (EPHB6, CD74, CD40, SYK, ROR1 and FGFR) (Online Resources Fig. S2a and Table S4a).\n----------------------------------------------------------------------\npmcid: PMC9614684\nsection: METHODS\ncontent: Marker genes used for excluding hematopoietic contaminants: general hematopoietic markers (Ptprc, Ptpn22, Itga4, Gpr183), B-lineage (Igkc, Igha, Ighm, Ighd, Jchain, Iglv1, Iglv2, Iglv3, Iglc1, Iglc2, Iglc3, Igll1, Rag1, Rag2, Il7r, Vpreb1, Vpreb2, Vpreb3, Cd19, Cd79a, Cd79b, Dntt), T- and NK-lineage (Ccr7, Cd3e, Cd2, Gmza, Gmzb), myeloid lineage (Il1b, Ccr1, Cxcr2, Siglech, Ccr9, Lair1, Csf3r, Trem1, Cd300c), erythroid lineage (Ciita, Slc4a1, Rhd, Alas2).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "B cells, mature B cells, naïve B cells"
+    },
+    {
+        "index": 20,
+        "ground_truth": "Macrophage",
+        "markers": [
+            "Pf4",
+            "C1qc",
+            "C1qb",
+            "Apoe",
+            "Ctsc",
+            "C1qa",
+            "Fcer1g",
+            "F13a1",
+            "Csf1r",
+            "Tyrobp"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Pf4, C1qc, C1qb, Apoe, Ctsc, C1qa, Fcer1g, F13a1, Csf1r, Tyrobp\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10040768\nsection: RESULTS\ncontent: An immune cell cluster, Cluster 14, was also identified in the Day 2 cultures based on the expression of Tyrobp, Fcer1g, C1qa, C1qb, C1qc, and Trem2 (Figure 3; Supplementary Table S2).\n----------------------------------------------------------------------\npmcid: PMC10040768\nsection: RESULTS\ncontent: Cells assigned to Clusters 17 and 18 were annotated as immune cell types based on their co-expression of Tyrobp, Fcer1g, C1qa, C1qb, C1qc, and Trem2 (Figure 4; Supplementary Table S2).\n----------------------------------------------------------------------\npmcid: PMC6959356\nsection: METHODS\ncontent: We extracted markers of five myeloid clusters from a CSF-based study (genes C1QB, C1QC, APOE, C1QA, LYVE1, SEPP1, FCGBP, APOC1, C3, A2M, MSR1, EPB41L2, MARCO, RNASE1, and F13A1).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Microglia, Macrophages, Monocytes"
+    },
+    {
+        "index": 21,
+        "ground_truth": "Primordial germ cell",
+        "markers": [
+            "Stra8",
+            "Dazl",
+            "Sycp3",
+            "Tex101",
+            "Tex12",
+            "Smc1b",
+            "Syce2",
+            "Fkbp6",
+            "Slc25a31",
+            "Tex30"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Stra8, Dazl, Sycp3, Tex101, Tex12, Smc1b, Syce2, Fkbp6, Slc25a31, Tex30\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\npmcid: PMC4785667\nsection: RESULTS\ncontent: When attempting to assemble the RNA-Seq transcriptome of a non-model species, whose genome is not available, two options for assembly can be considered: 1) A de novo approach, where transcripts are built solely from overlapping segments in the reads; or 2) A genome-based approach, where reads are aligned to a reference genome of a closely related species.\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Spermatocytes, Spermatogonia, Male Germ Cells"
+    },
+    {
+        "index": 22,
+        "ground_truth": "Intestinal epithelial cell",
+        "markers": [
+            "Reg3b",
+            "Reg3g",
+            "Fabp2",
+            "Fabp6",
+            "Lgals4",
+            "Lypd8",
+            "Apoa1",
+            "Tff3",
+            "Fabp1",
+            "Prap1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Reg3b, Reg3g, Fabp2, Fabp6, Lgals4, Lypd8, Apoa1, Tff3, Fabp1, Prap1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10038833\nsection: RESULTS\ncontent: The resulting quality-controlled, mouse intestinal structural cell atlas included 13,664 cells, which were clustered based on differential expression of hallmark genes and visualized using UMAP: enterocytes by expression of Alpi, Apoa1, Apob, Apoa4, Apoc3, Fabp1, Atp5a1, Selenop, and Slc27a4; stem cells by expression of Lgr5, Ascl2, Slc12a2, Axin2, Olfm4, Gkn3, and mKi67; goblet cells by expression of Muc2, Tff3, Clca3, Agr2, Dmbt1, Olfm4, and Dmbt1; Paneth cells by expression of Lyz1, Defa17, Defa22, Defa24, Ang4, and Defa30; enteroendocrine cells (EECs) by expression of Chga, Chgb, Tac1, Tph1, Neurog3, Neurod1, and Cpe; and tuft cells by expression of Dclk1, Trpm5, Gfi1b, Il25, Hck, Sh2d6, Avil, and Trpm5 (Fig.    B and C).\n----------------------------------------------------------------------\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\npmcid: PMC11162022\nsection: INTRO\ncontent: However, these reviews only encompassed literature up to 2020; secondly, they categorized methods solely based on network design, without categorizing and summarizing specific solutions unique to the challenges of multi-organ segmentation; thirdly, the majority of these reviews primarily covered fully supervised methods and did not provide a summary of papers related to weakly supervised and semi-supervised; lastly, they did not provide a comprehensive summary of the segmentation accuracy for each organ, making it difficult for readers to assess the current segmentation precision for each organ and knew which organs have reached a mature stage of segmentation and which organs still pose challenges.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Enterocytes, Goblet cells, Paneth cells"
+    },
+    {
+        "index": 23,
+        "ground_truth": "Dendritic cell",
+        "markers": [
+            "H2-Eb1",
+            "H2-Ab1",
+            "H2-Aa",
+            "Cd74",
+            "Cst3",
+            "Plbd1",
+            "H2-DMa",
+            "H2-DMb1",
+            "Gm2a",
+            "Psap"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: H2-Eb1, H2-Ab1, H2-Aa, Cd74, Cst3, Plbd1, H2-DMa, H2-DMb1, Gm2a, Psap\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC7797670\nsection: RESULTS\ncontent: Furthermore, the genes for antigen presentation by Ly6ClowCD38+ cells were downregulated in the LPS/MSC group (e.g.  H2-DMb1, H2-DMa, H2-Ab1, H2-Eb1, H2-Aa, and Cd74) on day 7 (Figure 6F).\n----------------------------------------------------------------------\npmcid: PMC8369845\nsection: RESULTS\ncontent: The high expressions of several H2 (MHCII) members, including H2-Eb1, H2-Ab1, H2-Aa, H2-DMb1 and H2-DMa, were also confirmed in cluster 2; thus, we considered these as MHCIIhi  MPhi hereafter.\n----------------------------------------------------------------------\npmcid: PMC10312752\nsection: RESULTS\ncontent: Based on expression of specific marker genes, we identified cluster 6 as MHC-II microglia (high expression of genes such as H2-Aa, H2-Ab1, H2-DMb1, H2-DMb2, H2-DMa and Cd74, Figure 2b).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Microglia, Macrophages, Dendritic cells"
+    },
+    {
+        "index": 24,
+        "ground_truth": "Erythroid progenitor",
+        "markers": [
+            "Car1",
+            "Car2",
+            "Fam132a",
+            "Blvrb",
+            "Klf1",
+            "Vamp5",
+            "Rhd",
+            "Aqp1",
+            "Gm15915",
+            "Atpif1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Car1, Car2, Fam132a, Blvrb, Klf1, Vamp5, Rhd, Aqp1, Gm15915, Atpif1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Erythrocyte, Erythroblast, Reticulocyte"
+    },
+    {
+        "index": 25,
+        "ground_truth": "Alveolar type II cell",
+        "markers": [
+            "Sftpc",
+            "Sftpa1",
+            "Sftpb",
+            "Sftpd",
+            "Cxcl15",
+            "Slc34a2",
+            "Cbr2",
+            "Chil1",
+            "Scd1",
+            "Lyz1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Sftpc, Sftpa1, Sftpb, Sftpd, Cxcl15, Slc34a2, Cbr2, Chil1, Scd1, Lyz1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC8889685\nsection: RESULTS\ncontent: Second, genes that are known to be specifically expressed in AT2 cells were enriched in the array results (e.g.  Sftpc, Sftpa1, Sftpb, Sftpd, Lamp3, Lcn2, Lyz1, and Lyz2).\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Alveolar type II cells, alveolar epithelial cells, airway epithelial cells"
+    },
+    {
+        "index": 26,
+        "ground_truth": "Proximal tubule brush border cell",
+        "markers": [
+            "Kap",
+            "Miox",
+            "Aldob",
+            "Akr1c21",
+            "Fxyd2",
+            "Gsta2",
+            "Gpx3",
+            "Rida",
+            "Ass1",
+            "Keg1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Kap, Miox, Aldob, Akr1c21, Fxyd2, Gsta2, Gpx3, Rida, Ass1, Keg1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC11249042\nsection: METHODS\ncontent: We generated a list of such genes (\"Pck1\", \"Pecam1\", \"Gsta2\", \"Klk1\", \"Spink1\", \"Wfdc2\", \"Miox\", \"Slc34a1\", \"Kap\", \"Aldob\", \"Cubn\", \"Ttc36\", \"Umod\", \"Fxyd2\") and flagged them during differential expression analysis except in the native cell types where they are expected.\n----------------------------------------------------------------------\npmcid: PMC11162022\nsection: INTRO\ncontent: However, these reviews only encompassed literature up to 2020; secondly, they categorized methods solely based on network design, without categorizing and summarizing specific solutions unique to the challenges of multi-organ segmentation; thirdly, the majority of these reviews primarily covered fully supervised methods and did not provide a summary of papers related to weakly supervised and semi-supervised; lastly, they did not provide a comprehensive summary of the segmentation accuracy for each organ, making it difficult for readers to assess the current segmentation precision for each organ and knew which organs have reached a mature stage of segmentation and which organs still pose challenges.\n----------------------------------------------------------------------\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Kidney proximal tubule epithelial cells, Kidney thick ascending limb epithelial cells, Kidney collecting duct principal cells"
+    },
+    {
+        "index": 27,
+        "ground_truth": "Myeloid progenitor cell",
+        "markers": [
+            "Prtn3",
+            "Cmtm7",
+            "H2afy",
+            "Mpo",
+            "Plac8",
+            "Ctsg",
+            "Emb",
+            "Gmfg",
+            "Ptprcap",
+            "AI662270"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Prtn3, Cmtm7, H2afy, Mpo, Plac8, Ctsg, Emb, Gmfg, Ptprcap, AI662270\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Neutrophils, Myeloid Progenitor Cells, Monocytes"
+    },
+    {
+        "index": 28,
+        "ground_truth": "Cumulus cell",
+        "markers": [
+            "Inha",
+            "Akr1cl",
+            "Hsd3b1",
+            "Serpine2",
+            "Bex4",
+            "Nap1l5",
+            "Ctsl",
+            "Htra1",
+            "Tnni3",
+            "Hsd17b1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Inha, Akr1cl, Hsd3b1, Serpine2, Bex4, Nap1l5, Ctsl, Htra1, Tnni3, Hsd17b1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Granulosa cells, Theca cells, Leydig cells"
+    },
+    {
+        "index": 29,
+        "ground_truth": "Myoblast",
+        "markers": [
+            "Igfbp7",
+            "Mgp",
+            "Sparc",
+            "Tbx20",
+            "Postn",
+            "Slc16a2",
+            "Myl2",
+            "Sln",
+            "Myl3",
+            "Aspn"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Igfbp7, Mgp, Sparc, Tbx20, Postn, Slc16a2, Myl2, Sln, Myl3, Aspn\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Cardiomyocytes, Cardiac Fibroblasts, Vascular Smooth Muscle Cells"
+    },
+    {
+        "index": 30,
+        "ground_truth": "Adipocyte",
+        "markers": [
+            "Cfd",
+            "Car3",
+            "Fabp4",
+            "Adipoq",
+            "Cidea",
+            "Cidec",
+            "Cox8b",
+            "Chchd10",
+            "mt-Rnr1",
+            "Lpl"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Cfd, Car3, Fabp4, Adipoq, Cidea, Cidec, Cox8b, Chchd10, mt-Rnr1, Lpl\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10617768\nsection: RESULTS\ncontent: Interestingly, 3 of our identified cell clusters matched previously described adipogenic stem and precursor cells (ASPCs) isolated from mouse subcutaneous tissue (Figure 4, C and D).. The most dominant differences between WT and KO were noted in population C6 (Figure 4B), which was highly enriched in the KO group and expressed relatively high levels of thermogenesis-related genes including Ucp1, Cidea, Pgargc1a, Acsl1, Acss2, and Adrb3 without marked changes in Adipoq, Pparg, Fabp4, Cidec, Plin1, and Plin4 (Figure 4E).\n----------------------------------------------------------------------\npmcid: PMC3191160\nsection: RESULTS\ncontent: The genes we selected included the well-studied adipocyte identity maintenance factors perilipin (PLIN1) and cell death-inducing DFFA-like effector c (CIDEC); the transcription factors Peroxisome proliferator-activated receptor gamma (PPARgamma) and the CCAAT/enhancer binding proteins (CEBPA, CEBPB, CEBPD); the lipid catabolism enzymes lipoprotein lipase (LPL) and hormone-sensitive lipase (LIPE); the adipocyte anabolic enzymes fatty acid binding protein 4 (FABP4) and diacylglycerol O-acyltransferase 1 (DGAT1); and the adipokines leptin (LEP), adipsin (CFD), and adiponectin (ADIPOQ).\n----------------------------------------------------------------------\npmcid: PMC9526878\nsection: RESULTS\ncontent: Eighteen genes related to adipocyte transcriptional regulation, metabolism, and secretory adipokines (Adipoq, Cfd, Cidec, Ctsc, Fabp4, Ghr, Igf-1, Igf-2, Lep, Lepr, Mlxipl, Plin-1, Plin-2, Plin-4, Pparg, Rarres2, Rbp4, and Rxra) (Fig. 3A-D) were significantly upregulated, as compared to young (5-month-old) mouse bone tissue.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "White adipocytes, brown adipocytes, beige adipocytes"
+    },
+    {
+        "index": 31,
+        "ground_truth": "Urothelium",
+        "markers": [
+            "Sprr1a",
+            "Gstm1",
+            "Krt15",
+            "Ly6d",
+            "Upk3a",
+            "Gsta4",
+            "Krt7",
+            "Wfdc2",
+            "Sprr2a3",
+            "Upk1a"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Sprr1a, Gstm1, Krt15, Ly6d, Upk3a, Gsta4, Krt7, Wfdc2, Sprr2a3, Upk1a\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Urothelial epithelial cells, Bladder epithelial cells, Transitional epithelial cells"
+    },
+    {
+        "index": 32,
+        "ground_truth": "Epithelial cell",
+        "markers": [
+            "Wfdc2",
+            "Mdk",
+            "H19",
+            "Mif",
+            "Cldn6",
+            "Cdk4",
+            "Bex4",
+            "Hmgn1",
+            "Cldn7",
+            "Epcam"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Wfdc2, Mdk, H19, Mif, Cldn6, Cdk4, Bex4, Hmgn1, Cldn7, Epcam\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC10876948\nsection: METHODS\ncontent: Membrane segmentation was done using EpCAM as the reference dye, and a cytoplasm radius of 6 microm was set based on average cell sizes determined using reference H&E images.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Epithelial cells, epithelial progenitor cells, embryonic epithelial cells"
+    },
+    {
+        "index": 33,
+        "ground_truth": "Sertoli cells",
+        "markers": [
+            "Defb19",
+            "Cst9",
+            "Gstm2",
+            "Gstm6",
+            "Clu",
+            "Kctd14",
+            "Ptgds",
+            "Aldh1a1",
+            "Bex2",
+            "Gstm1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Defb19, Cst9, Gstm2, Gstm6, Clu, Kctd14, Ptgds, Aldh1a1, Bex2, Gstm1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC5069440\nsection: RESULTS\ncontent: The systematic analysis based on the alteration of FUS/TLS in the different anatomic regions, segments and neural cells of spinal cord during the different stages in the SOD1 wild-type and G93A transgenic mice demonstrated that the increase of FUS/TLS positive cells amount was negatively correlated with the decrease of neuron cell amount in the cervical, thoracic and lumbar segments of the adult spinal cord at the onset and progression stages in the SOD1 G93A transgenic mice, the death of neuron cell was closely related to the increase of FUS/TLS expression in the astrocyte cell, which implied the more expression of FUS/TLS and the more death of neuron cell (Figure 7).\n----------------------------------------------------------------------\npmcid: PMC11162022\nsection: INTRO\ncontent: However, these reviews only encompassed literature up to 2020; secondly, they categorized methods solely based on network design, without categorizing and summarizing specific solutions unique to the challenges of multi-organ segmentation; thirdly, the majority of these reviews primarily covered fully supervised methods and did not provide a summary of papers related to weakly supervised and semi-supervised; lastly, they did not provide a comprehensive summary of the segmentation accuracy for each organ, making it difficult for readers to assess the current segmentation precision for each organ and knew which organs have reached a mature stage of segmentation and which organs still pose challenges.\n----------------------------------------------------------------------\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Epididymal principal (epithelial) cells, Sertoli cells, Testicular germ cells"
+    },
+    {
+        "index": 34,
+        "ground_truth": "Endothelial Cell",
+        "markers": [
+            "Hspa1b",
+            "Clec4g",
+            "Cxcl10",
+            "Selenop",
+            "Fcgr2b",
+            "Aqp1",
+            "Hspa1a",
+            "Eng",
+            "Il1a",
+            "Dnase1l3"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Hspa1b, Clec4g, Cxcl10, Selenop, Fcgr2b, Aqp1, Hspa1a, Eng, Il1a, Dnase1l3\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC3967505\nsection: DISCUSS\ncontent: The Fcgr2b-/- mice we independently generated from B6 ES cells (Fcgr2bB6-/-) showed significantly attenuated lupus-like phenotypes (proteinuria and premature mortality) as compared to the backcrossed B6.Fcgr2b129-/-(N12) mice (Supplementary Table), consistent with the report of Boross et al. This is also consistent with the finding that in addition to FcgammaRIIB-deficiency, the 129/Sv derived Sle16 locus may be involved in the autoimmune phenotype in B6.Fcgr2b129-/- mice based on the analysis of B6.Fcgr2b129-/- mice with different lengths of 129/Sv DNA segments around the targeted Fcgr2b gene in a spontaneous arthritis model and an induced tolerance model.\n----------------------------------------------------------------------\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\npmcid: PMC7062283\nsection: METHODS\ncontent: For quantitatively identifying intracellular viral segmented mRNAs to track the cells from the lung infected with IAV at single-cell resolution, the scRNA-seq data of six lung samples of the lung from mice uninfected (day 0) or infected with A/PR/8/34 (PR8, H1N1) virus at 5 time points including day 1, day 3, day 5, day 7, and day 12 were reanalyzed using the CellRanger count algorithm based the union of mm10 and PR8 (txid211044, NCBI) reference genome.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Endothelial cells, B cells, Macrophages"
+    },
+    {
+        "index": 35,
+        "ground_truth": "Muscle cell",
+        "markers": [
+            "Tpm1",
+            "Mdk",
+            "Tceal9",
+            "Tcf21",
+            "Dlk1",
+            "Tsc22d1",
+            "Maged2",
+            "Rpl13",
+            "Serpinh1",
+            "Meg3"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Tpm1, Mdk, Tceal9, Tcf21, Dlk1, Tsc22d1, Maged2, Rpl13, Serpinh1, Meg3\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\npmcid: PMC11162022\nsection: INTRO\ncontent: However, these reviews only encompassed literature up to 2020; secondly, they categorized methods solely based on network design, without categorizing and summarizing specific solutions unique to the challenges of multi-organ segmentation; thirdly, the majority of these reviews primarily covered fully supervised methods and did not provide a summary of papers related to weakly supervised and semi-supervised; lastly, they did not provide a comprehensive summary of the segmentation accuracy for each organ, making it difficult for readers to assess the current segmentation precision for each organ and knew which organs have reached a mature stage of segmentation and which organs still pose challenges.\n----------------------------------------------------------------------\npmcid: PMC4785667\nsection: RESULTS\ncontent: When attempting to assemble the RNA-Seq transcriptome of a non-model species, whose genome is not available, two options for assembly can be considered: 1) A de novo approach, where transcripts are built solely from overlapping segments in the reads; or 2) A genome-based approach, where reads are aligned to a reference genome of a closely related species.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Fibroblasts, Mesenchymal Stem Cells, Smooth Muscle Cells"
+    },
+    {
+        "index": 36,
+        "ground_truth": "Trophoblast progenitor cell",
+        "markers": [
+            "Sct",
+            "Rhox9",
+            "Rhox6",
+            "Ldoc1",
+            "Sin3b",
+            "Fthl17a",
+            "Cdkn1c",
+            "Gm9112",
+            "Rhox5",
+            "3830417A13Rik"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Sct, Rhox9, Rhox6, Ldoc1, Sin3b, Fthl17a, Cdkn1c, Gm9112, Rhox5, 3830417A13Rik\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC6342523\nsection: None\ncontent: Please consider adding a reference under \"Related Work\" to the use of supervised learning (\"Adaboost\") to segment active neurons, i.e. Automatic identification of fluorescently labeled brain cells for rapid functional imaging.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Germ cells, Embryonic stem cells, Trophoblast cells"
+    },
+    {
+        "index": 37,
+        "ground_truth": "Osteoblast",
+        "markers": [
+            "Bglap",
+            "Bglap2",
+            "Ibsp",
+            "Col1a1",
+            "Col1a2",
+            "Car3",
+            "Serpinf1",
+            "Ifitm5",
+            "Sparc",
+            "Cgref1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Bglap, Bglap2, Ibsp, Col1a1, Col1a2, Car3, Serpinf1, Ifitm5, Sparc, Cgref1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9135401\nsection: None\ncontent: This osteoscore is comprised of the following genes: Alpl, Bglap, Bglap2, Col1a1, Col1a2, Dmp1, Ibsp, Mef2c, Postn, Runx2, Sp7, Sparc, Phex, Satb2, Pth1r, Ostn, Car3.\n----------------------------------------------------------------------\npmcid: PMC6659450\nsection: RESULTS\ncontent: Included in these high-expression transcripts were the type I collagen genes Col1a1 and Col1a2, as well as the bone-related transcripts Bglap and Bglap2 (osteocalcin) and Sparc (osteonectin).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Osteoblasts, Osteocytes, Osteoprogenitors"
+    },
+    {
+        "index": 38,
+        "ground_truth": "Smooth muscle cell",
+        "markers": [
+            "Acta2",
+            "Myl9",
+            "Tpm2",
+            "Mustn1",
+            "Igfbp7",
+            "Tpm1",
+            "Myl6",
+            "Cald1",
+            "Eln",
+            "Tagln"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Acta2, Myl9, Tpm2, Mustn1, Igfbp7, Tpm1, Myl6, Cald1, Eln, Tagln\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC11621235\nsection: RESULTS\ncontent: Differential gene expression analysis between the Ctrl-med and Ctrl-adv clusters identified key DEGs related to the contractile phenotype, including Mylk, Myh11, Tagln, Tpm1, Tpm2, Flna, Myl6, Myl9, Pdlim3, and Acta2 (Figure 5F).\n----------------------------------------------------------------------\npmcid: PMC11621235\nsection: RESULTS\ncontent: (F) Volcano plot highlighting key DEGs (Mylk, Myh11, Tagln, Tpm1, Tpm2, Flna, Myl6, Myl9, Pdlim3, and Acta2) associated with SMC contractile markers identified in the tunica media versus the adventitia of control veins.\n----------------------------------------------------------------------\npmcid: PMC11564109\nsection: METHODS\ncontent: Seurat was used to score the subcell-type marker genes as well as the hallmark gene sets in the Molecular Signatures Database (MSigDB), and SCANPY version 1.7.2 was used to score the scRNA-seq-derived iNMF EMT program genes (IGFBP7, SPARC, COL1A2, COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, COL6A3, POSTN, AEBP1, COL6A2, VIM, TIMP1, TPM2, COL5A1, CALD1, COL6A1, A2M, SPARCL1, THY1, VCAN, CCN2, GNG11, PDGFRB, RGS5, ITGA1, MYL9, COL5A2, COL18A1, THBS2, IGHA1, CAVIN1, ELN, NID1, LHFPL6, APOE, IGLC3, HSPG2, CAV1, TCF4, NNMT, ASPN, FSTL1 and MGP), of which 20 genes are represented in MERFISH and ExSeq (TCF4, COL4A1, BGN, COL1A2, FN1, COL1A1, ACTA2, MYL9, HSPG2, TIMP1, VIM, THY1, APOE, COL3A1, DCN, LUM, TAGLN, TPM2, GNG11 and COL4A2) and three in CODEX (VIM, THY1 and COL4A2).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Smooth muscle cells, myofibroblasts, fibroblasts"
+    },
+    {
+        "index": 39,
+        "ground_truth": "Luteal cell",
+        "markers": [
+            "Hsd3b1",
+            "Cyp11a1",
+            "Fdx1",
+            "Akr1cl",
+            "Sfrp4",
+            "Ephx2",
+            "Mgarp",
+            "Idh1",
+            "Lhcgr",
+            "Scarb1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Hsd3b1, Cyp11a1, Fdx1, Akr1cl, Sfrp4, Ephx2, Mgarp, Idh1, Lhcgr, Scarb1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC8008111\nsection: INTRO\ncontent: Those progenitor Leydig cells express genes related to steroidogenesis such are luteinizing hormone receptor (LHCGR), scavenger receptor Class B member 1 (SCARB1), steroidogenic acute regulatory protein (STAR), cytochrome P450 cholesterol side-chain cleavage (CYP11A1), 3beta-hydroxysteroid dehydrogenase 1 (HSD3B1), and cytochrome P450 17alpha-hydroxylase/17,20-lyase (CYP17A1).\n----------------------------------------------------------------------\npmcid: PMC6399252\nsection: RESULTS\ncontent: The results displayed that the expression levels of Leydig cell related genes such as Lhcgr, Star, Scarb1, Sf-1, Dhcr7, Igf1, Cyp11a1, Hsd3b1, Cyp17a1, Hsd17b3, and HSD11b1 in iPSC-LCs were significantly lower than those of LCs but higher than those of iPSCs, which almost had no any expression.\n----------------------------------------------------------------------\npmcid: PMC10538017\nsection: RESULTS\ncontent: In rat testis, Lhcgr, Star, Scarb1, Hsd3b1, Cyp11a1, Cyp17a1, Hsd17b3, Srd5a1, Akr1c14, Insl3, and Hsd11b1 are exclusively located in LCs, hereby referred to as LC genes, and Sox9, Fshr, and Dhh are exclusively expressed in Sertoli cells, hereby referred to as Sertoli cell genes.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Leydig cells, Adrenocortical cells, Theca interna cells"
+    },
+    {
+        "index": 40,
+        "ground_truth": "Renal tubular cell",
+        "markers": [
+            "Klk1",
+            "Umod",
+            "Wfdc15b",
+            "Defb1",
+            "Fxyd2",
+            "Egf",
+            "Ppp1r1a",
+            "Atp1b1",
+            "Kng2",
+            "Atp1a1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Klk1, Umod, Wfdc15b, Defb1, Fxyd2, Egf, Ppp1r1a, Atp1b1, Kng2, Atp1a1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Thick ascending limb epithelial cells, distal convoluted tubule epithelial cells, collecting duct epithelial cells"
+    },
+    {
+        "index": 41,
+        "ground_truth": "Premeiotic germ cell",
+        "markers": [
+            "Dppa3",
+            "Dazl",
+            "Utf1",
+            "Dppa5a",
+            "Fkbp6",
+            "Tex19.1",
+            "Dppa4",
+            "Cct8",
+            "Rps4l",
+            "Ifitm1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Dppa3, Dazl, Utf1, Dppa5a, Fkbp6, Tex19.1, Dppa4, Cct8, Rps4l, Ifitm1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Embryonic stem cells, Primordial germ cells, Spermatogonia"
+    },
+    {
+        "index": 42,
+        "ground_truth": "NK/T cell",
+        "markers": [
+            "Gzma",
+            "Ccl5",
+            "Gzmb",
+            "Cd7",
+            "Rgs1",
+            "AW112010",
+            "Cd3g",
+            "Nkg7",
+            "Cd8a",
+            "Tcrg-C2"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Gzma, Ccl5, Gzmb, Cd7, Rgs1, AW112010, Cd3g, Nkg7, Cd8a, Tcrg-C2\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC8630903\nsection: METHODS\ncontent: R1_1: Cd8a, Cd3g, Ccl5, Gzma, Gzmb, RGs1, Nkg7, Cd7, Fcer1g\n----------------------------------------------------------------------\npmcid: PMC10601309\nsection: METHODS\ncontent: Identity of each of the cluster was assigned using addModuleScore function comparing highly enriched markers with known markers of intestinal epithelial cell types (curated from Habor et al.,) and classical immune cell markers (specifically Gzma, Gzmb, Itgae, Ccl5, Cd7, Cd69, Cd3g and Cd8a).\n----------------------------------------------------------------------\npmcid: PMC3902046\nsection: RESULTS\ncontent: We found evidence for the first scenario that pointed to T cells, as the immune subnetwork contains a minigroup of highly connected T cell-specific genes (Cd3g, Gzma, Gzmb, Cd8a, Tcrg and Ccl5; Fig. 5a), and flow cytometry analysis revealed an increased proportion of CD8+ and CD4+CD8+ T cells in the jejunum of BcKO mice (Supplementary Fig. 7), consistent with an earlier report that muMT BcKO mice harbor elevated populations of highly cytotoxic intestinal CD8+ T lymphocytes.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "CD8+ T cells, gamma-delta T cells, NK cells"
+    },
+    {
+        "index": 43,
+        "ground_truth": "Granulosa cell",
+        "markers": [
+            "Kctd14",
+            "Lgals7",
+            "Gng13",
+            "Bmyc",
+            "Ifitm1",
+            "Gstm2",
+            "Laptm4b",
+            "Amhr2",
+            "Wnt6",
+            "Ldhb"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Kctd14, Lgals7, Gng13, Bmyc, Ifitm1, Gstm2, Laptm4b, Amhr2, Wnt6, Ldhb\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Granulosa cells, Reproductive tract epithelial cells, Taste receptor cells"
+    },
+    {
+        "index": 44,
+        "ground_truth": "NK cell",
+        "markers": [
+            "Ccl5",
+            "Nkg7",
+            "AW112010",
+            "Klrd1",
+            "Gzma",
+            "Ms4a4b",
+            "Il2rb",
+            "Klrb1c",
+            "Klre1",
+            "Klra4"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Ccl5, Nkg7, AW112010, Klrd1, Gzma, Ms4a4b, Il2rb, Klrb1c, Klre1, Klra4\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC7733868\nsection: DISCUSS\ncontent: Based on our ATAC-seq analyses in murine intestinal CD8+ T cells, putative gene targets may include inflammatory cytokines (Ifng), cytolytic granules (Gzma), chemokines (Ccl3, Ccl4, Ccl5); molecules that promote survival (Bach2, Cd27, Il2rb), killer cell lectin receptors (Klrb1, Klrc1, Klrd1, Klrg1, Krk1); co-stimulatory molecules (Tnfrsf18 (GITR), Tnfrsf4 (OX40R), Icos); and trafficking molecules such as Crtam.\n----------------------------------------------------------------------\npmcid: PMC10713715\nsection: RESULTS\ncontent: Canonical cell types are based on the expression of marker genes that include: B-Cells (MS4A1 +, CD79A +), Memory B-cells (CD19+, IGLC2 +), NK Cells (NKG7 +, KLRD1 +, CD3D -), Myeloid cells (CD14+, MNDA+, FCGR3A+, FCN+), CD4+ Naive T-cells (CD3D +, CD4+, CCR7+, LEF1+ ), CD4+ Memory T-cells (CD3D +, CD4+, TRAAD+, TNFRSF4+ ), IFN T cells (CD3D +, ISG15 + , STAT1 + , IFI6 + ), CD8+ Effector T-cells (GZMA +, GZMB +, CD8A +), CD8+ Naive T-cells (CD8A +, CCR7 +, LEF1 +, TCF7 +), CD8+ Memory T-cells (CCL5 +, GZMB +, CD8A +), and platelets (SNCA+).\n----------------------------------------------------------------------\npmcid: PMC8115257\nsection: RESULTS\ncontent: In addition, C5-L and C7-L were enriched in genes encoding natural killer (NK) cell receptors, such as Nkg7, Klrd1, Klre1, Klrk1, Klrc1, and Klrb1c, as well as Gzma and Gzmb, similar to C4-L but to a lesser extent (Fig. 1d).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "NK cells, CD8+ effector T cells, CD8+ memory T cells"
+    },
+    {
+        "index": 45,
+        "ground_truth": "Cardiac muscle cell",
+        "markers": [
+            "Nppa",
+            "Actc1",
+            "Tnnt2",
+            "Myl3",
+            "Myl2",
+            "Cox6a2",
+            "Pln",
+            "Tnnc1",
+            "Tnni3",
+            "Tnni1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Nppa, Actc1, Tnnt2, Myl3, Myl2, Cox6a2, Pln, Tnnc1, Tnni3, Tnni1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC8998764\nsection: INTRO\ncontent: Other HCM causing variants are localized in the genes of thin myofilament (ACTC1, TNNT2, TNNI3, TNNC1 and TPM1), Z-disk (ACTN2, CSRP3, and MYOZ2) and thick myofilament (MYL2, MYL3, MYH6).\n----------------------------------------------------------------------\npmcid: PMC8509044\nsection: None\ncontent: In the original Mayo cohort, the overall yield of genetic testing was 34% when examining nine genes for sarcomeric proteins (ACTC1, MYBPC3, MYH7, MYL2, MYL3, TNNC1, TNNI3, TNNT2, and TPM1).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Cardiomyocytes, Atrial cardiomyocytes, Ventricular cardiomyocytes"
+    },
+    {
+        "index": 46,
+        "ground_truth": "Microglia",
+        "markers": [
+            "Hexb",
+            "C1qc",
+            "P2ry12",
+            "C1qa",
+            "Cst3",
+            "Fcrls",
+            "C1qb",
+            "Ctss",
+            "Cx3cr1",
+            "Lgmn"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Hexb, C1qc, P2ry12, C1qa, Cst3, Fcrls, C1qb, Ctss, Cx3cr1, Lgmn\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10916983\nsection: RESULTS\ncontent: Additionally, the genes considered homeostatic during the DAM stages showed upregulation as microglia approached the deposits (C1qa, C1qb, C1qc, Csf1r, Cst3, Ctss, Hexb, Olfml3).\n----------------------------------------------------------------------\npmcid: PMC10871172\nsection: METHODS\ncontent: Cells of the cluster with the highest co-expression of microglial markers (AIF1, C1QA, C1QB, CSF1R, CTSS, CX3CR1, GPR34, HEXB, ITGAM, MERTK, P2RX7, P2RY12, PTPRC, SLC2A5, TGFBR1, TMEM119) were annotated as microglia.\n----------------------------------------------------------------------\npmcid: PMC10201800\nsection: METHODS\ncontent: Microglia cells were selected by the special markers (Csf1r, Cx3cr1, Hexb, C1qa, P2ry12, Aif1, Trem2 and Tmem119 for mouse, C1QA, TMEM119, CD163 and AIF1 for human).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Microglia, Macrophages, Monocytes"
+    },
+    {
+        "index": 47,
+        "ground_truth": "Gastric mucosa cell",
+        "markers": [
+            "Pgc",
+            "Pla2g1b",
+            "Fxyd3",
+            "mt-Co1",
+            "Cfi",
+            "Anxa10",
+            "Tspan1",
+            "Tff2",
+            "Atp4b",
+            "Cystm1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Pgc, Pla2g1b, Fxyd3, mt-Co1, Cfi, Anxa10, Tspan1, Tff2, Atp4b, Cystm1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Gastric chief cells, Gastric parietal cells, Gastric mucous neck cells"
+    },
+    {
+        "index": 48,
+        "ground_truth": "Pancreatic acinar cell",
+        "markers": [
+            "Cpa2",
+            "Cpa1",
+            "Ctrb1",
+            "Pnliprp1",
+            "Clps",
+            "Serpina6",
+            "Ambp",
+            "Ttr",
+            "Dlk1",
+            "Cela1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Cpa2, Cpa1, Ctrb1, Pnliprp1, Clps, Serpina6, Ambp, Ttr, Dlk1, Cela1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC8173116\nsection: RESULTS\ncontent: The network includes the genes 2210010C04Rik, CELA1, CELA2A, CLPS, CPA1, CPA2, CPA5, CPB1, CTRB2, CTRC, CTRL, HS6ST2, and RBPJL, which were upregulated in spleen samples from chicks vaccinated post-hatch, and the genes AHSG, AMBP, APOH, CRABP1, FGA, RBP4, SERPINC1, SFTPA1, SFTPA2, and TTR were downregulated.\n----------------------------------------------------------------------\npmcid: PMC4417536\nsection: RESULTS\ncontent: Notably, 70% of all reads across control libraries mapped to 25 genes (PNLIPRP1, CELA3B, CPA2, CTRL, GP2, CPB1, CTRC, RBPJL, KLK1, PLA2G1B, CELA2A, CEL, GNMT, CELA3A, CPA1, PRSS3P2, PRSS3, CLPS, PNLIP, SLC39A5, SPINK1, CTRB1, TMED11P, PRSS1, GATM), encoding pancreatic acinar cell secretory- and related proteins (Table 2).\n----------------------------------------------------------------------\npmcid: PMC10331937\nsection: METHODS\ncontent: Contamination by background RNA from disrupted cells was estimated and corrected for using SoupX  with Seurat identified clusters, and known cell type specific marker genes (GCG, TTR; INS, IAPP; SST; PPY; GHRL; CPA1, CLPS, CPA2, REG1A, CELA3A, CTRB1, CTRB2, PRSS2; KRT19, VTCN1).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Pancreatic acinar cells, Hepatocytes, Pancreatic endocrine cells"
+    },
+    {
+        "index": 49,
+        "ground_truth": "Leydig cell",
+        "markers": [
+            "Cyp17a1",
+            "Hsd3b1",
+            "Cyp11a1",
+            "Akr1cl",
+            "Aldh1a1",
+            "Fdx1",
+            "Acsbg1",
+            "Star",
+            "Mgarp",
+            "Me1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Cyp17a1, Hsd3b1, Cyp11a1, Akr1cl, Aldh1a1, Fdx1, Acsbg1, Star, Mgarp, Me1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9178088\nsection: None\ncontent: Loss of both GATA4 and GATA6 in primary Leydig cells, or disruption of their transcriptional activities in mice, has also been shown to suppress steroidogenesis by reducing the expression of several genes involved in androgen biosynthesis, including steroidogenic acute regulatory protein (Star), Cyp11a1, 3beta-hydroxysteroid dehydrogenase 1 (Hsd3b1), 17alpha-hydroxylase (Cyp17a1), and 17beta-hydroxysteroid dehydrogenase 3 (Hsd17b3):many of these genes have conserved GATA motifs in their cis-regulatory regions [reviewed in ].\n----------------------------------------------------------------------\npmcid: PMC11315451\nsection: RESULTS\ncontent: For this reason, we decided to investigate eight key genes genes involved in the Hypothalamo-Pituitary-Interrenal axis: crha, crhb, crhr1a, crhr1b, crhr2, pomc-a1, pomc-a2, pomc-b, mr, gr1, gr2 which encodes, respectively, for the corticotropin-releasing hormone (which stimulates the production of POMC and the stress hormone ACTH), the receptors of the CRH which are involved in the production of the stress-related hormone ACTH the pro-opiomelanocortin A1, A2, and B (precursors of several hormones such as ACTH) and corticoid receptors: mineralocorticoid receptor (MR) and glucocorticoid receptor (GR1&2) (Figure 6) We also scrutinized the expression levels of genes encoding for key proteins involved in corticoid synthesis: star, fdx1, fdx2, fdxr, cyp11a1, hsd3b1, cyp17a1, cyp21a2, cyp11c1, hsd11b1, hsd11b2.\n----------------------------------------------------------------------\npmcid: PMC8008111\nsection: INTRO\ncontent: Those progenitor Leydig cells express genes related to steroidogenesis such are luteinizing hormone receptor (LHCGR), scavenger receptor Class B member 1 (SCARB1), steroidogenic acute regulatory protein (STAR), cytochrome P450 cholesterol side-chain cleavage (CYP11A1), 3beta-hydroxysteroid dehydrogenase 1 (HSD3B1), and cytochrome P450 17alpha-hydroxylase/17,20-lyase (CYP17A1).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Leydig cells, adrenal cortical cells, theca cells"
+    },
+    {
+        "index": 50,
+        "ground_truth": "Kidney epithelial",
+        "markers": [
+            "Calb1",
+            "Rprm",
+            "Wfdc2",
+            "Wfdc15b",
+            "Cldn6",
+            "Mdk",
+            "Hoxb7",
+            "Cldn7",
+            "Ldhb",
+            "Ptma"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Calb1, Rprm, Wfdc2, Wfdc15b, Cldn6, Mdk, Hoxb7, Cldn7, Ldhb, Ptma\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Embryonic stem cells, epididymal epithelial cells, renal collecting duct epithelial cells"
+    },
+    {
+        "index": 51,
+        "ground_truth": "Endocrine cell",
+        "markers": [
+            "Chga",
+            "Pcsk2",
+            "Chgb",
+            "Pyy",
+            "Pcsk1n",
+            "Iapp",
+            "Resp18",
+            "Ins2",
+            "Gcg",
+            "Scg2"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Chga, Pcsk2, Chgb, Pyy, Pcsk1n, Iapp, Resp18, Ins2, Gcg, Scg2\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9433512\nsection: None\ncontent: CCK, GAST, GHRL, and GIP are enriched in the proximal segment, GCG, NTS, PYY, GLP1, NTS, SCGN, UCN3, SST, and REG4 are enriched in the distal segment, while CHGA, CHGB, PCSK1N, SCG2, SCG3, SST, MLN, TPH1, and SCT show no significant difference between the proximal and distal segments\n----------------------------------------------------------------------\npmcid: PMC6962451\nsection: RESULTS\ncontent: In addition, the protein set contained key markers of pancreatic-islet cells, such as the hormones GCG (glucagon) and IAPP (Islet Amyloid Polypeptide, co-secreted with insulin by the beta-cells), the hormone processing proconvertases PCSK1N and PCSK2 (alpha-cell marker) as well as the pan-endocrine marker CHGA (chromogranin A) (Fig. 3b).\n----------------------------------------------------------------------\npmcid: PMC10187016\nsection: DISCUSS\ncontent: Some DE genes related to pancreatic islet dysfunction (Iapp, Scg2, Chga, Chgb, Slc30a8), carbohydrate and glycogen metabolism (Amy2a5, Gcg, Ins1, Amy1), protein hydrolysis (Try5, Cpa1, Gm13011, Try4, Cpb1), lipid metabolism (Ins1, Pnlip), neuroendocrine (Vstm2l, Resp18) were significantly upregulated, which undoubtedly increased the basic metabolic rate of the mice with MTB infection.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Pancreatic beta cells, pancreatic alpha cells, pancreatic PP cells"
+    },
+    {
+        "index": 52,
+        "ground_truth": "Mast cell",
+        "markers": [
+            "Prss34",
+            "Mcpt8",
+            "Prg2",
+            "Cpa3",
+            "Fcer1a",
+            "Ms4a2",
+            "Srgn",
+            "Cd200r3",
+            "Ifitm1",
+            "Gata2"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Prss34, Mcpt8, Prg2, Cpa3, Fcer1a, Ms4a2, Srgn, Cd200r3, Ifitm1, Gata2\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC9674656\nsection: RESULTS\ncontent: Pseudotime analysis of individual genes implied early basophil differentiation markers including Apoe, Lmo4, Csrp3, St8sia6, Casp3, and Tent5a, and late markers including Mcpt8, Alox5, Ms4a2 (= Fcer1b), Fcer1a, Cdh1, Cpa3, Edem3, Ets1, Ptprs, Cd200r3, and Prss34 (= Mcpt11) (Fig. 6d and Supplementary Fig. 7).\n----------------------------------------------------------------------\npmcid: PMC8261706\nsection: RESULTS\ncontent: DGE analysis identified multiple basophil specific genes among the top upregulated genes of E-cadherin-expressing cells from cluster 4 (Fig. 1G), including Prss34, Mcpt8, Fcer1a, Cpa3 (carboxypeptidase A3), Cd200r3, and Ms4a2.\n----------------------------------------------------------------------\npmcid: PMC7856198\nsection: RESULTS\ncontent: Prioritization of transcripts based on average RPKM and expression by at least 10 cells revealed the top 50 expressed transcripts in n = 75 cells (Figure 4A) to be genes related to mast cell function: Cpa3, Mcpt1, Hdc, Tph1, Srgn, Fcer1a, Cma1, Tpsb2, Gzmb, Mcpt2, Kit, Ms4a2, Mcpt4, Gata2, Rac2, Cd63, Alox5, Ccl2 (Figure 4B).\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Basophils, Mast cells, Eosinophils"
+    },
+    {
+        "index": 53,
+        "ground_truth": "Placenta endodermal cell",
+        "markers": [
+            "Pga5",
+            "Col4a2",
+            "Col4a1",
+            "Lama1",
+            "Ctsl",
+            "Aqp8",
+            "Gkn2",
+            "Serpinh1",
+            "Txndc12",
+            "Lrpap1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Pga5, Col4a2, Col4a1, Lama1, Ctsl, Aqp8, Gkn2, Serpinh1, Txndc12, Lrpap1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\npmcid: PMC11162022\nsection: INTRO\ncontent: However, these reviews only encompassed literature up to 2020; secondly, they categorized methods solely based on network design, without categorizing and summarizing specific solutions unique to the challenges of multi-organ segmentation; thirdly, the majority of these reviews primarily covered fully supervised methods and did not provide a summary of papers related to weakly supervised and semi-supervised; lastly, they did not provide a comprehensive summary of the segmentation accuracy for each organ, making it difficult for readers to assess the current segmentation precision for each organ and knew which organs have reached a mature stage of segmentation and which organs still pose challenges.\n----------------------------------------------------------------------\npmcid: PMC4785667\nsection: RESULTS\ncontent: When attempting to assemble the RNA-Seq transcriptome of a non-model species, whose genome is not available, two options for assembly can be considered: 1) A de novo approach, where transcripts are built solely from overlapping segments in the reads; or 2) A genome-based approach, where reads are aligned to a reference genome of a closely related species.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Gastric chief cells, gastric mucous cells, gastric epithelial cells"
+    },
+    {
+        "index": 54,
+        "ground_truth": "Spongiotrophoblast",
+        "markers": [
+            "Tpbpa",
+            "Tpbpb",
+            "Prl3b1",
+            "Prl2b1",
+            "Ceacam11",
+            "Prl8a9",
+            "Ceacam14",
+            "Psg21",
+            "Prl8a8",
+            "Ceacam12"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Tpbpa, Tpbpb, Prl3b1, Prl2b1, Ceacam11, Prl8a9, Ceacam14, Psg21, Prl8a8, Ceacam12\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC8112023\nsection: RESULTS\ncontent: Heatmap analysis with this program showed that various DE genes based on this comparison, including Tpbpb, Tpbpa, various prolactin genes, such Prl8a9, Prl8a8, Prl8a6, Prl7c1, and other Prl isoforms, Cts6q, Ceacam14, Ceacam13, Ceacam12, and Ceacam11, that are enriched in the mouse placenta (Fig. 4B).\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC6342523\nsection: None\ncontent: Please consider adding a reference under \"Related Work\" to the use of supervised learning (\"Adaboost\") to segment active neurons, i.e. Automatic identification of fluorescently labeled brain cells for rapid functional imaging.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Spongiotrophoblast cells, Trophoblast giant cells, Glycogen trophoblast cells"
+    },
+    {
+        "index": 55,
+        "ground_truth": "Clara Cell",
+        "markers": [
+            "Dynlrb2",
+            "Scgb1a1",
+            "Cyp2f2",
+            "Scgb3a2",
+            "Riiad1",
+            "Ccdc153",
+            "Tmem212",
+            "Mt3",
+            "Lrrc23",
+            "Fam183b"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Dynlrb2, Scgb1a1, Cyp2f2, Scgb3a2, Riiad1, Ccdc153, Tmem212, Mt3, Lrrc23, Fam183b\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC6342523\nsection: None\ncontent: Please consider adding a reference under \"Related Work\" to the use of supervised learning (\"Adaboost\") to segment active neurons, i.e. Automatic identification of fluorescently labeled brain cells for rapid functional imaging.\n----------------------------------------------------------------------\npmcid: PMC6342523\nsection: None\ncontent: Please consider adding a reference under \"Related Work\" to the use of supervised learning (\"Adaboost\") to segment active neurons, i.e. Automatic identification of fluorescently labeled brain cells for rapid functional imaging.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Club cells, airway epithelial cells, neurons"
+    },
+    {
+        "index": 56,
+        "ground_truth": "Intercalated cells of collecting duct",
+        "markers": [
+            "Atp6v1g3",
+            "Tmem213",
+            "Atp6v1a",
+            "mt-Nd5",
+            "Spink8",
+            "Car12",
+            "Atp6v1b1",
+            "Rhcg",
+            "Atp6v0d2",
+            "Clcnkb"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Atp6v1g3, Tmem213, Atp6v1a, mt-Nd5, Spink8, Car12, Atp6v1b1, Rhcg, Atp6v0d2, Clcnkb\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\npmcid: PMC11162022\nsection: INTRO\ncontent: However, these reviews only encompassed literature up to 2020; secondly, they categorized methods solely based on network design, without categorizing and summarizing specific solutions unique to the challenges of multi-organ segmentation; thirdly, the majority of these reviews primarily covered fully supervised methods and did not provide a summary of papers related to weakly supervised and semi-supervised; lastly, they did not provide a comprehensive summary of the segmentation accuracy for each organ, making it difficult for readers to assess the current segmentation precision for each organ and knew which organs have reached a mature stage of segmentation and which organs still pose challenges.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Kidney intercalated cells, inner ear hair cells, osteoclasts"
+    },
+    {
+        "index": 57,
+        "ground_truth": "Principal cells of cortical collecting duct",
+        "markers": [
+            "Sprr2f",
+            "Fam213a",
+            "Padi1",
+            "Fxyd4",
+            "Tmem213",
+            "Ltf",
+            "Spink12",
+            "Lcn2",
+            "Clca1",
+            "Wfdc2"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Sprr2f, Fam213a, Padi1, Fxyd4, Tmem213, Ltf, Spink12, Lcn2, Clca1, Wfdc2\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Intercalated cells, distal convoluted tubule cells, principal cells"
+    },
+    {
+        "index": 58,
+        "ground_truth": "Eosinophil",
+        "markers": [
+            "Cd9",
+            "Ear2",
+            "Chil3",
+            "Ccl6",
+            "Ear1",
+            "Atp6v0d2",
+            "Krt79",
+            "Ctss",
+            "Ctsd",
+            "Lgals3"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Cd9, Ear2, Chil3, Ccl6, Ear1, Atp6v0d2, Krt79, Ctss, Ctsd, Lgals3\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\npmcid: PMC7062283\nsection: METHODS\ncontent: For quantitatively identifying intracellular viral segmented mRNAs to track the cells from the lung infected with IAV at single-cell resolution, the scRNA-seq data of six lung samples of the lung from mice uninfected (day 0) or infected with A/PR/8/34 (PR8, H1N1) virus at 5 time points including day 1, day 3, day 5, day 7, and day 12 were reanalyzed using the CellRanger count algorithm based the union of mm10 and PR8 (txid211044, NCBI) reference genome.\n----------------------------------------------------------------------\npmcid: PMC10760145\nsection: METHODS\ncontent: We also used this approach for assigning cell type identities for cells segmented from Resolve spatial data to the Allen whole mouse brain cell type taxonomy or external datasets as reference, using different gene lists based on the contexts.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Eosinophils, M2 Macrophages, Osteoclasts"
+    },
+    {
+        "index": 59,
+        "ground_truth": "Schwann cell",
+        "markers": [
+            "Ttr",
+            "1500015O10Rik",
+            "Sostdc1",
+            "Kcnj13",
+            "Defb11",
+            "Kcne2",
+            "Igfbp2",
+            "Trpm3",
+            "Slc6a15",
+            "Folr1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Ttr, 1500015O10Rik, Sostdc1, Kcnj13, Defb11, Kcne2, Igfbp2, Trpm3, Slc6a15, Folr1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC6342523\nsection: None\ncontent: Please consider adding a reference under \"Related Work\" to the use of supervised learning (\"Adaboost\") to segment active neurons, i.e. Automatic identification of fluorescently labeled brain cells for rapid functional imaging.\n----------------------------------------------------------------------\npmcid: PMC6342523\nsection: None\ncontent: Please consider adding a reference under \"Related Work\" to the use of supervised learning (\"Adaboost\") to segment active neurons, i.e. Automatic identification of fluorescently labeled brain cells for rapid functional imaging.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Choroid plexus epithelial cells, retinal pigment epithelial cells, sensory neurons"
+    },
+    {
+        "index": 60,
+        "ground_truth": "Astrocyte",
+        "markers": [
+            "Atp1a2",
+            "Aldoc",
+            "Gpr37l1",
+            "Atp1b2",
+            "Ntsr2",
+            "Slc1a3",
+            "Slc1a2",
+            "Sparcl1",
+            "Ndrg2",
+            "Pla2g7"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Atp1a2, Aldoc, Gpr37l1, Atp1b2, Ntsr2, Slc1a3, Slc1a2, Sparcl1, Ndrg2, Pla2g7\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10511029\nsection: RESULTS\ncontent: Cluster 3 cells (referred to as cells with only astrocyte markers in the later part of the article) were only enriched in various astrocyte markers such as Atp1b2, Ndrg2, Aldoc, and Slc1a2.\n----------------------------------------------------------------------\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Astrocytes, Bergmann glia, neurons"
+    },
+    {
+        "index": 61,
+        "ground_truth": "Hepatocyte",
+        "markers": [
+            "Serpina1c",
+            "Apoc3",
+            "Apoc1",
+            "Bhmt",
+            "Akr1c6",
+            "Apoa2",
+            "Serpina1b",
+            "Serpina1a",
+            "Gsta3",
+            "Mat1a"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Serpina1c, Apoc3, Apoc1, Bhmt, Akr1c6, Apoa2, Serpina1b, Serpina1a, Gsta3, Mat1a\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC11338192\nsection: METHODS\ncontent:  \"Hepatocytes\" = c(\"Fabp1\",\"Apoc1\",\"Apoa2\",\"Mt1\",\"Alb\",\"Serpina1e\",\"Ttr\",\"Gsta3\",\"Serpina1c\",\"Akr1c6\",\"Gstm1\",\"Serpina1a\",\"Serpina1b\",\"Gnmt\",\"Apoc3\",\"Cdo1\",\"Bhmt\",\"Rgn\",\"Ass1\",\"Ttc36\"),\n----------------------------------------------------------------------\npmcid: PMC4561478\nsection: abstract\ncontent: This phenomenon is referred to as locus compaction (or contraction), and its functional significance is inferred from the strong correlation between reduced locus compaction and restricted use of DH-distal VH gene segments in pro-B cells of mice bearing several genetic mutations that affect B-cell development.\n----------------------------------------------------------------------\npmcid: PMC4785667\nsection: RESULTS\ncontent: When attempting to assemble the RNA-Seq transcriptome of a non-model species, whose genome is not available, two options for assembly can be considered: 1) A de novo approach, where transcripts are built solely from overlapping segments in the reads; or 2) A genome-based approach, where reads are aligned to a reference genome of a closely related species.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Hepatocytes, enterocytes, adipocytes"
+    },
+    {
+        "index": 62,
+        "ground_truth": "Cartilage cell",
+        "markers": [
+            "Col2a1",
+            "Col9a1",
+            "Col9a3",
+            "Cdkn1c",
+            "Col9a2",
+            "Matn4",
+            "H19",
+            "Serpinh1",
+            "Cnmd",
+            "Matn1"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Col2a1, Col9a1, Col9a3, Cdkn1c, Col9a2, Matn4, H19, Serpinh1, Cnmd, Matn1\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC8140481\nsection: METHODS\ncontent: Common cartilage markers for axolotl developing cartilage were matn1, acan, crip1, hapln1, otos, cnmd, fgfbp2, epyc, c17orf67, loc108704014, col11a2, col9a3, col2a1, papss2, col9a1, ecrg4, loc115080956, col9a2, pdcd6, col11a1, rbp4, ucma, clec3a, matn4, fbln7, papss1, cthrc1, nog, loxl3, plod2, hapln3, pcolce, xylt1, fgfr3, sox9, tgm2, loc115477099, sox6, pdgfrl, cox4i2, scrg1, gyg1, sox8, smoc1, aldob, cpa6, lmcd1, chst3, sfrpx, loc104277804, loxl4, ldhb, slc35d1, mob2, srpx.\n----------------------------------------------------------------------\npmcid: PMC9669218\nsection: DISCUSS\ncontent: An intriguing molecular basis may be related to collagen alterations, which have been observed in studies of TTD cells as well as in other hip degenerative disorders including Legg-Calve-Perthe disease (COL2, mutation in COL2A1), familial AVN of the femoral head-1 (COL2, mutation in COL2A1), and MED (COL9, mutation in COL9A1, COL9A2, OR COL9A3).\n----------------------------------------------------------------------\npmcid: PMC11250760\nsection: None\ncontent: Chen et al. further identified eight subtypes of GER cells through scRNA-seq, four of which continuously increased in cell number from P1 to P7 but incrementally decreased and disappeared at P14, and all highly expressed genes were related to hearing loss, such as Col2a1, Col9a1, Col9a2 and Col11a2, especially two of these subtypes mainly differentiated into OHCs with highly expressed genes Crym, Col9a2, Col2a1, Col9a1, Cytl1, Cnmd, Serpinf1, and Col11a2, respectively, but other two subtypes (Lepr, Ramp3; Igfbp4) ultimately differentiated into IHCs.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Chondrocytes, Inner ear hair cells, Chondroprogenitor cells"
+    },
+    {
+        "index": 63,
+        "ground_truth": "Decidual stromal cell",
+        "markers": [
+            "Ctla2a",
+            "4930486L24Rik",
+            "Prl8a2",
+            "Rarres2",
+            "Erv3",
+            "Mrgprg",
+            "Mt1",
+            "Srgn",
+            "Mt2",
+            "Gpx3"
+        ],
+        "prompt": "\nIdentify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.\n\nHere are the marker genes, please finish the task: Ctla2a, 4930486L24Rik, Prl8a2, Rarres2, Erv3, Mrgprg, Mt1, Srgn, Mt2, Gpx3\n---------------------------------------------------------------\nHere are some related literature segments for your reference. Please do not infer solely based on these segments:\npmcid: PMC10739728\nsection: METHODS\ncontent: To construct V(D)J segment-based reference, cellranger mkvdjref function of the Cell Ranger was used with mouse V(D)J segment sequences from international ImMunoGeneTics information system (IMGT).\n----------------------------------------------------------------------\npmcid: PMC9604704\nsection: None\ncontent: Based on the proposed literature, infected cell segmentation provides radiologists with more informative results related to the volume, shape, and percentage, of the infected area.\n----------------------------------------------------------------------\npmcid: PMC8930980\nsection: METHODS\ncontent: The V(D)J segment-based reference was constructed using the cellranger mkvdjref command of the Cell Ranger by downloading mouse V(D)J segment sequences from IMGT with fetch-imgt.\n----------------------------------------------------------------------\n    ",
+        "predicted_cell_type": "Adipocytes, Placental trophoblasts, Sensory neurons"
+    }
+]

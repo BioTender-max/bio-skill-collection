@@ -1,0 +1,90 @@
+Adipocytes, Preadipocytes, Adipose-derived mesenchymal stem cells
+Endothelial cells, Lymphatic endothelial cells, Hemangioblasts
+T lymphocytes, Activated T cells, Natural killer T cells
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Myoepithelial cells, Basal epithelial cells, Smooth muscle cells
+Mast cells, Basophils, Activated leukocytes
+Pericytes, Vascular smooth muscle cells, Mesenchymal stromal cells
+Lymphatic endothelial cells, Lymphangioblasts, Endothelial cells
+Luminal epithelial cells, Mammary gland progenitor cells, Ductal epithelial cells
+Fibroblasts, Mesenchymal stromal cells, Myofibroblasts
+B cells, Dendritic cells, Activated lymphocytes
+Macrophages, Monocytes, Dendritic cells
+Mast cells, Basophils, Activated leukocytes
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+T lymphocytes, Activated T cells, Natural killer T cells
+Esophageal epithelial cells, Squamous epithelial cells, Mucosal epithelial cells
+Macrophages, Monocytes, Dendritic cells
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Interstitial cells of Cajal, Gastrointestinal pacemaker cells, Mast cells
+Fibroblasts, Mesenchymal cells, Myofibroblasts
+Basal epithelial cells, Epithelial stem/progenitor cells, Squamous epithelial cells
+B cells, Dendritic cells, Activated lymphocytes
+Adipocytes, Preadipocytes, Adipose-derived stem cells
+Lymphatic endothelial cells, Lymphangioblasts, Endothelial cells
+Cardiomyocytes, Cardiac muscle cells, Cardiac progenitor cells
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+T lymphocytes, Activated T cells, Natural killer T cells
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Pericytes, Vascular smooth muscle cells, Mesenchymal stromal cells
+Mast cells, Basophils, Activated leukocytes
+Lymphatic endothelial cells, Lymphangioblasts, Endothelial cells
+Fibroblasts, Cardiac fibroblasts, Mesenchymal stromal cells
+B lymphocytes, Mature B cells, Activated B cells
+Adipocytes, Preadipocytes, Adipose-derived stem cells
+Macrophages, Monocytes, Dendritic cells
+Macrophages, Alveolar macrophages, Monocytes
+Endothelial cells, Lung endothelial cells, Vascular endothelial cells
+T lymphocytes, Activated T cells, Natural killer T cells
+Smooth muscle cells, Airway smooth muscle cells, Myofibroblasts
+Pericytes, Vascular smooth muscle cells, Mesenchymal stromal cells
+Lymphatic endothelial cells, Lymphangioblasts, Endothelial cells
+Mast cells, Basophils, Activated leukocytes
+Club cells, Goblet cells, Airway epithelial cells
+Adipocytes, Preadipocytes, Adipose-derived stem cells
+Alveolar type I epithelial cells, Lung epithelial cells, Pulmonary endothelial cells
+Alveolar type II epithelial cells, Surfactant-producing cells, Lung epithelial cells
+Fibroblasts, Lung fibroblasts, Mesenchymal cells
+Ciliated epithelial cells, Airway epithelial cells, Multiciliated cells
+B cells, Mature B lymphocytes, Dendritic cells
+Pericytes, Vascular smooth muscle cells, Mesenchymal stromal cells
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+T lymphocytes, Activated T cells, Natural killer T cells
+Smooth muscle cells, Prostatic smooth muscle cells, Myofibroblasts
+Mast cells, Basophils, Activated leukocytes
+Lymphatic endothelial cells, Lymphangioblasts, Endothelial cells
+Prostate epithelial cells, Luminal epithelial cells, Secretory epithelial cells
+Fibroblasts, Prostate fibroblasts, Mesenchymal cells
+B lymphocytes, Mature B cells, Dendritic cells
+Adipocytes, Preadipocytes, Adipose-derived stem cells
+Macrophages, Monocytes, Dendritic cells
+Skeletal muscle fibers, Muscle cells, Myotubes
+T lymphocytes, Activated T cells, Natural killer T cells
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Muscle satellite cells, Myogenic progenitor cells, Muscle precursor cells
+Pericytes, Vascular smooth muscle cells, Mesenchymal stromal cells
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+Mast cells, Basophils, Activated leukocytes
+Macrophages, Monocytes, Dendritic cells
+Lymphatic endothelial cells, Lymphangioblasts, Endothelial cells
+Fibroblasts, Mesenchymal cells, Myofibroblasts
+B cells, Mature B lymphocytes, Dendritic cells
+Adipocytes, Preadipocytes, Adipose-derived stem cells
+Skeletal muscle cells, Myotubes, Muscle fibers
+Keratinocytes, Epidermal cells, Skin epithelial cells
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Sweat gland secretory cells, Apocrine gland cells, Skin glandular cells
+Sebaceous gland cells, Skin glandular cells, Hair follicle cells
+Pericytes, Vascular smooth muscle cells, Mesenchymal stromal cells
+Melanocytes, Melanocyte progenitor cells, Pigment cells
+Differentiated keratinocytes, Stratum corneum keratinocytes, Skin epidermal cells
+Lymphatic endothelial cells, Lymphangioblasts, Endothelial cells
+Macrophages, Dermal macrophages, Monocytes
+Mesenchymal stem cells, Dermal fibroblasts, Dermal papilla cells
+Fibroblasts, Dermal fibroblasts, Mesenchymal cells
+Basal keratinocytes, Skin stem cells, Basal epithelial cells
+B lymphocytes, Mature B cells, Dendritic cells
+Adipocytes, Preadipocytes, Adipose-derived stem cells
+T lymphocytes, Activated T cells, Natural killer T cells
+Mast cells, Basophils, Activated leukocytes
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells

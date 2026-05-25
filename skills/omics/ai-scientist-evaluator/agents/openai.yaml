@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Scientist Evaluator"
+  short_description: "Reviewer panel for AI-generated biology and bioinformatics outputs"
+  default_prompt: "Critically review the provided AI scientist outputs. Score each submission, identify red flags, and rank them."
+policy:
+  allow_implicit_invocation: false

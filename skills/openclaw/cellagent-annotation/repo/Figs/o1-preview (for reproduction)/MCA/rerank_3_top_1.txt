@@ -1,0 +1,64 @@
+Neural progenitor cells
+Smooth muscle cells
+T cells
+Neurons
+Macrophages
+Stem cells
+Spermatids
+Germ cells
+Paneth cells
+Chondrocytes
+Neutrophils
+Neutrophils
+Erythrocytes
+Mucous cells
+Adipocytes
+Mammary epithelial cells
+Oligodendrocytes
+Neurons
+Fibroblasts
+B cells
+Macrophages
+Spermatocytes
+Intestinal epithelial cells
+Antigen-presenting cells
+Erythrocytes
+Alveolar type II cells
+Hepatocytes
+Neutrophils
+Theca cells
+Cardiomyocytes
+Adipocytes
+Urothelial cells
+Epithelial cells
+Pancreatic cells
+Astrocytes
+Fibroblasts
+Reproductive cells
+Osteoblasts
+Smooth muscle cells
+Steroidogenic cells
+Renal tubular cells
+Embryonic stem cells
+Cytotoxic T cells
+B cells
+Cytotoxic T cells
+Cardiomyocytes
+Microglia
+Pancreatic cells
+Pancreatic acinar cells
+Leydig cells
+Erythrocytes
+Pancreatic beta cells
+Mast cells
+Basal cells
+Placental cells
+Club cells
+Renal tubular cells
+Pancreatic ductal cells
+Macrophages
+Thyroid follicular cells
+Astrocytes
+Hepatocytes
+Chondrocytes
+Paneth cells

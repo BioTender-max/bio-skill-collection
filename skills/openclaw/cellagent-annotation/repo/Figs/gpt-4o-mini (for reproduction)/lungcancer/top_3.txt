@@ -1,0 +1,10 @@
+Macrophage, Microglia, Monocyte
+T Cell, CD4+ T Cell, CD8+ T Cell
+Cytotoxic T Cell, Natural Killer Cell, Memory T Cell
+B Cell, Plasma Cell, Follicular B Cell
+Fibroblast, Mesenchymal Stem Cell, Endothelial Cell
+Endothelial Cell, Pericyte, Smooth Muscle Cell
+Mast Cell, Basophil, Eosinophil
+Alveolar Type II Cell, Club Cell, Clara Cell
+Epithelial Cell, Stem Cell, Goblet Cell
+Oligodendrocyte, Astrocyte, Neuron

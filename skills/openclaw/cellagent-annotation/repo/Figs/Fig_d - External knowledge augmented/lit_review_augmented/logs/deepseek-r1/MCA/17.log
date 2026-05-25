@@ -1,0 +1,299 @@
+
+===================prompt=====================
+
+
+Human: 
+Identify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.
+
+Here are the marker genes, please finish the task: Fabp7, Pantr1, Nnat, Ptn, Pax6, Rtn1, Dbi, Tuba1a, H2afv, Tubb2b
+---------------------------------------------------------------
+Here are some related literature segments for your reference. Please do not infer solely based on these segments:
+pmcid: PMC11095234
+section: RESULTS
+content: The cortical organoids of cell type enrichment analysis in scRNA-seq analysis could be subcategorized further into dopamine-glutamate (DA GLU) neuron (a distinctive subset of dopaminergic neurons in the ventral tegmental area that also release glutamate)-related genes (SCG2, NSG2, MMP3, ATP1B1, RTN4, NEGR1, HSP90AA1, CELF4, LMO3), dopaminergic neurons (NEUROD6, TMSB10, TUBA1A, SOX4, STMN2, PTMA, NREP, SOX11, MLLT11), ependymal cells (CA4, WLS, MGST1, PRTG, PLS3, RSPO2, FAM122B, WNT2B, CDO1), GABAergic neurons (RAB8A, PIGK, ZDHHC5, FZD3, CCM2, MRPL47, PNRC1, RHBDD2, CDC42SE1), glutaminergic neurons (MT-CYB, MT-ND5, NEFM, MT-ATP6, MT-ND4, NEFL, MTND3, MT-ND2, MT-CO3), and neural progenitor cells (RPS27, FTL, RPL21, FTH1, RPL15, RPL13A, RPS5, CDKN1A, VIM) were also detected, along with radial glial cells (PTN, C1orf61, VIM, CLU, HES1, HSPB1, MDK, DBI, LINC01158) (Table S7, Supporting Information).
+----------------------------------------------------------------------
+pmcid: PMC6779397
+section: DISCUSS
+content: Transcriptome analysis of the whole brain at E14.5 in specific knock out animals revealed that the ablation of the Pantr1 locus resulted in significant up-regulation of some neuronal progenitor markers such as Nestin, Notch1, Pax3, and Pax6, and significant down-regulation of mature neural cell-type markers including many canonical astrocyte markers such as Gfap, S100b, Aldh1l1, Fabp7, and Gap43.
+----------------------------------------------------------------------
+     
+
+Assistant:
+===================deepseek-r1 response =====================
+<think>
+Okay, let's tackle this problem step by step. The user provided a list of marker genes and wants the top 3 mouse cell types based on those markers. The markers given are Fabp7, Pantr1, Nnat, Ptn, Pax6, Rtn1, Dbi, Tuba1a, H2afv, Tubb2b. 
+
+First, I need to recall what each of these markers typically indicates. Let's go through them one by one.
+
+Starting with Fabp7. From the second literature excerpt, Fabp7 is mentioned as a canonical astrocyte marker that was down-regulated in the Pantr1 knockout. So Fabp7 is likely associated with astrocytes or some glial cells.
+
+Pantr1 is mentioned in the same context. The ablation of Pantr1 caused upregulation of neuronal progenitor markers like Pax6, which is listed here. So Pantr1 might be involved in maintaining progenitor states. But the user's markers include both Pantr1 and Pax6, which if both are present, maybe it's a progenitor cell?
+
+Nnat (Neuronatin) is usually associated with developing neurons, maybe during neurogenesis. It's often found in immature neurons or neural progenitors.
+
+Ptn (Pleiotrophin) is listed in the first literature as part of radial glial cell markers. Radial glial cells are neural progenitors, so Ptn being present here points towards radial glia.
+
+Pax6 is a well-known transcription factor critical for neural progenitor cells, especially in the developing nervous system. It's essential for the maintenance of progenitor cells and their differentiation into various neural lineages. The second paper mentions Pax6 as a neuronal progenitor marker that's upregulated when Pantr1 is knocked out. So Pax6 here reinforces the idea of neural progenitors.
+
+Rtn1 (Reticulon 1) might be associated with neurons, as reticulons are involved in endoplasmic reticulum structure and are sometimes markers for specific neuronal subtypes.
+
+Dbi (Diazepam binding inhibitor) is listed in the first literature under radial glial cells. So Dbi is another marker for radial glia.
+
+Tuba1a (Tubulin alpha 1a) is mentioned in the first literature as part of dopaminergic neurons. However, Tuba1a is also a general marker for neurons, especially immature ones, as tubulins are structural proteins in neurons.
+
+H2afv is a histone variant, which might be more general, but could indicate proliferating cells, like progenitors, as histones are involved in cell division.
+
+Tubb2b (Tubulin beta 2b class IIb) is another tubulin, which is typically expressed in neurons, especially during development. Tubb2b is often a marker for immature or early neurons.
+
+Putting this together: The markers include several associated with radial glia (Ptn, Dbi), neural progenitors (Pax6, Nnat, H2afv), and some neuronal markers (Tuba1a, Tubb2b). However, the presence of both progenitor markers (Pax6, Ptn, Dbi) and early neuronal markers (Tubb2b, Tuba1a) suggests a mix. But radial glial cells are themselves a type of neural progenitor. The first literature mentions radial glial cells with markers PTN, DBI, etc., which are present here. Also, Fabp7 is an astrocyte marker, but in the second paper, its downregulation is noted when progenitors are upregulated, suggesting that in the context of the given markers, maybe the cells are transitioning from progenitors to astrocytes?
+
+Wait, but the user's markers include both Fabp7 (astrocyte) and Pax6 (progenitor), along with radial glia markers. So maybe the cell type is radial glial cells, which can give rise to astrocytes. Alternatively, maybe the top cell types are a mix of progenitors and astrocytes.
+
+Looking at the literature references again: The first one lists radial glial cells with PTN, DBI, etc., which are in the given markers. The second paper links Pantr1 ablation to upregulation of Pax6 (a progenitor marker) and downregulation of astrocyte markers like Fabp7. But in the user's case, Fabp7 is present, so maybe that cell is an astrocyte, but also has progenitor markers? That might be conflicting.
+
+Alternatively, perhaps the cells are radial glial cells (since PTN and DBI are their markers), which are progenitors. Pax6 is a progenitor marker. Tubb2b and Tuba1a could indicate neuronal differentiation, but radial glia can generate neurons. Fabp7 is also present, which is an astrocyte marker, but maybe radial glia can also express some astrocyte markers as they differentiate into astrocytes.
+
+So, the top cell types might be:
+
+1. Radial glial cells (since PTN, DBI, and possibly others like Pax6 are present)
+2. Neural progenitor cells (Pax6, Nnat, H2afv)
+3. Astrocytes (Fabp7)
+
+But wait, the first literature has radial glial cells with PTN, DBI, VIM, etc. The user's markers include PTN and DBI, so that's strong for radial glia. Pax6 is a neural progenitor marker. Tubb2b and Tuba1a are more neuronal. However, radial glia can express some neuronal markers as they generate neurons. So perhaps the primary is radial glial cells. Then neural progenitors (since Pax6 is key here), and then maybe immature neurons?
+
+Alternatively, looking at the markers again:
+
+Fabp7 (astrocyte)
+Pantr1 (linked to progenitor regulation)
+Nnat (progenitor/immature neuron)
+Ptn (radial glia)
+Pax6 (progenitor)
+Rtn1 (neuronal)
+Dbi (radial glia)
+Tuba1a (neuronal or dopaminergic)
+H2afv (progenitor)
+Tubb2b (immature neuron)
+
+So combining these, the presence of both radial glia markers (PTN, DBI), neural progenitor markers (Pax6, Nnat, H2afv), and some neuronal markers (Tubb2b, Tuba1a, Rtn1) suggests that the cells might be in a transitional state from radial glia to neurons. However, since radial glia are progenitors that produce neurons, the dominant cell type might still be radial glial cells. Then, neural progenitors (since Pax6 is a key progenitor marker), and perhaps astrocytes (due to Fabp7). Alternatively, maybe immature neurons are third.
+
+Wait, but Fabp7 is an astrocyte marker. If that's present, then maybe astrocytes are a possibility. But the other markers are more about progenitors and neurons. However, in the second literature, Fabp7 is downregulated when progenitors are upregulated, so if Fabp7 is present here, maybe it's a mix. But the user is asking for the top 3 cell types based on these markers. So maybe the strongest signals are radial glia (PTN, DBI), neural progenitors (Pax6, Nnat, H2afv), and astrocytes (Fabp7). Alternatively, maybe immature neurons are in there due to Tubb2b and Tuba1a. But Tuba1a is also in dopaminergic neurons according to the first literature.
+
+But the problem is to pick the top 3. Let's see the literature mentions: radial glial cells (PTN, DBI), dopaminergic neurons (TUBA1A), neural progenitor cells (Pax6, etc.), and others. So given that TUBA1A is in dopaminergic neurons, but also in neurons in general. But the user's markers include TUBA1A and Tubb2b, which are neuronal. So maybe the cell types are radial glia, neural progenitors, and neurons. But which type of neuron? The first literature has dopaminergic, GABAergic, glutamatergic. TUBA1A is listed under dopaminergic neurons. But Tubb2b is a beta tubulin often in neuronal precursors.
+
+Alternatively, the presence of both radial glia and neuronal markers could indicate that the cells are radial glia (which are progenitors giving rise to neurons), so maybe the top three are: Radial glial cells, Neural progenitor cells, and Neurons (possibly dopaminergic or immature). But the user might expect specific terms.
+
+In the literature, the first one lists radial glial cells with PTN, DBI. The second links Fabp7 to astrocytes. So combining all, the top three could be:
+
+1. Radial glial cells (PTN, DBI, maybe others)
+2. Neural progenitor cells (Pax6, Nnat, H2afv)
+3. Astrocytes (Fabp7)
+
+Alternatively, if TUBA1A and Tubb2b are strong neuronal markers, perhaps immature neurons are third. But considering the presence of Fabp7 (astrocyte), maybe astrocytes are third. However, the user's markers have more progenitor/radial glia and neuronal markers than astrocyte. So perhaps:
+
+1. Radial glial cells
+2. Neural progenitor cells
+3. Immature neurons
+
+But I need to check if any of the other markers support that. Tubb2b is a marker for neuronal precursors or immature neurons. Nnat is also in immature neurons. So maybe. But the presence of Pax6 and PTN (radial glia) would push towards progenitors. So maybe the order is Radial glia, neural progenitors, and astrocytes. Alternatively, if the markers are a mix of radial glia and neuronal, maybe the third is neurons.
+
+But the problem says to list the top 3 cell types, ranked by probability. The presence of PTN and DBI (from radial glia), Pax6 and Nnat (progenitors), and Fabp7 (astrocyte) would suggest:
+
+1. Radial glial cells (PTN, DBI)
+2. Neural progenitor cells (Pax6, Nnat, H2afv)
+3. Astrocytes (Fabp7)
+
+But another possibility is that the presence of both radial glia and neuronal markers could mean that the cells are in a transitional stage, but cell type classification usually goes for the most specific markers. Since radial glia are progenitors, maybe they are considered a type of neural progenitor. But in the literature, radial glial cells and neural progenitor cells are listed as separate categories. For example, in the first literature, radial glial cells and neural progenitor cells are both mentioned, with different markers. So perhaps they are distinct.
+
+So the top three would be:
+
+1. Radial glial cells (PTN, DBI)
+2. Neural progenitor cells (Pax6, Nnat, H2afv)
+3. Astrocytes (Fabp7)
+
+But wait, the user's markers also include Tubb2b and Tuba1a, which are neuronal. So maybe immature neurons are third. However, looking at the literature again, in the first paper, dopaminergic neurons include TUBA1A. But Tubb2b is not mentioned there. However, Tubb2b is a common neuronal marker. If TUBA1A is in dopaminergic neurons, and Tubb2b is in immature neurons, maybe neuronal types are in the mix.
+
+But given the markers, the strongest signals seem to be radial glia (PTN, DBI), neural progenitors (Pax6, Nnat, H2afv), and either astrocytes (Fabp7) or neurons (TUBA1A, Tubb2b). However, Fabp7 is a specific astrocyte marker, while TUBA1A and Tubb2b are more general neuronal. Since the user's task is to pick the top 3, considering that radial glia and neural progenitors are both present, and then astrocytes vs. neurons.
+
+But in the literature, when Pantr1 is knocked out, Fabp7 is downregulated, which suggests that in normal conditions, Fabp7 is expressed in mature astrocytes. So presence of Fabp7 here would indicate astrocytes. However, the same cells also have progenitor markers. But maybe the cells are astrocytes that are derived from radial glia, or radial glia that are starting to differentiate into astrocytes. But cell type classification usually assigns one cell type per cell. However, the question is about the top 3 cell types given the markers, not a single cell.
+
+Alternatively, the markers could indicate a heterogeneous population. But the user wants the top 3 cell types that these markers collectively suggest. So, based on the number of markers pointing to each:
+
+- Radial glial cells: PTN, DBI (2 markers)
+- Neural progenitor cells: Pax6, Nnat, H2afv (3 markers)
+- Astrocytes: Fabp7 (1 marker)
+- Neurons: TUBA1A, Tubb2b, Rtn1 (3 markers)
+
+But then neurons have three markers, which is more than astrocytes. So maybe neurons are third. However, TUBA1A is in dopaminergic neurons (from literature), but also a general neuronal marker. Tubb2b is neuronal. Rtn1 might be neuronal. So if neurons have more markers, perhaps they are third.
+
+But the presence of Pax6 and other progenitor markers might suggest that the cells are still progenitors. However, the markers could be overlapping. For example, radial glia are a type of neural progenitor. So perhaps the order is:
+
+1. Radial glial cells (PTN, DBI)
+2. Neural progenitor cells (Pax6, Nnat, H2afv)
+3. Neurons (TUBA1A, Tubb2b, Rtn1)
+
+But then the user's answer would be Radial glial cells, Neural progenitor cells, Neurons.
+
+Alternatively, perhaps the presence of both radial glia and neural progenitor markers indicates that radial glia are the top, followed by neural progenitors, but maybe the third is dopaminergic neurons due to TUBA1A.
+
+But I need to check the literature again. The first literature lists dopaminergic neurons with TUBA1A. So if TUBA1A is a marker for dopaminergic neurons, and Tubb2b is a neuronal marker, then maybe dopaminergic neurons are a possibility.
+
+But the user's markers include TUBA1A and Tubb2b. However, the first literature's dopaminergic neuron markers include TUBA1A but not Tubb2b. The Tubb2b might be more general. So maybe the third is neurons in general.
+
+But the problem is to list the cell type names. So possible options are Radial glial cells, Neural progenitor cells, and Neurons (or specific subtypes like dopaminergic neurons).
+
+Alternatively, looking at the presence of Pax6, which is a key marker for neural progenitors, and PTN and DBI for radial glia, which are a subtype of neural progenitors. So maybe the top three are:
+
+1. Radial glial cells
+2. Neural progenitor cells (if considered separate)
+3. Neurons
+
+But perhaps radial glial cells are a subset of neural progenitors, so maybe the first is radial glia, second neural progenitors (more general), and third neurons. But this might be overlapping.
+
+Alternatively, the presence of both radial glia and neuronal markers could suggest that the cells are in a differentiation trajectory from radial glia to neurons, but in terms of cell types, the dominant markers would be radial glia and then neuronal.
+
+But given the markers, the strongest are for radial glia and neural progenitors. Fabp7 is one marker for astrocytes, but others are more for progenitors and neurons. So maybe the ranking is:
+
+1. Radial glial cells (PTN, DBI)
+2. Neural progenitor cells (Pax6, Nnat, H2afv)
+3. Immature neurons (Tubb2b, Tuba1a, Rtn1)
+
+But the user might expect specific terms. In the literature, the cell types mentioned are radial glial cells, neural progenitor cells, dopaminergic neurons, GABAergic, etc. So the third could be neurons, but more specifically, perhaps dopaminergic neurons due to TUBA1A.
+
+But the presence of Tubb2b might suggest immature neurons. The first literature's dopaminergic neuron markers include TUBA1A but also others like NEUROD6, TMSB10, etc., which are not in the user's list. So maybe it's not specific enough for dopaminergic neurons.
+
+Alternatively, if the markers are a mix of radial glia (PTN, DBI), neural progenitors (Pax6, Nnat), and immature neurons (Tubb2b, Tuba1a), then the top three could be:
+
+1. Radial glial cells
+2. Neural progenitor cells
+3. Immature neurons
+
+But the user might want the standard cell type names. Immature neurons are sometimes called neuronal progenitors or early neurons. Alternatively, they might just be neurons.
+
+Another angle: The presence of Pax6 and Fabp7. Pax6 is a progenitor marker, and Fabp7 is astrocyte. But in the second literature, when Pantr1 is knocked out, Pax6 (progenitor) is upregulated and Fabp7 (astrocyte) is downregulated. So in normal conditions, Fabp7 is present in astrocytes, but if the cell has both Pax6 and Fabp7, maybe it's a transitional cell from progenitor to astrocyte. But cell type classification might still list them as separate.
+
+Putting it all together, the most supported cell types are:
+
+1. Radial glial cells (PTN, DBI)
+2. Neural progenitor cells (Pax6, Nnat, H2afv)
+3. Astrocytes (Fabp7)
+
+Alternatively, Neurons (TUBA1A, Tubb2b) as third. However, since Fabp7 is a specific astrocyte marker, and only one marker, but TUBA1A and Tubb2b are two markers for neurons, which might be stronger. But the literature mentions Fabp7 as a canonical astrocyte marker. So if Fabp7 is present, it's a strong indication for astrocytes, even if only one marker. Whereas neuronal markers are two (TUBA1A, Tubb2b), but more general.
+
+In the literature, the first paper's radial glial markers include PTN and DBI, which are in the user's list. Neural progenitor cells have markers like RPS27, FTL, etc., which are not in the user's list. Wait, in the first literature's neural progenitor cells, the markers listed are RPS27, FTL, RPL21, etc., which are ribosomal proteins and maybe not specific. The user's markers include Pax6, which in the second literature is a progenitor marker. So perhaps the user's neural progenitor markers are Pax6, Nnat, H2afv.
+
+Therefore, considering that, the top three would be:
+
+1. Radial glial cells (PTN, DBI)
+2. Neural progenitor cells (Pax6, Nnat, H2afv)
+3. Astrocytes (Fabp7)
+
+But another possibility is that the presence of TUBA1A and Tubb2b (both tubulins) might indicate actively dividing cells or neurons. However, TUBA1A is in dopaminergic neurons, which are a specific type. But without more specific markers, it's hard to say. The safest bet for third place might be neurons.
+
+Alternatively, given that the markers include both radial glia and neuronal markers, the cell type could be radial glia (which can generate neurons), so perhaps the top three are Radial glial cells, Neurons, Astrocytes. But I need to check the markers again.
+
+Fabp7: Astrocyte
+Pantr1: linked to progenitor regulation
+Nnat: progenitor/immature neuron
+Ptn: radial glia
+Pax6: progenitor
+Rtn1: neuron
+Dbi: radial glia
+Tuba1a: neuron
+H2afv: progenitor
+Tubb2b: neuron
+
+So markers per cell type:
+
+Radial glia: Ptn, Dbi (2)
+Neural progenitor: Pax6, Nnat, H2afv (3)
+Neuron: Rtn1, Tuba1a, Tubb2b (3)
+Astrocyte: Fabp7 (1)
+
+So Neural progenitor and Neuron both have 3 markers. Radial glia has 2. Astrocyte has 1.
+
+But this count might not be accurate because some markers can be in multiple cell types. For example, Nnat might be in both progenitors and immature neurons. TUBA1A is in neurons but also in progenitors? Not sure. But based on the literature, TUBA1A is in dopaminergic neurons. Tubb2b is a neuronal marker.
+
+So if we count the number of markers pointing to each:
+
+- Radial glial cells: 2 (PTN, DBI)
+- Neural progenitor cells: 3 (Pax6, Nnat, H2afv)
+- Neurons: 3 (Rtn1, Tuba1a, Tubb2b)
+- Astrocytes: 1 (Fabp7)
+
+But how to rank them? The problem says the higher the probability, the further left. So which has more markers? Neural progenitor and neuron each have 3. Radial glia has 2. However, in the literature, PTN and DBI are specific to radial glia. Pax6 is a key progenitor marker. TUBA1A and Tubb2b are strong neuronal markers.
+
+So perhaps the order is:
+
+1. Neural progenitor cells (3 markers including Pax6)
+2. Radial glial cells (2 specific markers)
+3. Neurons (3 markers)
+
+But this conflicts with the literature where PTN and DBI are radial glia-specific. So maybe radial glia should be first. But the count of markers might not be the only factor. The specificity of the markers is important. PTN and DBI might be more specific to radial glia, while Pax6 is a broad progenitor marker.
+
+Alternatively, since Pax6 is a transcription factor critical for neural progenitors, and present here, along with Nnat and H2afv, maybe neural progenitor cells are first. But the PTN and DBI are very specific to radial glia. This is a bit conflicting.
+
+Alternatively, the top three could be:
+
+1. Radial glial cells
+2. Neural progenitor cells
+3. Neurons
+
+But then, how does Fabp7 fit in? It's an astrocyte marker, but only one. Maybe it's less likely than neurons with three markers.
+
+Alternatively, the presence of both radial glia and neural progenitor markers could mean that radial glia are a subset of neural progenitors, so maybe the top is radial glia, then neural progenitors (broader category), then neurons. But that might not be accurate.
+
+This is tricky. To resolve this, perhaps looking at the combination of markers. Radial glia markers PTN and DBI are present, so radial glia is a strong candidate. Neural progenitor markers like Pax6, Nnat, and H2afv are also present. So maybe the cell is a radial glial cell (which is a type of neural progenitor), but also has some neuronal markers indicating differentiation.
+
+However, the user is asking for the top 3 cell types that these markers collectively indicate, not a single cell's type. So the markers suggest multiple possible cell types. Hence, the top three would be the ones with the most markers.
+
+But given that radial glia and neural progenitor cells are both present, and neurons, it's possible that the order is:
+
+1. Neural progenitor cells (most markers)
+2. Radial glial cells (specific markers)
+3. Neurons (several markers)
+
+But this depends on how the markers are weighted. For example, Pax6 is a very strong progenitor marker, and PTN/DBI are strong radial glia markers. If a cell has both, perhaps it's radial glia (since PTN and DBI are specific to them), even if Pax6 is present. Because radial glia are a type of neural progenitor. So maybe the top three are:
+
+1. Radial glial cells
+2. Neural progenitor cells
+3. Neurons
+
+But this might be redundant if radial glia are considered neural progenitors. Alternatively, the literature lists them as separate categories. In the first literature, radial glial cells and neural progenitor cells are separate entries. So they might be considered distinct. Hence, the presence of PTN and DBI would indicate radial glia as the top, then other neural progenitors (with Pax6, etc.), then neurons.
+
+Alternatively, the presence of Pax6 in radial glia? I think radial glia do express Pax6. For example, in the developing cortex, radial glial cells express Pax6. So maybe Pax6 is a marker for radial glia as well. So if that's the case, then radial glia would have PTN, DBI, Pax6, making them the top with three markers. Then neural progenitor cells might have Nnat, H2afv. Then neurons with Tubb2b, Tuba1a, Rtn1.
+
+In that case, the top three would be:
+
+1. Radial glial cells (PTN, DBI, Pax6)
+2. Neural progenitor cells (Nnat, H2afv)
+3. Neurons (Tubb2b, Tuba1a, Rtn1)
+
+But does Pax6 indeed mark radial glia? From my knowledge, Pax6 is expressed in radial glial cells in the developing brain, particularly in the cerebral cortex. So yes, Pax6 is a key marker for radial glia. Therefore, combining that, radial glia would have PTN, DBI, Pax6. That's three markers. Then neural progenitor cells might have Nnat and H2afv, but perhaps not as strong. Alternatively, if neural progenitor cells in the literature are a broader category that includes radial glia, then it's different. But in the first literature, radial glial cells and neural progenitor cells are listed separately. So in that case, radial glia are a distinct cell type.
+
+Therefore, with Pax6 as part of radial glia markers, the top three would be:
+
+1. Radial glial cells (PTN, DBI, Pax6)
+2. Neural progenitor cells (Nnat, H2afv)
+3. Neurons (Tubb2b, Tuba1a, Rtn1)
+
+But Fabp7 is still an astrocyte marker. However, if that's only one marker, it might not make the top three. But the user's list includes Fabp7, which is a canonical astrocyte marker. So maybe astrocytes are the third.
+
+But then we have:
+
+1. Radial glial cells (PTN, DBI, Pax6)
+2. Neural progenitor cells (Nnat, H2afv)
+3. Astrocytes (Fabp7)
+
+But neurons have three markers (Rtn1, Tuba1a, Tubb2b), which would give them more weight than astrocytes. So perhaps the third is neurons.
+
+Alternatively, the presence of Fabp7 might indicate a mixed population, but the user wants the top three cell types, so neurons would be third.
+
+Final decision: The markers point most strongly to radial glial cells (PTN, DBI, Pax6), then neural progenitor cells (Nnat, H2afv), and third, neurons (Tubb2b, Tuba1a, Rtn1). Fabp7 suggests astrocytes, but with only one marker, it's less likely to be in the top three compared to neurons with three markers.
+</think>
+
+Radial glial cells, Neural progenitor cells, Neurons
+===================tokens=====================
+Number of prompt tokens: 623
+Number of sampled tokens: 6105
+
+

@@ -1,0 +1,64 @@
+Astrocytes, Oligodendrocytes, Neural Progenitor Cells
+Smooth Muscle Cells, Fibroblasts, Mesenchymal Stem Cells
+T Cells, Cytotoxic T Cells, Helper T Cells
+Neurons, Neural Progenitor Cells, Oligodendrocytes
+Fibroblasts, Mesenchymal Stem Cells, Myofibroblasts
+Embryonic Stem Cells, Neural Progenitor Cells, Pluripotent Stem Cells
+Spermatids, Spermatocytes, Sperm Cells
+Germ Cells, Pluripotent Stem Cells, Embryonic Stem Cells
+Pancreatic Acinar Cells, Pancreatic Ductal Cells, Intestinal Epithelial Cells
+Chondrocytes, Osteoblasts, Mesenchymal Stem Cells
+Neutrophils, Granulocytes, Myeloid Cells
+Neutrophils, Granulocytes, Myeloid Cells
+Erythrocytes, Erythroid Progenitor Cells, Red Blood Cells
+Gastric Epithelial Cells, Intestinal Epithelial Cells, Goblet Cells
+Endothelial Cells, Adipocytes, Vascular Smooth Muscle Cells
+Mammary Epithelial Cells, Lactating Mammary Cells, Alveolar Cells
+Oligodendrocytes, Schwann Cells, Myelinating Cells
+Astrocytes, Neural Progenitor Cells, Neurons
+Fibroblasts, Myofibroblasts, Mesenchymal Stem Cells
+B Cells, Plasma Cells, Lymphocytes
+Macrophages, Monocytes, Myeloid Cells
+Germ Cells, Spermatocytes, Spermatogonia
+Intestinal Epithelial Cells, Goblet Cells, Enterocytes
+Dendritic Cells, Antigen Presenting Cells, B Cells
+Erythrocytes, Red Blood Cells, Erythroid Progenitor Cells
+Alveolar Epithelial Cells, Type II Pneumocytes, Lung Epithelial Cells
+Kidney Tubule Cells, Renal Epithelial Cells, Proximal Tubule Cells
+Neutrophils, Granulocytes, Myeloid Cells
+Adrenal Cortex Cells, Steroidogenic Cells, Endocrine Cells
+Fibroblasts, Cardiac Fibroblasts, Myofibroblasts
+Adipocytes, Brown Adipocytes, White Adipocytes
+Keratinocytes, Epithelial Cells, Skin Cells
+Epithelial Cells, Pluripotent Stem Cells, Embryonic Stem Cells
+Hepatocytes, Liver Cells, Parenchymal Cells
+Endothelial Cells, Vascular Cells, Blood Vessel Cells
+Smooth Muscle Cells, Fibroblasts, Mesenchymal Stem Cells
+Germ Cells, Pluripotent Stem Cells, Embryonic Stem Cells
+Osteoblasts, Bone Cells, Mesenchymal Stem Cells
+Smooth Muscle Cells, Myofibroblasts, Fibroblasts
+Adrenal Cortex Cells, Steroidogenic Cells, Endocrine Cells
+Kidney Tubule Cells, Renal Epithelial Cells, Proximal Tubule Cells
+Germ Cells, Pluripotent Stem Cells, Embryonic Stem Cells
+Cytotoxic T Cells, Natural Killer Cells, T Cells
+Epithelial Cells, Skin Cells, Keratinocytes
+Natural Killer Cells, Cytotoxic T Cells, Lymphocytes
+Cardiomyocytes, Heart Muscle Cells, Cardiac Myocytes
+Microglia, Macrophages, Glial Cells
+Gastric Epithelial Cells, Intestinal Epithelial Cells, Pancreatic Ductal Cells
+Pancreatic Acinar Cells, Exocrine Pancreatic Cells, Digestive Enzyme-Secreting Cells
+Adrenal Cortex Cells, Steroidogenic Cells, Endocrine Cells
+Epithelial Cells, Skin Cells, Keratinocytes
+Neuroendocrine Cells, Pancreatic Islet Cells, Endocrine Cells
+Mast Cells, Basophils, Myeloid Cells
+Gastric Epithelial Cells, Intestinal Epithelial Cells, Basement Membrane Cells
+Trophoblast Cells, Placental Cells, Extraembryonic Cells
+Club Cells, Bronchiolar Epithelial Cells, Lung Epithelial Cells
+Intercalated Cells, Renal Epithelial Cells, Kidney Tubule Cells
+Epithelial Cells, Skin Cells, Keratinocytes
+Eosinophils, Granulocytes, Myeloid Cells
+Retinal Pigment Epithelial Cells, Eye Cells, Photoreceptor Cells
+Astrocytes, Oligodendrocytes, Neural Progenitor Cells
+Hepatocytes, Liver Cells, Parenchymal Cells
+Chondrocytes, Osteoblasts, Mesenchymal Stem Cells
+Trophoblast Cells, Extraembryonic Cells, Placental Cells

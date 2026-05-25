@@ -1,0 +1,21 @@
+patient_id,name,age,gender,blood_type,condition,medication,doctor,hospital
+P001,Patient 001,34,Female,O+,Hypertension,Lisinopril,Doctor A,North General
+P002,Patient 002,41,Male,A-,Diabetes Type 2,Metformin,Doctor B,North General
+P003,Patient 003,29,Female,B+,Asthma,Salbutamol,Doctor A,East Clinic
+P004,Patient 004,72,Male,O-,Hypertension,Amlodipine,Doctor C,North General
+P005,Patient 005,15,Female,AB+,Asthma,Salbutamol,Doctor A,East Clinic
+P006,Patient 006,68,Male,A+,Diabetes Type 2,Metformin,Doctor C,West Hospital
+P007,Patient 007,55,Male,O+,Hypertension,Lisinopril,Doctor B,North General
+P008,Patient 008,58,Male,B-,Cancer,Tamoxifen,Doctor D,West Hospital
+P009,Patient 009,47,Female,A+,Hypertension,Amlodipine,Doctor C,North General
+P010,Patient 010,38,Female,O+,Migraine,Sumatriptan,Doctor A,East Clinic
+P011,Patient 011,52,Male,B+,Hypertension,Lisinopril,Doctor B,West Hospital
+P012,Patient 012,66,Male,AB-,Diabetes Type 2,Metformin,Doctor C,North General
+P013,Patient 013,45,Female,O-,Cancer,Tamoxifen,Doctor D,West Hospital
+P014,Patient 014,61,Male,A+,Hypertension,Amlodipine,Doctor C,East Clinic
+P015,Patient 015,67,Male,O+,Arthritis,Ibuprofen,Doctor B,North General
+P016,Patient 016,14,Female,B+,Asthma,Salbutamol,Doctor A,East Clinic
+P017,Patient 017,70,Male,A-,Arthritis,Ibuprofen,Doctor C,West Hospital
+P018,Patient 018,73,Female,O+,Arthritis,Ibuprofen,Doctor D,North General
+P019,Patient 019,50,Male,AB+,Diabetes Type 2,Metformin,Doctor B,West Hospital
+P020,Patient 020,17,Male,A+,Migraine,Sumatriptan,Doctor A,East Clinic

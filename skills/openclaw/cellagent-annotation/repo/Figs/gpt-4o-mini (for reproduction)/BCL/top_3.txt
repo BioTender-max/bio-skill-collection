@@ -1,0 +1,9 @@
+Macrophage, Dendritic cell, B cell
+B cell, Plasma cell, T follicular helper cell
+Cytotoxic T cell, Natural killer cell, Memory T cell
+B cell, T follicular helper cell, Memory B cell
+Regulatory T cell, Activated T cell, Memory T cell
+Invariant NKT cell, T cell, Natural killer cell
+Helper T cell, Regulatory T cell, Memory T cell
+Astrocyte, Oligodendrocyte, Neuron
+Natural killer cell, Cytotoxic T cell, Innate lymphoid cell

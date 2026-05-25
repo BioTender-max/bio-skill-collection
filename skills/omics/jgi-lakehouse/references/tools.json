@@ -1,0 +1,38 @@
+[
+  {
+    "name": "list_catalogs",
+    "description": "List available spaces/schemas in the JGI Lakehouse.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "describe_table",
+    "description": "Return schema for a table or view.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "table_path": {
+          "type": "string",
+          "description": "Full path, e.g. Phytozome.genomics.variants"
+        }
+      },
+      "required": ["table_path"]
+    }
+  },
+  {
+    "name": "execute_lakehouse_query",
+    "description": "Execute SQL via REST API and return results as JSON.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "sql_query": {
+          "type": "string",
+          "description": "ANSI SQL query. Must include LIMIT for non-aggregate queries."
+        }
+      },
+      "required": ["sql_query"]
+    }
+  }
+]

@@ -1,0 +1,64 @@
+Neuronal, Glial, Muscle
+Smooth Muscle, Cardiac Muscle, Fibroblast
+T Cell, B Cell, NK Cell
+Neuronal, Glial, Muscle
+Fibroblast, Macrophage, Endothelial
+Embryonic Stem Cell, Germ Cell, Neuronal
+Sperm Cell, Sertoli Cell, Leydig Cell
+Germ Cell, Embryonic Stem Cell, Neuronal
+Secretory Cell, Epithelial Cell, Immune Cell
+Chondrocyte, Osteoblast, Fibroblast
+Neutrophil, Monocyte, Macrophage
+Neutrophil, Myeloid, Granulocyte
+Erythrocyte, Hepatocyte, Neuronal
+Goblet Cell, Epithelial Cell, Secretory Cell
+Endothelial Cell, Smooth Muscle, Fibroblast
+Secretory Cell, Epithelial Cell, Muscle
+Oligodendrocyte, Myelinating Glia, Neuronal
+Neuronal, Neuroendocrine, Astrocyte
+Fibroblast, Mesenchymal Stem Cell, Smooth Muscle
+B Cell, Plasma Cell, T Cell
+Macrophage, Microglia, Dendritic Cell
+Germ Cell, Spermatogonium, Embryonic Stem Cell
+Hepatocyte, Adipocyte, Endothelial
+Antigen-Presenting Cell, B Cell, Dendritic Cell
+Epithelial Cell, Endothelial Cell, Neuronal
+Alveolar Cell, Epithelial Cell, Immune Cell
+Hepatocyte, Renal Cell, Neuronal
+Neutrophil, Myeloid, Granulocyte
+Leydig Cell, Sertoli Cell, Germ Cell
+Cardiac Muscle, Smooth Muscle, Fibroblast
+Adipocyte, Hepatocyte, Muscle
+Keratinocyte, Epithelial Cell, Stem Cell
+Neuronal, Glial, Muscle
+Osteoblast, Chondrocyte, Fibroblast
+Immune Cell, Epithelial Cell, Endothelial
+Fibroblast, Muscle, Neuronal
+Neuronal, Germ Cell, Stem Cell
+Osteoblast, Chondrocyte, Fibroblast
+Smooth Muscle, Cardiac Muscle, Skeletal Muscle
+Leydig Cell, Adrenal Cell, Germ Cell
+Renal Cell, Epithelial Cell, Neuronal
+Germ Cell, Embryonic Stem Cell, Spermatogonium
+Cytotoxic T Cell, Helper T Cell, NK Cell
+Myeloid, Endothelial, Fibroblast
+Cytotoxic T Cell, NK Cell, Helper T Cell
+Cardiac Muscle, Skeletal Muscle, Smooth Muscle
+Microglia, Macrophage, Immune Cell
+Epithelial Cell, Endothelial Cell, Secretory Cell
+Pancreatic Cell, Endocrine Cell, Exocrine Cell
+Adrenal Cell, Leydig Cell, Germ Cell
+Epithelial Cell, Neuronal, Secretory Cell
+Endocrine Cell, Neuronal, Secretory Cell
+Mast Cell, Immune Cell, Neutrophil
+Endothelial Cell, Fibroblast, Epithelial Cell
+Trophoblast, Placental Cell, Stem Cell
+Secretory Cell, Epithelial Cell, Immune Cell
+Epithelial Cell, Renal Cell, Secretory Cell
+Epithelial Cell, Immune Cell, Secretory Cell
+Immune Cell, Epithelial Cell, Neuronal
+Neuronal, Endocrine Cell, Secretory Cell
+Neuronal, Endothelial Cell, Secretory Cell
+Hepatocyte, Endocrine Cell, Neuronal
+Chondrocyte, Osteoblast, Fibroblast
+Epithelial Cell, Immune Cell, Secretory Cell

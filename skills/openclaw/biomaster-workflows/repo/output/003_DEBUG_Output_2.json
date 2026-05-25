@@ -1,0 +1,14 @@
+{
+    "shell": [
+        "conda install -y bwa",
+        "bwa index ./data/mm39.fa",
+        "bwa mem ./data/mm39.fa ./output/003/trimmed_SRR620205.fastq.gz > ./output/003/aligned_SRR620205.sam",
+        "bwa mem ./data/mm39.fa ./output/003/trimmed_SRR620208.fastq.gz > ./output/003/aligned_SRR620208.sam"
+    ],
+    "analyze": "The package installation was confirmed and the reference index was built as expected, the alignment commands use the correct trimmed fastq inputs and produce the SAM output files as required",
+    "output_filename": [
+        "./output/003/aligned_SRR620205.sam",
+        "./output/003/aligned_SRR620208.sam"
+    ],
+    "stats": true
+}

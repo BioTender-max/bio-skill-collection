@@ -1,0 +1,89 @@
+version: "1"
+
+defaults:
+  provider: local
+  trials: 5
+  timeout: 300
+  threshold: 0.8
+  docker:
+    base: node:20-slim
+
+tasks:
+  - name: critique-observational-causal-claim
+    instruction: |
+      Review `study_summary.md` using the bio-logic skill.
+
+      Write your critique to `critique.md` and use this exact heading structure:
+      - `## Summary`
+      - `## Strengths`
+      - `## Concerns`
+      - `### Critical (threaten main conclusions)`
+      - `### Important (affect interpretation)`
+      - `### Minor (worth noting)`
+      - `## Evidence Rating`
+      - `## Bottom Line`
+
+      The study summary intentionally describes an observational design but uses strong causal language.
+      Your critique must explicitly address whether the causal wording is justified.
+
+    workspace:
+      - src: fixtures/study_summary.md
+        dest: study_summary.md
+
+    graders:
+      - type: deterministic
+        run: |
+          passed=0
+          total=4
+          c1_pass=false c1_msg="critique.md missing"
+          c2_pass=false c2_msg="Required headings missing"
+          c3_pass=false c3_msg="Did not clearly flag the causal/evidence mismatch"
+          c4_pass=false c4_msg="Did not discuss confounding or observational limitations"
+
+          if test -f critique.md; then
+            passed=$((passed + 1))
+            c1_pass=true; c1_msg="critique.md exists"
+          fi
+
+          if grep -Fq "## Summary" critique.md 2>/dev/null \
+            && grep -Fq "## Strengths" critique.md 2>/dev/null \
+            && grep -Fq "## Concerns" critique.md 2>/dev/null \
+            && grep -Fq "### Critical (threaten main conclusions)" critique.md 2>/dev/null \
+            && grep -Fq "### Important (affect interpretation)" critique.md 2>/dev/null \
+            && grep -Fq "### Minor (worth noting)" critique.md 2>/dev/null \
+            && grep -Fq "## Evidence Rating" critique.md 2>/dev/null \
+            && grep -Fq "## Bottom Line" critique.md 2>/dev/null; then
+            passed=$((passed + 1))
+            c2_pass=true; c2_msg="All required headings present"
+          fi
+
+          if grep -Eiq 'causal|causation|association|observational|correlation' critique.md 2>/dev/null; then
+            passed=$((passed + 1))
+            c3_pass=true; c3_msg="Causal/evidence mismatch discussed"
+          fi
+
+          if grep -Eiq 'confound|confounding|not random|randomiz|selection bias' critique.md 2>/dev/null; then
+            passed=$((passed + 1))
+            c4_pass=true; c4_msg="Observational limitations discussed"
+          fi
+
+          score=$(awk "BEGIN {printf \"%.2f\", $passed/$total}")
+          echo "{\"score\":$score,\"details\":\"$passed/$total checks passed\",\"checks\":[{\"name\":\"file\",\"passed\":$c1_pass,\"message\":\"$c1_msg\"},{\"name\":\"headings\",\"passed\":$c2_pass,\"message\":\"$c2_msg\"},{\"name\":\"causal-mismatch\",\"passed\":$c3_pass,\"message\":\"$c3_msg\"},{\"name\":\"confounding\",\"passed\":$c4_pass,\"message\":\"$c4_msg\"}]}"
+        weight: 0.7
+
+      - type: llm_rubric
+        rubric: |
+          Evaluate whether the critique uses the bio-logic skill appropriately.
+
+          Methodological Reasoning (0.0-0.4):
+          - Does the critique correctly identify that an observational design cannot justify strong causal claims?
+          - Does it focus on concrete threats to validity rather than vague complaints?
+
+          Evidence Calibration (0.0-0.3):
+          - Is the evidence rating matched to the study design and limitations?
+          - Does the bottom line distinguish what can and cannot be concluded?
+
+          Structure and Usefulness (0.0-0.3):
+          - Does the critique follow the requested structure cleanly?
+          - Are the concerns actionable and specific enough to help a scientist revise the claim?
+        weight: 0.3

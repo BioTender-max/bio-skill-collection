@@ -1,0 +1,7 @@
+{
+  "_description": "Cholesterol-in-medium-VLDL GWAS at the SORT1 locus (Musunuru 2010 1p13.3 LDL/CHD locus). Pairs with SORT1 ge-eQTL on the exposure side.",
+  "accession": "GCST90269602",
+  "chromosome": "1",
+  "start_bp": 108774968,
+  "end_bp": 109774968
+}

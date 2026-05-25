@@ -1,0 +1,56 @@
+{
+    "plan": [
+        {
+            "step_number": 1,
+            "description": "Perform quality control and adapter trimming on raw ChIP-seq FASTQ files for CBX7 and IgGold. In this step, FastQC is used to generate quality reports and Trimmomatic is applied to remove adapter sequences and low-quality bases from the raw reads. This ensures high-quality input for downstream alignment.",
+            "input_filename": [
+                "./data/SRR620205.fastq.gz: chip-seq data for cbx7",
+                "./data/SRR620208.fastq.gz: chip-seq data for IgGold"
+            ],
+            "output_filename": [
+                "./output/003/trimmed_SRR620205.fastq.gz: trimmed chip-seq reads for cbx7",
+                "./output/003/trimmed_SRR620208.fastq.gz: trimmed chip-seq reads for IgGold"
+            ],
+            "tools": "FastQC, Trimmomatic"
+        },
+        {
+            "step_number": 2,
+            "description": "Align the quality-trimmed reads to the mouse reference genome using an aligner. In this step, BWA-MEM is used to map the trimmed CBX7 and IgGold reads to the mouse genome (mm39.fa). The output will be SAM files containing mapped reads.",
+            "input_filename": [
+                "./output/003/trimmed_SRR620205.fastq.gz: trimmed chip-seq reads for cbx7",
+                "./output/003/trimmed_SRR620208.fastq.gz: trimmed chip-seq reads for IgGold",
+                "./data/mm39.fa: mouse genome"
+            ],
+            "output_filename": [
+                "./output/003/aligned_SRR620205.sam: aligned reads for cbx7",
+                "./output/003/aligned_SRR620208.sam: aligned reads for IgGold"
+            ],
+            "tools": "BWA-MEM"
+        },
+        {
+            "step_number": 3,
+            "description": "Convert the SAM files to sorted and duplicate-removed BAM files to improve the quality of the alignment for peak calling. SAMtools is used to convert and sort the SAM files, while Picard is used to mark and remove PCR duplicates. This step ensures that downstream peak calling is performed on high-confidence alignments.",
+            "input_filename": [
+                "./output/003/aligned_SRR620205.sam: aligned reads for cbx7",
+                "./output/003/aligned_SRR620208.sam: aligned reads for IgGold"
+            ],
+            "output_filename": [
+                "./output/003/aligned_dedup_SRR620205.bam: sorted and deduplicated BAM for cbx7",
+                "./output/003/aligned_dedup_SRR620208.bam: sorted and deduplicated BAM for IgGold"
+            ],
+            "tools": "SAMtools, Picard"
+        },
+        {
+            "step_number": 4,
+            "description": "Call peaks for CBX7 binding using the MACS3 tool with the IgGold sample serving as the control. In this step, MACS3 compares the treatment (CBX7) versus the control (IgGold) to identify enriched regions (peaks) indicating CBX7 binding sites. The result is a narrowPeak file that lists the positions and significance of the detected peaks.",
+            "input_filename": [
+                "./output/003/aligned_dedup_SRR620205.bam: sorted and deduplicated BAM for cbx7",
+                "./output/003/aligned_dedup_SRR620208.bam: sorted and deduplicated BAM for IgGold"
+            ],
+            "output_filename": [
+                "./output/003/cbx7_peaks.narrowPeak: narrowPeak file of CBX7 binding sites"
+            ],
+            "tools": "MACS3"
+        }
+    ]
+}

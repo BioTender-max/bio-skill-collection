@@ -1,0 +1,7 @@
+{
+  "_description": "HbA1c GWAS at the TCF7L2 locus (the canonical T2D-adjacent biomarker pairing). Pairs with TCF7L2 ge-eQTL on the exposure side.",
+  "accession": "GCST90691576",
+  "chromosome": "10",
+  "start_bp": 112531629,
+  "end_bp": 113531629
+}

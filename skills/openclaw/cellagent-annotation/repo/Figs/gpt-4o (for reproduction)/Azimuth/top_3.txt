@@ -1,0 +1,323 @@
+Smooth muscle cells, Myofibroblasts, Pericytes
+T cells, Helper T cells, Thymocytes
+Fibroblasts, Myofibroblasts, Mesenchymal stem cells
+Neutrophils, Granulocytes, Myeloid progenitor cells
+Monocytes, Macrophages, Dendritic cells
+Mesothelial cells, Fibroblasts, Mesenchymal stem cells
+Mast cells, Basophils, Eosinophils
+Macrophages, Monocytes, Kupffer cells
+Natural killer cells, Cytotoxic T cells, Lymphocytes
+Endothelial cells, Vascular smooth muscle cells, Pericytes
+Neurons, Neural progenitor cells, Neuroendocrine cells
+Dendritic cells, B cells, Monocytes
+B cells, Plasma cells, Memory B cells
+Adipocytes, Preadipocytes, Lipid-laden macrophages
+Lymphatic endothelial cells, Dendritic cells, Macrophages
+Megakaryocytes, Platelets, Hematopoietic stem cells
+Neurons, Neuroendocrine cells, Neural progenitor cells
+Dendritic cells, Monocytes, Macrophages
+Plasmacytoid dendritic cells, Myeloid dendritic cells, Monocytes
+B cell precursors, Pre-B cells, Lymphoid progenitor cells
+T cell precursors, Lymphoid progenitor cells, Thymocytes
+Osteoblasts, Mesenchymal stem cells, Fibroblasts
+Plasma cells, B cells, Memory B cells
+Neutrophils, Eosinophils, Granulocytes
+Plasma cells, B cells, Memory B cells
+Megakaryocytes, Platelets, Endothelial cells
+Plasmacytoid dendritic cells, Myeloid dendritic cells, Monocytes
+Neural progenitor cells, Neurons, Neuroendocrine cells
+Natural killer cells, Cytotoxic T cells, Lymphocytes
+Neurons, Neural progenitor cells, Neuroendocrine cells
+Cytotoxic T cells, Natural killer cells, Lymphocytes
+Erythrocytes, Erythroid progenitor cells, Megakaryocytes
+Hematopoietic stem cells, Lymphoid progenitor cells, Myeloid progenitor cells
+Dendritic cells, Monocytes, Macrophages
+Dendritic cells, Monocytes, Macrophages
+T cells, Helper T cells, Thymocytes
+Cytotoxic T cells, Helper T cells, T cells
+Natural killer T cells, Cytotoxic T cells, Natural killer cells
+Natural killer cells, Cytotoxic T cells, Lymphocytes
+Cytotoxic T cells, Natural killer T cells, Helper T cells
+T cells, Helper T cells, Thymocytes
+Helper T cells, T cells, Thymocytes
+Macrophages, Monocytes, Dendritic cells
+T cells, Helper T cells, Thymocytes
+Natural killer T cells, Cytotoxic T cells, Natural killer cells
+B cells, Memory B cells, Plasma cells
+B cells, Memory B cells, Plasma cells
+Macrophages, Monocytes, Dendritic cells
+Macrophages, Monocytes, Dendritic cells
+Neural progenitor cells, Neurons, Neuroendocrine cells
+Erythrocytes, Erythroid progenitor cells, Megakaryocytes
+Natural killer T cells, Cytotoxic T cells, Natural killer cells
+Mast cells, Basophils, Eosinophils
+Plasmacytoid dendritic cells, Myeloid dendritic cells, Monocytes
+Natural killer cells, Cytotoxic T cells, Natural killer T cells
+Neuroendocrine cells, Pancreatic beta cells, Neurons
+Neurons, Neural progenitor cells, Interneurons
+Neurons, Neural progenitor cells, Synaptic cells
+Pancreatic acinar cells, Exocrine pancreas cells, Pancreatic ductal cells
+Kidney progenitor cells, Nephron progenitor cells, Mesonephric cells
+Pancreatic acinar cells, Exocrine pancreas cells, Pancreatic ductal cells
+Neurons, Neural progenitor cells, Synaptic cells
+Neurons, Neural progenitor cells, Interneurons
+Fibroblasts, Mesenchymal stem cells, Smooth muscle cells
+Retinal pigment epithelial cells, Melanocytes, Photoreceptor cells
+Mesenchymal stem cells, Fibroblasts, Neural crest cells
+Fibroblasts, Mesenchymal stem cells, Smooth muscle cells
+Hepatocytes, Cholangiocytes, Endothelial cells
+Neurons, Neural progenitor cells, Synaptic cells
+Cardiomyocytes, Cardiac progenitor cells, Smooth muscle cells
+Myeloid progenitor cells, Hematopoietic stem cells, Endothelial cells
+Gastric epithelial cells, Mucous cells, Enterocytes
+T cells, Helper T cells, Thymocytes
+Thymic epithelial cells, Thymocytes, T cells
+Placental trophoblasts, Syncytiotrophoblasts, Cytotrophoblasts
+Lens fiber cells, Lens epithelial cells, Corneal epithelial cells
+Neurons, Neural progenitor cells, Synaptic cells
+Epithelial cells, Goblet cells, Mucous cells
+Enteroendocrine cells, Gastric epithelial cells, Neuroendocrine cells
+Neurons, Neural progenitor cells, Synaptic cells
+Hepatocytes, Cholangiocytes, Endothelial cells
+Gastric epithelial cells, Enterocytes, Parietal cells
+Mesothelial cells, Fibroblasts, Mesenchymal stem cells
+Ciliated epithelial cells, Goblet cells, Mucous cells
+Neurons, Neural progenitor cells, Synaptic cells
+Neurons, Neural progenitor cells, Synaptic cells
+Fibroblasts, Mesenchymal stem cells, Smooth muscle cells
+Epithelial cells, Keratinocytes, Goblet cells
+T cells, Helper T cells, Thymocytes
+Schwann cells, Neural crest cells, Oligodendrocytes
+Neurons, Neural progenitor cells, Synaptic cells
+Hepatocytes, Cholangiocytes, Endothelial cells
+Megakaryocytes, Platelets, Hematopoietic stem cells
+Neurons, Neural progenitor cells, Synaptic cells
+Fibroblasts, Mesenchymal stem cells, Smooth muscle cells
+Adrenal cortex cells, Steroidogenic cells, Endocrine cells
+Macrophages, Monocytes, Dendritic cells
+Alveolar epithelial cells, Type II pneumocytes, Type I pneumocytes
+Endothelial cells, Vascular smooth muscle cells, Pericytes
+Muscle cells, Myoblasts, Myocytes
+Neurons, Astrocytes, Oligodendrocytes
+Chromaffin cells, Neurons, Adrenal medulla cells
+Renal tubular cells, Parafollicular cells, Thyroid follicular cells
+Lymphatic endothelial cells, Dendritic cells, Macrophages
+Neurons, Oligodendrocytes, Astrocytes
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Hepatic stellate cells, Mesothelial cells, Fibroblasts
+Skeletal muscle cells, Myoblasts, Cardiomyocytes
+Schwann cells, Oligodendrocytes, Neurons
+Neurons, Oligodendrocytes, Astrocytes
+T cells, B cells, Natural killer cells
+Neurons, Retinal cells, Photoreceptor cells
+Fibroblasts, Endothelial cells, Smooth muscle cells
+Neurons, Oligodendrocytes, Astrocytes
+Chromaffin cells, Neurons, Adrenal medulla cells
+Neurons, Oligodendrocytes, Astrocytes
+Erythrocytes, Reticulocytes, Erythroid progenitor cells
+Mast cells, Cardiomyocytes, Fibroblasts
+Fibroblasts, Adipocytes, Endothelial cells
+Mast cells, Cardiomyocytes, Fibroblasts
+Lymphatic endothelial cells, Dendritic cells, Macrophages
+Macrophages, Dendritic cells, Monocytes
+Fibroblasts, Mesangial cells, Endothelial cells
+T cells, Natural killer cells, B cells
+Neurons, Oligodendrocytes, Astrocytes
+Natural killer cells, T cells, Cytotoxic T cells
+Pericytes, Smooth muscle cells, Endothelial cells
+Smooth muscle cells, Cardiomyocytes, Myofibroblasts
+Endothelial cells, Cardiomyocytes, Fibroblasts
+Cardiomyocytes, Cardiac muscle cells, Myocytes
+Endothelial cells, Fibroblasts, Neurons
+Macrophages, Monocytes, Dendritic cells
+Endothelial cells, Fibroblasts, Mesothelial cells
+Endothelial cells, Fibroblasts, Neurons
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Adipocytes, Hepatocytes, Fibroblasts
+B cells, Plasma cells, Lymphocytes
+Cardiomyocytes, Cardiac muscle cells, Myocytes
+Epithelial cells, Keratinocytes, Fibroblasts
+Neurons, Renal tubular cells, Fibroblasts
+Renal tubular cells, Epithelial cells, Neurons
+Fibroblasts, Mesangial cells, Endothelial cells
+Endothelial cells, Fibroblasts, Neurons
+Neurons, Renal tubular cells, Fibroblasts
+Renal tubular cells, Epithelial cells, Podocytes
+Neurons, Schwann cells, Oligodendrocytes
+Renal tubular cells, Epithelial cells, Podocytes
+Smooth muscle cells, Pericytes, Fibroblasts
+Endothelial cells, Fibroblasts, Smooth muscle cells
+T cells, B cells, Monocytes
+Renal tubular cells, Epithelial cells, Podocytes
+Podocytes, Renal tubular cells, Epithelial cells
+Renal tubular cells, Epithelial cells, Neurons
+Renal tubular cells, Epithelial cells, Podocytes
+Liver sinusoidal endothelial cells, Kupffer cells, Hepatocytes
+Hepatocytes, Proliferating cells, Liver progenitor cells
+Fibroblasts, Hepatic stellate cells, Myofibroblasts
+Plasma cells, B cells, Lymphocytes
+Plasmacytoid dendritic cells, Monocytes, Macrophages
+Macrophages, Kupffer cells, Monocytes
+Natural killer cells, Cytotoxic T cells, T cells
+Hepatocytes, Liver sinusoidal endothelial cells, Kupffer cells
+Hepatic stellate cells, Myofibroblasts, Smooth muscle cells
+Monocytes, Macrophages, Neutrophils
+Mast cells, Basophils, Eosinophils
+Macrophages, Monocytes, Kupffer cells
+Fibroblasts, Hepatic stellate cells, Myofibroblasts
+Dendritic cells, Macrophages, Monocytes
+Dendritic cells, Macrophages, Monocytes
+Erythrocytes, Reticulocytes, Erythroid progenitor cells
+Natural killer cells, Cytotoxic T cells, T cells
+Endothelial cells, Liver sinusoidal endothelial cells, Fibroblasts
+Epithelial cells, Cholangiocytes, Hepatocytes
+Endothelial cells, Fibroblasts, Neurons
+Cytotoxic T cells, T cells, Natural killer cells
+T cells, Cytotoxic T cells, Natural killer cells
+B cells, Plasma cells, Lymphocytes
+Endothelial cells, Fibroblasts, Mesothelial cells
+T cells, Cytotoxic T cells, Natural killer cells
+Endothelial cells, Fibroblasts, Mesothelial cells
+Alveolar type II cells, Alveolar type I cells, Club cells
+Natural killer cells, Cytotoxic T cells, T cells
+Monocytes, Macrophages, Neutrophils
+Epithelial cells, Ciliated cells, Club cells
+B cells, Plasma cells, Lymphocytes
+Epithelial cells, Club cells, Alveolar type II cells
+Endothelial cells, Fibroblasts, Mesothelial cells
+Epithelial cells, Club cells, Alveolar type II cells
+Alveolar type II cells, Alveolar type I cells, Club cells
+Endothelial cells, Fibroblasts, Mesothelial cells
+Endothelial cells, Fibroblasts, Mesothelial cells
+Monocytes, Macrophages, Neutrophils
+Proliferating cells, Epithelial cells, Fibroblasts
+Smooth muscle cells, Myofibroblasts, Fibroblasts
+Mast cells, Basophils, Eosinophils
+Fibroblasts, Myofibroblasts, Smooth muscle cells
+Monocytes, Macrophages, Neutrophils
+Fibroblasts, Myofibroblasts, Smooth muscle cells
+Neuroendocrine cells, Chromaffin cells, Epithelial cells
+Epithelial cells, Ciliated cells, Club cells
+Endothelial cells, Alveolar type I cells, Vascular smooth muscle cells
+Monocytes, Macrophages, Dendritic cells
+Mast cells, Basophils, Eosinophils
+Alveolar type II cells, Club cells, Ciliated cells
+Plasma cells, B cells, Dendritic cells
+Natural killer cells, Cytotoxic T cells, Innate lymphoid cells
+Lymphatic endothelial cells, Fibroblasts, Smooth muscle cells
+Fibroblasts, Myofibroblasts, Mesothelial cells
+Dendritic cells, Macrophages, B cells
+Ciliated cells, Brush cells, Club cells
+T cells, Helper T cells, Cytotoxic T cells
+Neutrophils, Monocytes, Macrophages
+Basal cells, Keratinocytes, Squamous epithelial cells
+B cells, Plasma cells, Memory B cells
+Alveolar type I cells, Alveolar type II cells, Club cells
+Cytotoxic T cells, Natural killer cells, Helper T cells
+Club cells, Alveolar type II cells, Goblet cells
+Macrophages, Osteoclasts, Monocytes
+Plasmacytoid dendritic cells, Natural killer cells, Cytotoxic T cells
+Fibroblasts, Myofibroblasts, Smooth muscle cells
+Epithelial cells, Goblet cells, Club cells
+Smooth muscle cells, Myofibroblasts, Fibroblasts
+Natural killer cells, Cytotoxic T cells, Helper T cells
+Megakaryocytes, Platelets, Hematopoietic stem cells
+Mesothelial cells, Epithelial cells, Fibroblasts
+Mesothelial cells, Fibroblasts, Epithelial cells
+Endothelial cells, Vascular smooth muscle cells, Alveolar type I cells
+Endothelial cells, Vascular smooth muscle cells, Alveolar type I cells
+Goblet cells, Mucous cells, Serous cells
+Smooth muscle cells, Myofibroblasts, Fibroblasts
+Pericytes, Fibroblasts, Smooth muscle cells
+Endothelial cells, Platelets, Megakaryocytes
+Club cells, Goblet cells, Alveolar type II cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Proliferating cells, Mitotic cells, Cycling cells
+Proliferating cells, Mitotic cells, Cycling cells
+Endothelial cells, Vascular smooth muscle cells, Pericytes
+Astrocytes, Oligodendrocytes, Ependymal cells
+Endothelial cells, Pericytes, Vascular smooth muscle cells
+Neurons, Interneurons, Projection neurons
+Neurons, Interneurons, Projection neurons
+Neurons, Interneurons, Projection neurons
+Neurons, Interneurons, Projection neurons
+Fibroblasts, Myofibroblasts, Smooth muscle cells
+Neurons, Interneurons, Projection neurons
+Oligodendrocyte precursor cells, Oligodendrocytes, Schwann cells
+Neurons, Interneurons, Projection neurons
+Neurons, Interneurons, Projection neurons
+Neurons, Interneurons, Projection neurons
+Oligodendrocytes, Schwann cells, Myelin-producing cells
+Microglia, Macrophages, Dendritic cells
+Neurons, Interneurons, Projection neurons
+Neurons, Interneurons, Projection neurons
+Neurons, Interneurons, Projection neurons
+Neurons, Interneurons, Projection neurons
+Neurons, Interneurons, Projection neurons
+Neurons, Interneurons, Projection neurons
+Proliferating cells, Mitotic cells, Cycling cells
+B cells, Plasma cells, Memory B cells
+B cells, Plasma cells, Memory B cells
+Plasma cells, B cells, Memory B cells
+Natural killer cells, Cytotoxic T cells, Helper T cells
+Helper T cells, Naive T cells, Memory T cells
+Proliferating cells, Mitotic cells, Cycling cells
+Cytotoxic T cells, Helper T cells, Natural killer cells
+Regulatory T cells, Helper T cells, Memory T cells
+Cytotoxic T cells, Helper T cells, Natural killer cells
+Proliferating cells, Mitotic cells, Cycling cells
+Cytotoxic T cells, Helper T cells, Natural killer cells
+Cytotoxic T cells, Natural killer cells, Helper T cells
+Plasmacytoid dendritic cells, Myeloid dendritic cells, Basophils
+Dendritic cells, Myeloid dendritic cells, Plasmacytoid dendritic cells
+Myeloid dendritic cells, Plasmacytoid dendritic cells, Macrophages
+Plasmacytoid dendritic cells, Myeloid dendritic cells, B cells
+Neutrophils, Monocytes, Macrophages
+Natural killer cells, Cytotoxic T cells, Helper T cells
+Gamma delta T cells, Natural killer cells, Cytotoxic T cells
+Helper T cells, Natural killer cells, Cytotoxic T cells
+Platelets, Megakaryocytes, Hematopoietic stem cells
+Mast cells, Basophils, Eosinophils
+Monocytes, Macrophages, Dendritic cells
+Hematopoietic stem cells, Progenitor cells, Erythroid progenitors
+Erythrocytes, Reticulocytes, Erythroid progenitors
+Natural killer cells, Cytotoxic T cells, Gamma delta T cells
+Natural killer cells, Cytotoxic T cells, Helper T cells
+Helper T cells, Naive T cells, Memory T cells
+B cells, Plasma cells, Memory B cells
+Pericytes, Fibroblasts, Smooth muscle cells
+Macrophages, Monocytes, Dendritic cells
+Acinar cells, Pancreatic ductal cells, Centroacinar cells
+Beta cells, Alpha cells, Delta cells
+Alpha cells, Beta cells, Delta cells
+Delta cells, Alpha cells, Beta cells
+Pancreatic ductal cells, Acinar cells, Centroacinar cells
+Hepatic stellate cells, Pericytes, Fibroblasts
+Fibroblasts, Myofibroblasts, Smooth muscle cells
+Schwann cells, Satellite glial cells, Neural crest cells
+Endothelial cells, Vascular smooth muscle cells, Pericytes
+PP cells, Delta cells, Alpha cells
+Myeloid dendritic cells, Plasmacytoid dendritic cells, Macrophages
+B cells, Activated B cells, Germinal center B cells
+T follicular helper cells, Activated T cells, Th2 cells
+Cytotoxic T cells, CD8+ T cells, Natural killer T cells
+Proliferating cells, Cycling cells, Germinal center B cells
+Dendritic cells, Macrophages, Monocytes
+Proliferating cells, Cycling cells, Germinal center B cells
+T follicular helper cells, Activated T cells, Th2 cells
+Cytotoxic T cells, CD8+ T cells, Natural killer T cells
+Neutrophils, Monocytes, Macrophages
+Stromal cells, Fibroblasts, Mesenchymal cells
+Germinal center B cells, Activated B cells, Plasma cells
+Th17 cells, Innate lymphoid cells, Natural killer cells
+Mast cells, Basophils, Eosinophils
+Memory B cells, Regulatory B cells, Plasma cells
+Macrophages, Monocytes, Dendritic cells
+Plasma cells, B cells, Activated B cells
+Epithelial cells, Stromal cells, Fibroblasts
+Cytotoxic T cells, CD8+ T cells, Natural killer T cells
+Plasma cells, B cells, Memory B cells
+Stromal cells, Fibroblasts, Mesenchymal cells
+Pro-B cells, Pre-B cells, Immature B cells
+Epithelial cells, Keratinocytes, Skin cells
+Natural killer cells, Cytotoxic T cells, Innate lymphoid cells

@@ -1,0 +1,7 @@
+"Goblet cells, Colon epithelial cells, Enterocytes, Epithelial cells"
+"Enterocytes, Colon epithelial cells, Absorptive cells, Epithelial cells"
+"Fibroblasts, Myofibroblasts, Smooth muscle cells, Stromal cells"
+"Macrophages, Monocytes, Neutrophils, Myeloid cells"
+"T cells, CD8+ T cells, CD4+ T cells, NK T cells"
+"Plasma cells, B cells, Antibody-secreting cells, Memory B cells"
+"Mast cells, Basophils, Allergy effector cells, Myeloid cells"

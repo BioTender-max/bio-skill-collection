@@ -1,0 +1,25 @@
+# PaperSummary (YAML)
+
+skill: "{{skill}}"
+title: "{{title}}"
+year: {{year}}
+journal: "{{journal}}"
+authors: "{{authors}}"
+doi: "{{doi}}"
+url: "{{url}}"
+study_type: "{{study_type}}"
+sample_type: "{{sample_type}}"
+sequencing_platform: "{{sequencing_platform}}"
+tools_used:
+  - "{{tool_1}}"
+  - "{{tool_2}}"
+tool_versions: "{{tool_versions}}"
+datasets: "{{datasets}}"
+workflow_summary: "{{workflow_summary}}"
+key_parameters: "{{key_parameters}}"
+qc_steps: "{{qc_steps}}"
+outputs: "{{outputs}}"
+code_availability: "{{code_availability}}"
+data_availability: "{{data_availability}}"
+limitations: "{{limitations}}"
+notes: "{{notes}}"

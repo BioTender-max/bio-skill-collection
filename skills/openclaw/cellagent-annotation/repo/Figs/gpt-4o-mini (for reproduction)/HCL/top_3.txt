@@ -1,0 +1,61 @@
+Neural Stem Cells, Progenitor Cells, Neurons
+Macrophages, Dendritic Cells, Microglia
+B Cells, Plasma Cells, Memory B Cells
+Fibroblasts, Smooth Muscle Cells, Endothelial Cells
+Hepatocytes, Adipocytes, Leydig Cells
+T Cells, Cytotoxic T Cells, Helper T Cells
+Fibroblasts, Myofibroblasts, Smooth Muscle Cells
+Natural Killer Cells, T Cells, Dendritic Cells
+Goblet Cells, Secretory Epithelial Cells, Mucous Cells
+Fibroblasts, Chondrocytes, Osteoblasts
+Neurons, Neuroglial Cells, Stem Cells
+Erythrocytes, Megakaryocytes, Platelets
+Macrophages, Dendritic Cells, Monocytes
+Goblet Cells, Pancreatic Cells, Intestinal Epithelial Cells
+Hepatocytes, Hepatic Stellate Cells, Biliary Epithelial Cells
+Muscle Cells, Myocytes, Cardiac Muscle Cells
+Endothelial Cells, Smooth Muscle Cells, Fibroblasts
+Antigen-Presenting Cells, Dendritic Cells, B Cells
+Epithelial Cells, Fibroblasts, Macrophages
+Erythrocytes, Reticulocytes, Megakaryocytes
+Vascular Smooth Muscle Cells, Endothelial Cells, Fibroblasts
+Oligodendrocytes, Schwann Cells, Neurons
+Alveolar Epithelial Cells, Type II Pneumocytes, Surfactant-Producing Cells
+Goblet Cells, Enteroendocrine Cells, Paneth Cells
+Neurons, Glial Cells, Stem Cells
+B Cells, Plasma Cells, Dendritic Cells
+Macrophages, Dendritic Cells, Neutrophils
+Enterocytes, Hepatocytes, Pancreatic Cells
+Erythrocytes, Megakaryocytes, Myocytes
+Erythrocytes, Neutrophils, Monocytes
+Chondrocytes, Osteoblasts, Fibroblasts
+Pancreatic Cells, Acinar Cells, Islet Cells
+Neutrophils, Eosinophils, Basophils
+Dendritic Cells, B Cells, T Cells
+Pancreatic Cells, Hepatocytes, Intestinal Epithelial Cells
+T Cells, Natural Killer Cells, Dendritic Cells
+Goblet Cells, Epithelial Cells, Secretory Cells
+Epithelial Cells, Goblet Cells, Alveolar Cells
+Goblet Cells, Epithelial Cells, Mucous Cells
+Myocytes, Cardiac Muscle Cells, Skeletal Muscle Cells
+T Cells, Natural Killer Cells, Dendritic Cells
+Erythrocytes, Megakaryocytes, Myocytes
+Neurons, Glial Cells, Stem Cells
+Fibroblasts, Endothelial Cells, Smooth Muscle Cells
+Keratinocytes, Epithelial Cells, Stem Cells
+Neurons, Glial Cells, Astrocytes
+Pancreatic Cells, Hepatocytes, Adipocytes
+Cardiac Muscle Cells, Skeletal Muscle Cells, Smooth Muscle Cells
+Chondrocytes, Osteoblasts, Stem Cells
+Epithelial Cells, Neurons, Stem Cells
+Hepatocytes, Erythrocytes, Adipocytes
+Prostate Cells, Epithelial Cells, Stem Cells
+Mast Cells, Eosinophils, Basophils
+Neurons, Glial Cells, Stem Cells
+Neuroendocrine Cells, Epithelial Cells, Secretory Cells
+Epithelial Cells, Neurons, Stem Cells
+T Cells, Natural Killer Cells, Dendritic Cells
+Neurons, Glial Cells, Astrocytes
+Chondrocytes, Fibroblasts, Osteoblasts
+Macrophages, Dendritic Cells, Neutrophils
+Adipocytes, Hepatocytes, Muscle Cells

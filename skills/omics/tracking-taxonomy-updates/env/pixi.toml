@@ -1,0 +1,29 @@
+# Pixi workspace for taxonomy tools (GTDB-Tk, EukCC, vConTACT3, TaxonKit)
+#
+# Usage:
+#   pixi install
+#   pixi run gtdbtk-help
+#
+# Docs: https://pixi.prefix.dev/
+#
+# Notes:
+# - These tools are heavy and may pull large dependencies.
+# - GTDB-Tk also requires downloading a GTDB reference package separately.
+
+[project]
+name = "taxonomy-tools"
+channels = ["conda-forge", "bioconda"]
+platforms = ["linux-64", "osx-64", "osx-arm64"]
+
+[dependencies]
+python = "3.10.*"
+gtdbtk = "*"
+eukcc = "*"
+vcontact3 = "*"
+taxonkit = "*"
+
+[tasks]
+gtdbtk-help = "gtdbtk --help"
+eukcc-help = "eukcc --help"
+vcontact3-help = "vcontact3 --help"
+taxonkit-help = "taxonkit --help"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "bioRxiv Search"
+  short_description: "Search recent bioRxiv preprints"
+  default_prompt: "Search bioRxiv for recent preprints on a topic, author, or DOI and filter the results by title, abstract, or author keywords."

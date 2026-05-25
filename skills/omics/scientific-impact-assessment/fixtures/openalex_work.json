@@ -1,0 +1,31 @@
+{
+  "id": "https://openalex.org/W1234567890",
+  "ids": {
+    "openalex": "https://openalex.org/W1234567890",
+    "doi": "https://doi.org/10.1038/s41586-024-00000-0"
+  },
+  "display_name": "A fixture paper for scientific impact assessment",
+  "publication_year": 2024,
+  "type": "article",
+  "cited_by_count": 321,
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 210
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 111
+    }
+  ],
+  "primary_location": {
+    "source": {
+      "display_name": "Nature Communications",
+      "issn_l": "2041-1723"
+    }
+  }
+}

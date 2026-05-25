@@ -1,0 +1,4 @@
+interface:
+  display_name: "Crossref Lookup"
+  short_description: "Validate DOIs and search Crossref metadata"
+  default_prompt: "Look up a DOI or paper title with Crossref, return validated citation metadata, and flag any ambiguous matches."

@@ -1,0 +1,64 @@
+Retinal pigment epithelial cells, Fibroblasts, Macrophages
+Smooth muscle cells, Myofibroblasts, Pericytes
+T cells, CD8+ T cells, Helper T cells
+Neurons, Neuronal progenitors, Nerve cells
+Fibroblasts, Macrophages, Astrocytes
+Embryonic stem cells, Ribosomal protein-expressing cells, Germ cells
+Spermatids, Spermatozoa, Male germ cells
+Embryonic stem cells, Germ cells, Spermatogonial cells
+Acinar cells, Secretory epithelial cells, Pancreatic duct cells
+Chondrocytes, Cartilage cells, Mesenchymal stem cells
+Neutrophils, Granulocytes, Inflammatory cells
+Neutrophils, Granulocytes, Inflammatory cells
+Erythrocytes, Red blood cells, Hematopoietic progenitors
+Goblet cells, Mucous epithelial cells, Intestinal epithelial cells
+Adipocytes, Endothelial cells, Fat cells
+Mammary epithelial cells, Milk-producing cells, Lactocytes
+Oligodendrocytes, Myelinating cells, Glial cells
+Neural progenitors, Neurons, Astrocytes
+Fibroblasts, Mesenchymal stem cells, Osteoblasts
+B cells, Plasma cells, B lymphocytes
+Macrophages, Microglia, Monocytes
+Germ cells, Spermatogonia, Spermatocytes
+Enterocytes, Intestinal epithelial cells, Pancreatic cells
+Antigen-presenting cells, Dendritic cells, Macrophages
+Erythrocytes, Red blood cells, Erythroid progenitors
+Alveolar type II cells, Lung epithelial cells, Surfactant-producing cells
+Hepatocytes, Liver cells, Metabolically active cells
+Neutrophils, Granulocytes, Inflammatory cells
+Leydig cells, Testicular cells, Steroid-producing cells
+Cardiomyocytes, Heart muscle cells, Cardiac cells
+Adipocytes, Fat cells, Lipid-storing cells
+Epithelial cells, Keratinocytes, Barrier cells
+Epithelial cells, Fibroblasts, Stem cells
+Pancreatic cells, Acinar cells, Islet cells
+Astrocytes, Microglia, Neurons
+Fibroblasts, Myofibroblasts, Mesenchymal cells
+Spermatogonia, Germ cells, Testicular stem cells
+Osteoblasts, Bone-forming cells, Osteocytes
+Smooth muscle cells, Myofibroblasts, Pericytes
+Leydig cells, Steroidogenic cells, Testicular cells
+Epithelial cells, Kidney cells, Tubular cells
+Embryonic stem cells, Germ cells, Pluripotent cells
+Cytotoxic T cells, NK cells, T lymphocytes
+Fibroblasts, Endothelial cells, Smooth muscle cells
+Cytotoxic T cells, NK cells, T lymphocytes
+Cardiomyocytes, Heart muscle cells, Cardiac cells
+Microglia, Macrophages, Immune cells
+Pancreatic acinar cells, Secretory cells, Exocrine cells
+Pancreatic acinar cells, Exocrine cells, Secretory cells
+Leydig cells, Steroidogenic cells, Testicular cells
+Epithelial cells, Neurons, Fibroblasts
+Pancreatic endocrine cells, Beta cells, Insulin-producing cells
+Mast cells, Basophils, Immune cells
+Endothelial cells, Epithelial cells, Basement membrane cells
+Placental cells, Secretory cells, Endocrine cells
+Club cells, Bronchial epithelial cells, Secretory cells
+Kidney cells, Transporter cells, Epithelial cells
+Mucous cells, Goblet cells, Epithelial cells
+Fibroblasts, Macrophages, Epithelial cells
+Retinal cells, RPE cells, Photoreceptors
+Astrocytes, Neurons, Glial cells
+Hepatocytes, Liver cells, Metabolic cells
+Chondrocytes, Cartilage cells, Osteoblasts
+Secretory cells, Mast cells, Epithelial cells

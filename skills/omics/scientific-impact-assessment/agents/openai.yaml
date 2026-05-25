@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Impact Assessment"
+  short_description: "Measure citations, attention, and journal context"
+  default_prompt: "Assess the impact of a paper using OpenAlex citations, optional Altmetric data, and the bundled journal impact-factor references."

@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+case "${1:-}" in
+  --path|--location|--where)
+    echo "${SCRIPT_DIR}/summarize"
+    exit 0
+    ;;
+  --script-dir)
+    echo "$SCRIPT_DIR"
+    exit 0
+    ;;
+esac
+
+if ! command -v python3 >/dev/null 2>&1; then
+  printf '{\n  "success": false,\n  "error": "python3 not found on PATH"\n}\n'
+  exit 1
+fi
+
+exec python3 "${SCRIPT_DIR}/summarize.py" "$@"

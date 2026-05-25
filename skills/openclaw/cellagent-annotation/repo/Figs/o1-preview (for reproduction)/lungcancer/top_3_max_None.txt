@@ -1,0 +1,10 @@
+Macrophages, monocytes, microglia
+T cells, cytotoxic T cells, NKT cells
+NK cells, cytotoxic T cells, NKT cells
+B cells, plasma cells, memory B cells
+Fibroblasts, myofibroblasts, mesenchymal cells
+Endothelial cells, vascular endothelial cells, microvascular endothelial cells
+Mast cells, basophils, eosinophils
+Alveolar type II cells, type II pneumocytes, lung epithelial cells
+Epithelial cells, carcinoma cells, lung epithelial cells
+Oligodendrocytes, astrocytes, glial cells

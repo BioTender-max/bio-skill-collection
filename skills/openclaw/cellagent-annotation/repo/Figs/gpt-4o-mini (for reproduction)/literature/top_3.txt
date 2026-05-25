@@ -1,0 +1,90 @@
+Adipocyte, Endothelial cell, Macrophage
+Endothelial cell, Hematopoietic stem cell, Pericyte
+T cell, Natural killer cell, Hematopoietic stem cell
+Smooth muscle cell, Myofibroblast, Cardiac muscle cell
+Skin epithelial cell, Basal cell, Keratinocyte
+Mast cell, Basophil, Eosinophil
+Pericyte, Smooth muscle cell, Fibroblast
+Lymphatic endothelial cell, Macrophage, Dendritic cell
+Mammary epithelial cell, Stem cell, Luminal cell
+Fibroblast, Myofibroblast, Smooth muscle cell
+Dendritic cell, T cell, B cell
+Macrophage, Dendritic cell, Monocyte
+Mast cell, Basophil, Eosinophil
+Endothelial cell, Hematopoietic stem cell, Pericyte
+T cell, Natural killer cell, Hematopoietic stem cell
+Esophageal epithelial cell, Goblet cell, Basal cell
+Macrophage, Dendritic cell, Monocyte
+Smooth muscle cell, Myofibroblast, Cardiac muscle cell
+Interstitial cell, Enteric neuron, Smooth muscle cell
+Fibroblast, Myofibroblast, Smooth muscle cell
+Skin epithelial cell, Basal cell, Keratinocyte
+Dendritic cell, T cell, B cell
+Adipocyte, Endothelial cell, Macrophage
+Lymphatic endothelial cell, Macrophage, Dendritic cell
+Cardiac muscle cell, Myocyte, Fibroblast
+Endothelial cell, Hematopoietic stem cell, Pericyte
+T cell, Natural killer cell, Hematopoietic stem cell
+Smooth muscle cell, Myofibroblast, Cardiac muscle cell
+Pericyte, Smooth muscle cell, Fibroblast
+Mast cell, Basophil, Eosinophil
+Lymphatic endothelial cell, Macrophage, Dendritic cell
+Fibroblast, Myofibroblast, Smooth muscle cell
+Dendritic cell, T cell, B cell
+Adipocyte, Endothelial cell, Macrophage
+Macrophage, Dendritic cell, Monocyte
+Macrophage, Dendritic cell, Monocyte
+Endothelial cell, Hematopoietic stem cell, Pericyte
+T cell, Natural killer cell, Hematopoietic stem cell
+Smooth muscle cell, Myofibroblast, Cardiac muscle cell
+Pericyte, Smooth muscle cell, Fibroblast
+Lymphatic endothelial cell, Macrophage, Dendritic cell
+Mast cell, Basophil, Eosinophil
+Club cell, Goblet cell, Alveolar type II cell
+Adipocyte, Endothelial cell, Macrophage
+Fibroblast, Endothelial cell, Pericyte
+Alveolar type II cell, Club cell, Type I pneumocyte
+Fibroblast, Myofibroblast, Smooth muscle cell
+Ciliated epithelial cell, Stem cell, Goblet cell
+Dendritic cell, T cell, B cell
+Pericyte, Smooth muscle cell, Fibroblast
+Endothelial cell, Hematopoietic stem cell, Pericyte
+T cell, Natural killer cell, Hematopoietic stem cell
+Smooth muscle cell, Myofibroblast, Cardiac muscle cell
+Mast cell, Basophil, Eosinophil
+Lymphatic endothelial cell, Macrophage, Dendritic cell
+Prostate epithelial cell, Secretory cell, Basal cell
+Fibroblast, Myofibroblast, Smooth muscle cell
+Dendritic cell, T cell, B cell
+Adipocyte, Endothelial cell, Macrophage
+Macrophage, Dendritic cell, Monocyte
+Skeletal muscle cell, Myoblast, Myocyte
+T cell, Natural killer cell, Hematopoietic stem cell
+Skeletal muscle cell, Myoblast, Myocyte
+Satellite cell, Myoblast, Skeletal muscle cell
+Pericyte, Smooth muscle cell, Fibroblast
+Endothelial cell, Hematopoietic stem cell, Pericyte
+Mast cell, Basophil, Eosinophil
+Macrophage, Dendritic cell, Monocyte
+Lymphatic endothelial cell, Macrophage, Dendritic cell
+Fibroblast, Myofibroblast, Smooth muscle cell
+Dendritic cell, T cell, B cell
+Adipocyte, Endothelial cell, Macrophage
+Skeletal muscle cell, Myoblast, Myocyte
+Keratinocyte, Basal cell, Squamous cell
+Smooth muscle cell, Myofibroblast, Cardiac muscle cell
+Club cell, Goblet cell, Alveolar type II cell
+Skin epithelial cell, Basal cell, Keratinocyte
+Pericyte, Smooth muscle cell, Fibroblast
+Melanocyte, Stem cell, Keratinocyte
+Skin epithelial cell, Basal cell, Keratinocyte
+Lymphatic endothelial cell, Macrophage, Dendritic cell
+Macrophage, Dendritic cell, Monocyte
+Skin epithelial cell, Keratinocyte, Basal cell
+Fibroblast, Myofibroblast, Smooth muscle cell
+Skin epithelial cell, Basal cell, Keratinocyte
+Dendritic cell, T cell, B cell
+Adipocyte, Endothelial cell, Macrophage
+T cell, Natural killer cell, Hematopoietic stem cell
+Mast cell, Basophil, Eosinophil
+Endothelial cell, Hematopoietic stem cell, Pericyte

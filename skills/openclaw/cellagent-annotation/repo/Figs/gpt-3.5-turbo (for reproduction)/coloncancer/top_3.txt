@@ -1,0 +1,7 @@
+Colon epithelial cells, Colon cancer cells, Goblet cells
+Colon epithelial cells, Colon cancer cells, Goblet cells
+Fibroblasts, Smooth muscle cells, Osteoblasts
+Macrophages, Dendritic cells, Neutrophils
+T cells, NK cells, B cells
+B cells, Plasma cells, Plasma B cells
+Mast cells, Basophils, Eosinophils

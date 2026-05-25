@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Scientist Evaluation",
+  "type": "object",
+  "required": [
+    "task",
+    "submission_id",
+    "profile",
+    "gate_checks",
+    "scores",
+    "overall"
+  ],
+  "properties": {
+    "task": {
+      "type": "object",
+      "required": [
+        "name",
+        "summary",
+        "primary_question",
+        "deliverables"
+      ],
+      "properties": {
+        "name": { "type": "string" },
+        "summary": { "type": "string" },
+        "primary_question": { "type": "string" },
+        "deliverables": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "constraints": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "submission_id": { "type": "string" },
+    "scientist_name": { "type": "string" },
+    "profile": {
+      "type": "string",
+      "enum": [
+        "scientific-analysis",
+        "phylogenomics-comparative-genomics",
+        "viral-functional-genomics",
+        "methods-software",
+        "manuscript-packaging"
+      ]
+    },
+    "artifacts": {
+      "type": "object",
+      "properties": {
+        "notebook": { "type": "boolean" },
+        "code": { "type": "boolean" },
+        "manuscript": { "type": "boolean" },
+        "figures": { "type": "boolean" },
+        "environment": { "type": "boolean" },
+        "runtime_logs": { "type": "boolean" },
+        "other": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "gate_checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["gate", "status", "notes"],
+        "properties": {
+          "gate": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["pass", "partial", "fail"]
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "scores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "weight",
+          "score_0_to_5",
+          "weighted_points",
+          "justification"
+        ],
+        "properties": {
+          "category": { "type": "string" },
+          "weight": { "type": "number" },
+          "score_0_to_5": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 5
+          },
+          "weighted_points": { "type": "number" },
+          "justification": { "type": "string" },
+          "strengths": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "weaknesses": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "evidence": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "red_flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["flag", "severity", "notes"],
+        "properties": {
+          "flag": { "type": "string" },
+          "severity": {
+            "type": "string",
+            "enum": ["low", "moderate", "high", "critical"]
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "critical_questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["question", "answer", "confidence"],
+        "properties": {
+          "question": { "type": "string" },
+          "answer": { "type": "string" },
+          "confidence": {
+            "type": "string",
+            "enum": ["low", "medium", "high"]
+          },
+          "evidence": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "overall": {
+      "type": "object",
+      "required": [
+        "total_score_100",
+        "recommendation",
+        "confidence",
+        "summary",
+        "major_strengths",
+        "major_weaknesses",
+        "required_revisions"
+      ],
+      "properties": {
+        "total_score_100": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "recommendation": { "type": "string" },
+        "confidence": {
+          "type": "string",
+          "enum": ["low", "medium", "high"]
+        },
+        "summary": { "type": "string" },
+        "major_strengths": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "major_weaknesses": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "required_revisions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

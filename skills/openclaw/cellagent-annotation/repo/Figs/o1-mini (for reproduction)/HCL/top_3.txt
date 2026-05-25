@@ -1,0 +1,61 @@
+Neurons, Neural stem cells, Neural progenitors
+Macrophages, Dendritic cells, Monocytes
+B cells, Plasma cells, Memory B cells
+Fibroblasts, Mesenchymal stem cells, Endothelial cells
+Adrenal gland cells, Leydig cells, Ovarian steroidogenic cells
+T cells, Helper T cells, Cytotoxic T cells
+Fibroblasts, Mesenchymal stem cells, Myofibroblasts
+Macrophages, Dendritic cells, Endothelial cells
+Epithelial cells, Hepatocytes, Breast epithelial cells
+Fibroblasts, Mesenchymal stem cells, Smooth muscle cells
+Neurons, Oligodendrocytes, Neural progenitor cells
+Erythrocytes, Ribosome-rich cells, Erythroid progenitors
+Macrophages, Dendritic cells, Monocytes
+Hepatocytes, Epithelial cells, Pancreatic cells
+Hepatocytes, Enterocytes, Adipocytes
+Cancer cells, Proliferating cells, Fibroblasts
+Endothelial cells, Fibroblasts, T cells
+Dendritic cells, Macrophages, B cells
+Epithelial cells, Macrophages, Osteoclasts
+Erythrocytes, Red blood cells, Erythroid progenitors
+Fibroblasts, Mesenchymal stem cells, Smooth muscle cells
+Oligodendrocytes, Myelin sheath cells, Schwann cells
+Alveolar type II cells, Lung epithelial cells, Pneumocytes
+Thyroid follicular cells, Mucosal epithelial cells, Thyroid cells
+Muscle cells, Astrocytes, Stress-response cells
+B cells, Dendritic cells, Macrophages
+Macrophages, Liver cells, Fibroblasts
+Hepatocytes, Intestinal epithelial cells, Kidney proximal tubule cells
+Proliferative cells, Cancer cells, Erythroblasts
+Macrophages, Epithelial cells, Proliferative cells
+Chondrocytes, Astrocytes, Cartilage cells
+Pancreatic acinar cells, Exocrine pancreas, Secretory cells
+Neutrophils, Granulocytes, Immune cells
+Macrophages, Dendritic cells, B cells
+Gastric epithelial cells, Epithelial cells, Mucus-producing cells
+Dendritic cells, Antigen-presenting cells, T cells
+Gastric epithelial cells, Pancreatic epithelial cells, Epithelial cells
+Oligodendrocytes, Kidney epithelial cells, Neurons
+Epithelial cells, Lung epithelial cells, Breast epithelial cells
+Epithelial cells, Astrocytes, Proliferative cells
+Macrophages, Dendritic cells, T cells
+Proliferative cells, Cancer cells, Erythroblasts
+Proliferative cells, Cancer cells, Erythroblasts
+Fibroblasts, Endothelial cells, Dendritic cells
+Keratinocytes, Epithelial cells, Basal cells
+Neurons, Astrocytes, Glial cells
+Pancreatic acinar cells, Epithelial cells, Beta cells
+Cardiomyocytes, Cardiac muscle cells, Heart muscle cells
+Intestinal epithelial cells, Liver cells, Synovial cells
+Epithelial cells, Neurons, Kidney cells
+Hepatocytes, Kidney proximal tubule cells, Stress-response cells
+Prostate epithelial cells, Prostate luminal cells, Epithelial cells
+Mast cells, Basophils, Immune cells
+Epithelial cells, Neurons, Cancer cells
+Neuroendocrine cells, Epithelial cells, Pancreatic cells
+Fibroblasts, Hepatocytes, Smooth muscle cells
+Cytotoxic T cells, NK cells, Macrophages
+Oligodendrocytes, Fibroblasts, Endothelial cells
+Fibroblasts, Chondrocytes, Smooth muscle cells
+Osteoclasts, Macrophages, Fibroblasts
+Adipocytes, Liver cells, Metabolic cells

@@ -1,0 +1,8 @@
+{
+  "run_id": "demo-run-001",
+  "instrument": "NovaSeq X Plus",
+  "yield_gb": 18.4,
+  "percent_q30": 92.7,
+  "pf_reads": 120000000,
+  "cluster_density_k_mm2": 210.5
+}

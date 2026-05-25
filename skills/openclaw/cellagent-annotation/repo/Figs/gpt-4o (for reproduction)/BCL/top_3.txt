@@ -1,0 +1,9 @@
+Macrophages, Monocytes, Dendritic cells
+B cells, Plasma cells, Germinal center B cells
+Cytotoxic T cells, CD8+ T cells, NK cells
+B cells, Memory B cells, Follicular B cells
+Regulatory T cells, Activated T cells, CD4+ T cells
+Gamma delta T cells, NK T cells, Innate lymphoid cells
+Naive T cells, CD4+ T cells, T helper cells
+Schwann cells, Oligodendrocytes, Astrocytes
+NK cells, Cytotoxic T cells, Innate lymphoid cells

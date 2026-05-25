@@ -1,0 +1,12 @@
+{
+    "shell": [
+        "conda install -y bwa",
+        "bwa index ./data/minigenome.fa",
+        "bwa mem ./data/minigenome.fa ./data/rnaseq_1.fastq.gz ./data/rnaseq_2.fastq.gz > ./output/001/aligned_reads.sam"
+    ],
+    "analyze": "The task was completed successfully. All packages were already installed and the reads were aligned to the reference genome using BWA-MEM, producing the expected SAM file for downstream processing.",
+    "output_filename": [
+        "./output/001/aligned_reads.sam"
+    ],
+    "stats": true
+}

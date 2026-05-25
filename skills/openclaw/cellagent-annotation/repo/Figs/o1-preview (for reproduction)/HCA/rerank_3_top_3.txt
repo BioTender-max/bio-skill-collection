@@ -1,0 +1,99 @@
+Adipocytes, Pre-adipocytes, Fibroblasts
+Pericytes, Endothelial cells, Smooth muscle cells
+Fibroblasts, Mesenchymal cells, Smooth muscle cells
+Myoepithelial cells, Smooth muscle cells, Myofibroblasts
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+Epithelial cells, Luminal epithelial cells, Basal epithelial cells
+Macrophages, Endothelial cells, Mesenchymal cells
+Smooth muscle cells, Pericytes, Myofibroblasts
+Smooth muscle cells, Skeletal muscle cells, Pericytes
+Epithelial cells, Muscle cells, Hematopoietic cells
+Fibroblasts, Mesenchymal cells, Smooth muscle cells
+Basal epithelial cells, Epithelial stem cells, Squamous epithelial cells
+Endothelial cells, Vascular endothelial cells, Pericytes
+Neurons, Schwann cells, Glial cells
+Neurons, Schwann cells, Glial cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle cells
+Monocytes/Macrophages, Dendritic cells, Neutrophils
+T lymphocytes, Lymphocytes, Immune cells
+T lymphocytes, Cytotoxic T cells, Natural Killer cells
+Dendritic cells, Macrophages, B lymphocytes
+B lymphocytes, Plasma cells, Lymphocytes
+Epithelial cells (esophageal squamous cells), Basal epithelial cells, Squamous cells
+Keratinocytes, Epithelial cells, Basal cells
+Endothelial cells, Pericytes, Smooth muscle cells
+Mast cells, Basophils, Other immune cells
+Vascular smooth muscle cells, Pericytes, Fibroblasts
+Fibroblasts, Cardiac fibroblasts, Mesenchymal cells
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+Neurons, Schwann cells, Glial cells
+Cardiomyocytes, Cardiac muscle cells, Cardiac myocytes
+Cardiomyocytes, Cardiac muscle cells, Cardiac myocytes
+T lymphocytes, Lymphocytes, Immune cells
+Natural Killer cells, Cytotoxic T lymphocytes, Lymphocytes
+Monocytes, Macrophages, Dendritic cells
+B lymphocytes, Plasma cells, Lymphocytes
+Pericytes, Endothelial cells, Vascular smooth muscle cells
+Adipocytes, Pre-adipocytes, Lipid-storing cells
+Mast cells, Basophils, Other immune cells
+T lymphocytes, Lymphocytes, Immune cells
+Macrophages, Monocytes, Antigen-presenting cells
+Smooth muscle cells, Fibroblasts, Neurons
+Endothelial cells, Vascular endothelial cells, Lung endothelial cells
+Mast cells, Basophils, Other immune cells
+Macrophages, Monocytes, Alveolar macrophages
+Natural Killer cells, Cytotoxic T lymphocytes, Lymphocytes
+Smooth muscle cells, Vascular smooth muscle cells, Myofibroblasts
+Alveolar type II pneumocytes, Club cells, Airway epithelial cells
+Ciliated epithelial cells, Multiciliated cells, Respiratory epithelial cells
+Basal epithelial cells, Airway epithelial stem cells, Squamous epithelial cells
+B lymphocytes, Plasma cells, Lymphocytes
+Alveolar type II pneumocytes, Surfactant-producing cells, Alveolar epithelial cells
+Epithelial cells, Alveolar epithelial cells, Airway epithelial cells
+Pericytes, Endothelial cells, Vascular smooth muscle cells
+Monocytes/Macrophages, Dendritic cells, Neutrophils
+Fibroblasts, Mesenchymal cells, Epithelial cells
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+Neurons, Schwann cells, Glial cells
+Fibroblasts, Smooth muscle cells, Mesenchymal cells
+Neurons, Synaptic cells, Neural cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle cells
+Mast cells, Basophils, Other immune cells
+T lymphocytes, Lymphocytes, Immune cells
+T lymphocytes, Cytotoxic T cells, Natural Killer cells
+B lymphocytes, Plasma cells, Lymphocytes
+Fibroblasts, Mesenchymal cells, Smooth muscle cells
+Epithelial cells, Luminal epithelial cells, Basal epithelial cells
+Epithelial cells, Basal epithelial cells, Luminal epithelial cells
+Basal epithelial cells, Keratinocytes, Epithelial stem cells
+Endothelial cells, Lymphatic endothelial cells, Pericytes
+Skeletal muscle cells (myocytes), Muscle fibers, Myofibers
+Endothelial cells, Vascular endothelial cells, Pericytes
+Neurons, Schwann cells, Glial cells
+Vascular smooth muscle cells, Smooth muscle cells, Mesenchymal cells
+Neurons, Schwann cells, Glial cells
+Fibroblasts, Mesenchymal cells, Muscle cells
+Skeletal muscle cells (myocytes), Muscle fibers, Myofibers
+Monocytes, Macrophages, Immune cells
+T lymphocytes, Lymphocytes, Immune cells
+Natural Killer cells, Cytotoxic T cells, Lymphocytes
+Fibroblasts, Mesenchymal cells, Smooth muscle cells
+Pericytes, Endothelial cells, Vascular smooth muscle cells
+Adipocytes, Pre-adipocytes, Lipid-storing cells
+Mast cells, Basophils, Other immune cells
+Endothelial cells, Vascular endothelial cells, Lymphatic endothelial cells
+Keratinocytes, Epithelial cells, Basal cells
+Melanocytes, Pigment cells, Melanocyte progenitor cells
+Mast cells, Basophils, Other immune cells
+T lymphocytes, Lymphocytes, Immune cells
+Monocytes/Macrophages, Dendritic cells, Langerhans cells
+Monocytes/Macrophages, Dendritic cells, Langerhans cells
+Keratinocytes, Epithelial cells, Basal cells
+Keratinocytes, Epithelial cells, Basal cells
+Keratinocytes, Epithelial cells, Basal cells
+Basal keratinocytes, Epithelial stem cells, Basal cells
+Pericytes, Endothelial cells, Vascular smooth muscle cells
+Adipocytes, Pre-adipocytes, Fibroblasts
+Smooth muscle cells, Myoepithelial cells, Myofibroblasts
+Fibroblasts, Mesenchymal cells, Dermal fibroblasts
+Keratinocytes, Epithelial cells, Basal cells

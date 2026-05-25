@@ -1,0 +1,48 @@
+{
+  "openalex": {
+    "openalex_id": "https://openalex.org/W1234567890",
+    "doi": "10.1038/s41586-024-00000-0",
+    "title": "A fixture paper for scientific impact assessment",
+    "publication_year": 2024,
+    "cited_by_count": 321,
+    "citation_percentile_min": 98,
+    "citation_percentile_max": 99,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 210
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 111
+      }
+    ],
+    "journal_name": "Nature Communications",
+    "journal_issn_l": "2041-1723",
+    "type": "article"
+  },
+  "altmetric": {
+    "status": "available",
+    "score": 456.7,
+    "journal": "Nature Communications",
+    "details_url": "https://www.altmetric.com/details/123456",
+    "cited_by_posts_count": 123,
+    "cited_by_news_outlets_count": 12,
+    "cited_by_tweeters_count": 89,
+    "cited_by_policies_count": 3,
+    "cited_by_patents_count": 1,
+    "readers_count": 77
+  },
+  "journal_metric": {
+    "matched": true,
+    "journal_name": "Nature Communications",
+    "category": "broad",
+    "metric_name": "journal_impact_factor_2y",
+    "metric_year": 2024,
+    "value": 15.7,
+    "source_url": "https://www.nature.com/nature-portfolio/about/journal-metrics",
+    "source_kind": "official",
+    "verified_date": "2026-03-19",
+    "notes": "The Nature Portfolio 2024 journal metrics table."
+  }
+}

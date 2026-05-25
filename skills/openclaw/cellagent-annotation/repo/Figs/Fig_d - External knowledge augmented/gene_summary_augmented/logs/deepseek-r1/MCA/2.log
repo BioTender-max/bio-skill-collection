@@ -1,0 +1,384 @@
+
+===================prompt=====================
+
+
+Human: 
+Identify most likely top 3 cell types of mouse cells using the following markers. Only provide the lists of top 3 cell type names. The higher the probability, the further left it is ranked, separated by commas.
+
+Here go the summaries of Genes from the NCBI Gene database for your reference:
+- Ms4a4b: DISCONTINUED: The HUGO Gene Nomenclature Committee (HGNC) is no longer reporting records created for non-human orthologs.
+- Trac: This gene encodes a nuclear receptor co-repressor that mediates transcriptional silencing of certain target genes. The encoded protein is a member of a family of thyroid hormone- and retinoic acid receptor-associated co-repressors. This protein acts as part of a multisubunit complex which includes histone deacetylases to modify chromatin structure that prevents basal transcriptional activity of target genes. Aberrant expression of this gene is associated with certain cancers. Alternate splicing results in multiple transcript variants encoding different isoforms.[provided by RefSeq, Apr 2011]
+- Ltb: Lymphotoxin beta is a type II membrane protein of the TNF family. It anchors lymphotoxin-alpha to the cell surface through heterotrimer formation. The predominant form on the lymphocyte surface is the lymphotoxin-alpha 1/beta 2 complex (e.g. 1 molecule alpha/2 molecules beta) and this complex is the primary ligand for the lymphotoxin-beta receptor. The minor complex is lymphotoxin-alpha 2/beta 1. LTB is an inducer of the inflammatory response system and involved in normal development of lymphoid tissue. Lymphotoxin-beta isoform b is unable to complex with lymphotoxin-alpha suggesting a function for lymphotoxin-beta which is independent of lympyhotoxin-alpha. Alternative splicing results in multiple transcript variants encoding different isoforms. [provided by RefSeq, Jul 2008]
+- Cd52: Involved in positive regulation of cytosolic calcium ion concentration. Predicted to be located in extracellular region and plasma membrane. Predicted to be intrinsic component of plasma membrane. Predicted to be active in sperm midpiece. [provided by Alliance of Genome Resources, Apr 2022]
+- Trbc2: Predicted to enable antigen binding activity and immunoglobulin receptor binding activity. Predicted to be involved in several processes, including activation of immune response; defense response to other organism; and phagocytosis. Predicted to be integral component of membrane. Predicted to be part of immunoglobulin complex, circulating. Predicted to be active in external side of plasma membrane. [provided by Alliance of Genome Resources, Apr 2022]
+- Cd3d: The protein encoded by this gene is part of the T-cell receptor/CD3 complex (TCR/CD3 complex) and is involved in T-cell development and signal transduction. The encoded membrane protein represents the delta subunit of the CD3 complex, and along with four other CD3 subunits, binds either TCR alpha/beta or TCR gamma/delta to form the TCR/CD3 complex on the surface of T-cells. Defects in this gene are a cause of severe combined immunodeficiency autosomal recessive T-cell-negative/B-cell-positive/NK-cell-positive (SCIDBNK). Two transcript variants encoding different isoforms have been found for this gene. Other variants may also exist, but the full-length natures of their transcripts has yet to be defined. [provided by RefSeq, Feb 2009]
+- Cd8b1: The CD8 antigen is a cell surface glycoprotein found on most cytotoxic T lymphocytes that mediates efficient cell-cell interactions within the immune system. The CD8 antigen, acting as a coreceptor, and the T-cell receptor on the T lymphocyte recognize antigens displayed by an antigen presenting cell (APC) in the context of class I MHC molecules. The functional coreceptor is either a homodimer composed of two alpha chains, or a heterodimer composed of one alpha and one beta chain. Both alpha and beta chains share significant homology to immunoglobulin variable light chains. This gene encodes the CD8 beta chain isoforms. Multiple alternatively spliced transcript variants encoding distinct membrane associated or secreted isoforms have been described. A pseudogene, also located on chromosome 2, has been identified. [provided by RefSeq, May 2010]
+- Shisa5: This gene encodes a member of the shisa family. The encoded protein is localized to the endoplasmic reticulum, and together with p53 induces apoptosis in a caspase-dependent manner. Alternative splicing results in multiple transcript variants. Related pseudogenes of this gene are found on chromosome X. [provided by RefSeq, Apr 2016]
+- Lck: This gene is a member of the Src family of protein tyrosine kinases (PTKs). The encoded protein is a key signaling molecule in the selection and maturation of developing T-cells. It contains N-terminal sites for myristylation and palmitylation, a PTK domain, and SH2 and SH3 domains which are involved in mediating protein-protein interactions with phosphotyrosine-containing and proline-rich motifs, respectively. The protein localizes to the plasma membrane and pericentrosomal vesicles, and binds to cell surface receptors, including CD4 and CD8, and other signaling molecules. Multiple alternatively spliced variants encoding different isoforms have been described. [provided by RefSeq, Aug 2016]
+- Thy1: This gene encodes a cell surface glycoprotein and member of the immunoglobulin superfamily of proteins. The encoded protein is involved in cell adhesion and cell communication in numerous cell types, but particularly in cells of the immune and nervous systems. The encoded protein is widely used as a marker for hematopoietic stem cells. This gene may function as a tumor suppressor in nasopharyngeal carcinoma. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Jul 2015]
+
+
+Here are the marker genes, please finish the task: Ms4a4b, Trac, Ltb, Cd52, Trbc2, Cd3d, Cd8b1, Shisa5, Lck, Thy1
+     
+
+Assistant:
+===================deepseek-r1 response =====================
+<think>
+Okay, let's see. I need to figure out the top 3 mouse cell types based on the given markers. The markers are Ms4a4b, Trac, Ltb, Cd52, Trbc2, Cd3d, Cd8b1, Shisa5, Lck, Thy1.
+
+First, I'll go through each marker and see which cell types they are associated with. 
+
+Starting with Trac. The description says it's part of the T-cell receptor. So Trac is involved in T-cell receptor complex. That points towards T cells. Then there's Cd3d, which is part of the CD3 complex in T-cells. Cd8b1 is a subunit of CD8, which is found on cytotoxic T cells (CD8+ T cells). Lck is a tyrosine kinase important in T-cell signaling. Trbc2 is the T-cell receptor beta constant region, so that's definitely T cells. So several markers here are T-cell related.
+
+Ltb (Lymphotoxin beta) is involved in lymphoid tissue development. It's part of the TNF family and might be expressed in lymphocytes, maybe B cells or T cells. But given the other markers, maybe more in T cells. Cd52 is mentioned to be in sperm midpiece, but also in immune cells. CD52 is a marker found on lymphocytes, including T and B cells, but also on mature sperm. However, in the context of other T-cell markers, Cd52 here might be pointing towards T cells. Thy1 (CD90) is a marker for T cells and neurons, but in immune context, T cells. 
+
+Shisa5 is a bit unclear. The description says it works with p53 in apoptosis, but not sure about cell type specificity. Ms4a4b is discontinued, but MS4A family in mice includes genes like Ms4a1 (CD20) in B cells. However, since Ms4a4b is discontinued, maybe it's an old marker. Alternatively, some MS4A members are in T cells. But not sure. 
+
+Putting this together: Most markers are T-cell related (Trac, Cd3d, Cd8b1, Trbc2, Lck, Thy1). Cd8b1 specifically suggests CD8+ cytotoxic T cells. Ltb might be in T cells or other lymphocytes. Cd52 could be T cells or B cells. If Cd8b1 is present, it's more likely cytotoxic T cells. Thy1 is also a T cell marker. 
+
+So the primary cell type here is T cells, specifically CD8+ cytotoxic T cells. Then, maybe other T cell subsets. But what about other cell types? Are there any markers pointing elsewhere? Ltb might be in B cells as well. However, given the dominance of T-cell markers, the top three are likely T cell subsets. Alternatively, if there's a mix, maybe T cells, then B cells, but I need to check. 
+
+Wait, Trbc2 is T-cell receptor beta constant, which is specific to T cells. Cd3d is also T cell specific. So all these markers are pointing towards T cells. Cd8b1 is CD8+ T cells. Lck is T cells. Thy1 (CD90) is T cells. So the cell type is definitely T cells. But maybe subtypes. Since Cd8b1 is present, it's CD8+ T cells. Are there other T cell subsets? Maybe CD4+ T cells? But Cd8b1 would suggest CD8+. Alternatively, maybe NK cells? But NK cells don't typically express Cd3d or Trac. 
+
+Wait, Ms4a4b: if this was similar to Ms4a1 (CD20) in B cells, but since it's discontinued, maybe it's not reliable. Alternatively, Ms4a4b in mouse might be a T cell marker. I'm not certain. But given the other markers, T cells are dominant. So top 3 cell types: CD8+ T cells would be first. Then maybe CD4+ T cells? But Cd4 isn't listed here. Alternatively, gamma-delta T cells? Trbc2 is beta chain, so alpha-beta T cells. So maybe the top three are: 1. Cytotoxic T cells (CD8+), 2. Helper T cells (CD4+), but Cd4 isn't in the markers. Wait, the markers include Cd8b1, which is CD8 beta chain. But the other markers like Cd3d and Trac are in all T cells. So maybe the first is T cells in general, but since Cd8b1 is present, it's more specific. 
+
+Alternatively, the presence of Cd8b1, Trbc2, Cd3d, Trac, Lck, Thy1 all point to mature T cells. So maybe the top three cell types are: 1. Cytotoxic T cells (CD8+), 2. Gamma-delta T cells (though Trbc2 is beta chain for alpha-beta), 3. Maybe memory T cells? But I'm not sure. Alternatively, since there's Thy1 (CD90), which is also on some stem cells, but in T cells, it's expressed. 
+
+Alternatively, other immune cells: B cells? Do any markers point there? Ltb is in B cells? Lymphotoxin is involved in B cell follicles. Cd52 is on lymphocytes, including B cells. But with all the T cell markers, the primary is T cells. So maybe the top three are all T cell subsets. But the question is about cell types, not subsets. So perhaps:
+
+1. T cells (cytotoxic, CD8+)
+
+But the user wants top 3 cell types. Maybe other cell types with some markers. Wait, Cd52 is also in sperm, but in immune context, lymphocytes. Shisa5 isn't giving much. Ms4a4b is discontinued. So maybe all markers are pointing to T cells, but if forced to list three, perhaps:
+
+1. CD8+ T cells, 2. CD4+ T cells (even though Cd4 isn't in markers, but other T cell markers are present), 3. Gamma-delta T cells? But Trbc2 is beta chain for alpha-beta TCR. Alternatively, maybe NK cells if some markers cross-react. But Lck and Cd3d are T cell specific. Alternatively, memory T cells. But I think the answer is T cells, then maybe B cells or NK cells. But given the markers, maybe all are T cells. However, the user probably expects different cell types. 
+
+Wait, Ltb: lymphotoxin beta. This is produced by lymphocytes, including B cells. B cells express Ltb for lymphoid tissue organization. So if Ltb is present in B cells, but other markers are T cell, how to reconcile? Maybe this is a mixture, but the majority are T cell markers. But perhaps this is a T cell subset that also expresses Ltb. Alternatively, maybe it's a B cell with some T cell markers, which is unlikely. 
+
+Alternatively, perhaps the cell type is a T cell (most markers), but Ltb could indicate a specific subset. Alternatively, NKT cells? But not sure. 
+
+Alternatively, maybe the presence of Cd52 and Thy1 could also point to some other cells. Thy1 is also in neurons, but in immune context, T cells. 
+
+So considering all markers, the primary cell type is T cells. The top three would likely be:
+
+1. Cytotoxic T cells (CD8+)
+2. Helper T cells (CD4+)
+3. Gamma-delta T cells or Memory T cells
+
+But the exact answer depends on the specific markers. Since Cd8b1 is specific for CD8+ T cells, that's number 1. The other T cell markers (Cd3d, Trac, Trbc2, Lck) are present in all T cells, so general T cells. But since Cd8b1 is specific, the first is CD8+ T cells. Then, the other cell types could be other T cell subsets. However, the question says "cell types", not subsets. If cell types are T cells, B cells, NK cells, etc., then given the markers, the answer is T cells. But the user wants top 3 cell type names. Maybe:
+
+1. T cells (CD8+)
+2. T cells (CD4+)
+3. B cells
+
+But B cells would have markers like Cd19, Ms4a1 (Cd20), which aren't listed here. Ltb is in B cells, but other markers are T cell. So maybe B cells are third. Alternatively, NK cells? But NK cells don't have Cd3d or Trac. Alternatively, memory T cells. 
+
+Alternatively, maybe the presence of Thy1 (CD90) could indicate some stem cells, but in the context of immune markers, it's T cells. 
+
+Alternatively, perhaps dendritic cells? Not sure. 
+
+Given the markers provided, the strongest evidence is for T cells, specifically CD8+ cytotoxic T cells. Then, perhaps other T cell subsets. But if the user expects distinct cell types (like T cells, B cells, NK cells), but the markers don't support B or NK. So maybe:
+
+1. Cytotoxic T cells (CD8+)
+2. T cells (general)
+3. B cells?
+
+But not sure. Alternatively, the answer is T cells, NK cells, and B cells, but with T cells being the top. Wait, but the markers for B cells are missing. 
+
+Alternatively, maybe the third is NKT cells. But I'm not sure. 
+
+Alternatively, since Ltb is involved in lymphoid tissue, maybe it's a stromal cell, but other markers are T cell. 
+
+Hmm. Given the information, the top 3 most likely cell types are all T cell related. So the answer would be:
+
+Cytotoxic T cells (CD8+), T cells, and maybe Gamma-delta T cells. But I'm not sure. Alternatively, given the markers, the top three are:
+
+1. CD8+ T cells
+2. T cells (general)
+3. Memory T cells
+
+But maybe the user expects T cells as a single category, so the top 3 would be different cell types. However, given the markers, all are T cell markers. Therefore, perhaps the answer is three types of T cells. But the user might expect other cell types. 
+
+Alternatively, maybe the presence of Thy1 and Cd52 could be on other cells. For example, Thy1 is also on neurons, but in immune context, T cells. Cd52 is on lymphocytes, including T and B cells, but here T cell markers dominate. 
+
+Alternatively, maybe the answer is:
+
+1. Cytotoxic T cells (CD8+)
+2. Helper T cells (CD4+)
+3. Gamma-delta T cells
+
+But again, this is splitting T cells into subsets. If the question allows that, then that's possible. 
+
+Alternatively, the markers could indicate T cells, B cells, and NK cells, but I don't see markers for B or NK. So the answer must be T cells and their subsets. 
+
+Wait, Trbc2 is T cell receptor beta constant. So alpha-beta T cells. So maybe:
+
+1. CD8+ T cells
+2. Alpha-beta T cells
+3. Gamma-delta T cells (though no specific markers here)
+
+But this is speculative. 
+
+Alternatively, given that the markers include Cd8b1, which is specific for CD8+ T cells, and other T cell markers, the top three cell types are:
+
+1. CD8+ cytotoxic T cells
+2. CD4+ helper T cells
+3. Memory T cells (but not sure)
+
+Alternatively, perhaps the presence of Shisa5 and Ms4a4b (discontinued) might hint at other cell types, but without clear info, it's safer to stick with T cells. 
+
+In conclusion, based on the markers provided, the most likely cell types are T cells, specifically CD8+ T cells first, followed by other T cell subsets. However, the user might expect three distinct cell types. But given the markers, all are T cell markers. Therefore, the answer is:
+
+Cytotoxic T cells (CD8+), T cells, and maybe NK cells or B cells. But without markers for those, it's likely the top three are all T cell subsets. But the user might expect T cells as a single entry, so maybe:
+
+T cells, Cytotoxic T cells, and Memory T cells. But I'm not sure. 
+
+Alternatively, considering that Cd8b1 is specific for CD8+ T cells, and other markers (Cd3d, Trac, Trbc2, Lck) are general T cell markers, the top three cell types would be:
+
+1. Cytotoxic T cells (CD8+)
+2. T cells
+3. Gamma-delta T cells
+
+But this is getting into subsets. Alternatively, considering that all the markers are T cell-related, the answer is three T cell types. However, the problem might expect different cell types. 
+
+Alternatively, perhaps the markers point to T cells, then B cells and NK cells, but with lower probability. For example, Ltb and Cd52 are also in B cells, but other markers are T cell. So maybe:
+
+1. Cytotoxic T cells (CD8+)
+2. B cells
+3. NK cells
+
+But this is less likely. 
+
+Alternatively, the answer is:
+
+T cells, B cells, NK cells. But the markers for B and NK are not present. 
+
+Alternatively, the presence of Thy1 (CD90) might indicate some stem cells, but in the context of immune markers, it's more likely T cells. 
+
+Given the conflict, I think the correct answer is that the top three cell types are T cells, with the first being CD8+ T cells. However, since the user wants three cell type names, separated by commas, and given the markers, the most probable are:
+
+1. Cytotoxic T cells (CD8+)
+2. T cells (general)
+3. B cells (due to Ltb and Cd52?)
+
+But not sure. Alternatively, maybe:
+
+Cytotoxic T cells, Helper T cells, Gamma-delta T cells.
+
+But I need to check the specific markers again. Trbc2 is beta chain of TCR, which is part of alpha-beta T cells. Cd8b1 is CD8+ T cells. So:
+
+1. Cytotoxic T cells (CD8+)
+2. Alpha-beta T cells
+3. Gamma-delta T cells (but no specific markers for gamma-delta here)
+
+Alternatively, since there's Cd3d, which is part of the CD3 complex present in all T cells. So maybe the top three are:
+
+Cytotoxic T cells (CD8+), Helper T cells (CD4+), and Gamma-delta T cells. But again, without CD4 or gamma chain markers, this is speculative. 
+
+Alternatively, given that Cd8b1 is specific, and others are general T cell markers, the answer is:
+
+Cytotoxic T cells, T cells, and B cells (if Ltb and Cd52 are considered). 
+
+But given the dominance of T cell markers, the most likely top 3 are all T cell types. Therefore, the answer is:
+
+Cytotoxic T cells (CD8+), T cells, Memory T cells.
+
+But I'm not sure. Alternatively, the user wants the most common cell types based on the markers. Since most markers are T cell, the answer is T cells, but to list three, perhaps:
+
+T cells, Cytotoxic T cells, Memory T cells.
+
+Alternatively, given that Cd8b1 is a specific marker for CD8+ T cells, the top three are:
+
+CD8+ T cells, CD4+ T cells, Gamma-delta T cells.
+
+But the problem is that the markers don't include CD4. So maybe:
+
+1. CD8+ T cells
+2. Gamma-delta T cells (but no specific markers)
+3. Memory T cells
+
+Alternatively, the answer is:
+
+T cells, Cytotoxic T cells, B cells.
+
+But I need to make a decision. Based on the markers provided, the strongest indicators are for T cells, specifically CD8+ cytotoxic T cells. The presence of Ltb might hint at B cells, but not strongly. Cd52 is in lymphocytes but not specific. So probably:
+
+The top three cell types are all T cell subsets. So the answer would be:
+
+Cytotoxic T cells, T cells, Memory T cells.
+
+But perhaps the markers are indicative of T cells, then B cells, then NK cells, but with lower probability. But without B or NK markers, it's uncertain. 
+
+Alternatively, the correct answer is T cells, B cells, and NK cells, but with T cells being first. 
+
+But given the markers, I think the correct answer is T cells (CD8+ cytotoxic T cells as the first), then other T cell types. So:
+
+Cytotoxic T cells, Helper T cells, Gamma-delta T cells.
+
+But again, without CD4 markers, it's hard to say. 
+
+Wait, the user provided markers: Ms4a4b (discontinued), Trac, Ltb, Cd52, Trbc2, Cd3d, Cd8b1, Shisa5, Lck, Thy1.
+
+Cd8b1 is CD8+ T cells. Trbc2 is T cell receptor beta, so alpha-beta T cells. Cd3d is CD3 complex, T cells. Trac is T cell receptor alpha locus. Lck is T cell kinase. Thy1 is T cells. Ltb is lymphotoxin beta, which is in B cells and T cells. Cd52 is on lymphocytes. Shisa5 is unclear. 
+
+So Ltb might indicate B cells, but the other markers are T cell. So perhaps the cell is a T cell that expresses Ltb. Alternatively, the presence of Ltb and Cd52 suggests some B cell involvement, but the majority of markers are T cell. 
+
+So, the most probable cell types are:
+
+1. Cytotoxic T cells (CD8+)
+2. T cells
+3. B cells
+
+But B cells would require more markers like Cd19, Cd20. Since Ltb is present but other markers are T cell, maybe B cells are third. Alternatively, there's a mix of markers from different cells, but the majority are T cell. 
+
+Alternatively, the cell type is a T cell and the presence of Ltb and Cd52 is just part of their function. For example, activated T cells might express Ltb. 
+
+So, considering all, the top three cell types are:
+
+Cytotoxic T cells (CD8+), T cells, B cells.
+
+But I think the correct answer is closer to T cells, specifically CD8+ as the first, then other T cell subsets, but since the user wants cell types, not subsets, perhaps:
+
+T cells, B cells, NK cells. But the markers for B and NK are not strong. 
+
+Alternatively, the answer is:
+
+Cytotoxic T cells, Helper T cells, Natural Killer cells.
+
+But again, without NK markers. 
+
+Alternatively, given the markers, the answer is:
+
+T cell, T cell, T cell. But the user wants three distinct types. 
+
+Alternatively, the answer is:
+
+CD8+ T cells, Gamma-delta T cells, Memory T cells.
+
+But I think I need to settle on the most likely answer based on the markers. The strongest markers are for CD8+ T cells. So:
+
+1. Cytotoxic T cells (CD8+)
+2. T cells (general)
+3. B cells (due to Ltb and Cd52)
+
+But I'm not sure. Alternatively, since the user might expect three distinct cell types with the highest probability, and the majority are T cell markers, the answer is:
+
+T cells, Cytotoxic T cells, Memory T cells.
+
+But perhaps the exact answer is:
+
+CD8+ T cells, T cells, B cells.
+
+But I'm not certain. Alternatively, the correct answer is:
+
+Cytotoxic T cells, Helper T cells, Gamma-delta T cells.
+
+But without CD4 markers, helper T cells are not confirmed. 
+
+Considering all the markers, the most confident answer is:
+
+Cytotoxic T cells (CD8+), T cells, B cells.
+
+But I'm not sure. However, given that Ltb and Cd52 can be found in B cells, though the majority of markers are T cell-related, B cells might be third. 
+
+Alternatively, given the markers, the answer is three T cell types. 
+
+After much consideration, I think the intended answer is:
+
+Cytotoxic T cells, T cells, B cells.
+
+But perhaps the correct answer is T cells, then CD8+ T cells, then B cells. 
+
+Alternatively, the markers are all T cell, so the answer is T cells. But the user wants three. 
+
+Wait, looking up the markers:
+
+- Cd8b1: CD8+ T cells
+- Cd3d: T cells
+- Trbc2: T cells (beta chain)
+- Trac: T cell receptor alpha
+- Lck: T cells
+- Thy1: T cells
+- Cd52: lymphocytes (T and B)
+- Ltb: B cells and some T cells
+- Shisa5: uncertain
+- Ms4a4b: discontinued
+
+So main is T cells, with some B cell markers. Therefore, the top three cell types:
+
+1. Cytotoxic T cells (CD8+)
+2. T cells
+3. B cells
+
+But I'm not sure. Alternatively, the cell type is a mixture, but more likely T cells. 
+
+Alternatively, the presence of Ltb (Lymphotoxin beta) is more strongly associated with B cells in lymphoid tissue. But activated T cells can also produce Ltb. So if this is a T cell, the Ltb expression might be part of its activation. 
+
+Given the dominance of T cell markers, the answer is:
+
+Cytotoxic T cells (CD8+), T cells, B cells.
+
+But the correct answer might be T cells, CD8+ T cells, and possibly NKT cells. 
+
+Alternatively, since Cd52 is present in both T and B cells but other markers are T cell, the third could be B cells. So the answer is:
+
+CD8+ T cells, T cells, B cells.
+
+But I'm not confident. However, given the user's instruction, I need to list the top 3 cell type names, with the highest probability first. 
+
+The majority of markers (Trac, Trbc2, Cd3d, Cd8b1, Lck, Thy1) are specific to T cells, especially CD8+ T cells. Ltb and Cd52 could be in B cells, but in this context, they might be in T cells. Therefore, the top three are all T cell types. 
+
+Thus, the answer is:
+
+1. Cytotoxic T cells (CD8+)
+2. T cells
+3. Memory T cells
+
+But I'm not sure. Alternatively, if B cells are considered, then third. 
+
+Alternatively, perhaps the answer is:
+
+CD8+ T cells, Gamma-delta T cells, B cells.
+
+But Gamma-delta T cells have different TCRs (gamma and delta chains), but Trbc2 is beta chain, which is alpha-beta TCR. So Gamma-delta T cells are unlikely here. 
+
+In conclusion, based on the markers provided, the top three cell types are Cytotoxic T cells (CD8+), T cells, and B cells. However, since B cells have fewer markers here, maybe the third is another T cell subset. But without more info, it's hard. 
+
+The most confident answer is:
+
+Cytotoxic T cells, T cells, B cells.
+
+But perhaps the correct answer is:
+
+T cells, Cytotoxic T cells, Helper T cells.
+
+But I need to check standard markers. 
+
+CD8+ T cells: Cd8b1, Cd3d, Trbc2, Trac, Lck, Thy1.
+
+Helper T cells are CD4+, but Cd4 isn't listed here. So perhaps helper T cells are not indicated. 
+
+Therefore, the answer is:
+
+Cytotoxic T cells (CD8+), T cells, B cells.
+
+But Ltb and Cd52 might be in B cells. So the answer is likely:
+
+Cytotoxic T cells (CD8+), B cells, T cells.
+
+But I'm not sure. 
+
+Alternatively, the order based on number of markers: Cytotoxic T cells have Cd8b1 plus other T cell markers. B cells only have Ltb and Cd52. So:
+
+1. Cytotoxic T cells (CD8+)
+2. T cells
+3. B cells.
+
+Yes, this seems plausible.
+</think>
+
+Cytotoxic T cells (CD8+), T cells, B cells
+===================tokens=====================
+Number of prompt tokens: 1331
+Number of sampled tokens: 5273
+
+

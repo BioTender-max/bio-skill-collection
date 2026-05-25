@@ -1,0 +1,99 @@
+Adipocytes, Lipocytes, Fat cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Fibroblasts, Myofibroblasts, Stromal cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle
+Endothelial cells, Vascular endothelial cells, Blood vessel cells
+Luminal epithelial cells, Ductal cells, Epithelial cells
+Macrophages, Monocytes, Immune cells
+Smooth muscle cells, Fibroblasts, Myofibroblasts
+Smooth muscle cells, Myofibroblasts, Stromal cells
+Epithelial cells, Basal cells, Squamous cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Basal epithelial cells, Squamous cells, Epithelial cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Neurons, Neural cells, Nerve cells
+Neurons, Neural cells, Nerve cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle
+Macrophages, Monocytes, Immune cells
+T cells, Lymphocytes, Immune cells
+T cells, Lymphocytes, Immune cells
+Macrophages, Dendritic cells, Antigen presenting cells
+B cells, Lymphocytes, Immune cells
+Squamous epithelial cells, Epithelial cells, Basal cells
+Squamous epithelial cells, Epithelial cells, Basal cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Mast cells, Immune cells, Granulocytes
+Fibroblasts, Stromal cells, Mesenchymal cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Neurons, Neural cells, Nerve cells
+Cardiomyocytes, Cardiac muscle cells, Heart muscle cells
+Cardiomyocytes, Cardiac muscle cells, Heart muscle cells
+T cells, Lymphocytes, Immune cells
+NK cells, Cytotoxic lymphocytes, Immune cells
+Macrophages, Monocytes, Immune cells
+B cells, Lymphocytes, Immune cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Adipocytes, Fat cells, Lipocytes
+Mast cells, Immune cells, Granulocytes
+T cells, Lymphocytes, Immune cells
+Macrophages, Monocytes, Immune cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Mast cells, Immune cells, Granulocytes
+Alveolar macrophages, Macrophages, Immune cells
+NK cells, Cytotoxic lymphocytes, Immune cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle
+Club cells, Bronchial epithelial cells, Secretory cells
+Ciliated cells, Respiratory epithelial cells, Airway cells
+Basal cells, Epithelial cells, Airway cells
+B cells, Lymphocytes, Immune cells
+Type 2 pneumocytes, Alveolar cells, Epithelial cells
+Type 1 pneumocytes, Alveolar cells, Epithelial cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Macrophages, Monocytes, Immune cells
+Epithelial cells, Basal cells, Luminal cells
+Endothelial cells, Vascular cells, Blood vessel cells
+Neurons, Neural cells, Nerve cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Neurons, Neural cells, Nerve cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle
+Mast cells, Immune cells, Granulocytes
+T cells, Lymphocytes, Immune cells
+T cells, NK cells, Lymphocytes
+B cells, Lymphocytes, Immune cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Luminal epithelial cells, Prostate epithelial cells, Secretory cells
+Basal cells, Epithelial cells, Prostate cells
+Epithelial cells, Basal cells, Luminal cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Skeletal muscle cells, Myocytes, Muscle fibers
+Endothelial cells, Vascular cells, Blood vessel cells
+Satellite cells, Muscle stem cells, Progenitor cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle
+Neurons, Neural cells, Nerve cells
+Satellite cells, Muscle stem cells, Progenitor cells
+Skeletal muscle cells, Myocytes, Muscle fibers
+Macrophages, Monocytes, Immune cells
+T cells, Lymphocytes, Immune cells
+NK cells, Cytotoxic lymphocytes, Immune cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Adipocytes, Fat cells, Lipocytes
+Mast cells, Immune cells, Granulocytes
+Endothelial cells, Vascular cells, Blood vessel cells
+Sweat gland cells, Eccrine cells, Secretory cells
+Melanocytes, Pigment cells, Melanin-producing cells
+Mast cells, Immune cells, Granulocytes
+T cells, Lymphocytes, Immune cells
+Langerhans cells, Dendritic cells, Immune cells
+Macrophages, Monocytes, Immune cells
+Keratinocytes, Epidermal cells, Epithelial cells
+Keratinocytes, Epidermal cells, Epithelial cells
+Keratinocytes, Epidermal cells, Epithelial cells
+Basal keratinocytes, Epidermal cells, Epithelial cells
+Fibroblasts, Stromal cells, Mesenchymal cells
+Adipocytes, Fat cells, Lipocytes
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle
+Fibroblasts, Stromal cells, Mesenchymal cells
+Sebaceous gland cells, Secretory cells, Glandular cells

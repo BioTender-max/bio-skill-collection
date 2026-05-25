@@ -1,0 +1,56 @@
+scientific-analysis:
+  task_completion: 15
+  data_provenance: 10
+  methodological_rigor: 15
+  computational_correctness: 10
+  biological_interpretation: 15
+  validation_robustness: 10
+  reproducibility: 15
+  novelty_insight: 5
+  communication: 5
+
+phylogenomics-comparative-genomics:
+  task_completion: 15
+  taxon_sampling: 10
+  orthology_marker_strategy: 10
+  tree_inference_and_support: 15
+  functional_annotation_interpretation: 10
+  biological_interpretation: 10
+  validation_robustness: 10
+  reproducibility: 10
+  communication: 5
+  novelty_insight: 5
+
+viral-functional-genomics:
+  task_completion: 15
+  gene_detection_definition: 15
+  contamination_control: 10
+  completeness_scoring: 10
+  biological_interpretation: 15
+  validation_robustness: 10
+  reproducibility: 10
+  data_provenance: 5
+  communication: 5
+  novelty_insight: 5
+
+methods-software:
+  task_completion: 10
+  problem_formulation: 10
+  algorithmic_soundness: 15
+  implementation_quality: 10
+  benchmarking: 15
+  efficiency: 10
+  reproducibility: 10
+  biological_interpretation: 5
+  novelty_insight: 10
+  communication: 5
+
+manuscript-packaging:
+  task_completion: 15
+  claim_evidence_alignment: 20
+  structure_and_journal_fit: 15
+  figure_table_quality: 10
+  methods_transparency: 15
+  biological_or_methodological_accuracy: 15
+  limitations_and_uncertainty: 5
+  prose_quality: 5

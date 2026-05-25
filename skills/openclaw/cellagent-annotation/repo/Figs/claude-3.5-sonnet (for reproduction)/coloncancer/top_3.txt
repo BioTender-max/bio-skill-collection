@@ -1,0 +1,7 @@
+Epithelial cells, Colonocytes, Enterocytes
+Goblet cells, Intestinal epithelial cells, Colonocytes
+Fibroblasts, Stromal cells, Myofibroblasts
+Macrophages, Monocytes, Myeloid cells
+T cells, CD8+ T cells, CD4+ T cells
+Plasma cells, B cells, Memory B cells
+Mast cells, Granulocytes, Basophils

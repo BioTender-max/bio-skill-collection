@@ -1,0 +1,99 @@
+Adipocytes, Preadipocytes
+Endothelial cells, Pericytes
+Fibroblasts, Stromal cells
+Myoepithelial cells, Smooth muscle cells
+Endothelial cells, Pericytes
+Luminal epithelial cells, Basal epithelial cells
+Endothelial cells, Macrophages
+Smooth muscle cells, Pericytes
+Smooth muscle cells, Fibroblasts
+Epithelial cells, Smooth muscle cells
+Fibroblasts, Smooth muscle cells
+Basal epithelial cells, Epithelial stem cells
+Endothelial cells, Pericytes
+Neurons, Glial cells
+Neurons, Glial cells
+Smooth muscle cells, Myofibroblasts
+Monocytes/macrophages, Dendritic cells
+T cells, NK cells
+T cells, NK cells
+Dendritic cells, Monocytes
+B cells, Plasma cells
+Squamous epithelial cells, Basal epithelial cells
+Keratinocytes, Squamous epithelial cells
+Endothelial cells, Platelets
+Mast cells, Basophils
+Pericytes, Smooth muscle cells
+Fibroblasts, Cardiac muscle cells
+Endothelial cells, Pericytes
+Neurons, Glial cells
+Cardiomyocytes, Cardiac muscle cells
+Cardiomyocytes, Cardiac muscle cells
+T cells, B cells
+NK cells, T cells
+Monocytes/macrophages, Dendritic cells
+B cells, Plasma cells
+Endothelial cells, Lymphatic endothelial cells
+Adipocytes, Preadipocytes
+Mast cells, Basophils
+T cells, NK cells
+Monocytes/macrophages, Dendritic cells
+Neurons, Smooth muscle cells
+Endothelial cells, Vascular smooth muscle cells
+Mast cells, Basophils
+Monocytes/macrophages, Dendritic cells
+T cells, NK cells
+Smooth muscle cells, Myofibroblasts
+Alveolar type II cells, Club cells
+Ciliated epithelial cells, Airway epithelial cells
+Basal epithelial cells, Progenitor cells
+B cells, Plasma cells
+Alveolar type II cells, Alveolar type I cells
+Epithelial cells, Club cells
+Endothelial cells, Pericytes
+Monocytes/macrophages, Dendritic cells
+Fibroblasts, Stromal cells
+Endothelial cells, Lymphatic endothelial cells
+Neurons, Glial cells
+Smooth muscle cells, Myofibroblasts
+Neurons, Neuroendocrine cells
+Smooth muscle cells, Myofibroblasts
+Mast cells, Basophils
+T cells, NK cells
+NK cells, T cells
+B cells, Plasma cells
+Fibroblasts, Stromal cells
+Prostate epithelial cells, Luminal epithelial cells
+Basal epithelial cells, Progenitor epithelial cells
+Luminal epithelial cells, Basal epithelial cells
+Endothelial cells, Pericytes
+Skeletal muscle cells, Myocytes
+Endothelial cells, Pericytes
+Neurons, Schwann cells
+Smooth muscle cells, Myofibroblasts
+Schwann cells, Peripheral glial cells
+Fibroblasts, Stromal cells
+Skeletal muscle cells, Myocytes
+Monocytes/macrophages, Dendritic cells
+T cells, NK cells
+NK cells, T cells
+Fibroblasts, Stromal cells
+Endothelial cells, Pericytes
+Adipocytes, Preadipocytes
+Mast cells, Basophils
+Endothelial cells, Pericytes
+Keratinocytes, Epithelial cells
+Melanocytes, Pigment cells
+Mast cells, Basophils
+T cells, NK cells
+Dendritic cells, Macrophages
+Monocytes/macrophages, Dendritic cells
+Keratinocytes, Squamous epithelial cells
+Keratinocytes, Basal epithelial cells
+Keratinocytes, Epithelial cells
+Basal keratinocytes, Progenitor epithelial cells
+Endothelial cells, Pericytes
+Adipocytes, Preadipocytes
+Smooth muscle cells, Pericytes
+Fibroblasts, Stromal cells
+Adipocytes, Preadipocytes

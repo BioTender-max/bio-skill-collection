@@ -1,0 +1,11 @@
+numpy>=1.26.4
+pandas>=2.2.3
+tqdm>=4.67.0
+inflect>=7.4.0
+requests>=2.32.3
+pymed>=0.8.9
+anthropic>=0.39.0
+openai>=1.54.3
+tiktoken>=0.8.0
+pyyaml>=6.0.2
+ols-py>=1.1.0

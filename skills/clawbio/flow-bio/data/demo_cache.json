@@ -1,0 +1,892 @@
+{
+  "instance": "https://app.flow.bio/api",
+  "pipelines": [
+    {
+      "id": "583494301973770088",
+      "name": "RNA-Seq",
+      "execution_count": 494,
+      "description": "RNA sequencing analysis pipeline using STAR, RSEM, HISAT2 or Salmon with gene/isoform counts and extensive quality control.",
+      "is_nfcore": true,
+      "prepares_genome": false,
+      "category": "Preprocessing",
+      "subcategory": "RNA-Seq"
+    },
+    {
+      "id": "662439243828977812",
+      "name": "Prepare RNA-Seq Genome",
+      "execution_count": 150,
+      "description": "Creates the genome files needed for the RNA-Seq pipeline.",
+      "is_nfcore": true,
+      "prepares_genome": true,
+      "category": "Preprocessing",
+      "subcategory": "RNA-Seq"
+    },
+    {
+      "id": "398281243602508974",
+      "name": "ChIP-Seq",
+      "execution_count": 37,
+      "description": "ChIP-seq peak-calling, QC and differential analysis pipeline.",
+      "is_nfcore": true,
+      "prepares_genome": false,
+      "category": "Preprocessing",
+      "subcategory": "ChIP-Seq"
+    },
+    {
+      "id": "602371999722157355",
+      "name": "Prepare ChIP-Seq Genome",
+      "execution_count": 16,
+      "description": "Creates the genome files needed for the ChIP-Seq pipeline.",
+      "is_nfcore": true,
+      "prepares_genome": true,
+      "category": "Preprocessing",
+      "subcategory": "ChIP-Seq"
+    },
+    {
+      "id": "300553404744740052",
+      "name": "Prepare CLIP-Seq Genome",
+      "execution_count": 179,
+      "description": "Creates the genome files needed for the CLIP-Seq pipeline.",
+      "is_nfcore": false,
+      "prepares_genome": true,
+      "category": "Preprocessing",
+      "subcategory": "CLIP-Seq"
+    },
+    {
+      "id": "960154035051242353",
+      "name": "CLIP-Seq",
+      "execution_count": 1849,
+      "description": "Analysis pipeline for CLIP (cross-linking and immunoprecipitation) sequencing data to study RNA-protein interactions.",
+      "is_nfcore": false,
+      "prepares_genome": false,
+      "category": "Preprocessing",
+      "subcategory": "CLIP-Seq"
+    },
+    {
+      "id": "158917973443126360",
+      "name": "Prepare scRNA-Seq Genome",
+      "execution_count": 10,
+      "description": "Creates the genome files needed for the scRNA-Seq pipeline.",
+      "is_nfcore": true,
+      "prepares_genome": true,
+      "category": "Preprocessing",
+      "subcategory": "Single-Cell RNA-Seq"
+    },
+    {
+      "id": "812334359955056163",
+      "name": "scRNA-Seq",
+      "execution_count": 13,
+      "description": "Single-cell RNA sequencing analysis pipeline for processing 10x Genomics single-cell RNA-seq data.",
+      "is_nfcore": true,
+      "prepares_genome": false,
+      "category": "Preprocessing",
+      "subcategory": "Single-Cell RNA-Seq"
+    },
+    {
+      "id": "155067335770077424",
+      "name": "Prepare Ribo-Seq Genome",
+      "execution_count": 9,
+      "description": "Creates the genome files needed for the Ribo-Seq pipeline.",
+      "is_nfcore": false,
+      "prepares_genome": true,
+      "category": "Preprocessing",
+      "subcategory": "Ribo-Seq"
+    },
+    {
+      "id": "950527956494512675",
+      "name": "Ribo-Seq",
+      "execution_count": 11,
+      "description": "A pipeline to perform ribo-seq data analysis and comprehensive quality control.",
+      "is_nfcore": false,
+      "prepares_genome": false,
+      "category": "Preprocessing",
+      "subcategory": "Ribo-Seq"
+    },
+    {
+      "id": "467097897618608086",
+      "name": "Prepare Hi-C Genome",
+      "execution_count": 0,
+      "description": "Creates the genome files needed for the Hi-C pipeline.",
+      "is_nfcore": true,
+      "prepares_genome": true,
+      "category": "Preprocessing",
+      "subcategory": "Chromatin Conformation"
+    },
+    {
+      "id": "116963677320587450",
+      "name": "Hi-C",
+      "execution_count": 0,
+      "description": "Analysis of Chromosome Conformation Capture data (Hi-C).",
+      "is_nfcore": true,
+      "prepares_genome": false,
+      "category": "Preprocessing",
+      "subcategory": "Chromatin Conformation"
+    },
+    {
+      "id": "447171969201517470",
+      "name": "Demultiplex",
+      "execution_count": 1138,
+      "description": "Demultiplexes multiplexed data into individual samples.",
+      "is_nfcore": false,
+      "prepares_genome": false,
+      "category": "Sample Creation",
+      "subcategory": "Demultiplexing"
+    },
+    {
+      "id": "339177751245384937",
+      "name": "Differential Analysis",
+      "execution_count": 100,
+      "description": "Differential analysis is a statistical method used to identify differences in gene expression or other molecular features between two or more groups of samples.",
+      "is_nfcore": false,
+      "prepares_genome": false,
+      "category": "Downstream",
+      "subcategory": "Differential Analysis"
+    },
+    {
+      "id": "802911899903591632",
+      "name": "Scdownstream",
+      "execution_count": 4,
+      "description": "A single cell transcriptomics pipeline for QC, integration and making the data presentable",
+      "is_nfcore": true,
+      "prepares_genome": false,
+      "category": "Downstream",
+      "subcategory": "Single Cell"
+    },
+    {
+      "id": "885689080451410416",
+      "name": "Bowtie Build",
+      "execution_count": 6,
+      "description": "Builds a Bowtie index from a set of DNA sequences.",
+      "is_nfcore": false,
+      "prepares_genome": false,
+      "category": "Modules",
+      "subcategory": "Genome Indexing"
+    },
+    {
+      "id": "146668866557323949",
+      "name": "STAR Build",
+      "execution_count": 5,
+      "description": "Builds a STAR index from a FASTA/GTF pair.",
+      "is_nfcore": false,
+      "prepares_genome": false,
+      "category": "Modules",
+      "subcategory": "Genome Indexing"
+    },
+    {
+      "id": "891200632275310574",
+      "name": "Faidx",
+      "execution_count": 72,
+      "description": "Builds a Samtools Faidx index from a FASTA file.",
+      "is_nfcore": false,
+      "prepares_genome": false,
+      "category": "Modules",
+      "subcategory": "Genome Indexing"
+    },
+    {
+      "id": "146614751241929405",
+      "name": "FastQC",
+      "execution_count": 69,
+      "description": "Performs quality checks on a reads file.",
+      "is_nfcore": false,
+      "prepares_genome": false,
+      "category": "Modules",
+      "subcategory": "Quality Control"
+    },
+    {
+      "id": "351848078550820594",
+      "name": "Trimgalore",
+      "execution_count": 20,
+      "description": "Removes sequencing artifacts from FASTQ files.",
+      "is_nfcore": false,
+      "prepares_genome": false,
+      "category": "Modules",
+      "subcategory": "Quality Control"
+    },
+    {
+      "id": "209569412378234467",
+      "name": "iCount Segment",
+      "execution_count": 10,
+      "description": "Formats a GTF file for use with iCount sigxls.",
+      "is_nfcore": false,
+      "prepares_genome": false,
+      "category": "Modules",
+      "subcategory": "Genome Annotation"
+    }
+  ],
+  "organisms": [
+    {
+      "id": "Hs",
+      "name": "Human",
+      "latin_name": "Homo sapiens",
+      "latest_fileset": {
+        "id": "914845522670331384",
+        "name": "Hanalysis GRCh38 v2",
+        "long_name": "",
+        "url": "",
+        "created": 1772211118,
+        "can_edit": false,
+        "sample": null,
+        "organism": {
+          "id": "Hs",
+          "name": "Human"
+        },
+        "data": [
+          {
+            "id": "320468299270948664",
+            "filename": "Homo_sapiens.GRCh38.dna_sm.primary_assembly.fasta",
+            "size": 3151426433,
+            "category": 1
+          },
+          {
+            "id": "865333367351887680",
+            "filename": "Homo_sapiens.GRCh38.115.gtf",
+            "size": 3287153090,
+            "category": 1
+          },
+          {
+            "id": "858977619776315754",
+            "filename": "Homo_sapiens_rDNA_smRNA.fasta",
+            "size": 13648,
+            "category": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Mm",
+      "name": "Mouse",
+      "latin_name": "Mus musculus",
+      "latest_fileset": {
+        "id": "239316918387167883",
+        "name": "GRCm39",
+        "long_name": "",
+        "url": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000001635.27/",
+        "created": 1592953200,
+        "can_edit": false,
+        "sample": null,
+        "organism": {
+          "id": "Mm",
+          "name": "Mouse"
+        },
+        "data": [
+          {
+            "id": "762979248599196187",
+            "filename": "Mus_musculus.GRCm39.fasta",
+            "size": 2773696866,
+            "category": 1
+          },
+          {
+            "id": "982551628126757711",
+            "filename": "Mus_musculus.GRCm39.109.gtf",
+            "size": 886682056,
+            "category": 1
+          },
+          {
+            "id": "793787281892686881",
+            "filename": "Mus_musculus.GRCm39.smrna.fasta",
+            "size": 82564,
+            "category": 1
+          },
+          {
+            "id": "840046545925187655",
+            "filename": "Mus_musculus.GRCm39.fasta.gz",
+            "size": 863847916,
+            "category": 1
+          },
+          {
+            "id": "423964186081210706",
+            "filename": "Mus_musculus.GRCm39.fasta.gz.fai",
+            "size": 1965,
+            "category": 1
+          },
+          {
+            "id": "657359233329314859",
+            "filename": "Mus_musculus.GRCm39.109.sorted.gtf.gz",
+            "size": 35906291,
+            "category": 1
+          },
+          {
+            "id": "174876661539171498",
+            "filename": "Mus_musculus.GRCm39.109.sorted.gtf.gz.tbi",
+            "size": 310971,
+            "category": 1
+          },
+          {
+            "id": "990716495709809439",
+            "filename": "Mus_musculus.GRCm39.fasta.fai",
+            "size": 1965,
+            "category": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Rn",
+      "name": "Rat",
+      "latin_name": "Rattus norvegicus",
+      "latest_fileset": {
+        "id": "272081916608755312",
+        "name": "mRatBN7.2",
+        "long_name": "",
+        "url": "https://www.ncbi.nlm.nih.gov/assembly/GCF_015227675.2/",
+        "created": 1604966400,
+        "can_edit": false,
+        "sample": null,
+        "organism": {
+          "id": "Rn",
+          "name": "Rat"
+        },
+        "data": [
+          {
+            "id": "751852413165510943",
+            "filename": "Rattus_norvegicus.mRatBN7.2.fasta",
+            "size": 2692064525,
+            "category": 1
+          },
+          {
+            "id": "477911717318414962",
+            "filename": "Rattus_norvegicus.mRatBN7.2.109.gtf",
+            "size": 484506875,
+            "category": 1
+          },
+          {
+            "id": "779419279579750556",
+            "filename": "Rattus_norvegicus.mRatBN7.2.smrna.fasta",
+            "size": 45038,
+            "category": 1
+          },
+          {
+            "id": "906557490062362037",
+            "filename": "Rattus_norvegicus.mRatBN7.2.fasta.gz",
+            "size": 852019642,
+            "category": 1
+          },
+          {
+            "id": "404545060007571526",
+            "filename": "Rattus_norvegicus.mRatBN7.2.fasta.gz.fai",
+            "size": 6660,
+            "category": 1
+          },
+          {
+            "id": "968420812786474934",
+            "filename": "Rattus_norvegicus.mRatBN7.2.109.sorted.gtf.gz",
+            "size": 19014370,
+            "category": 1
+          },
+          {
+            "id": "657393052494673072",
+            "filename": "Rattus_norvegicus.mRatBN7.2.109.sorted.gtf.gz.tbi",
+            "size": 281090,
+            "category": 1
+          },
+          {
+            "id": "743242627004668930",
+            "filename": "Rattus_norvegicus.mRatBN7.2.fasta.fai",
+            "size": 6660,
+            "category": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Dr",
+      "name": "Zebrafish",
+      "latin_name": "Danio rerio",
+      "latest_fileset": {
+        "id": "589011094074446702",
+        "name": "GRCz11",
+        "long_name": "",
+        "url": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000002035.6/",
+        "created": 1494284400,
+        "can_edit": false,
+        "sample": null,
+        "organism": {
+          "id": "Dr",
+          "name": "Zebrafish"
+        },
+        "data": [
+          {
+            "id": "997430773784993326",
+            "filename": "Danio_rerio.GRCz11.fasta",
+            "size": 1396431182,
+            "category": 1
+          },
+          {
+            "id": "588885721337828820",
+            "filename": "Danio_rerio.GRCz11.109.gtf",
+            "size": 461954740,
+            "category": 1
+          },
+          {
+            "id": "539507430679537769",
+            "filename": "Danio_rerio.GRCz11.smrna.fasta",
+            "size": 945129,
+            "category": 1
+          },
+          {
+            "id": "230984217163854543",
+            "filename": "Danio_rerio.GRCz11.fasta.gz",
+            "size": 439113866,
+            "category": 1
+          },
+          {
+            "id": "591748142539273299",
+            "filename": "Danio_rerio.GRCz11.fasta.gz.fai",
+            "size": 33441,
+            "category": 1
+          },
+          {
+            "id": "665424607559603201",
+            "filename": "Danio_rerio.GRCz11.109.sorted.gtf.gz",
+            "size": 19503728,
+            "category": 1
+          },
+          {
+            "id": "264668363119294036",
+            "filename": "Danio_rerio.GRCz11.109.sorted.gtf.gz.tbi",
+            "size": 185081,
+            "category": 1
+          },
+          {
+            "id": "900210119349259045",
+            "filename": "Danio_rerio.GRCz11.fasta.fai",
+            "size": 33441,
+            "category": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Dm",
+      "name": "Drosophila",
+      "latin_name": "Drosophila melanogaster",
+      "latest_fileset": {
+        "id": "250678646990706529",
+        "name": "BDGP6.32",
+        "long_name": "",
+        "url": "https://www.ensembl.org/Drosophila_melanogaster/Info/Index",
+        "created": 1596236400,
+        "can_edit": false,
+        "sample": null,
+        "organism": {
+          "id": "Dm",
+          "name": "Drosophila"
+        },
+        "data": [
+          {
+            "id": "465609068152209741",
+            "filename": "Drosophila_melanogaster.BDGP6.32.fasta",
+            "size": 146303004,
+            "category": 1
+          },
+          {
+            "id": "574531408580155028",
+            "filename": "Drosophila_melanogaster.BDGP6.32.109.gtf",
+            "size": 165675259,
+            "category": 1
+          },
+          {
+            "id": "466869116955010634",
+            "filename": "Drosophila_melanogaster.BDGP6.32.smrna.fasta",
+            "size": 27862,
+            "category": 1
+          },
+          {
+            "id": "531097936399152589",
+            "filename": "Drosophila_melanogaster.BDGP6.32.fasta.gz",
+            "size": 44212382,
+            "category": 1
+          },
+          {
+            "id": "177985395660201730",
+            "filename": "Drosophila_melanogaster.BDGP6.32.fasta.gz.fai",
+            "size": 69815,
+            "category": 1
+          },
+          {
+            "id": "782009835615801274",
+            "filename": "Drosophila_melanogaster.BDGP6.32.109.sorted.gtf.gz",
+            "size": 7024034,
+            "category": 1
+          },
+          {
+            "id": "982662281158058361",
+            "filename": "Drosophila_melanogaster.BDGP6.32.109.sorted.gtf.gz.tbi",
+            "size": 26594,
+            "category": 1
+          },
+          {
+            "id": "955152588711151568",
+            "filename": "Drosophila_melanogaster.BDGP6.32.fasta.fai",
+            "size": 69815,
+            "category": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Sc",
+      "name": "Yeast",
+      "latin_name": "Saccharomyces cerevisiae",
+      "latest_fileset": {
+        "id": "252121825993200981",
+        "name": "R64-1-1",
+        "long_name": "",
+        "url": "https://ncbi.nlm.nih.gov/assembly/GCF_000146045.2/",
+        "created": 1538348400,
+        "can_edit": false,
+        "sample": null,
+        "organism": {
+          "id": "Sc",
+          "name": "Yeast"
+        },
+        "data": [
+          {
+            "id": "345568330887457374",
+            "filename": "Saccharomyces_cerevisiae.R64-1-1.fasta",
+            "size": 12360755,
+            "category": 1
+          },
+          {
+            "id": "624118745897132006",
+            "filename": "Saccharomyces_cerevisiae.R64-1-1.109.gtf",
+            "size": 10463408,
+            "category": 1
+          },
+          {
+            "id": "109591752667621516",
+            "filename": "Saccharomyces_cerevisiae.R64-1-1.smrna.fasta",
+            "size": 25031,
+            "category": 1
+          },
+          {
+            "id": "563301075264725186",
+            "filename": "Saccharomyces_cerevisiae.R64-1-1.fasta.gz",
+            "size": 3770199,
+            "category": 1
+          },
+          {
+            "id": "750802635363535693",
+            "filename": "Saccharomyces_cerevisiae.R64-1-1.fasta.gz.fai",
+            "size": 416,
+            "category": 1
+          },
+          {
+            "id": "974937455873496864",
+            "filename": "Saccharomyces_cerevisiae.R64-1-1.109.sorted.gtf.gz",
+            "size": 577366,
+            "category": 1
+          },
+          {
+            "id": "118934562027110222",
+            "filename": "Saccharomyces_cerevisiae.R64-1-1.109.sorted.gtf.gz.tbi",
+            "size": 3015,
+            "category": 1
+          },
+          {
+            "id": "989690699929062654",
+            "filename": "Saccharomyces_cerevisiae.R64-1-1.fasta.fai",
+            "size": 416,
+            "category": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ec",
+      "name": "E. Coli",
+      "latin_name": "Escherichia coli",
+      "latest_fileset": {
+        "id": "964250359436379812",
+        "name": "GCF_000005845.2",
+        "long_name": "K12 substr.MG1655 GCA_000005845.ASM584v2.57",
+        "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000005845.2/",
+        "created": 1380240000,
+        "can_edit": false,
+        "sample": null,
+        "organism": {
+          "id": "Ec",
+          "name": "E. Coli"
+        },
+        "data": [
+          {
+            "id": "999327809776406288",
+            "filename": "Escherichia_coli.GCF_000005845.2.fasta",
+            "size": 4719087,
+            "category": 1
+          },
+          {
+            "id": "856875268099654599",
+            "filename": "Escherichia_coli.GCF_000005845.2.gtf",
+            "size": 6143754,
+            "category": 1
+          },
+          {
+            "id": "951757539282515198",
+            "filename": "Escherichia_coli.GCF_000005845.2.smrna.fasta",
+            "size": 14312,
+            "category": 1
+          },
+          {
+            "id": "521967741107442746",
+            "filename": "Escherichia_coli.GCF_000005845.2.sorted.gtf.gz.tbi",
+            "size": 1228,
+            "category": 1
+          },
+          {
+            "id": "710936916323084405",
+            "filename": "Escherichia_coli.GCF_000005845.2.sorted.gtf.gz",
+            "size": 419186,
+            "category": 1
+          },
+          {
+            "id": "400005151890132519",
+            "filename": "Escherichia_coli.GCF_000005845.2.fasta.gz",
+            "size": 1315504,
+            "category": 1
+          },
+          {
+            "id": "171499510055958853",
+            "filename": "Escherichia_coli.GCF_000005845.2.fasta.gz.fai",
+            "size": 28,
+            "category": 1
+          },
+          {
+            "id": "596094230695979778",
+            "filename": "Escherichia_coli.GCF_000005845.2.fasta.fai",
+            "size": 28,
+            "category": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Gg",
+      "name": "Chicken",
+      "latin_name": "Gallus gallus",
+      "latest_fileset": {
+        "id": "505798079136644257",
+        "name": "GRCg7b.110",
+        "long_name": "",
+        "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_016699485.2/",
+        "created": 1611014400,
+        "can_edit": false,
+        "sample": null,
+        "organism": {
+          "id": "Gg",
+          "name": "Chicken"
+        },
+        "data": [
+          {
+            "id": "270036168350148132",
+            "filename": "Gallus_gallus.GRCg7b.110.fasta",
+            "size": 1070911451,
+            "category": 1
+          },
+          {
+            "id": "191197042964955992",
+            "filename": "Gallus_gallus.GRCg7b.110.gtf",
+            "size": 535019990,
+            "category": 1
+          },
+          {
+            "id": "432167912082621058",
+            "filename": "Gallus_gallus.GRCg7b.110.smrna.fasta",
+            "size": 159086,
+            "category": 1
+          },
+          {
+            "id": "308971174054414874",
+            "filename": "Gallus_gallus.GRCg7b.110.fasta.gz",
+            "size": 287935181,
+            "category": 1
+          },
+          {
+            "id": "928204372021237122",
+            "filename": "Gallus_gallus.GRCg7b.110.fasta.gz.fai",
+            "size": 8048,
+            "category": 1
+          },
+          {
+            "id": "784251859094802237",
+            "filename": "Gallus_gallus.GRCg7b.110.sorted.gtf.gz",
+            "size": 19132312,
+            "category": 1
+          },
+          {
+            "id": "603484923328192092",
+            "filename": "Gallus_gallus.GRCg7b.110.sorted.gtf.gz.tbi",
+            "size": 147044,
+            "category": 1
+          },
+          {
+            "id": "603402915649496694",
+            "filename": "Gallus_gallus.GRCg7b.110.fasta.fai",
+            "size": 8048,
+            "category": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "At",
+      "name": "Arabidopsis",
+      "latin_name": "Arabidopsis thaliana",
+      "latest_fileset": {
+        "id": "650661514682599086",
+        "name": "TAIR10",
+        "long_name": "TAIR10 Ensembl 59",
+        "url": "https://plants.ensembl.org/Arabidopsis_thaliana/Info/Index",
+        "created": 1465516800,
+        "can_edit": false,
+        "sample": null,
+        "organism": {
+          "id": "At",
+          "name": "Arabidopsis"
+        },
+        "data": [
+          {
+            "id": "704652146122812538",
+            "filename": "Arabidopsis_thaliana.TAIR10.dna_sm.toplevel.fa.gz",
+            "size": 38452174,
+            "category": 1
+          },
+          {
+            "id": "945869967409269190",
+            "filename": "Arabidopsis_thaliana.TAIR10.59.gtf",
+            "size": 272938110,
+            "category": 1
+          },
+          {
+            "id": "397241690116422993",
+            "filename": "araTha_rDNA_tRNA.fa",
+            "size": 9514534,
+            "category": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "Vf",
+      "name": "V. Fischeri",
+      "latin_name": "Vibrio fischeri",
+      "latest_fileset": null
+    }
+  ],
+  "sample_types": [
+    {
+      "identifier": "ChIP-Seq",
+      "name": "ChIP-Seq",
+      "description": "ChIP-Seq samples.",
+      "sample_count": 62,
+      "attributes": [
+        {
+          "identifier": "source",
+          "name": "Source",
+          "description": "The cell type or tissue the sample was derived from."
+        },
+        {
+          "identifier": "purification_target",
+          "name": "Purification Target",
+          "description": "The protein target used to purify the sample."
+        }
+      ]
+    },
+    {
+      "identifier": "CLIP",
+      "name": "CLIP",
+      "description": "CLIP samples.",
+      "sample_count": 6143,
+      "attributes": [
+        {
+          "identifier": "source",
+          "name": "Source",
+          "description": "The cell type or tissue the sample was derived from."
+        },
+        {
+          "identifier": "purification_target",
+          "name": "Purification Target",
+          "description": "The protein target used to purify the sample."
+        }
+      ]
+    },
+    {
+      "identifier": "Hi-C",
+      "name": "Hi-C",
+      "description": "Chromatin capture samples.",
+      "sample_count": 1,
+      "attributes": [
+        {
+          "identifier": "source",
+          "name": "Source",
+          "description": "The cell type or tissue the sample was derived from."
+        }
+      ]
+    },
+    {
+      "identifier": "Ribo-Seq",
+      "name": "Ribo-Seq",
+      "description": "Ribo-Seq samples.",
+      "sample_count": 87,
+      "attributes": [
+        {
+          "identifier": "source",
+          "name": "Source",
+          "description": "The cell type or tissue the sample was derived from."
+        },
+        {
+          "identifier": "ribosome_type",
+          "name": "Ribosome Type",
+          "description": "Monosome or disome."
+        },
+        {
+          "identifier": "size_selection",
+          "name": "Size selection",
+          "description": "Size selection strategy."
+        },
+        {
+          "identifier": "separation_method",
+          "name": "Separation Method",
+          "description": "Helps distinguish whether sucrose gradients were used to isolate ribosome fractions."
+        }
+      ]
+    },
+    {
+      "identifier": "RNA-Seq",
+      "name": "RNA-Seq",
+      "description": "RNA-Seq samples.",
+      "sample_count": 2676,
+      "attributes": [
+        {
+          "identifier": "source",
+          "name": "Source",
+          "description": "The cell type or tissue the sample was derived from."
+        },
+        {
+          "identifier": "strandedness",
+          "name": "Strandedness",
+          "description": "The strandedness of the sample."
+        },
+        {
+          "identifier": "rna_selection_method",
+          "name": "RNA Selection Method",
+          "description": "The RNA selection method of the sample."
+        }
+      ]
+    },
+    {
+      "identifier": "scRNA-Seq",
+      "name": "scRNA-Seq",
+      "description": "scRNA-Seq samples.",
+      "sample_count": 40,
+      "attributes": [
+        {
+          "identifier": "source",
+          "name": "Source",
+          "description": "The cell type or tissue the sample was derived from."
+        }
+      ]
+    }
+  ],
+  "cached_at": "2026-03-19",
+  "note": "Pre-cached public data from app.flow.bio for offline demo mode"
+}

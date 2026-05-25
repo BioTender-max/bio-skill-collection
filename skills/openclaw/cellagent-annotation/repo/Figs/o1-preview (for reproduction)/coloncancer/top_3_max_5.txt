@@ -1,0 +1,7 @@
+"Epithelial cells, colonocytes, enterocytes"
+"Goblet cells, mucous cells, secretory epithelial cells"
+"Fibroblasts, myofibroblasts, stromal cells"
+"Macrophages, myeloid cells, monocytes"
+"T cells, T lymphocytes, CD3+ cells"
+"Plasma cells, B cells, antibody-secreting cells"
+"Mast cells, basophils, granulocytes"

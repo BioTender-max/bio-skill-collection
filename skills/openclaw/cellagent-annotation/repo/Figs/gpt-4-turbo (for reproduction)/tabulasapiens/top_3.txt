@@ -1,0 +1,467 @@
+T cells, Natural Killer T cells, Cytotoxic T cells
+Plasmacytoid dendritic cells, Conventional dendritic cells, B cells
+B cells, Follicular B cells, Memory B cells
+Endothelial cells, Blood vessel cells, Capillary cells
+Endothelial cells, Fibroblasts, Blood vessel cells
+Cytotoxic T cells, Natural Killer T cells, T cells
+Mast cells, Basophils, Natural Killer T cells
+Plasma cells, B cells, Memory B cells
+Fibroblasts, Osteoblasts, Smooth muscle cells
+Smooth muscle cells, Myocytes, Fibroblasts
+Endothelial cells, Blood vessel cells, Capillary cells
+Epithelial cells, Glandular cells, Ductal cells
+Fibroblasts, Mesenchymal stem cells, Endothelial cells
+Macrophages, Monocytes, Dendritic cells
+Smooth muscle cells, Myofibroblasts, Fibroblasts
+Endothelial cells, Neurons, Smooth muscle cells
+Hematopoietic stem cells, Myeloid cells, Endothelial cells
+Neurons, Endothelial cells, Epithelial cells
+Mast cells, Myeloid cells, Epithelial cells
+T cells, Natural Killer T cells, Cytotoxic T cells
+Red blood cells, Platelets, Neutrophils
+Small nucleolar RNAs, MicroRNAs, Ribosomal proteins
+Mast cells, Basophils, Natural Killer T cells
+Neutrophils, Monocytes, Macrophages
+T cells, Natural Killer T cells, Helper T cells
+Epithelial cells, Endothelial cells, Smooth muscle cells
+Platelets, Megakaryocytes, Endothelial cells
+Monocytes, Macrophages, Neutrophils
+Plasma cells, B cells, Memory B cells
+Red blood cells, Erythrocytes, Hemoglobin synthesis cells
+T cells, Natural Killer T cells, Cytotoxic T cells
+Macrophages, Monocytes, Neutrophils
+Neutrophils, Monocytes, Macrophages
+B cells, Memory B cells, Plasma cells
+Natural Killer T cells, Cytotoxic T cells, Natural Killer cells
+B cells, Memory B cells, Follicular B cells
+Natural Killer T cells, Cytotoxic T cells, Natural Killer cells
+Endothelial cells, Myeloid cells, Epithelial cells
+T cells, Natural Killer T cells, Cytotoxic T cells
+Natural Killer T cells, Cytotoxic T cells, Natural Killer cells
+T cells, Helper T cells, Natural Killer T cells
+Erythrocytes, Red blood cells, Hemoglobin synthesis cells
+B cells, Memory B cells, Follicular B cells
+Small nucleolar RNAs, MicroRNAs, Ribosomal proteins
+Neutrophils, Monocytes, Macrophages
+Neutrophils, Monocytes, Macrophages
+Neutrophils, Monocytes, Macrophages
+T cells, Natural Killer T cells, Cytotoxic T cells
+T cells, Natural Killer T cells, Cytotoxic T cells
+Myeloid cells, Hematopoietic stem cells, Endothelial cells
+B cells, Memory B cells, Plasma cells
+Neutrophils, Monocytes, Macrophages
+Natural Killer T cells, Cytotoxic T cells, Natural Killer cells
+Red blood cells, Erythrocytes, Hemoglobin synthesis cells
+Endothelial cells, Myeloid cells, Epithelial cells
+Plasma cells, B cells, Memory B cells
+Macrophages, Monocytes, Neutrophils
+Macrophages, Monocytes, Neutrophils
+Natural Killer T cells, Cytotoxic T cells, T cells
+Plasma cells, B cells, Memory B cells
+Macrophages, Monocytes, Dendritic cells
+Red blood cells, Erythrocytes, Hemoglobin synthesis cells
+Proliferating cells, Epithelial cells, Neurons
+T cells, Natural Killer T cells, Helper T cells
+Mast cells, Basophils, Natural Killer T cells
+Neurons, Neural progenitor cells, Epithelial cells
+Epithelial cells, Endothelial cells, Smooth muscle cells
+Adipocytes, Hepatocytes, Endothelial cells
+Muscle cells, Myocytes, Smooth muscle cells
+Neurons, Neural progenitor cells, Epithelial cells
+Smooth muscle cells, Myocytes, Fibroblasts
+Melanocytes, Pigment cells, Neural crest cells
+Photoreceptors, Retinal cells, Neurons
+Epithelial cells, Corneal cells, Fibroblasts
+Epithelial cells, Endothelial cells, Smooth muscle cells
+Epithelial cells, Glandular cells, Ductal cells
+Monocytes, Macrophages, Dendritic cells
+Macrophages, Monocytes, Dendritic cells
+Fibroblasts, Osteoblasts, Smooth muscle cells
+T cells, Natural Killer T cells, Cytotoxic T cells
+Adipocytes, Hepatocytes, Endothelial cells
+Endothelial cells, Blood vessel cells, Capillary cells
+Neutrophils, Monocytes, Macrophages
+Fibroblasts, Osteoblasts, Smooth muscle cells
+B cells, Memory B cells, Plasma cells
+Retinal cells, Photoreceptors, Pigment cells
+Epithelial cells, Endothelial cells, Smooth muscle cells
+Plasma cells, B cells, Memory B cells
+B cells, Memory B cells, Plasma cells
+Red blood cells, Erythrocytes, Hemoglobin synthesis cells
+Smooth muscle cells, Myocytes, Fibroblasts
+Endothelial cells, Fibroblasts, Mesenchymal stem cells
+Ribosomal proteins, Small nucleolar RNAs, MicroRNAs
+Neutrophils, Monocytes, Macrophages
+Natural Killer T cells, Cytotoxic T cells, Natural Killer cells
+Macrophages, Monocytes, Dendritic cells
+T cells, Natural Killer T cells, Cytotoxic T cells
+Endothelial cells, Blood vessel cells, Capillary cells
+Fibroblasts, Osteoblasts, Smooth muscle cells
+Smooth muscle cells, Myofibroblasts, Fibroblasts
+Endothelial cells, Macrophages, Adipocytes
+Cardiomyocytes, Smooth muscle cells, Endothelial cells
+Epithelial cells, Fibroblasts, Endothelial cells
+Smooth muscle cells, Fibroblasts, Endothelial cells
+Fibroblasts, Endothelial cells, Smooth muscle cells
+Macrophages, Monocytes, Dendritic cells
+T cells, NK cells, B cells
+NK cells, T cells, Monocytes
+Macrophages, Neutrophils, Dendritic cells
+T cells, NK cells, B cells
+B cells, T cells, Monocytes
+Epithelial cells, Fibroblasts, Endothelial cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Non-specific (likely degraded or non-coding RNA)
+Non-specific (likely mitochondrial or non-coding RNA)
+Stem cells, Epithelial cells, Fibroblasts
+Epithelial cells, Fibroblasts, Endothelial cells
+Immune cells, Epithelial cells, Neurons
+Macrophages, Neutrophils, Dendritic cells
+Endocrine cells, Neurons, Epithelial cells
+Non-specific (likely non-coding RNA)
+Mast cells, Basophils, Neutrophils
+T cells, NK cells, Monocytes
+B cells, Dendritic cells, Monocytes
+Epithelial cells, Endothelial cells, Fibroblasts
+Mucosal cells, Epithelial cells, Immune cells
+Fibroblasts, Smooth muscle cells, Endothelial cells
+Proliferating cells, Epithelial cells, Fibroblasts
+Plasma cells, B cells, Immune cells
+Neurons, Epithelial cells, Endothelial cells
+Mucosal cells, Epithelial cells, Fibroblasts
+T cells, NK cells, B cells
+Macrophages, Dendritic cells, Hepatocytes
+Erythroid cells, Hematopoietic stem cells, Endothelial cells
+Non-specific (likely mitochondrial or non-coding RNA)
+T cells, NK cells, B cells
+Epithelial cells, Hepatocytes, Fibroblasts
+Hepatocytes, Epithelial cells, Fibroblasts
+B cells, Plasma cells, Dendritic cells
+NK cells, T cells, Monocytes
+Dendritic cells, T cells, B cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Macrophages, Dendritic cells, Neutrophils
+B cells, Dendritic cells, Macrophages
+Smooth muscle cells, Fibroblasts, Endothelial cells
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Epithelial cells, Neurons, Endothelial cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Fibroblasts, Endothelial cells, Smooth muscle cells
+Lymphatic cells, Endothelial cells, Immune cells
+Smooth muscle cells, Fibroblasts, Endothelial cells
+Non-specific (likely non-coding RNA)
+Smooth muscle cells, Fibroblasts, Endothelial cells
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Non-specific (likely non-coding RNA)
+Smooth muscle cells, Fibroblasts, Endothelial cells
+Epithelial cells, Neurons, Endothelial cells
+Non-specific (likely non-coding RNA)
+Macrophages, Monocytes, Dendritic cells
+Macrophages, Monocytes, Dendritic cells
+Epithelial cells, Endothelial cells, Immune cells
+Salivary gland cells, Epithelial cells, Endothelial cells
+Epithelial cells, Fibroblasts, Endothelial cells
+Plasma cells, B cells, Immune cells
+B cells, Plasma cells, T cells
+Alveolar cells, Epithelial cells, Immune cells
+T cells, NK cells, B cells
+T cells, NK cells, Monocytes
+NK cells, T cells, Monocytes
+Smooth muscle cells, Fibroblasts, Endothelial cells
+Smooth muscle cells, Fibroblasts, Endothelial cells
+Fibroblasts, Endothelial cells, Smooth muscle cells
+Neutrophils, Monocytes, Dendritic cells
+Mast cells, Basophils, Neutrophils
+Macrophages, Neutrophils, Dendritic cells
+Endothelial cells, Smooth muscle cells, Fibroblasts
+Non-specific (likely non-coding RNA)
+Dendritic cells, T cells, B cells
+Epithelial cells, Fibroblasts, Endothelial cells
+Mucosal cells, Epithelial cells, Immune cells
+Macrophages, Dendritic cells, Neutrophils
+Macrophages, Monocytes, Dendritic cells
+Mast cells, Basophils, Neutrophils
+Dendritic cells, T cells, B cells
+Fibroblasts, Smooth muscle cells, Endothelial cells
+Erythroid cells, Hematopoietic stem cells, Endothelial cells
+T cells, NK cells, B cells
+B cells, Plasma cells, Dendritic cells
+B cells, Plasma cells, T cells
+T cells, NK cells, B cells
+T cells, NK cells, Monocytes
+NK cells, T cells, Monocytes
+Macrophages, Neutrophils, Dendritic cells
+Dendritic cells, T cells, B cells
+Macrophages, Dendritic cells, Neutrophils
+Stem cells, Epithelial cells, Neurons
+Endothelial cells, Fibroblasts, Smooth muscle cells
+Macrophages, Dendritic cells, Neutrophils
+B cell, Plasma cell, Dendritic cell
+Cytotoxic T cell, NK T cell, NK cell
+T cell, Thymocyte, NK cell
+T helper cell, T cell, Thymocyte
+B cell, T cell, Dendritic cell
+T cell, T helper cell, Thymocyte
+Plasma cell, B cell, Dendritic cell
+Neutrophil, Monocyte, Macrophage
+Neutrophil, Macrophage, Monocyte
+NK cell, NK T cell, Cytotoxic T cell
+Macrophage, Dendritic cell, Monocyte
+Regulatory T cell, T cell, T helper cell
+Basal cell, Epithelial cell, Fibroblast
+Mast cell, Basophil, Neutrophil
+NK cell, Cytotoxic T cell, T cell
+Endothelial cell, Macrophage, Fibroblast
+Endothelial cell, Smooth muscle cell, Fibroblast
+Plasma cell, B cell, T cell
+Endothelial cell, Smooth muscle cell, Fibroblast
+Smooth muscle cell, Endothelial cell, Pericyte
+Smooth muscle cell, Cardiomyocyte, Endothelial cell
+Macrophage, Monocyte, Dendritic cell
+Epithelial cell, Basal cell, Fibroblast
+T cell, B cell, NK cell
+Fibroblast, Macrophage, Dendritic cell
+B cell, Plasma cell, Dendritic cell
+Smooth muscle cell, Myocyte, Fibroblast
+NK cell, Cytotoxic T cell, T cell
+Epithelial cell, Basal cell, Fibroblast
+Erythrocyte, Erythroid progenitor, Proerythroblast
+Mast cell, Basophil, Neutrophil
+Myocyte, Cardiomyocyte, Smooth muscle cell
+Myocyte, Cardiomyocyte, Smooth muscle cell
+Chondrocyte, Osteoblast, Fibroblast
+T cell, B cell, NK cell
+Myocyte, Stem cell, Satellite cell
+Macrophage, Monocyte, Dendritic cell
+T cell, NK cell, B cell
+T cell, NK cell, B cell
+Smooth muscle cell, Myocyte, Fibroblast
+Endothelial cell, Smooth muscle cell, Pericyte
+Fibroblast, Smooth muscle cell, Endothelial cell
+Endothelial cell, Macrophage, Fibroblast
+Adipocyte, Macrophage, Monocyte
+Endothelial cell, Macrophage, Monocyte
+Neuronal cell, Endocrine cell, Epithelial cell
+Endocrine cell, Neuronal cell, Epithelial cell
+Endocrine cell, Neuronal cell, Epithelial cell
+Mast cell, Basophil, Neutrophil
+Endocrine cell, Neuronal cell, Epithelial cell
+Plasma cell, B cell, Dendritic cell
+Epithelial cell, Endothelial cell, Fibroblast
+B cell, Plasma cell, T cell
+Fibroblast, Endothelial cell, Smooth muscle cell
+NK cell, Cytotoxic T cell, T cell
+Fibroblast, Smooth muscle cell, Endothelial cell
+Macrophage, Monocyte, Dendritic cell
+Endothelial cell, Smooth muscle cell, Fibroblast
+T cell, NK T cell, Cytotoxic T cell
+Epithelial cell, Fibroblast, Endothelial cell
+Macrophage, Monocyte, Dendritic cell
+T cell, NK T cell, Cytotoxic T cell
+Epithelial cell, Basal cell, Fibroblast
+Neutrophil, Monocyte, Macrophage
+Epithelial cell, Fibroblast, Basal cell
+Epithelial cell, Basal cell, Fibroblast
+Epithelial cell, Fibroblast, Basal cell
+Mast cell, Basophil, Neutrophil
+Dendritic cell, Macrophage, B cell
+Smooth muscle cell, Myocyte, Fibroblast
+Epithelial cell, Basal cell, Fibroblast
+Epithelial cell, Basal cell, Fibroblast
+NK cell, Cytotoxic T cell, T cell
+T cell, NK T cell, Cytotoxic T cell
+Erythrocyte, Erythroid progenitor, Proerythroblast
+NK cell, Cytotoxic T cell, T cell
+Dendritic cell, Macrophage, B cell
+Fibroblast, Smooth muscle cell, Endothelial cell
+Epithelial cell, Basal cell, Fibroblast
+Epithelial cell, Basal cell, Fibroblast
+Endothelial cell, Smooth muscle cell, Fibroblast
+Epithelial cell, Basal cell, Fibroblast
+Epithelial cell, Basal cell, Fibroblast
+T cell, NK T cell, Cytotoxic T cell
+Neutrophil, Monocyte, Macrophage
+Epithelial cell, Basal cell, Fibroblast
+Epithelial cell, Basal cell, Fibroblast
+Macrophage, Monocyte, Dendritic cell
+Proliferating cell, Epithelial cell, Fibroblast
+Plasma cell, B cell, Dendritic cell
+Smooth muscle cell, Myocyte, Fibroblast
+Macrophage, Monocyte, Dendritic cell
+T cell, NK T cell, Cytotoxic T cell
+Proliferating cell, Epithelial cell, Fibroblast
+Epithelial cell, Basal cell, Fibroblast
+B cell, Plasma cell, Dendritic cell
+B cell, Plasma cell, Dendritic cell
+T cell, T helper cell, Thymocyte
+Smooth muscle cell, Myocyte, Fibroblast
+Endothelial cell, Smooth muscle cell, Fibroblast
+Natural Killer T cells, Cytotoxic T cells, NK cells
+Fibroblasts, Myofibroblasts, Endothelial cells
+Endothelial cells, Platelets, Smooth muscle cells
+Fibroblasts, Myofibroblasts, Osteoblasts
+Cytotoxic T cells, NK cells, T cells
+B cells, Plasma cells, T cells
+Langerhans cells, Dendritic cells, T cells
+B cells, Plasma cells, T cells
+T helper cells, T cells, Dendritic cells
+Plasma cells, B cells, T cells
+Epithelial cells, Keratinocytes, Myoepithelial cells
+Regulatory T cells, T cells, Endothelial cells
+Melanocytes, Dendritic cells, Epithelial cells
+T cells, T helper cells, Dendritic cells
+Smooth muscle cells, Myofibroblasts, Fibroblasts
+NK cells, T cells, Dendritic cells
+Smooth muscle cells, Myofibroblasts, Fibroblasts
+Endothelial cells, Fibroblasts, Pericytes
+Fibroblasts, Myofibroblasts, Endothelial cells
+Cytotoxic T cells, T cells, T helper cells
+Dendritic cells, Macrophages, B cells
+T cells, T helper cells, Dendritic cells
+Macrophages, Monocytes, Dendritic cells
+Mast cells, Basophils, Neutrophils
+Smooth muscle cells, Myofibroblasts, Pericytes
+Cytotoxic T cells, T cells, NK cells
+Dendritic cells, Macrophages, B cells
+T cells, NK cells, Dendritic cells
+T cells, T helper cells, Dendritic cells
+Mast cells, Basophils, Neutrophils
+Epithelial cells, Mucous cells, Endothelial cells
+Mitochondrial cells, Epithelial cells, Endothelial cells
+Endocrine cells, Neurons, Epithelial cells
+Epithelial cells, Hepatocytes, Endothelial cells
+Stem cells, Epithelial cells, Myofibroblasts
+Epithelial cells, Endothelial cells, Fibroblasts
+Endothelial cells, Smooth muscle cells, Pericytes
+Endocrine cells, Neurons, Epithelial cells
+Fibroblasts, Myofibroblasts, Endothelial cells
+Plasma cells, B cells, T cells
+Epithelial cells, Mucous cells, Endothelial cells
+Fibroblasts, Myofibroblasts, Osteoblasts
+B cells, Plasma cells, Dendritic cells
+Cytotoxic T cells, T cells, NK cells
+Goblet cells, Mucous cells, Epithelial cells
+Proliferating cells, Stem cells, Epithelial cells
+Macrophages, Monocytes, Dendritic cells
+Epithelial cells, Mucous cells, Endothelial cells
+T cells, NK cells, Dendritic cells
+Endocrine cells, Neurons, Epithelial cells
+Stem cells, Endothelial cells, Macrophages
+Red blood cells, Erythrocytes, Macrophages
+Regulatory T cells, T cells, T helper cells
+Platelets, Megakaryocytes, Endothelial cells
+Neutrophils, Eosinophils, Basophils
+T cells, NK cells, Dendritic cells
+Dendritic cells, Macrophages, T cells
+B cells, Plasma cells, T cells
+Proliferating cells, Stem cells, T cells
+NK cells, Cytotoxic T cells, T cells
+Dendritic cells, Macrophages, T cells
+NK cells, Cytotoxic T cells, T cells
+Macrophages, Monocytes, Dendritic cells
+T cells, T helper cells, Dendritic cells
+NK cells, T cells, Dendritic cells
+Cytotoxic T cells, T cells, NK cells
+Neutrophils, Eosinophils, Macrophages
+Endothelial cells, Smooth muscle cells, Pericytes
+T cells, T helper cells, Dendritic cells
+Macrophages, Monocytes, Dendritic cells
+Neutrophils, Monocytes, Macrophages
+B cells, Plasma cells, T cells
+Plasma cells, B cells, T cells
+B cells, Plasma cells, Dendritic cells
+B cells, Plasma cells, Dendritic cells
+Dendritic cells, Stem cells, T cells
+T cells, T helper cells, Dendritic cells
+NK cells, Cytotoxic T cells, T cells
+B cells, Plasma cells, T cells
+NK cells, Cytotoxic T cells, T cells
+B cells, Plasma cells, Dendritic cells
+Stem cells, NK cells, Dendritic cells
+NK cells, Cytotoxic T cells, T cells
+Muscle cells, Myocytes, Endothelial cells
+Dendritic cells, Stem cells, T cells
+T cells, T helper cells, Dendritic cells
+Mast cells, Basophils, Neutrophils
+Mast cells, Basophils, Neutrophils
+Epithelial cells, Endothelial cells, Myoepithelial cells
+Neutrophils, Macrophages, Monocytes
+Adipocytes, Macrophages, Endothelial cells
+NK cells, Cytotoxic T cells, T cells
+T cells, T helper cells, Dendritic cells
+Regulatory T cells, T cells, T helper cells
+T cells, NK cells, Dendritic cells
+NK cells, Cytotoxic T cells, T cells
+Proliferating cells, Stem cells, T cells
+Red blood cells, Erythrocytes, Macrophages
+Epithelial cells, Myoepithelial cells, Endothelial cells
+B cells, Plasma cells, Dendritic cells
+Macrophages, Monocytes, Dendritic cells
+Smooth Muscle Cells, Myofibroblasts, Fibroblasts
+Plasma cells, B cells, Lymphocytes
+Endothelial cells, Vascular smooth muscle cells, Platelets
+Endothelial cells, Fibroblasts, Smooth Muscle Cells
+Fibroblasts, Chondrocytes, Osteoblasts
+Endothelial cells, Smooth Muscle Cells, Fibroblasts
+Keratinocytes, Epithelial cells, Fibroblasts
+Muscle cells, Myocytes, Satellite cells
+Schwann cells, Neurons, Myocytes
+Endothelial cells, Neurons, Lymphatic cells
+Endothelial cells, Smooth Muscle Cells, Pericytes
+Endothelial cells, Vascular smooth muscle cells, Platelets
+Fibroblasts, Osteoblasts, Chondrocytes
+Lymphocytes, Monocytes, Dendritic cells
+Epithelial cells, Fibroblasts, Endothelial cells
+Plasma cells, B cells, Lymphocytes
+Smooth Muscle Cells, Myofibroblasts, Pericytes
+Fibroblasts, Chondrocytes, Osteoblasts
+Epithelial cells, Goblet cells, Paneth cells
+T cells, Thymocytes, Lymphocytes
+Neutrophils, Monocytes, Macrophages
+T cells, Helper T cells, Cytotoxic T cells
+B cells, Plasma cells, Lymphocytes
+Salivary gland cells, Epithelial cells, Goblet cells
+T cells, Cytotoxic T cells, Helper T cells
+Plasma cells, B cells, Lymphocytes
+Thyroid cells, Epithelial cells, Goblet cells
+Mast cells, Basophils, Neutrophils
+Epithelial cells, Keratinocytes, Fibroblasts
+Macrophages, Monocytes, Dendritic cells
+Fibroblasts, Chondrocytes, Osteoblasts
+Endothelial cells, Vascular smooth muscle cells, Platelets
+Smooth Muscle Cells, Myofibroblasts, Pericytes
+Goblet cells, Epithelial cells, Paneth cells
+Epithelial cells, Goblet cells, Endothelial cells
+Epithelial cells, Goblet cells, Paneth cells
+T cells, Helper T cells, Cytotoxic T cells
+Ciliated cells, Epithelial cells, Goblet cells
+Sperm cells, Epithelial cells, Goblet cells
+Smooth Muscle Cells, Myofibroblasts, Fibroblasts
+B cells, Plasma cells, Lymphocytes
+NK cells, T cells, Lymphocytes
+Smooth Muscle Cells, Myofibroblasts, Fibroblasts
+Lymphatic cells, Endothelial cells, Smooth Muscle Cells
+Proliferating cells, Epithelial cells, Cancer cells
+T cells, Helper T cells, Cytotoxic T cells
+Epithelial cells, Goblet cells, Cancer cells
+Smooth Muscle Cells, Myofibroblasts, Fibroblasts
+Proliferating cells, Epithelial cells, Cancer cells
+Macrophages, Monocytes, Dendritic cells
+Fibroblasts, Chondrocytes, Osteoblasts
+Endothelial cells, Smooth Muscle Cells, Fibroblasts
+Lymphatic cells, Endothelial cells, Smooth Muscle Cells
+Plasma cells, B cells, Lymphocytes
+NK cells, Cytotoxic T cells, Helper T cells
+B cells, Plasma cells, Lymphocytes
+Mast cells, Basophils, Neutrophils
+T cells, Helper T cells, Cytotoxic T cells
+Smooth Muscle Cells, Myofibroblasts, Fibroblasts
+Endothelial cells, Smooth Muscle Cells, Pericytes
+Macrophages, Monocytes, Dendritic cells
+Smooth Muscle Cells, Myofibroblasts, Fibroblasts
+Fibroblasts, Smooth Muscle Cells, Endothelial cells
+Platelets, Red blood cells, Endothelial cells
+Epithelial cells, Goblet cells, Cancer cells
+T cells, Helper T cells, Cytotoxic T cells

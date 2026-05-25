@@ -1,0 +1,90 @@
+Adipocytes, Mammary Epithelial Cells, Fibroblasts
+Endothelial Cells, Smooth Muscle Cells, Fibroblasts
+T Cells, Natural Killer Cells, B Cells
+Smooth Muscle Cells, Myofibroblasts, Endothelial Cells
+Basal Epithelial Cells, Myoepithelial Cells, Fibroblasts
+Mast Cells, Basophils, Eosinophils
+Smooth Muscle Cells, Myofibroblasts, Pericytes
+Lymphatic Endothelial Cells, Fibroblasts, Smooth Muscle Cells
+Luminal Epithelial Cells, Basal Epithelial Cells, Myoepithelial Cells
+Fibroblasts, Myofibroblasts, Endothelial Cells
+B Cells, T Cells, Epithelial Cells
+Macrophages, Dendritic Cells, Monocytes
+Mast Cells, Basophils, Eosinophils
+Endothelial Cells, Smooth Muscle Cells, Fibroblasts
+T Cells, Natural Killer Cells, B Cells
+Epithelial Cells, Goblet Cells, Fibroblasts
+Macrophages, Dendritic Cells, Monocytes
+Smooth Muscle Cells, Myofibroblasts, Endothelial Cells
+Mast Cells, Smooth Muscle Cells, Neurons
+Fibroblasts, Myofibroblasts, Endothelial Cells
+Basal Epithelial Cells, Myoepithelial Cells, Fibroblasts
+B Cells, T Cells, Epithelial Cells
+Adipocytes, Mammary Epithelial Cells, Fibroblasts
+Lymphatic Endothelial Cells, Fibroblasts, Smooth Muscle Cells
+Cardiomyocytes, Cardiac Fibroblasts, Smooth Muscle Cells
+Endothelial Cells, Smooth Muscle Cells, Fibroblasts
+T Cells, Natural Killer Cells, B Cells
+Smooth Muscle Cells, Myofibroblasts, Endothelial Cells
+Smooth Muscle Cells, Myofibroblasts, Pericytes
+Mast Cells, Basophils, Eosinophils
+Lymphatic Endothelial Cells, Fibroblasts, Smooth Muscle Cells
+Fibroblasts, Myofibroblasts, Endothelial Cells
+B Cells, T Cells, Epithelial Cells
+Adipocytes, Mammary Epithelial Cells, Fibroblasts
+Macrophages, Dendritic Cells, Monocytes
+Macrophages, Dendritic Cells, Monocytes
+Endothelial Cells, Smooth Muscle Cells, Fibroblasts
+T Cells, Natural Killer Cells, B Cells
+Smooth Muscle Cells, Myofibroblasts, Endothelial Cells
+Smooth Muscle Cells, Myofibroblasts, Pericytes
+Lymphatic Endothelial Cells, Fibroblasts, Smooth Muscle Cells
+Mast Cells, Basophils, Eosinophils
+Club Cells, Alveolar Cells, Goblet Cells
+Adipocytes, Mammary Epithelial Cells, Fibroblasts
+Alveolar Cells, Fibroblasts, Endothelial Cells
+Alveolar Cells, Club Cells, Alveolar Macrophages
+Fibroblasts, Myofibroblasts, Endothelial Cells
+Ciliated Epithelial Cells, Goblet Cells, Club Cells
+B Cells, T Cells, Epithelial Cells
+Smooth Muscle Cells, Myofibroblasts, Pericytes
+Endothelial Cells, Smooth Muscle Cells, Fibroblasts
+T Cells, Natural Killer Cells, B Cells
+Smooth Muscle Cells, Myofibroblasts, Endothelial Cells
+Mast Cells, Basophils, Eosinophils
+Lymphatic Endothelial Cells, Fibroblasts, Smooth Muscle Cells
+Prostate Epithelial Cells, Prostate Stromal Cells, Fibroblasts
+Fibroblasts, Myofibroblasts, Endothelial Cells
+B Cells, T Cells, Epithelial Cells
+Adipocytes, Mammary Epithelial Cells, Fibroblasts
+Macrophages, Dendritic Cells, Monocytes
+Skeletal Muscle Cells, Myocytes, Fibroblasts
+T Cells, Natural Killer Cells, B Cells
+Smooth Muscle Cells, Myofibroblasts, Endothelial Cells
+Satellite Cells, Skeletal Muscle Cells, Myocytes
+Smooth Muscle Cells, Myofibroblasts, Pericytes
+Endothelial Cells, Smooth Muscle Cells, Fibroblasts
+Mast Cells, Basophils, Eosinophils
+Macrophages, Dendritic Cells, Monocytes
+Lymphatic Endothelial Cells, Fibroblasts, Smooth Muscle Cells
+Fibroblasts, Myofibroblasts, Endothelial Cells
+B Cells, T Cells, Epithelial Cells
+Adipocytes, Mammary Epithelial Cells, Fibroblasts
+Skeletal Muscle Cells, Myocytes, Satellite Cells
+Keratinocytes, Epithelial Cells, Fibroblasts
+Smooth Muscle Cells, Myofibroblasts, Endothelial Cells
+Club Cells, Goblet Cells, Alveolar Cells
+Epithelial Cells, Goblet Cells, Fibroblasts
+Smooth Muscle Cells, Myofibroblasts, Pericytes
+Melanocytes, Basal Epithelial Cells, Keratinocytes
+Keratinocytes, Epithelial Cells, Fibroblasts
+Lymphatic Endothelial Cells, Fibroblasts, Smooth Muscle Cells
+Macrophages, Dendritic Cells, Monocytes
+Fibroblasts, Endothelial Cells, Myofibroblasts
+Fibroblasts, Myofibroblasts, Endothelial Cells
+Basal Epithelial Cells, Keratinocytes, Myoepithelial Cells
+B Cells, T Cells, Epithelial Cells
+Adipocytes, Mammary Epithelial Cells, Fibroblasts
+T Cells, Natural Killer Cells, B Cells
+Mast Cells, Basophils, Eosinophils
+Endothelial Cells, Smooth Muscle Cells, Fibroblasts

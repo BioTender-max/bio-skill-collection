@@ -1,0 +1,90 @@
+Adipocytes, Pre-adipocytes, Lipid-laden macrophages
+Endothelial cells, Vascular endothelial cells, Angiogenic endothelial cells
+T cells, Cytotoxic T cells, Helper T cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle cells
+Myoepithelial cells, Basal epithelial cells, Keratinocytes
+Mast cells, Basophils, Eosinophils
+Pericytes, Smooth muscle cells, Mesenchymal stem cells
+Lymphatic endothelial cells, Dendritic cells, Macrophages
+Luminal epithelial cells, Mammary epithelial cells, Progenitor epithelial cells
+Fibroblasts, Myofibroblasts, Stromal cells
+B cells, Plasmablasts, Memory B cells
+Macrophages, Monocytes, Kupffer cells
+Mast cells, Basophils, Eosinophils
+Endothelial cells, Vascular endothelial cells, Angiogenic endothelial cells
+T cells, Cytotoxic T cells, Helper T cells
+Epithelial cells, Suprabasal epithelial cells, Basal epithelial cells
+Macrophages, Monocytes, Kupffer cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle cells
+Interstitial cells of Cajal, Gastrointestinal stromal cells, Enteric neurons
+Fibroblasts, Myofibroblasts, Stromal cells
+Basal keratinocytes, Squamous epithelial cells, Basal epithelial cells
+B cells, Plasmablasts, Memory B cells
+Adipocytes, Pre-adipocytes, Lipid-laden macrophages
+Lymphatic endothelial cells, Dendritic cells, Macrophages
+Cardiomyocytes, Myocytes, Cardiac muscle cells
+Endothelial cells, Vascular endothelial cells, Angiogenic endothelial cells
+T cells, Cytotoxic T cells, Helper T cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle cells
+Pericytes, Smooth muscle cells, Mesenchymal stem cells
+Mast cells, Basophils, Eosinophils
+Lymphatic endothelial cells, Dendritic cells, Macrophages
+Fibroblasts, Myofibroblasts, Stromal cells
+B cells, Plasmablasts, Memory B cells
+Adipocytes, Pre-adipocytes, Lipid-laden macrophages
+Macrophages, Monocytes, Kupffer cells
+Macrophages, Monocytes, Kupffer cells
+Endothelial cells, Vascular endothelial cells, Angiogenic endothelial cells
+T cells, Cytotoxic T cells, Helper T cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle cells
+Pericytes, Smooth muscle cells, Mesenchymal stem cells
+Lymphatic endothelial cells, Dendritic cells, Macrophages
+Mast cells, Basophils, Eosinophils
+Club cells, Clara cells, Secretory epithelial cells
+Adipocytes, Pre-adipocytes, Lipid-laden macrophages
+Alveolar epithelial cells, Type I pneumocytes, Type II pneumocytes
+Alveolar epithelial cells, Type II pneumocytes, Surfactant-secreting cells
+Fibroblasts, Myofibroblasts, Stromal cells
+Ciliated epithelial cells, Motile cilia cells, Airway epithelial cells
+B cells, Plasmablasts, Memory B cells
+Pericytes, Smooth muscle cells, Mesenchymal stem cells
+Endothelial cells, Vascular endothelial cells, Angiogenic endothelial cells
+T cells, Cytotoxic T cells, Helper T cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle cells
+Mast cells, Basophils, Eosinophils
+Lymphatic endothelial cells, Dendritic cells, Macrophages
+Prostate epithelial cells, Luminal prostate cells, Basal prostate cells
+Fibroblasts, Myofibroblasts, Stromal cells
+B cells, Plasmablasts, Memory B cells
+Adipocytes, Pre-adipocytes, Lipid-laden macrophages
+Macrophages, Monocytes, Kupffer cells
+Skeletal muscle cells, Myocytes, Myofibers
+T cells, Cytotoxic T cells, Helper T cells
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle cells
+Satellite cells, Muscle stem cells, Myoblasts
+Pericytes, Smooth muscle cells, Mesenchymal stem cells
+Endothelial cells, Vascular endothelial cells, Angiogenic endothelial cells
+Mast cells, Basophils, Eosinophils
+Macrophages, Monocytes, Kupffer cells
+Lymphatic endothelial cells, Dendritic cells, Macrophages
+Fibroblasts, Myofibroblasts, Stromal cells
+B cells, Plasmablasts, Memory B cells
+Adipocytes, Pre-adipocytes, Lipid-laden macrophages
+Skeletal muscle cells, Myocytes, Myofibers
+Keratinocytes, Basal keratinocytes, Suprabasal keratinocytes
+Smooth muscle cells, Myofibroblasts, Vascular smooth muscle cells
+Secretory epithelial cells, Glandular epithelial cells, Prostate epithelial cells
+Sebaceous gland cells, Sebocytes, Lipid-producing cells
+Pericytes, Smooth muscle cells, Mesenchymal stem cells
+Melanocytes, Pigment cells, Melanoblasts
+Keratinocytes, Basal keratinocytes, Suprabasal keratinocytes
+Lymphatic endothelial cells, Dendritic cells, Macrophages
+Macrophages, Monocytes, Kupffer cells
+Fibroblasts, Myofibroblasts, Stromal cells
+Fibroblasts, Myofibroblasts, Stromal cells
+Basal keratinocytes, Squamous epithelial cells, Basal epithelial cells
+B cells, Plasmablasts, Memory B cells
+Adipocytes, Pre-adipocytes, Lipid-laden macrophages
+T cells, Cytotoxic T cells, Helper T cells
+Mast cells, Basophils, Eosinophils
+Endothelial cells, Vascular endothelial cells, Angiogenic endothelial cells

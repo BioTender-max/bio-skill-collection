@@ -1,0 +1,64 @@
+Fibroblast, Endothelial cells, Epithelial cells
+Smooth muscle cells, Fibroblast, Mesenchymal stem cells
+T cells, NK cells, B cells
+Neurons, Astrocytes, Oligodendrocytes
+Fibroblast, Epithelial cells, Endothelial cells
+Embryonic stem cells, Trophoblast stem cells, Epiblast stem cells
+Spermatocytes, Sperm, Sertoli cells
+Trophoblast stem cells, Embryonic stem cells, Epithelial cells
+Pancreatic cells, Hepatic cells, Intestinal cells
+Chondrocytes, Osteoblasts, Mesenchymal stem cells
+Neutrophils, Macrophages, Monocytes
+Neutrophils, Monocytes, Macrophages
+Erythrocytes, Megakaryocytes, Hematopoietic stem cells
+Gastric cells, Intestinal cells, Pancreatic cells
+Adipocytes, Endothelial cells, Smooth muscle cells
+Mammary epithelial cells, Epithelial cells, Endothelial cells
+Oligodendrocytes, Astrocytes, Neurons
+Neurons, Astrocytes, Oligodendrocytes
+Mesenchymal stem cells, Fibroblast, Osteoblasts
+B cells, Plasma cells, T cells
+Macrophages, Monocytes, Dendritic cells
+Germ cells, Spermatocytes, Spermatogonia
+Intestinal cells, Pancreatic cells, Hepatic cells
+Antigen-presenting cells, B cells, T cells
+Erythrocytes, Megakaryocytes, Hematopoietic stem cells
+Alveolar cells, Epithelial cells, Endothelial cells
+Hepatic cells, Renal cells, Pancreatic cells
+Neutrophils, Monocytes, Macrophages
+Ovarian cells, Endocrine cells, Adrenal cells
+Osteoblasts, Fibroblast, Chondrocytes
+Adipocytes, Endothelial cells, Smooth muscle cells
+Epithelial cells, Skin cells, Hair follicle cells
+Trophoblast stem cells, Embryonic stem cells, Epithelial cells
+Hepatic cells, Intestinal cells, Pancreatic cells
+Macrophages, Dendritic cells, T cells
+Mesenchymal stem cells, Fibroblast, Smooth muscle cells
+Germ cells, Spermatocytes, Spermatogonia
+Osteoblasts, Chondrocytes, Mesenchymal stem cells
+Smooth muscle cells, Fibroblast, Mesenchymal stem cells
+Adrenal cells, Endocrine cells, Ovarian cells
+Renal cells, Hepatic cells, Intestinal cells
+Germ cells, Embryonic stem cells, Trophoblast stem cells
+T cells, NK cells, Cytotoxic lymphocytes
+Intestinal cells, Hepatic cells, Pancreatic cells
+NK cells, T cells, Cytotoxic lymphocytes
+Cardiomyocytes, Smooth muscle cells, Endothelial cells
+Microglia, Macrophages, Dendritic cells
+Gastric cells, Pancreatic cells, Intestinal cells
+Pancreatic cells, Hepatic cells, Intestinal cells
+Adrenal cells, Endocrine cells, Ovarian cells
+Trophoblast stem cells, Embryonic stem cells, Epithelial cells
+Endocrine cells, Pancreatic cells, Neurons
+Mast cells, Eosinophils, Basophils
+Endothelial cells, Fibroblast, Epithelial cells
+Placental cells, Trophoblast cells, Endothelial cells
+Lung epithelial cells, Bronchial cells, Alveolar cells
+Renal cells, Epithelial cells, Endothelial cells
+Epithelial cells, Skin cells, Hair follicle cells
+Macrophages, Monocytes, Dendritic cells
+Thyroid cells, Endocrine cells, Neurons
+Neurons, Astrocytes, Oligodendrocytes
+Hepatic cells, Pancreatic cells, Intestinal cells
+Chondrocytes, Osteoblasts, Mesenchymal stem cells
+Adipocytes, Endothelial cells, Macrophages

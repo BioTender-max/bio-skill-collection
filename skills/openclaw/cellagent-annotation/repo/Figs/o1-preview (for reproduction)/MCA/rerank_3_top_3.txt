@@ -1,0 +1,64 @@
+Neural progenitor cells, Retinal pigment epithelial cells, Astrocytes
+Smooth muscle cells, Fibroblasts, Pericytes
+T cells, B cells, NK cells
+Neurons, Oligodendrocytes, Astrocytes
+Macrophages, Fibroblasts, Epithelial cells
+Stem cells, Ribosomal proteins, Neuronal cells
+Spermatids, Spermatozoa, Germ cells
+Germ cells, Stem cells, Epithelial cells
+Paneth cells, Goblet cells, Enterocytes
+Chondrocytes, Osteoblasts, Fibroblasts
+Neutrophils, Macrophages, Myeloid cells
+Neutrophils, Myeloid cells, NK cells
+Erythrocytes, Hematopoietic cells, Stem cells
+Mucous cells, Paneth cells, Goblet cells
+Adipocytes, Endothelial cells, Macrophages
+Mammary epithelial cells, Secretory cells, Immune cells
+Oligodendrocytes, Schwann cells, Myelinating cells
+Neurons, Neural progenitors, Astrocytes
+Fibroblasts, Mesenchymal cells, Adipocytes
+B cells, Plasma cells, Dendritic cells
+Macrophages, Dendritic cells, Microglia
+Spermatocytes, Germ cells, Meiotic cells
+Intestinal epithelial cells, Enterocytes, Goblet cells
+Antigen-presenting cells, Dendritic cells, B cells
+Erythrocytes, Erythroid progenitors, Retinal cells
+Alveolar type II cells, Club cells, Macrophages
+Hepatocytes, Kidney cells, Pancreatic cells
+Neutrophils, Myeloid cells, Eosinophils
+Theca cells, Granulosa cells, Leydig cells
+Cardiomyocytes, Muscle cells, Neurons
+Adipocytes, Brown fat cells, Hepatocytes
+Urothelial cells, Keratinocytes, Basal cells
+Epithelial cells, Fibroblasts, Stem cells
+Pancreatic cells, Epithelial cells, Immune cells
+Astrocytes, Microglia, Neurons
+Fibroblasts, Muscle cells, Stem cells
+Reproductive cells, Germ cells, Stem cells
+Osteoblasts, Osteocytes, Chondrocytes
+Smooth muscle cells, Myofibroblasts, Cardiomyocytes
+Steroidogenic cells, Leydig cells, Theca cells
+Renal tubular cells, Kidney cells, Epithelial cells
+Embryonic stem cells, Germ cells, Ribosomal proteins
+Cytotoxic T cells, Helper T cells, NK cells
+B cells, T cells, Neurons
+Cytotoxic T cells, NK cells, Helper T cells
+Cardiomyocytes, Cardiac muscle cells, Skeletal muscle cells
+Microglia, Macrophages, Dendritic cells
+Pancreatic cells, Enterocytes, Hepatocytes
+Pancreatic acinar cells, Pancreatic beta cells, Ductal cells
+Leydig cells, Steroidogenic cells, Adrenal cells
+Erythrocytes, Renal cells, Neurons
+Pancreatic beta cells, Alpha cells, Delta cells
+Mast cells, Basophils, Eosinophils
+Basal cells, Epithelial cells, Fibroblasts
+Placental cells, Decidual cells, Syncytiotrophoblasts
+Club cells, Basal cells, Ciliated cells
+Renal tubular cells, Intercalated cells, Principal cells
+Pancreatic ductal cells, Club cells, Goblet cells
+Macrophages, Eosinophils, Neutrophils
+Thyroid follicular cells, Retinal cells, Epithelial cells
+Astrocytes, Neurons, Glial cells
+Hepatocytes, Liver cells, Adipocytes
+Chondrocytes, Fibroblasts, Mesenchymal cells
+Paneth cells, Immune cells, Stem cells
