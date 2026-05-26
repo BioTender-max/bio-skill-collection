@@ -504,4 +504,4 @@ git clone https://github.com/BioTender-max/awesome-bio-agent-skills.git
 cp -r awesome-bio-agent-skills/skills/* /path/to/your/agent/skills/
 ```
 
-A machine-readable index of all 1,306 skills is available in [`bioskill_index_v3.csv`](bioskill_index_v3.csv).
+A machine-readable index of all 1,629 skills is available in [`bioskill_index_v3.csv`](bioskill_index_v3.csv).
