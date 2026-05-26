@@ -7,7 +7,7 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills](https://img.shields.io/badge/skills-1%2C306-22d3ee?style=flat-square)](https://github.com/BioTender-max/awesome-bio-agent-skills/blob/main/bioskill_index_v2.csv)
+[![Skills](https://img.shields.io/badge/skills-2%2C014%2B-22d3ee?style=flat-square)](https://github.com/BioTender-max/awesome-bio-agent-skills/blob/main/bioskill_index_v2.csv)
 [![Categories](https://img.shields.io/badge/categories-15-818cf8?style=flat-square)](#contents)
 [![Sources](https://img.shields.io/badge/sources-11_repos-34d399?style=flat-square)](#sources)
 [![License](https://img.shields.io/badge/license-CC0-f59e0b?style=flat-square)](LICENSE)
@@ -21,7 +21,7 @@
 
 > A curated collection of AI agent skills for biomedical research, covering genomics, proteomics, single-cell analysis, clinical AI, and protein design.
 
-1,306 deduplicated skills from 11 open-source repositories, organized into 15 categories. Each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks ([OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [Biomni](https://github.com/Phylo-AI/biomni)).
+2,014+ deduplicated skills from 21 open-source repositories, organized into 15 categories. Each skill is a self-contained `SKILL.md` folder compatible with Claude-based agent frameworks ([OpenClaw](https://github.com/openclaw/openclaw), [NanoClaw](https://github.com/qwibitai/nanoclaw), [Biomni](https://github.com/Phylo-AI/biomni)).
 
 ---
 
@@ -467,17 +467,25 @@ This collection aggregates and deduplicates skills from the following open-sourc
 |------------|-------:|-------|
 | [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) | 524 | Systematic bioinformatics suite from QC to multi-omics. |
 | [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | 326 | Medical AI library aggregating 12 specialized sub-repositories. |
+| [wu-yc/LabClaw](https://github.com/wu-yc/LabClaw) | 206 | 206 agentic skills for lab automation and biomedical research. Stanford-Princeton AI Co-Scientists. |
+| [sunricLogic/MedgeClaw](https://github.com/sunricLogic/MedgeClaw) | 140 | 140 K-Dense scientific skills for biomedicine with real-time dashboard, RStudio, and JupyterLab. |
 | [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | 151 | Scientific agent skills for statistics, databases, and clinical decisions. |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 91 | General scientific computing and HPC workflow skills. |
+| [variomeanalytics/bioinformatics-agent-skills](https://github.com/variomeanalytics/bioinformatics-agent-skills) | 78 | 78 bioinformatics workflow skills via MCP server knowledge graph for Claude Code. |
+| [TianGzlab/OmicsClaw](https://github.com/TianGzlab/OmicsClaw) | 72 | 72 skills across 6 omics domains: spatial, scRNA-seq, bulk RNA-seq, genomics, proteomics, metabolomics. |
 | [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) | 60 | Bioinformatics workflow orchestration for GWAS and single-cell. |
+| [QSong-github/DrugClaw](https://github.com/QSong-github/DrugClaw) | 57 | 57 drug intelligence skills: DTI, ADR, DDI, pharmacogenomics, repurposing. LangGraph-powered. |
+| [ChrisLou-bioinfo/nobel-medicine-minds](https://github.com/ChrisLou-bioinfo/nobel-medicine-minds) | 52 | Cognitive frameworks of 52 Nobel Medicine laureates (2004–2025) as runnable SKILL.md files. |
 | [zongtingwei/Bioclaw_Skills_Hub](https://github.com/zongtingwei/Bioclaw_Skills_Hub) | 46 | Ten-category biological skills hub. |
 | [Runchuan-BU/BioClaw](https://github.com/Runchuan-BU/BioClaw) | 37 | Core bioinformatics tools and database query skills. |
 | [fmschulz/omics-skills](https://github.com/fmschulz/omics-skills) | 29 | Single-cell and spatial omics specialized skills. |
 | [adaptyvbio/protein-design-skills](https://github.com/adaptyvbio/protein-design-skills) | 21 | Full protein design toolkit: RFDiffusion, ProteinMPNN, Boltz, Chai. |
+| [HC-Guo/HealthClaw](https://github.com/HC-Guo/HealthClaw) | 10 | Self-evolving personal health copilot: medical consultation, wearable analytics, omics evidence. |
+| [CUHK-AIM-Group/NeuroClaw](https://github.com/CUHK-AIM-Group/NeuroClaw) | 30 | Neuroimaging skills: sMRI, fMRI, dMRI, EEG with BIDS, FreeSurfer, FSL, fMRIPrep. CUHK AIM Group. |
+| [aristoteleo/PantheonOS](https://github.com/aristoteleo/PantheonOS) | 50 | 1,000+ agents/teams/skills for single-cell and spatial transcriptomics. Dynamo/Spateo team. |
+| [EvoScientist/EvoSkills](https://github.com/EvoScientist/EvoSkills) | 13 | 13 research-lifecycle skills: ideation, paper planning, experiment execution, writing, and review. |
 | [zamushwani2/biomedical-ai-skills](https://github.com/zamushwani2/biomedical-ai-skills) | 4 | Cancer multi-omics analysis skills in R. |
 | [ArcInstitute/SRAgent](https://github.com/ArcInstitute/SRAgent) | 1 | Intelligent SRA and GEO dataset retrieval. |
-
----
 
 ## Skill Format
 
