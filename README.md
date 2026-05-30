@@ -740,9 +740,9 @@ This collection aggregates and deduplicates skills from the following open-sourc
 
 | Repository | Skills | Focus |
 |------------|-------:|-------|
-| [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) | 524 | Systematic bioinformatics suite from QC to multi-omics. |
-| [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | 326 | Medical AI library aggregating 12 specialized sub-repositories. |
-| [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | 153 | Scientific agent skills for statistics, databases, and clinical decisions. |
+| [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) | 536 | Systematic bioinformatics suite from QC to multi-omics. |
+| [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | 359 | Medical AI library aggregating 12 specialized sub-repositories. |
+| [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | 154 | Scientific agent skills for statistics, databases, and clinical decisions. |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 102 | General scientific computing and HPC workflow skills. |
 | [CUHK-AIM-Group/NeuroClaw](https://github.com/CUHK-AIM-Group/NeuroClaw) | 86 | Neuroimaging skills: sMRI, fMRI, dMRI, EEG with BIDS, FreeSurfer, FSL, fMRIPrep. CUHK AIM Group. |
 | [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) | 63 | Bioinformatics workflow orchestration for GWAS and single-cell. |
@@ -759,6 +759,7 @@ This collection aggregates and deduplicates skills from the following open-sourc
 | [xjtulyc/MedgeClaw](https://github.com/xjtulyc/MedgeClaw) | 7 | Biomedical research skills with real-time dashboard, RStudio, and JupyterLab integration. |
 | [zamushwani2/biomedical-ai-skills](https://github.com/zamushwani2/biomedical-ai-skills) | 4 | Cancer multi-omics analysis skills in R. |
 | [ArcInstitute/SRAgent](https://github.com/ArcInstitute/SRAgent) | 1 | Intelligent SRA and GEO dataset retrieval. |
+| [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | 1 | Self-referential hub skill that indexes this collection (browse & install entry point). |
 
 ## Skill Format
 
