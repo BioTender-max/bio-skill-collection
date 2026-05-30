@@ -7,9 +7,9 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Skills](https://img.shields.io/badge/skills-1%2C629-22d3ee?style=flat-square)](https://github.com/BioTender-max/awesome-bio-agent-skills/blob/main/bioskill_index_v3.csv)
+[![Skills](https://img.shields.io/badge/skills-1%2C676-22d3ee?style=flat-square)](https://github.com/BioTender-max/awesome-bio-agent-skills/blob/main/bioskill_index_v3.csv)
 [![Categories](https://img.shields.io/badge/categories-15-818cf8?style=flat-square)](#contents)
-[![Sources](https://img.shields.io/badge/sources-11_repos-34d399?style=flat-square)](#sources)
+[![Sources](https://img.shields.io/badge/sources-20_repos-34d399?style=flat-square)](#sources)
 [![License](https://img.shields.io/badge/license-CC0-f59e0b?style=flat-square)](LICENSE)
 [![Lint](https://github.com/BioTender-max/awesome-bio-agent-skills/actions/workflows/awesome-lint.yml/badge.svg)](https://github.com/BioTender-max/awesome-bio-agent-skills/actions/workflows/awesome-lint.yml)
 
